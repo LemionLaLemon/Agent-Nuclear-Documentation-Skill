@@ -1,0 +1,734 @@
+[
+ {
+  "num": "00",
+  "title": "Front Matter (cover, list of effective pages, TOC)",
+  "sections": [
+   [
+    "00.0",
+    "Chapter Front Matter",
+    "00.0_Chapter_Front_Matter.md",
+    53
+   ]
+  ]
+ },
+ {
+  "num": "01",
+  "title": "Introduction and General Description of Plant",
+  "sections": [
+   [
+    "01.0",
+    "Chapter Front Matter",
+    "01.0_Chapter_Front_Matter.md",
+    9
+   ],
+   [
+    "1.1",
+    "INTRODUCTION",
+    "1.1_INTRODUCTION.md",
+    1
+   ],
+   [
+    "1.2",
+    "GENERAL PLANT DESCRIPTION",
+    "1.2_GENERAL_PLANT_DESCRIPTION.md",
+    60
+   ],
+   [
+    "1.3",
+    "COMPARISON TABLES",
+    "1.3_COMPARISON_TABLES.md",
+    25
+   ],
+   [
+    "1.4",
+    "IDENTIFICATION OF AGENTS AND CONTRACTORS",
+    "1.4_IDENTIFICATION_OF_AGENTS_AND_CONTRACTORS.md",
+    6
+   ],
+   [
+    "1.5",
+    "REQUIREMENTS FOR FURTHER TECHNICAL INFORMATION",
+    "1.5_REQUIREMENTS_FOR_FURTHER_TECHNICAL_INFORMATION.md",
+    11
+   ],
+   [
+    "1.6",
+    "MATERIAL INCORPORATED BY REFERENCE",
+    "1.6_MATERIAL_INCORPORATED_BY_REFERENCE.md",
+    13
+   ],
+   [
+    "1.7",
+    "ACRONYMS",
+    "1.7_ACRONYMS.md",
+    13
+   ],
+   [
+    "1.8",
+    "CONFORMANCE TO NRC REGULATORY GUIDES",
+    "1.8_CONFORMANCE_TO_NRC_REGULATORY_GUIDES.md",
+    210
+   ]
+  ]
+ },
+ {
+  "num": "02",
+  "title": "Site Characteristics",
+  "sections": [
+   [
+    "02.0",
+    "Chapter Front Matter",
+    "02.0_Chapter_Front_Matter.md",
+    14
+   ],
+   [
+    "2.1",
+    "GEOGRAPHY AND DEMOGRAPHY",
+    "2.1_GEOGRAPHY_AND_DEMOGRAPHY.md",
+    17
+   ],
+   [
+    "2.2",
+    "Nearby Industrial, Transportation, And Military Facilities",
+    "2.2_Nearby_Industrial_Transportation_And_Military_Facilitie.md",
+    19
+   ],
+   [
+    "2.3",
+    "METEOROLOGY",
+    "2.3_METEOROLOGY.md",
+    140
+   ],
+   [
+    "2.4",
+    "HYDROLOGY ENGINEERING",
+    "2.4_HYDROLOGY_ENGINEERING.md",
+    66
+   ],
+   [
+    "2.5",
+    "GEOLOGY, SEISMOLOGY, AND GEOTECHNICAL ENGINEERING",
+    "2.5_GEOLOGY_SEISMOLOGY_AND_GEOTECHNICAL_ENGINEERING.md",
+    2
+   ]
+  ]
+ },
+ {
+  "num": "03",
+  "title": "Design of Structures, Components, Equipment and Systems",
+  "sections": [
+   [
+    "03.0",
+    "Chapter Front Matter",
+    "03.0_Chapter_Front_Matter.md",
+    56
+   ],
+   [
+    "3.1",
+    "Conformance With Nrc General Design Criteria",
+    "3.1_Conformance_With_Nrc_General_Design_Criteria.md",
+    65
+   ],
+   [
+    "3.2",
+    "Classification Of Structures, Components, And Systems",
+    "3.2_Classification_Of_Structures_Components_And_Systems.md",
+    66
+   ],
+   [
+    "3.3",
+    "WIND AND TORNADO LOADINGS",
+    "3.3_WIND_AND_TORNADO_LOADINGS.md",
+    8
+   ],
+   [
+    "3.4",
+    "WATER LEVEL (FLOOD) DESIGN",
+    "3.4_WATER_LEVEL_FLOOD_DESIGN.md",
+    8
+   ],
+   [
+    "3.5",
+    "MISSILE PROTECTION",
+    "3.5_MISSILE_PROTECTION.md",
+    46
+   ],
+   [
+    "3.6",
+    "Protection Against Dynamic Effects Associated With The",
+    "3.6_Protection_Against_Dynamic_Effects_Associated_With_The.md",
+    165
+   ],
+   [
+    "3.7",
+    "SEISMIC DESIGN",
+    "3.7_SEISMIC_DESIGN.md",
+    85
+   ],
+   [
+    "3.8",
+    "DESIGN OF SEISMIC CATEGORY I STRUCTURES",
+    "3.8_DESIGN_OF_SEISMIC_CATEGORY_I_STRUCTURES.md",
+    182
+   ],
+   [
+    "3.9",
+    "MECHANICAL SYSTEMS AND COMPONENTS",
+    "3.9_MECHANICAL_SYSTEMS_AND_COMPONENTS.md",
+    177
+   ],
+   [
+    "3.10",
+    "Seismic And Dynamic Qualification Of Safety-Related",
+    "3.10_Seismic_And_Dynamic_Qualification_Of_Safety_Related.md",
+    49
+   ],
+   [
+    "3.11",
+    "Environmental Design Of Mechanical And Electrical",
+    "3.11_Environmental_Design_Of_Mechanical_And_Electrical.md",
+    23
+   ],
+   [
+    "3.12",
+    "Computer Programs For Structural Analysis And Design",
+    "3.12_Computer_Programs_For_Structural_Analysis_And_Design.md",
+    321
+   ]
+  ]
+ },
+ {
+  "num": "04",
+  "title": "Reactor",
+  "sections": [
+   [
+    "04.0",
+    "Chapter Front Matter",
+    "04.0_Chapter_Front_Matter.md",
+    11
+   ],
+   [
+    "4.1",
+    "Summary Description",
+    "4.1_Summary_Description.md",
+    20
+   ],
+   [
+    "4.2",
+    "FUEL SYSTEM DESIGN",
+    "4.2_FUEL_SYSTEM_DESIGN.md",
+    20
+   ],
+   [
+    "4.3",
+    "NUCLEAR DESIGN",
+    "4.3_NUCLEAR_DESIGN.md",
+    10
+   ],
+   [
+    "4.4",
+    "THERMAL-HYDRAULIC DESIGN",
+    "4.4_THERMAL_HYDRAULIC_DESIGN.md",
+    16
+   ],
+   [
+    "4.5",
+    "REACTOR MATERIALS",
+    "4.5_REACTOR_MATERIALS.md",
+    9
+   ],
+   [
+    "4.6",
+    "FUNCTIONAL DESIGN OF REACTIVITY CONTROL SYSTEMS",
+    "4.6_FUNCTIONAL_DESIGN_OF_REACTIVITY_CONTROL_SYSTEMS.md",
+    45
+   ]
+  ]
+ },
+ {
+  "num": "05",
+  "title": "Reactor Coolant System and Connected Systems",
+  "sections": [
+   [
+    "05.0",
+    "Chapter Front Matter",
+    "05.0_Chapter_Front_Matter.md",
+    11
+   ],
+   [
+    "5.1",
+    "Summary Description",
+    "5.1_Summary_Description.md",
+    5
+   ],
+   [
+    "5.2",
+    "Integrity Of Reactor Coolant Pressure Boundary",
+    "5.2_Integrity_Of_Reactor_Coolant_Pressure_Boundary.md",
+    62
+   ],
+   [
+    "5.3",
+    "REACTOR VESSEL",
+    "5.3_REACTOR_VESSEL.md",
+    41
+   ],
+   [
+    "5.4",
+    "COMPONENT AND SUBSYSTEM DESIGN",
+    "5.4_COMPONENT_AND_SUBSYSTEM_DESIGN.md",
+    96
+   ]
+  ]
+ },
+ {
+  "num": "06",
+  "title": "Engineered Safety Features",
+  "sections": [
+   [
+    "06.0",
+    "Chapter Front Matter",
+    "06.0_Chapter_Front_Matter.md",
+    17
+   ],
+   [
+    "6.1",
+    "ENGINEERED SAFETY FEATURE MATERIALS",
+    "6.1_ENGINEERED_SAFETY_FEATURE_MATERIALS.md",
+    9
+   ],
+   [
+    "6.2",
+    "CONTAINMENT SYSTEMS",
+    "6.2_CONTAINMENT_SYSTEMS.md",
+    192
+   ],
+   [
+    "6.3",
+    "EMERGENCY CORE COOLING SYSTEM",
+    "6.3_EMERGENCY_CORE_COOLING_SYSTEM.md",
+    53
+   ],
+   [
+    "6.4",
+    "HABITABILITY SYSTEMS",
+    "6.4_HABITABILITY_SYSTEMS.md",
+    10
+   ],
+   [
+    "6.5",
+    "FISSION PRODUCT REMOVAL AND CONTROL SYSTEMS",
+    "6.5_FISSION_PRODUCT_REMOVAL_AND_CONTROL_SYSTEMS.md",
+    10
+   ],
+   [
+    "6.6",
+    "Inservice Inspection Of Asme Code Class 2 And Class 3",
+    "6.6_Inservice_Inspection_Of_Asme_Code_Class_2_And_Class_3.md",
+    1
+   ],
+   [
+    "6.7",
+    "MAIN STEAM ISOLATION VALVE LEAKAGE CONTROL SYSTEM",
+    "6.7_MAIN_STEAM_ISOLATION_VALVE_LEAKAGE_CONTROL_SYSTEM.md",
+    1
+   ]
+  ]
+ },
+ {
+  "num": "07",
+  "title": "Instrumentation and Control Systems",
+  "sections": [
+   [
+    "07.0",
+    "Chapter Front Matter",
+    "07.0_Chapter_Front_Matter.md",
+    18
+   ],
+   [
+    "7.1",
+    "INTRODUCTION",
+    "7.1_INTRODUCTION.md",
+    17
+   ],
+   [
+    "7.2",
+    "REACTOR PROTECTION (TRIP) SYSTEM",
+    "7.2_REACTOR_PROTECTION_TRIP_SYSTEM.md",
+    42
+   ],
+   [
+    "7.3",
+    "ENGINEERED SAFETY FEATURE SYSTEMS",
+    "7.3_ENGINEERED_SAFETY_FEATURE_SYSTEMS.md",
+    119
+   ],
+   [
+    "7.4",
+    "SYSTEMS REQUIRED FOR SAFE SHUTDOWN",
+    "7.4_SYSTEMS_REQUIRED_FOR_SAFE_SHUTDOWN.md",
+    33
+   ],
+   [
+    "7.5",
+    "SAFETY-RELATED DISPLAY INSTRUMENTATION",
+    "7.5_SAFETY_RELATED_DISPLAY_INSTRUMENTATION.md",
+    38
+   ],
+   [
+    "7.6",
+    "All Other Instrumentation Systems Required For Safety",
+    "7.6_All_Other_Instrumentation_Systems_Required_For_Safety.md",
+    75
+   ],
+   [
+    "7.7",
+    "CONTROL SYSTEMS NOT REQUIRED FOR SAFETY",
+    "7.7_CONTROL_SYSTEMS_NOT_REQUIRED_FOR_SAFETY.md",
+    74
+   ]
+  ]
+ },
+ {
+  "num": "08",
+  "title": "Electric Power",
+  "sections": [
+   [
+    "08.0",
+    "Chapter Front Matter",
+    "08.0_Chapter_Front_Matter.md",
+    12
+   ],
+   [
+    "8.1",
+    "INTRODUCTION",
+    "8.1_INTRODUCTION.md",
+    12
+   ],
+   [
+    "8.2",
+    "OFFSITE POWER SYSTEM",
+    "8.2_OFFSITE_POWER_SYSTEM.md",
+    12
+   ],
+   [
+    "8.3",
+    "ONSITE POWER SYSTEMS",
+    "8.3_ONSITE_POWER_SYSTEMS.md",
+    150
+   ]
+  ]
+ },
+ {
+  "num": "09",
+  "title": "Auxiliary Systems",
+  "sections": [
+   [
+    "09.0",
+    "Chapter Front Matter",
+    "09.0_Chapter_Front_Matter.md",
+    18
+   ],
+   [
+    "9.1",
+    "FUEL STORAGE AND HANDLING",
+    "9.1_FUEL_STORAGE_AND_HANDLING.md",
+    92
+   ],
+   [
+    "9.2",
+    "WATER SYSTEMS",
+    "9.2_WATER_SYSTEMS.md",
+    66
+   ],
+   [
+    "9.3",
+    "PROCESS AUXILIARIES",
+    "9.3_PROCESS_AUXILIARIES.md",
+    57
+   ],
+   [
+    "9.4",
+    "HEATING, VENTILATING, AND AIR CONDITIONING SYSTEMS",
+    "9.4_HEATING_VENTILATING_AND_AIR_CONDITIONING_SYSTEMS.md",
+    91
+   ],
+   [
+    "9.5",
+    "OTHER AUXILIARY SYSTEMS",
+    "9.5_OTHER_AUXILIARY_SYSTEMS.md",
+    46
+   ]
+  ]
+ },
+ {
+  "num": "10",
+  "title": "Steam and Power Conversion System",
+  "sections": [
+   [
+    "10.0",
+    "Chapter Front Matter",
+    "10.0_Chapter_Front_Matter.md",
+    6
+   ],
+   [
+    "10.1",
+    "SUMMARY DESCRIPTION",
+    "10.1_SUMMARY_DESCRIPTION.md",
+    5
+   ],
+   [
+    "10.2",
+    "TURBINE GENERATOR",
+    "10.2_TURBINE_GENERATOR.md",
+    17
+   ],
+   [
+    "10.3",
+    "MAIN STEAM SUPPLY SYSTEM",
+    "10.3_MAIN_STEAM_SUPPLY_SYSTEM.md",
+    8
+   ],
+   [
+    "10.4",
+    "Other Features Of Steam And Power Conversion System",
+    "10.4_Other_Features_Of_Steam_And_Power_Conversion_System.md",
+    52
+   ]
+  ]
+ },
+ {
+  "num": "11",
+  "title": "Radioactive Waste Management",
+  "sections": [
+   [
+    "11.0",
+    "Chapter Front Matter",
+    "11.0_Chapter_Front_Matter.md",
+    9
+   ],
+   [
+    "11.1",
+    "Source Terms",
+    "11.1_Source_Terms.md",
+    22
+   ],
+   [
+    "11.2",
+    "Liquid Waste Management System",
+    "11.2_Liquid_Waste_Management_System.md",
+    49
+   ],
+   [
+    "11.3",
+    "Gaseous Waste Management Systems",
+    "11.3_Gaseous_Waste_Management_Systems.md",
+    32
+   ],
+   [
+    "11.4",
+    "SOLID WASTE MANAGEMENT SYSTEM",
+    "11.4_SOLID_WASTE_MANAGEMENT_SYSTEM.md",
+    22
+   ],
+   [
+    "11.5",
+    "Process And Effluent Radiological Monitoring And Sampling",
+    "11.5_Process_And_Effluent_Radiological_Monitoring_And_Sampli.md",
+    44
+   ],
+   [
+    "11.6",
+    "POSTACCIDENT SAMPLING SYSTEM",
+    "11.6_POSTACCIDENT_SAMPLING_SYSTEM.md",
+    3
+   ]
+  ]
+ },
+ {
+  "num": "12",
+  "title": "Radiation Protection",
+  "sections": [
+   [
+    "12.0",
+    "Chapter Front Matter",
+    "12.0_Chapter_Front_Matter.md",
+    7
+   ],
+   [
+    "12.1",
+    "Ensuring That Occupational Radiation Exposures And",
+    "12.1_Ensuring_That_Occupational_Radiation_Exposures_And.md",
+    11
+   ],
+   [
+    "12.2",
+    "RADIATION SOURCES",
+    "12.2_RADIATION_SOURCES.md",
+    33
+   ],
+   [
+    "12.3",
+    "RADIATION PROTECTION DESIGN FEATURES",
+    "12.3_RADIATION_PROTECTION_DESIGN_FEATURES.md",
+    31
+   ],
+   [
+    "12.4",
+    "DOSE ASSESSMENT",
+    "12.4_DOSE_ASSESSMENT.md",
+    16
+   ],
+   [
+    "12.5",
+    "RADIATION PROTECTION PROGRAM",
+    "12.5_RADIATION_PROTECTION_PROGRAM.md",
+    20
+   ]
+  ]
+ },
+ {
+  "num": "13",
+  "title": "Conduct of Operations",
+  "sections": [
+   [
+    "13.0",
+    "Chapter Front Matter",
+    "13.0_Chapter_Front_Matter.md",
+    37
+   ],
+   [
+    "13.2",
+    "TRAINING",
+    "13.2_TRAINING.md",
+    7
+   ],
+   [
+    "13.3",
+    "EMERGENCY PLANNING",
+    "13.3_EMERGENCY_PLANNING.md",
+    1
+   ],
+   [
+    "13.4",
+    "REVIEW AND AUDIT",
+    "13.4_REVIEW_AND_AUDIT.md",
+    2
+   ],
+   [
+    "13.5",
+    "PLANT PROCEDURES",
+    "13.5_PLANT_PROCEDURES.md",
+    5
+   ],
+   [
+    "13.6",
+    "INDUSTRIAL SECURITY",
+    "13.6_INDUSTRIAL_SECURITY.md",
+    5
+   ]
+  ]
+ },
+ {
+  "num": "14",
+  "title": "Initial Test Program",
+  "sections": [
+   [
+    "14.0",
+    "Chapter Front Matter",
+    "14.0_Chapter_Front_Matter.md",
+    10
+   ],
+   [
+    "14.1",
+    "Specific Information Included In Preliminary Safety",
+    "14.1_Specific_Information_Included_In_Preliminary_Safety.md",
+    1
+   ],
+   [
+    "14.2",
+    "System Lineup, Preoperational, And Initial Startup Test",
+    "14.2_System_Lineup_Preoperational_And_Initial_Startup_Test.md",
+    145
+   ]
+  ]
+ },
+ {
+  "num": "15",
+  "title": "Accident Analyses",
+  "sections": [
+   [
+    "15.0",
+    "GENERAL",
+    "15.0_GENERAL.md",
+    27
+   ],
+   [
+    "15.0",
+    "GENERAL",
+    "15.0_GENERAL.md",
+    32
+   ],
+   [
+    "15.1",
+    "DECREASE IN REACTOR COOLANT TEMPERATURE",
+    "15.1_DECREASE_IN_REACTOR_COOLANT_TEMPERATURE.md",
+    36
+   ],
+   [
+    "15.2",
+    "INCREASE IN REACTOR PRESSURE",
+    "15.2_INCREASE_IN_REACTOR_PRESSURE.md",
+    67
+   ],
+   [
+    "15.3",
+    "DECREASE IN REACTOR COOLANT SYSTEM FLOW RATE",
+    "15.3_DECREASE_IN_REACTOR_COOLANT_SYSTEM_FLOW_RATE.md",
+    44
+   ],
+   [
+    "15.4",
+    "REACTIVITY AND POWER DISTRIBUTION ANOMALIES",
+    "15.4_REACTIVITY_AND_POWER_DISTRIBUTION_ANOMALIES.md",
+    38
+   ],
+   [
+    "15.5",
+    "INCREASE IN REACTOR COOLANT INVENTORY",
+    "15.5_INCREASE_IN_REACTOR_COOLANT_INVENTORY.md",
+    5
+   ],
+   [
+    "15.6",
+    "DECREASE IN REACTOR COOLANT INVENTORY",
+    "15.6_DECREASE_IN_REACTOR_COOLANT_INVENTORY.md",
+    37
+   ],
+   [
+    "15.7",
+    "Radioactive Release From Subsystems And Components",
+    "15.7_Radioactive_Release_From_Subsystems_And_Components.md",
+    14
+   ],
+   [
+    "15.8",
+    "ANTICIPATED TRANSIENTS WITHOUT SCRAM",
+    "15.8_ANTICIPATED_TRANSIENTS_WITHOUT_SCRAM.md",
+    56
+   ],
+   [
+    "17.1",
+    "Quality Assurance During Design And Construction",
+    "17.1_Quality_Assurance_During_Design_And_Construction.md",
+    52
+   ],
+   [
+    "17.2",
+    "Quality Assurance During The Operations Phase",
+    "17.2_Quality_Assurance_During_The_Operations_Phase.md",
+    733
+   ]
+  ]
+ }
+]

@@ -1,0 +1,14793 @@
+# Table of Contents — CGS FSAR — Columbia Generating Station Final Safety Analysis Report (Amendment 67)
+
+**Type:** Licensing document (BWR/5)  
+**Coverage:** Columbia Generating Station, BWR/5, Mark II containment  
+**Docket:** `05000397` (50-397) — licence NPF-21  
+**Markdown root:** `CGS_FSAR/chapters/`  
+**Figures:** `CGS_FSAR/figures/` — see [`FIGURE_INDEX.md`](FIGURE_INDEX.md)  
+**Source PDFs:** [`../SOURCES/CGS_FSAR/chapters/`](../SOURCES/CGS_FSAR/chapters/) — 16 parts covering all 5,262 pages
+
+## What this document is for
+
+The **Final Safety Analysis Report** for Columbia Generating Station (Energy Northwest), a **BWR/5** (Mark II containment) plant. This is the legally binding licensing basis: site, design criteria, reactor, coolant systems, engineered safety features, I&C, electric power, auxiliary systems, radwaste, radiation protection, conduct of operations, testing, and the full accident analysis chapter. It is plant-specific: actual setpoints, materials, analyses, and commitments for a real BWR/5.
+
+**Use it for:**
+
+- Plant-specific BWR/5 data: setpoints, materials, capacities, as-built system descriptions.
+- Design-basis accident analyses (Chapter 15) with acceptance criteria and results.
+- Regulatory basis and commitments (Chapter 1.8 conformance to regulatory guides, Ch 3 criteria).
+- Gap analysis: what the generic GE manual says vs what a licensed plant actually does.
+
+> **Note:** Amendment 67 compilation; individual pages carry different amendment dates (per-page headers retained).
+
+## Chapter / section files
+
+| File | Title | Source pages | Headings |
+|---|---|---|---|
+| [`00.0_Chapter_Front_Matter.md`](chapters/00.0_Chapter_Front_Matter.md) | 00.0 Chapter Front Matter | 1–53 | 1080 |
+| [`01.0_Chapter_Front_Matter.md`](chapters/01.0_Chapter_Front_Matter.md) | 01.0 Chapter Front Matter | 1–9 | 21 |
+| [`1.1_INTRODUCTION.md`](chapters/1.1_INTRODUCTION.md) | 1.1 INTRODUCTION | 10–10 | 3 |
+| [`1.2_GENERAL_PLANT_DESCRIPTION.md`](chapters/1.2_GENERAL_PLANT_DESCRIPTION.md) | 1.2 GENERAL PLANT DESCRIPTION | 11–70 | 186 |
+| [`1.3_COMPARISON_TABLES.md`](chapters/1.3_COMPARISON_TABLES.md) | 1.3 COMPARISON TABLES | 71–95 | 32 |
+| [`1.4_IDENTIFICATION_OF_AGENTS_AND_CONTRACTORS.md`](chapters/1.4_IDENTIFICATION_OF_AGENTS_AND_CONTRACTORS.md) | 1.4 IDENTIFICATION OF AGENTS AND CONTRACTORS | 96–101 | 20 |
+| [`1.5_REQUIREMENTS_FOR_FURTHER_TECHNICAL_INFORMATION.md`](chapters/1.5_REQUIREMENTS_FOR_FURTHER_TECHNICAL_INFORMATION.md) | 1.5 REQUIREMENTS FOR FURTHER TECHNICAL INFORMATION | 102–112 | 13 |
+| [`1.6_MATERIAL_INCORPORATED_BY_REFERENCE.md`](chapters/1.6_MATERIAL_INCORPORATED_BY_REFERENCE.md) | 1.6 MATERIAL INCORPORATED BY REFERENCE | 113–125 | 6 |
+| [`1.7_ACRONYMS.md`](chapters/1.7_ACRONYMS.md) | 1.7 ACRONYMS | 126–138 | 2 |
+| [`1.8_CONFORMANCE_TO_NRC_REGULATORY_GUIDES.md`](chapters/1.8_CONFORMANCE_TO_NRC_REGULATORY_GUIDES.md) | 1.8 CONFORMANCE TO NRC REGULATORY GUIDES | 139–348 | 58 |
+| [`02.0_Chapter_Front_Matter.md`](chapters/02.0_Chapter_Front_Matter.md) | 02.0 Chapter Front Matter | 1–14 | 24 |
+| [`2.1_GEOGRAPHY_AND_DEMOGRAPHY.md`](chapters/2.1_GEOGRAPHY_AND_DEMOGRAPHY.md) | 2.1 GEOGRAPHY AND DEMOGRAPHY | 15–31 | 267 |
+| [`2.2_Nearby_Industrial_Transportation_And_Military_Facilitie.md`](chapters/2.2_Nearby_Industrial_Transportation_And_Military_Facilitie.md) | 2.2 Nearby Industrial, Transportation, And Military Facilities | 32–50 | 19 |
+| [`2.3_METEOROLOGY.md`](chapters/2.3_METEOROLOGY.md) | 2.3 METEOROLOGY | 51–190 | 1349 |
+| [`2.4_HYDROLOGY_ENGINEERING.md`](chapters/2.4_HYDROLOGY_ENGINEERING.md) | 2.4 HYDROLOGY ENGINEERING | 191–256 | 46 |
+| [`2.5_GEOLOGY_SEISMOLOGY_AND_GEOTECHNICAL_ENGINEERING.md`](chapters/2.5_GEOLOGY_SEISMOLOGY_AND_GEOTECHNICAL_ENGINEERING.md) | 2.5 GEOLOGY, SEISMOLOGY, AND GEOTECHNICAL ENGINEERING | 257–258 | 7 |
+| [`03.0_Chapter_Front_Matter.md`](chapters/03.0_Chapter_Front_Matter.md) | 03.0 Chapter Front Matter | 1–56 | 240 |
+| [`3.1_Conformance_With_Nrc_General_Design_Criteria.md`](chapters/3.1_Conformance_With_Nrc_General_Design_Criteria.md) | 3.1 Conformance With Nrc General Design Criteria | 57–121 | 69 |
+| [`3.2_Classification_Of_Structures_Components_And_Systems.md`](chapters/3.2_Classification_Of_Structures_Components_And_Systems.md) | 3.2 Classification Of Structures, Components, And Systems | 122–187 | 307 |
+| [`3.3_WIND_AND_TORNADO_LOADINGS.md`](chapters/3.3_WIND_AND_TORNADO_LOADINGS.md) | 3.3 WIND AND TORNADO LOADINGS | 188–195 | 11 |
+| [`3.4_WATER_LEVEL_FLOOD_DESIGN.md`](chapters/3.4_WATER_LEVEL_FLOOD_DESIGN.md) | 3.4 WATER LEVEL (FLOOD) DESIGN | 196–203 | 19 |
+| [`3.5_MISSILE_PROTECTION.md`](chapters/3.5_MISSILE_PROTECTION.md) | 3.5 MISSILE PROTECTION | 204–249 | 47 |
+| [`3.6_Protection_Against_Dynamic_Effects_Associated_With_The.md`](chapters/3.6_Protection_Against_Dynamic_Effects_Associated_With_The.md) | 3.6 Protection Against Dynamic Effects Associated With The | 250–414 | 256 |
+| [`3.7_SEISMIC_DESIGN.md`](chapters/3.7_SEISMIC_DESIGN.md) | 3.7 SEISMIC DESIGN | 415–499 | 77 |
+| [`3.8_DESIGN_OF_SEISMIC_CATEGORY_I_STRUCTURES.md`](chapters/3.8_DESIGN_OF_SEISMIC_CATEGORY_I_STRUCTURES.md) | 3.8 DESIGN OF SEISMIC CATEGORY I STRUCTURES | 500–681 | 256 |
+| [`3.9_MECHANICAL_SYSTEMS_AND_COMPONENTS.md`](chapters/3.9_MECHANICAL_SYSTEMS_AND_COMPONENTS.md) | 3.9 MECHANICAL SYSTEMS AND COMPONENTS | 682–858 | 255 |
+| [`3.10_Seismic_And_Dynamic_Qualification_Of_Safety_Related.md`](chapters/3.10_Seismic_And_Dynamic_Qualification_Of_Safety_Related.md) | 3.10 Seismic And Dynamic Qualification Of Safety-Related | 859–907 | 66 |
+| [`3.11_Environmental_Design_Of_Mechanical_And_Electrical.md`](chapters/3.11_Environmental_Design_Of_Mechanical_And_Electrical.md) | 3.11 Environmental Design Of Mechanical And Electrical | 908–930 | 36 |
+| [`3.12_Computer_Programs_For_Structural_Analysis_And_Design.md`](chapters/3.12_Computer_Programs_For_Structural_Analysis_And_Design.md) | 3.12 Computer Programs For Structural Analysis And Design | 931–1251 | 278 |
+| [`04.0_Chapter_Front_Matter.md`](chapters/04.0_Chapter_Front_Matter.md) | 04.0 Chapter Front Matter | 1–11 | 10 |
+| [`4.1_Summary_Description.md`](chapters/4.1_Summary_Description.md) | 4.1 Summary Description | 12–31 | 39 |
+| [`4.2_FUEL_SYSTEM_DESIGN.md`](chapters/4.2_FUEL_SYSTEM_DESIGN.md) | 4.2 FUEL SYSTEM DESIGN | 32–51 | 63 |
+| [`4.3_NUCLEAR_DESIGN.md`](chapters/4.3_NUCLEAR_DESIGN.md) | 4.3 NUCLEAR DESIGN | 52–61 | 28 |
+| [`4.4_THERMAL_HYDRAULIC_DESIGN.md`](chapters/4.4_THERMAL_HYDRAULIC_DESIGN.md) | 4.4 THERMAL-HYDRAULIC DESIGN | 62–77 | 42 |
+| [`4.5_REACTOR_MATERIALS.md`](chapters/4.5_REACTOR_MATERIALS.md) | 4.5 REACTOR MATERIALS | 78–86 | 18 |
+| [`4.6_FUNCTIONAL_DESIGN_OF_REACTIVITY_CONTROL_SYSTEMS.md`](chapters/4.6_FUNCTIONAL_DESIGN_OF_REACTIVITY_CONTROL_SYSTEMS.md) | 4.6 FUNCTIONAL DESIGN OF REACTIVITY CONTROL SYSTEMS | 87–131 | 203 |
+| [`05.0_Chapter_Front_Matter.md`](chapters/05.0_Chapter_Front_Matter.md) | 05.0 Chapter Front Matter | 1–11 | 24 |
+| [`5.1_Summary_Description.md`](chapters/5.1_Summary_Description.md) | 5.1 Summary Description | 12–16 | 5 |
+| [`5.2_Integrity_Of_Reactor_Coolant_Pressure_Boundary.md`](chapters/5.2_Integrity_Of_Reactor_Coolant_Pressure_Boundary.md) | 5.2 Integrity Of Reactor Coolant Pressure Boundary | 17–78 | 165 |
+| [`5.3_REACTOR_VESSEL.md`](chapters/5.3_REACTOR_VESSEL.md) | 5.3 REACTOR VESSEL | 79–119 | 126 |
+| [`5.4_COMPONENT_AND_SUBSYSTEM_DESIGN.md`](chapters/5.4_COMPONENT_AND_SUBSYSTEM_DESIGN.md) | 5.4 COMPONENT AND SUBSYSTEM DESIGN | 120–215 | 425 |
+| [`06.0_Chapter_Front_Matter.md`](chapters/06.0_Chapter_Front_Matter.md) | 06.0 Chapter Front Matter | 1–17 | 42 |
+| [`6.1_ENGINEERED_SAFETY_FEATURE_MATERIALS.md`](chapters/6.1_ENGINEERED_SAFETY_FEATURE_MATERIALS.md) | 6.1 ENGINEERED SAFETY FEATURE MATERIALS | 18–26 | 10 |
+| [`6.2_CONTAINMENT_SYSTEMS.md`](chapters/6.2_CONTAINMENT_SYSTEMS.md) | 6.2 CONTAINMENT SYSTEMS | 27–218 | 335 |
+| [`6.3_EMERGENCY_CORE_COOLING_SYSTEM.md`](chapters/6.3_EMERGENCY_CORE_COOLING_SYSTEM.md) | 6.3 EMERGENCY CORE COOLING SYSTEM | 219–271 | 119 |
+| [`6.4_HABITABILITY_SYSTEMS.md`](chapters/6.4_HABITABILITY_SYSTEMS.md) | 6.4 HABITABILITY SYSTEMS | 272–281 | 18 |
+| [`6.5_FISSION_PRODUCT_REMOVAL_AND_CONTROL_SYSTEMS.md`](chapters/6.5_FISSION_PRODUCT_REMOVAL_AND_CONTROL_SYSTEMS.md) | 6.5 FISSION PRODUCT REMOVAL AND CONTROL SYSTEMS | 282–291 | 13 |
+| [`6.6_Inservice_Inspection_Of_Asme_Code_Class_2_And_Class_3.md`](chapters/6.6_Inservice_Inspection_Of_Asme_Code_Class_2_And_Class_3.md) | 6.6 Inservice Inspection Of Asme Code Class 2 And Class 3 | 292–292 | 2 |
+| [`6.7_MAIN_STEAM_ISOLATION_VALVE_LEAKAGE_CONTROL_SYSTEM.md`](chapters/6.7_MAIN_STEAM_ISOLATION_VALVE_LEAKAGE_CONTROL_SYSTEM.md) | 6.7 MAIN STEAM ISOLATION VALVE LEAKAGE CONTROL SYSTEM | 293–293 | 1 |
+| [`07.0_Chapter_Front_Matter.md`](chapters/07.0_Chapter_Front_Matter.md) | 07.0 Chapter Front Matter | 1–18 | 43 |
+| [`7.1_INTRODUCTION.md`](chapters/7.1_INTRODUCTION.md) | 7.1 INTRODUCTION | 19–35 | 137 |
+| [`7.2_REACTOR_PROTECTION_TRIP_SYSTEM.md`](chapters/7.2_REACTOR_PROTECTION_TRIP_SYSTEM.md) | 7.2 REACTOR PROTECTION (TRIP) SYSTEM | 36–77 | 89 |
+| [`7.3_ENGINEERED_SAFETY_FEATURE_SYSTEMS.md`](chapters/7.3_ENGINEERED_SAFETY_FEATURE_SYSTEMS.md) | 7.3 ENGINEERED SAFETY FEATURE SYSTEMS | 78–196 | 994 |
+| [`7.4_SYSTEMS_REQUIRED_FOR_SAFE_SHUTDOWN.md`](chapters/7.4_SYSTEMS_REQUIRED_FOR_SAFE_SHUTDOWN.md) | 7.4 SYSTEMS REQUIRED FOR SAFE SHUTDOWN | 197–229 | 175 |
+| [`7.5_SAFETY_RELATED_DISPLAY_INSTRUMENTATION.md`](chapters/7.5_SAFETY_RELATED_DISPLAY_INSTRUMENTATION.md) | 7.5 SAFETY-RELATED DISPLAY INSTRUMENTATION | 230–267 | 132 |
+| [`7.6_All_Other_Instrumentation_Systems_Required_For_Safety.md`](chapters/7.6_All_Other_Instrumentation_Systems_Required_For_Safety.md) | 7.6 All Other Instrumentation Systems Required For Safety | 268–342 | 226 |
+| [`7.7_CONTROL_SYSTEMS_NOT_REQUIRED_FOR_SAFETY.md`](chapters/7.7_CONTROL_SYSTEMS_NOT_REQUIRED_FOR_SAFETY.md) | 7.7 CONTROL SYSTEMS NOT REQUIRED FOR SAFETY | 343–416 | 120 |
+| [`08.0_Chapter_Front_Matter.md`](chapters/08.0_Chapter_Front_Matter.md) | 08.0 Chapter Front Matter | 1–12 | 35 |
+| [`8.1_INTRODUCTION.md`](chapters/8.1_INTRODUCTION.md) | 8.1 INTRODUCTION | 13–24 | 9 |
+| [`8.2_OFFSITE_POWER_SYSTEM.md`](chapters/8.2_OFFSITE_POWER_SYSTEM.md) | 8.2 OFFSITE POWER SYSTEM | 25–36 | 8 |
+| [`8.3_ONSITE_POWER_SYSTEMS.md`](chapters/8.3_ONSITE_POWER_SYSTEMS.md) | 8.3 ONSITE POWER SYSTEMS | 37–186 | 618 |
+| [`09.0_Chapter_Front_Matter.md`](chapters/09.0_Chapter_Front_Matter.md) | 09.0 Chapter Front Matter | 1–18 | 32 |
+| [`9.1_FUEL_STORAGE_AND_HANDLING.md`](chapters/9.1_FUEL_STORAGE_AND_HANDLING.md) | 9.1 FUEL STORAGE AND HANDLING | 19–110 | 134 |
+| [`9.2_WATER_SYSTEMS.md`](chapters/9.2_WATER_SYSTEMS.md) | 9.2 WATER SYSTEMS | 111–176 | 128 |
+| [`9.3_PROCESS_AUXILIARIES.md`](chapters/9.3_PROCESS_AUXILIARIES.md) | 9.3 PROCESS AUXILIARIES | 177–233 | 197 |
+| [`9.4_HEATING_VENTILATING_AND_AIR_CONDITIONING_SYSTEMS.md`](chapters/9.4_HEATING_VENTILATING_AND_AIR_CONDITIONING_SYSTEMS.md) | 9.4 HEATING, VENTILATING, AND AIR CONDITIONING SYSTEMS | 234–324 | 362 |
+| [`9.5_OTHER_AUXILIARY_SYSTEMS.md`](chapters/9.5_OTHER_AUXILIARY_SYSTEMS.md) | 9.5 OTHER AUXILIARY SYSTEMS | 325–370 | 97 |
+| [`10.0_Chapter_Front_Matter.md`](chapters/10.0_Chapter_Front_Matter.md) | 10.0 Chapter Front Matter | 1–6 | 11 |
+| [`10.1_SUMMARY_DESCRIPTION.md`](chapters/10.1_SUMMARY_DESCRIPTION.md) | 10.1 SUMMARY DESCRIPTION | 7–11 | 6 |
+| [`10.2_TURBINE_GENERATOR.md`](chapters/10.2_TURBINE_GENERATOR.md) | 10.2 TURBINE GENERATOR | 12–28 | 157 |
+| [`10.3_MAIN_STEAM_SUPPLY_SYSTEM.md`](chapters/10.3_MAIN_STEAM_SUPPLY_SYSTEM.md) | 10.3 MAIN STEAM SUPPLY SYSTEM | 29–36 | 10 |
+| [`10.4_Other_Features_Of_Steam_And_Power_Conversion_System.md`](chapters/10.4_Other_Features_Of_Steam_And_Power_Conversion_System.md) | 10.4 Other Features Of Steam And Power Conversion System | 37–88 | 222 |
+| [`11.0_Chapter_Front_Matter.md`](chapters/11.0_Chapter_Front_Matter.md) | 11.0 Chapter Front Matter | 1–9 | 22 |
+| [`11.1_Source_Terms.md`](chapters/11.1_Source_Terms.md) | 11.1 Source Terms | 10–31 | 20 |
+| [`11.2_Liquid_Waste_Management_System.md`](chapters/11.2_Liquid_Waste_Management_System.md) | 11.2 Liquid Waste Management System | 32–80 | 46 |
+| [`11.3_Gaseous_Waste_Management_Systems.md`](chapters/11.3_Gaseous_Waste_Management_Systems.md) | 11.3 Gaseous Waste Management Systems | 81–112 | 35 |
+| [`11.4_SOLID_WASTE_MANAGEMENT_SYSTEM.md`](chapters/11.4_SOLID_WASTE_MANAGEMENT_SYSTEM.md) | 11.4 SOLID WASTE MANAGEMENT SYSTEM | 113–134 | 40 |
+| [`11.5_Process_And_Effluent_Radiological_Monitoring_And_Sampli.md`](chapters/11.5_Process_And_Effluent_Radiological_Monitoring_And_Sampli.md) | 11.5 Process And Effluent Radiological Monitoring And Sampling | 135–178 | 47 |
+| [`11.6_POSTACCIDENT_SAMPLING_SYSTEM.md`](chapters/11.6_POSTACCIDENT_SAMPLING_SYSTEM.md) | 11.6 POSTACCIDENT SAMPLING SYSTEM | 179–181 | 3 |
+| [`12.0_Chapter_Front_Matter.md`](chapters/12.0_Chapter_Front_Matter.md) | 12.0 Chapter Front Matter | 1–7 | 17 |
+| [`12.1_Ensuring_That_Occupational_Radiation_Exposures_And.md`](chapters/12.1_Ensuring_That_Occupational_Radiation_Exposures_And.md) | 12.1 Ensuring That Occupational Radiation Exposures And | 8–18 | 12 |
+| [`12.2_RADIATION_SOURCES.md`](chapters/12.2_RADIATION_SOURCES.md) | 12.2 RADIATION SOURCES | 19–51 | 26 |
+| [`12.3_RADIATION_PROTECTION_DESIGN_FEATURES.md`](chapters/12.3_RADIATION_PROTECTION_DESIGN_FEATURES.md) | 12.3 RADIATION PROTECTION DESIGN FEATURES | 52–82 | 111 |
+| [`12.4_DOSE_ASSESSMENT.md`](chapters/12.4_DOSE_ASSESSMENT.md) | 12.4 DOSE ASSESSMENT | 83–98 | 9 |
+| [`12.5_RADIATION_PROTECTION_PROGRAM.md`](chapters/12.5_RADIATION_PROTECTION_PROGRAM.md) | 12.5 RADIATION PROTECTION PROGRAM | 99–118 | 23 |
+| [`13.0_Chapter_Front_Matter.md`](chapters/13.0_Chapter_Front_Matter.md) | 13.0 Chapter Front Matter | 1–37 | 72 |
+| [`13.2_TRAINING.md`](chapters/13.2_TRAINING.md) | 13.2 TRAINING | 38–44 | 21 |
+| [`13.3_EMERGENCY_PLANNING.md`](chapters/13.3_EMERGENCY_PLANNING.md) | 13.3 EMERGENCY PLANNING | 45–45 | 1 |
+| [`13.4_REVIEW_AND_AUDIT.md`](chapters/13.4_REVIEW_AND_AUDIT.md) | 13.4 REVIEW AND AUDIT | 46–47 | 4 |
+| [`13.5_PLANT_PROCEDURES.md`](chapters/13.5_PLANT_PROCEDURES.md) | 13.5 PLANT PROCEDURES | 48–52 | 8 |
+| [`13.6_INDUSTRIAL_SECURITY.md`](chapters/13.6_INDUSTRIAL_SECURITY.md) | 13.6 INDUSTRIAL SECURITY | 53–57 | 20 |
+| [`14.0_Chapter_Front_Matter.md`](chapters/14.0_Chapter_Front_Matter.md) | 14.0 Chapter Front Matter | 1–10 | 24 |
+| [`14.1_Specific_Information_Included_In_Preliminary_Safety.md`](chapters/14.1_Specific_Information_Included_In_Preliminary_Safety.md) | 14.1 Specific Information Included In Preliminary Safety | 11–11 | 3 |
+| [`14.2_System_Lineup_Preoperational_And_Initial_Startup_Test.md`](chapters/14.2_System_Lineup_Preoperational_And_Initial_Startup_Test.md) | 14.2 System Lineup, Preoperational, And Initial Startup Test | 12–156 | 365 |
+| [`15.0_GENERAL.md`](chapters/15.0_GENERAL.md) | 15.0 GENERAL | 28–59 | 48 |
+| [`15.1_DECREASE_IN_REACTOR_COOLANT_TEMPERATURE.md`](chapters/15.1_DECREASE_IN_REACTOR_COOLANT_TEMPERATURE.md) | 15.1 DECREASE IN REACTOR COOLANT TEMPERATURE | 60–95 | 89 |
+| [`15.2_INCREASE_IN_REACTOR_PRESSURE.md`](chapters/15.2_INCREASE_IN_REACTOR_PRESSURE.md) | 15.2 INCREASE IN REACTOR PRESSURE | 96–162 | 239 |
+| [`15.3_DECREASE_IN_REACTOR_COOLANT_SYSTEM_FLOW_RATE.md`](chapters/15.3_DECREASE_IN_REACTOR_COOLANT_SYSTEM_FLOW_RATE.md) | 15.3 DECREASE IN REACTOR COOLANT SYSTEM FLOW RATE | 163–206 | 71 |
+| [`15.4_REACTIVITY_AND_POWER_DISTRIBUTION_ANOMALIES.md`](chapters/15.4_REACTIVITY_AND_POWER_DISTRIBUTION_ANOMALIES.md) | 15.4 REACTIVITY AND POWER DISTRIBUTION ANOMALIES | 207–244 | 105 |
+| [`15.5_INCREASE_IN_REACTOR_COOLANT_INVENTORY.md`](chapters/15.5_INCREASE_IN_REACTOR_COOLANT_INVENTORY.md) | 15.5 INCREASE IN REACTOR COOLANT INVENTORY | 245–249 | 18 |
+| [`15.6_DECREASE_IN_REACTOR_COOLANT_INVENTORY.md`](chapters/15.6_DECREASE_IN_REACTOR_COOLANT_INVENTORY.md) | 15.6 DECREASE IN REACTOR COOLANT INVENTORY | 250–286 | 61 |
+| [`15.7_Radioactive_Release_From_Subsystems_And_Components.md`](chapters/15.7_Radioactive_Release_From_Subsystems_And_Components.md) | 15.7 Radioactive Release From Subsystems And Components | 287–300 | 31 |
+| [`15.8_ANTICIPATED_TRANSIENTS_WITHOUT_SCRAM.md`](chapters/15.8_ANTICIPATED_TRANSIENTS_WITHOUT_SCRAM.md) | 15.8 ANTICIPATED TRANSIENTS WITHOUT SCRAM | 301–356 | 110 |
+| [`17.1_Quality_Assurance_During_Design_And_Construction.md`](chapters/17.1_Quality_Assurance_During_Design_And_Construction.md) | 17.1 Quality Assurance During Design And Construction | 357–408 | 145 |
+| [`17.2_Quality_Assurance_During_The_Operations_Phase.md`](chapters/17.2_Quality_Assurance_During_The_Operations_Phase.md) | 17.2 Quality Assurance During The Operations Phase | 409–1141 | 1713 |
+
+## Detailed outline
+
+### 00.0 Chapter Front Matter  
+`chapters/00.0_Chapter_Front_Matter.md` — source pp. 1–53
+
+- GO2-23-105
+- Amendment 58 COLUMBIA GENERATING STATION
+- GENERAL TABLE OF CONTENTS
+- Chapter 1
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- **1.1** Introduction
+- **1.2** General Plant Description
+- **1.3** Comparison Tables
+- **1.4** Identification of Agents and Contractors
+- **1.5** Requirements for Further Technical Information
+- **1.6** Material Incorporated by Reference
+- **1.7** Acronyms
+- **1.8** Conformance to NRC Regulatory Guides
+  - Chapter 2
+  - SITE CHARACTERISTICS
+- **2.1** Geography and Demography
+- **2.2** Nearby Industrial, Transportation, and Military Facilities
+- **2.3** Meteorology
+- **2.4** Hydrology Engineering
+- **2.5** Geology, Seismology, and Geotechnical Engineering
+  - Chapter 3
+  - DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT, AND SYSTEMS
+- **3.1** Conformance with NRC General Design Criteria
+- **3.2** Classification of Structures, Components, and Systems
+- **3.3** Wind and Tornado Loadings
+- **3.4** Water Level (Flood) Design
+- **3.5** Missile Protection
+- **3.6** Protection Against Dynamic Effects Associated with the Postulated Rupture of Piping
+- **3.7** Seismic Design
+- **3.8** Design of Seismic Category I Structures
+- **3.9** Mechanical Systems and Components
+- **3.10** Seismic and Dynamic Qualification of Safety-Related Instrumentation and Electrical
+- **3.11** Environmental Design of Mechanical and Electrical Equipment
+- **3.12** Computer Programs for Structural Analysis and Design
+  - Amendment 58 COLUMBIA GENERATING STATION
+  - GENERAL TABLE OF CONTENTS
+  - Chapter 4
+  - REACTOR
+- **4.1** Summary Description
+- **4.2** Fuel System Design
+- **4.3** Nuclear Design
+- **4.4** Thermal-Hydraulic Design
+- **4.5** Reactor Materials
+- **4.6** Functional Design of Reactivity Control Systems
+  - Chapter 5
+  - REACTOR COOLANT SYSTEMS AND CONNECTED SYSTEMS
+- **5.1** Summary Description
+- **5.2** Integrity of Reactor Coolant Pressure Boundary
+- **5.3** Reactor Vessel
+- **5.4** Component and Subsystem Design
+  - Chapter 6
+  - ENGINEERED SAFETY FEATURES
+- **6.1** Engineered Safety Feature Materials
+- **6.2** Containment Systems
+- **6.3** Emergency Core Cooling System
+- **6.4** Habitability Systems
+- **6.5** Fission Product Removal and Control Systems
+- **6.6** Inservice Inspection of ASME Code Class 2 and Class 3 Components
+- **6.7** Main Steam Isolation Valve Leakage Control System
+  - Amendment 58 COLUMBIA GENERATING STATION
+  - Chapter 7
+  - INSTRUMENTATION AND CONTROL SYSTEMS
+- **7.1** Introduction
+- **7.2** Reactor Protection (Trip) System
+- **7.3** Engineered Safety Feature Systems
+- **7.4** Systems Required for Safe Shutdown
+- **7.5** Safety-Related Display Instrumentation
+- **7.6** All Other Instrumentation Systems Required for Safety
+- **7.7** Control Systems Not Required for Safety
+  - Chapter 8
+  - ELECTRIC POWER
+- **8.1** Introduction
+- **8.2** Offsite Power System
+- **8.3** Onsite Power Systems
+  - Chapter 9
+  - AUXILIARY SYSTEMS
+- **9.1** Fuel Storage and Handling
+- **9.2** Water Systems
+- **9.3** Process Auxiliaries
+- **9.4** Heating, Ventilating, and Air Conditioning Systems
+- **9.5** Other Auxiliary Systems
+  - Chapter 10
+  - STEAM AND POWER CONVERSION SYSTEM
+- **10.1** Summary Description
+- **10.2** Turbine Generator
+- **10.3** Main Steam Supply System
+- **10.4** Other Features of Steam and Power Conversion System
+  - Amendment 58 COLUMBIA GENERATING STATION
+  - Chapter 11
+  - RADIOACTIVE WASTE MANAGEMENT
+- **11.1** Source Terms
+- **11.2** Liquid Waste Management System
+- **11.3** Gaseous Waste Management Systems
+- **11.4** Solid Waste Management System
+- **11.5** Process and Effluent Radiological Monitoring and Sampling Systems
+- **11.6** Postaccident Sampling System
+  - Chapter 12
+  - RADIATION PROTECTION
+- **12.1** Ensuring that Occupational Radiation Exposures and Radiation Exposures to Members
+- **12.2** Radiation Sources
+- **12.3** Radiation Protection Design Features
+- **12.4** Dose Assessment
+- **12.5** Radiation Protection Program
+  - Chapter 13
+  - CONDUCT OF OPERATIONS
+- **13.1** Organization Structure
+- **13.2** Training
+- **13.3** Emergency Planning
+- **13.4** Review and Audit
+- **13.5** Plant Procedures
+- **13.6** Industrial Security
+  - Chapter 14
+  - INITIAL TEST PROGRAM
+- **14.1** Specific Information Included in Preliminary Safety Analysis Reports
+- **14.2** System Lineup, Preoperational, and Initial Startup Test Program
+  - Amendment 62 COLUMBIA GENERATING STATION
+  - Chapter 15
+  - ACCIDENT ANALYSES
+- **15.0** General
+- **15.1** Decrease in Reactor Coolant Temperature
+- **15.2** Increase in Reactor Pressure
+- **15.3** Decrease in Reactor Coolant System Flow Rate
+- **15.4** Reactivity and Power Distribution Anomalies
+- **15.5** Increase in Reactor Coolant Inventory
+- **15.6** Decrease in Reactor Coolant Inventory
+- **15.7** Radioactive Release from Subsystems and Components
+- **15.8** Anticipated Transients without Scram
+  - Chapter 16
+  - TECHNICAL SPECIFICATIONS
+  - Chapter 17
+  - QUALITY ASSURANCE
+- **17.1** Quality Assurance During the Design and Construction Phases
+- **17.2** Quality Assurance During the Operations Phase
+  - APPENDIXES
+  - VOLUME I
+  - GENERAL TABLE OF
+  - CONTENTS
+  - CHAPTER 1
+- **1.2** Figures
+- 64 Section 1.3
+  - LEP-1
+- 53 Section 1.7
+  - LEP-2
+  - LEP-3
+  - VOLUME II
+  - CHAPTER 2
+- **2.2** Figures
+- 64 Section 2.3
+- **2.1** Figures
+  - LEP-4
+- 59 Section 2.4
+  - LEP-5
+  - VOLUME IX
+  - CHAPTER 3
+- 57 Section 3.1
+  - LEP-6
+- 59 Section 3.4
+- 59 Section 3.5
+- 59 Section 3.3
+  - LEP-7
+- **3.5** Figures
+  - VOLUME X
+- 59 Section 3.6
+  - LEP-8
+- **3.6** Figures
+  - LEP-9
+  - VOLUME XI
+- 55 Section 3.7
+  - LEP-10
+  - LEP-11
+  - VOLUME XII
+- 55 Section 3.9
+- **3.8** Figures
+  - LEP-12
+  - LEP-13
+- **3.9** Figures
+- 57 Section 3.12
+- 54 Appendix 3.10C
+- **3.10** Figures
+- 55 Section 3.11
+  - LEP-14
+- 53 Section 3A.1.4
+- **3.12** Figures
+- 54 Section 3A.2.2
+- 53 Section 3A.3.1
+  - LEP-15
+  - LEP-16
+  - LEP-17
+- 53 Section 3A.I
+- 64 Section 4.2
+  - VOLUME XIII
+- 53 CHAPTER 4
+- 53 Section 4.1
+- 57 Section 4.3
+  - LEP-18
+- 53 CHAPTER 5
+- **4.3** Figures
+- 53 Section 5.1
+- 53 Section 5.2
+- **4.4** Figures
+  - LEP-19
+- **5.2** Figures
+  - LEP-20
+- 55 Section 6.2
+  - VOLUME XIV
+- 53 CHAPTER 6
+- **5.4** Figures
+- 53 Section 6.1
+  - LEP-21
+  - LEP-22
+- 63 Section 6.6
+- 66 Section 6.7
+  - VOLUME XV
+- 53 CHAPTER 7
+- 59 Section 6.4
+- 65 Section 7.1
+- 66 Section 6.5
+  - LEP-23
+- **7.3** Figures
+- **7.2** Figures
+  - LEP-24
+  - VOLUME XVI
+- 53 Section 7.4
+- 53 Section 7.6
+- 54 Section 7.5
+  - LEP-25
+- 56 Section 7.7
+- **7.6** Figures
+  - LEP-26
+- 64 Section 8.3
+  - VOLUME XVII
+  - CHAPTER 8
+- **8.2** Figures
+  - LEP-27
+- 64 Appendix 8A
+- 65 Section 8A
+  - LEP-28
+  - VOLUME XVIII
+  - CHAPTER 9
+  - LEP-29
+- **9.2** Figures 9.2-3 65
+  - LEP-30
+  - LEP-31
+- **9.5** Figures
+- 53 Section 10.3
+  - VOLUME XIX
+  - CHAPTER 10
+- **10.1** Figures
+- 59 CHAPTER 11
+- **10.2** Figures
+  - LEP-32
+- **11.1** Figures
+- **11.2** Figures
+- 57 Section 11.3
+  - LEP-33
+- **11.4** Figures
+- 63 Section 11.6
+- 65 CHAPTER 12
+- 66 Section 12.1
+- 60 Section 12.3
+  - LEP-34
+- 67 Section 12.4
+  - VOLUME XX
+- 58 CHAPTER 13
+- 53 Section 13.1
+- **12.3** Figures
+  - LEP-35
+- 64 Section 14.2
+  - CHAPTER 14
+  - LEP-36
+- 61 Section 15.1
+  - LEP-37
+- 64 Section 15.3
+- **15.1** Figures
+  - LEP-38
+- 64 Section 15.5
+- **15.6** Figures
+- 64 Section 15.6
+  - LEP-39
+  - VOLUME XXI
+- 61 CHAPTER 16
+- 63 Section 16.1
+- 59 CHAPTER 17
+- 61 Section 17.1
+- **15.8** Figures
+- 57 Section 17.2
+- 54 APPENDIX A
+- 53 A-i
+- 53 A-ii
+- 53 A-iii
+- 53 A-iv
+  - LEP-40
+  - B.1-16
+  - B.1-17
+  - A.1-1
+- 62 A.3-1
+- 67 B.1-18
+  - B.1-19
+  - B.1-20
+  - B.1-21
+  - A.2-1
+- 66 A.4-1
+  - A.2-2
+- 67 A.4-2
+- 67 Section B.2
+  - A.2-3
+- 67 A.4-3
+  - A.2-4
+- 67 A.4-4
+- 67 B.2-1
+  - A.2-5
+- 62 A.4-5
+- 67 B.2-2
+  - A.2-6
+- 67 A.4-6
+- 67 B.2-3
+  - A.2-7
+- 67 A.4-7
+- 67 B.2-4
+  - A.2-8
+- 67 A.4-8
+- 67 B.2-5
+  - A.2-9
+- 67 A.4-9
+- 67 B.2-6
+  - A.2-10
+- 67 A.4-10
+- 67 B.2-7
+  - A.2-11
+- 67 A.4-11
+- 67 B.2-8
+  - A.2-12
+- 67 A.4-12
+- 67 B.2-9
+  - A.2-13
+- 67 A.4-13
+- 67 B.2-10
+  - A.2-14
+- 67 A.4-14
+- 67 B.2-11
+  - A.2-15
+- 67 A.4-15
+- 67 B.2-12
+  - A.2-16
+- 67 A.4-16
+- 67 B.2-13
+  - A.2-17
+- 67 A.4-17
+- 67 B.2-14
+  - B.2-15
+  - A.2-18
+  - B.2-16
+  - A.2-19
+- 67 APPENDIX B
+  - B.2-17
+  - A.2-20
+  - A.2-21
+- 67 B-i
+  - A.2-22
+- 67 B-ii
+- 55 B.2-19
+  - A.2-23
+- 67 B-iii
+  - B.2-21
+  - A.2-24
+  - B.2-22
+  - A.2-25
+- 62 Section B.1
+  - B.2-23
+  - A.2-26
+  - A.2-27
+- 64 B.1-1
+- 53 B.2-24
+  - A.2-28
+- 62 B.1-2
+- 55 B.2-25
+  - A.2-29
+- 62 B.1-3
+- 63 B.2-26
+  - B.2-27
+  - A.2-30
+  - A.2-31
+- 62 B.1-5
+- 54 B.2-28
+  - A.2-32
+- 62 B.1-6
+- 54 B.2-29
+  - A.2-33
+- 62 B.1-7
+- 54 B.2-30
+  - A.2-34
+- 62 B.1-8
+- 54 B.2-31
+  - A.2-35
+- 62 B.1-9
+- 55 B.2-32
+  - A.2-36
+- 62 B.1-10
+- 55 B.2-33
+  - A.2-37
+- 62 B.1-11
+- 67 B.2-34
+  - A.2-38
+- 62 B.1-12
+- 55 B.2-35
+  - A.2-39
+- 66 B.1-13
+- 55 B.2-36
+  - B.1-14
+- 55 B.2-37
+  - B.1-15
+- 55 B.2-38
+  - LEP-41
+  - B.2-39
+- 53 Section I.3
+  - B.2-40
+  - B.2-41
+- 53 I.3-1
+- 54 I.7-1
+  - B.2-42
+- 54 I.3-2
+- 53 I.7-2
+  - B.2-43
+- 53 I.3-3
+- 53 I.7-3
+  - B.2-44
+- 53 I.3-4
+- 54 I.7-4
+  - B.2-45
+- 66 I.3-5
+- 54 I.7-5
+  - B.2-46
+  - B.2-47
+- 53 Section I.4
+  - B.2-48
+- 57 I.8-1
+  - B.2-49
+- 53 I.4-1
+- 57 I.8-2
+  - B.2-50
+- 53 I.4-2
+- 53 I.8-3
+  - B.2-51
+- 54 I.4-3
+  - I.4-4
+- 53 I.8-4
+- 53 I.8-5
+  - B.2-53
+- 53 I.4-5
+  - I.8-6
+  - I.8-7
+  - I.8-8
+  - I.5-1
+- 53 I.8-9
+- 53 I.8-10
+  - B.3-1
+- 56 I.5-2
+- 53 I.8-11
+  - B.3-2
+- 56 I.5-3
+  - I.8-12
+  - B.3-3
+  - I.8-13
+  - B.3-4
+- 56 Section I.6
+  - I.8-14
+  - B.3-5
+  - I.6-1
+- 53 I.8-15
+  - APPENDIX I
+  - I.8-16
+  - I.6-3
+- 55 I.8-17
+- 55 I.8-18
+- 54 I.6-4
+- 57 I.6-5
+- 53 I.6-7
+- 53 I.8-1
+- 55 I.6-8
+- 53 I.8-2
+- 53 I.6-9
+  - I.6-10
+- 53 I.8-3
+  - I.6-11
+- 53 I.8-4
+- 53 APPENDIX J
+  - I.1-1
+- 54 I.6-13
+  - I.1-2
+- 53 I.6-14
+  - I.6-15
+- 53 J-i
+  - I.6-17
+- 53 J-iii
+- 54 J-iv
+  - I.2-1
+- 53 I.6-18
+- 53 J-v
+  - I.2-2
+- 53 I.6-19
+  - I.6-20
+- 66 J-vi
+  - I.6-21
+- 53 J-vii
+  - LEP-42
+- 59 J.5-7
+- 58 Section J.7
+- 59 J.5-8
+- 55 J.7-1
+- 59 J.5-9
+  - J.7-2
+- 53 J.7-3
+- 59 J.5-11
+  - J.7-4
+- 67 J.5 Figures
+  - J.7-5
+  - J.5-1
+- 53 Section J.A
+  - J.5-2
+- 53 J.A-1
+  - J.1-1
+- 53 J.5-3
+  - J.A-3
+- 53 Section J.B
+  - J.2-1
+- 53 J.6-1
+  - J.2-2
+- 53 J.6-2
+- 59 J.B-1
+  - J.2-3
+- 54 J.6-3
+- 58 J.B-2
+  - J.2-4
+- 54 J.6-4
+- 53 J.B-3
+  - J.2-5
+- 55 J.6-5
+  - J.6-6
+- 58 J.B-4
+  - J.6-7
+- 59 J.B-5
+  - J.B-6
+  - J.B-7
+  - J.3-1
+- 53 J.6 Figures
+  - J.B-8
+  - J.3-2
+- 53 J.B-9
+  - J.3-3
+- 59 J.6-1.1
+- 53 J.B-10
+  - J.3-4
+- 59 J.6-1.2
+- 53 J.B-11
+  - J.3-5
+- 53 J.6-2.1
+- 53 J.B-12
+  - J.3-6
+- 53 J.6-2.2
+- 53 J.B-13
+  - J.3-7
+- 55 J.6-3.1
+- 53 J.B-14
+  - J.3-8
+- 53 J.6-3.2
+- 53 J.B-15
+  - J.3-9
+- 59 J.6-4
+  - J.3-10
+- 59 J.6-5
+- 53 J.B-17
+  - J.3-11
+- 59 J.6-6
+  - J.6-7
+- 53 J.B-18
+  - J.6-8
+  - J.6-9
+- 53 J.B Figures
+  - J.4-1
+- 53 J.6-10
+- 53 J.B-1
+  - J.4-2
+- 53 J.6-11
+  - J.6-12
+- 53 J.B-2
+  - J.6-13
+- 53 J.B-3
+  - J.6-14
+- 53 J.B-4
+- 53 J.B-5
+  - J.5-1
+- 53 J.6-15
+- 53 J.B-6
+  - J.5-2
+- 53 J.6-16
+- 65 J.B-7
+  - J.5-3
+- 53 J.6-17
+- 53 J.B-8
+  - J.5-4
+- 54 J.6-18
+  - J.B-9
+  - J.5-5
+  - J.B-10
+  - J.5-6
+  - LEP-43
+- 53 J.F Figures
+  - J.B-11
+- 59 J.D-3
+  - J.B-12
+- 53 J.D-4
+- 53 J.F-1
+  - J.B-13
+- 53 J.D-5
+- 53 J.F-2
+  - J.B-14
+- 53 J.D-6
+- 53 J.F-3
+  - J.B-15
+- 53 J.D-7
+- 53 J.F-4
+  - J.B-16
+- 53 J.D-8
+- 53 J.F-5
+  - J.B-17
+- 53 J.D-9
+  - J.B-18
+  - J.F-6
+  - J.F-7
+  - J.F-8
+  - J.D-1
+- 53 J.F-9
+  - J.C-1
+- 53 J.D-2
+- 53 Section J.G
+  - J.C-2
+- 53 J.D-3
+  - J.C-3
+  - J.G-1
+  - J.C-4
+- 53 Section J.E
+  - J.G-2
+  - J.C-5
+- 53 J.G-3
+  - J.C-6
+- 53 J.E-1
+  - J.C-7
+- 53 J.E-2
+- 53 J.G-5
+  - J.C-8
+- 53 J.E-3
+  - J.C-9
+- 53 J.E-4
+- 53 J.G Figures
+  - J.C-10
+- 53 J.E-5
+  - J.C-11
+  - J.G-1
+  - J.C-12
+- 53 J.E Figures
+  - J.G-2
+  - J.C-13
+  - J.E-1
+  - J.E-2
+- 53 Section J.H
+  - J.H-1
+  - J.C-1
+- 53 Section J.F
+  - J.H-2
+  - J.C-2
+- 53 J.H-3
+  - J.C-3
+- 53 J.F-1
+- 53 J.H-4
+  - J.C-4
+- 53 J.F-2
+  - J.C-5
+- 53 J.F-3
+- 53 J.H-5
+- 53 J.H-6
+  - J.C-6
+- 53 J.F-4
+- 53 J.H-7
+  - J.C-7
+- 53 J.F-5
+  - J.C-8
+- 53 J.F-6
+  - J.C-9
+- 53 J.F-7
+- 53 J.H-9
+  - J.C-10
+- 53 J.F-8
+  - VOLUME XXII
+  - J.C-11
+- 53 J.F-9
+  - J.C-12
+- 53 J.F-10
+  - J.C-13
+- 53 J.F-11
+- 57 APPENDIX F
+  - J.C-14
+- 53 J.F-12
+- 53 F-i
+  - J.C-15
+- 53 J.F-13
+  - J.F-14
+- 53 F-ii
+  - J.F-15
+- 53 F-iii
+  - J.F-16
+- 53 F-iv
+- 53 F-v
+  - J.D-1
+- 53 J.F-17
+- 53 F-vi
+  - J.D-2
+- 53 J.F-18
+  - LEP-44
+- 60 F.2-37
+- 59 F.3-35
+  - F.2-38
+- 58 F.3-36
+  - F.2-39
+- 58 F.3-37
+  - F.2-40
+- 65 F.3-38
+  - F.1-1
+- 60 F.2-41
+- 59 F.3-39
+  - F.1-2
+- 67 F.2-42
+- 67 F.3-40
+  - F.1-3
+- 60 F.2-43
+- 59 F.3-41
+  - F.1-4
+- 60 F.2-44
+- 66 F.3-42
+  - F.2-45
+- 59 F.3-43
+  - F.2-46
+- 59 F.3-44
+  - F.3-45
+  - F.2-1
+- 63 Section F.3
+  - F.3-46
+  - F.2-2
+  - F.3-47
+  - F.2-3
+- 65 F.3-1
+- 60 F.3-48
+  - F.2-4
+  - F.3-49
+  - F.2-5
+- 60 F.3-3
+- 63 F.3-50
+  - F.2-6
+- 60 F.3-4
+- 53 F.3-51
+  - F.2-7
+- 60 F.3-5
+- 53 F.3-52
+  - F.2-8
+- 60 F.3-6
+- 53 F.3-53
+  - F.2-9
+- 61 F.3-7
+- 57 F.3-54
+  - F.2-10
+- 65 F.3-8
+- 62 F.3-55
+  - F.2-11
+- 65 F.3-9
+- 62 F.3-56
+  - F.2-12
+- 66 F.3-10
+- 62 F.3-57
+  - F.2-13
+- 65 F.3-11
+- 62 F.3-58
+  - F.2-14
+- 65 F.3-12
+- 62 F.3-59
+  - F.2-15
+- 65 F.3-13
+- 62 F.3-60
+  - F.2-16
+- 66 F.3-14
+- 62 F.3-61
+  - F.2-17
+- 65 F.3-15
+- 62 F.3-62
+  - F.2-18
+- 65 F.3-16
+- 64 F.3-63
+  - F.2-19
+- 65 F.3-17
+- 62 F.3-64
+  - F.2-20
+- 66 F.3-18
+- 62 F.3-65
+  - F.2-21
+- 67 F.3-19
+- 62 F.3-66
+  - F.2-22
+- 58 F.3-20
+- 62 F.3-67
+  - F.2-23
+- 58 F.3-21
+- 62 F.3-68
+  - F.2-24
+- 58 F.3-22
+- 62 F.3-69
+  - F.2-25
+- 60 F.3-23
+- 67 F.3-70
+  - F.2-26
+- 59 F.3-24
+- 62 F.3-71
+  - F.2-27
+- 58 F.3-25
+- 62 F.3-72
+  - F.2-28
+- 58 F.3-26
+- 62 F.3-73
+  - F.2-29
+- 58 F.3-27
+- 62 F.3-74
+  - F.2-30
+- 58 F.3-28
+- 62 F.3-75
+  - F.2-31
+- 64 F.3-29
+- 62 F.3-76
+  - F.2-32
+- 62 F.3-30
+- 62 F.3-77
+  - F.2-33
+- 58 F.3-31
+- 62 F.3-78
+  - F.2-34
+- 67 F.3-32
+- 62 F.3-79
+  - F.2-35
+- 59 F.3-33
+- 65 F.3-80
+  - F.2-36
+- 59 F.3-34
+  - LEP-45
+  - F.4-46
+- 57 F.4-92
+  - F.4-47
+- 57 F.4-93
+  - F.4-1
+- 61 F.4-48
+- 57 F.4-94
+  - F.4-2
+- 54 F.4-49
+- 66 F.4-95
+  - F.4-3
+- 60 F.4-50
+- 57 F.4-96
+  - F.4-4
+- 60 F.4-51
+- 57 F.4-97
+  - F.4-5
+- 63 F.4-52
+- 66 F.4-98
+  - F.4-6
+- 64 F.4-53
+- 57 F.4-99
+  - F.4-7
+- 66 F.4-54
+- 63 F.4-100
+  - F.4-8
+- 66 F.4-55
+- 63 F.4-101
+  - F.4-9
+- 66 F.4-56
+- 57 F.4-102
+  - F.4-10
+- 66 F.4-57
+- 66 F.4-103
+  - F.4-11
+- 60 F.4-58
+- 66 F.4-104
+  - F.4-12
+- 63 F.4-59
+- 63 F.4-105
+  - F.4-13
+- 60 F.4-60
+- 64 F.4-106
+  - F.4-61
+- 64 F.4-107
+  - F.4-15
+- 62 F.4-62
+- 60 F.4-108
+  - F.4-16
+- 66 F.4-63
+- 63 F.4-109
+  - F.4-17
+- 62 F.4-63a
+- 63 F.4-110
+  - F.4-18
+- 62 F.4-64
+- 57 F.4-111
+  - F.4-19
+- 60 F.4-65
+- 57 F.4-112
+  - F.4-20
+- 64 F.4-66
+- 57 F.4-113
+  - F.4-21
+- 61 F.4-67
+- 57 F.4-114
+  - F.4-22
+- 61 F.4-68
+- 58 F.4-115
+  - F.4-23
+- 62 F.4-69
+- 63 F.4-116
+  - F.4-24
+- 61 F.4-70
+- 57 F.4-117
+  - F.4-25
+- 61 F.4-71
+- 66 F.4-118
+  - F.4-72
+- 57 F.4-119
+  - F.4-27
+- 61 F.4-73
+- 57 F.4-120
+  - F.4-28
+- 66 F.4-74
+- 66 F.4-121
+  - F.4-29
+- 63 F.4-75
+- 57 F.4-122
+  - F.4-30
+- 61 F.4-76
+- 57 F.4-123
+  - F.4-31
+- 65 F.4-77
+- 66 F.4-124
+  - F.4-32
+- 61 F.4-78
+- 57 F.4-125
+  - F.4-33
+- 61 F.4-79
+- 57 F.4-126
+  - F.4-34
+- 66 F.4-80
+- 66 F.4-127
+  - F.4-35
+- 61 F.4-81
+- 57 F.4-128
+  - F.4-36
+- 57 F.4-82
+- 57 F.4-129
+  - F.4-37
+- 66 F.4-83
+- 66 F.4-130
+  - F.4-38
+- 57 F.4-84
+- 57 F.4-131
+  - F.4-39
+- 57 F.4-85
+- 63 F.4-132
+  - F.4-40
+- 66 F.4-86
+- 57 F.4-133
+  - F.4-41
+- 57 F.4-87
+- 58 F.4-134
+  - F.4-42
+- 57 F.4-88
+- 57 F.4-135
+  - F.4-43
+- 57 F.4-89
+- 63 F.4-136
+- 57 F.4-137
+  - F.4-44
+- 57 F.4-90
+- 57 F.4-138
+  - F.4-45
+- 57 F.4-91
+  - LEP-46
+  - F.4-139
+- 62 F.4-186
+- 57 F.7-6
+  - F.4-140
+- 57 F.4-187
+- 58 F.7-7
+  - F.4-141
+- 65 F.4-188
+- 57 F.7-8
+  - F.4-142
+- 57 F.4-189
+- 57 F.7-9
+  - F.4-143
+- 57 F.4-190
+- 58 F.7-10
+  - F.4-144
+- 66 F.4-191
+- 57 F.7-11
+  - F.4-145
+  - F.4-146
+- 66 Section F.5
+  - F.4-147
+  - F.4-148
+- 57 F.5-1
+  - F.4-149
+  - F.4-150
+- 65 Section F.6
+  - F.4-151
+  - F.4-152
+- 58 F.6-1
+  - F.4-153
+- 57 F.6-2
+  - F.4-154
+  - F.4-155
+- 58 F.6 Figures
+  - F.4-156
+  - F.4-157
+- 65 F.6-1
+  - F.4-158
+- 57 F.6-2
+  - F.4-159
+- 57 F.6-3
+  - F.4-160
+- 65 F.6-4
+  - F.4-161
+- 66 F.6-5
+  - F.4-162
+- 58 F.6-6
+  - F.4-163
+- 65 F.6-7
+  - F.4-164
+- 57 F.6-8
+  - F.4-165
+- 58 F.6-9
+  - F.4-166
+- 65 F.6-10
+  - F.4-167
+- 58 F.6-11
+  - F.4-168
+- 66 F.6-12
+  - F.4-169
+- 58 F.6-13
+  - F.4-170
+- 60 F.6-14
+  - F.4-171
+- 57 F.6-15
+  - F.4-172
+- 57 F.6-16
+  - F.4-173
+- 57 F.6-17
+  - F.4-174
+- 64 F.6-18
+  - F.4-175
+- 60 F.6-19
+  - F.4-176
+- 66 F.6-20
+  - F.4-177
+- 60 F.6-21
+  - F.4-178
+  - F.4-179
+- 66 Section F.7
+  - F.4-180
+  - F.4-181
+- 58 F.7-1
+  - F.4-182
+- 58 F.7-2
+  - F.4-183
+- 57 F.7-3
+  - F.4-184
+- 57 F.7-4
+  - F.4-185
+- 58 F.7-5
+  - LEP-47
+
+### 01.0 Chapter Front Matter  
+`chapters/01.0_Chapter_Front_Matter.md` — source pp. 1–9
+
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- TABLE OF CONTENTS
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- TABLE OF CONTENTS
+- **1.2.2.5.14** Standby Service Water and High-Pressure Core Spray Service
+- **1.2.2.5.22** Main Steam Line Isolation Valve Leakage Control System
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- TABLE OF CONTENTS
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- **1.4.2** ENGINEER AND CONSTRUCTION MANAGEMENT -
+- **1.4.3** NUCLEAR STEAM SYSTEM SUPPLIER - GENERAL ELECTRIC
+- **1.4.4** TURBINE GENERATOR SUPPLIER - WESTINGHOUSE ELECTRIC
+- **1.4.6.3** Wright - Schuchart - Harbor/Boecon (Boeing Construction)
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- **1.8.2** NUCLEAR STEAM SUPPLY SYSTEM SCOPE OF SUPPLY
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- LIST OF TABLES
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- LIST OF FIGURES
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+
+### 1.1 INTRODUCTION  
+`chapters/1.1_INTRODUCTION.md` — source pp. 10–10
+
+- INTRODUCTION AND GENERAL DESCRIPTION OF PLANT
+- **1.1** INTRODUCTION
+  - WNP-2.
+
+### 1.2 GENERAL PLANT DESCRIPTION  
+`chapters/1.2_GENERAL_PLANT_DESCRIPTION.md` — source pp. 11–70
+
+- **1.2** GENERAL PLANT DESCRIPTION
+  - **1.2.1** PRINCIPAL DESIGN CRITERIA
+    - **1.2.1.1** General Design Criteria
+      - **1.2.1.1.1** Power Generation Design Criteria
+      - **1.2.1.1.2** Safety Design Criteria
+    - **1.2.1.2** System Criteria
+      - **1.2.1.2.1** Nuclear System Criteria
+      - **1.2.1.2.2** Power Conversion System Criteria
+      - **1.2.1.2.3** Electrical Power Systems Criteria
+      - **1.2.1.2.4** Radwaste System Criteria
+- 10 CFR 20, 10 CFR 71, and 49 CFR 171 through 10 CFR 179, as appropriate;
+      - **1.2.1.2.5** Auxiliary Systems Criteria
+      - **1.2.1.2.6** Shielding and Access Control Criteria
+      - **1.2.1.2.7** Nuclear Safety Systems and ESF Criteria
+      - **1.2.1.2.8** Process Control Systems Criteria
+    - **1.2.1.3** Plant Design Criteria
+  - **1.2.2** PLANT DESCRIPTION
+    - **1.2.2.1** Site Characteristics
+      - **1.2.2.1.1** Site Location and Size
+      - **1.2.2.1.2** Description of Site Environs
+      - **1.2.2.1.2.1** Site Land. See Section 2.1 for site land description.
+      - **1.2.2.1.2.2** Population. See Section 2.1 for population description.
+      - **1.2.2.1.3** Design Basis Depending on Site Environs
+- 10 CFR Part 20 limits;
+    - **1.2.2.2** General Arrangement of Structures and Equipment
+    - **1.2.2.3** Symbols Used on Engineering Drawings
+    - **1.2.2.4** Nuclear System
+      - **1.2.2.4.1** Reactor Core and Control Rods
+      - **1.2.2.4.2** Reactor Vessel and Internals
+      - **1.2.2.4.3** Reactor Recirculation System
+      - **1.2.2.4.4** Residual Heat Removal System
+      - **1.2.2.4.5** Reactor Water Cleanup System
+      - **1.2.2.4.6** Nuclear Leak Detection System
+    - **1.2.2.5** Nuclear Safety Systems and Engineered Safety Features
+      - **1.2.2.5.1** Reactor Protection System
+      - **1.2.2.5.2** Neutron Monitoring System
+      - **1.2.2.5.3** Control Rod Drive System
+      - **1.2.2.5.4** Control Rod Drive Housing Supports
+      - **1.2.2.5.5** Control Rod Velocity Limiter
+      - **1.2.2.5.6** Pressure Relief System (Nuclear System)
+      - **1.2.2.5.7** Reactor Core Isolation Cooling System
+      - **1.2.2.5.8** Emergency Core Cooling System
+      - **1.2.2.5.9** Primary Containment
+      - **1.2.2.5.10** Primary Containment and Reactor Vessel Isolation System
+      - **1.2.2.5.11** Main Steam Line Isolation Valves
+      - **1.2.2.5.12** Main Steam Line Flow Restrictors
+      - **1.2.2.5.13** Main Steam Line Radiation Monitoring System
+      - **1.2.2.5.14** Standby Service Water and High-Pressure Core Spray Service Water Systems
+      - **1.2.2.5.15** Reactor Building - Secondary Containment
+      - **1.2.2.5.16** Reactor Building Ventilation Exhaust Radiation Monitoring System
+      - **1.2.2.5.17** Standby Gas Treatment System
+      - **1.2.2.5.18** Standby Alternating Current Power Supply System
+      - **1.2.2.5.19** Direct Current Power Supply System
+      - **1.2.2.5.20** Standby Liquid Control System
+      - **1.2.2.5.21** Safe Shutdown from Outside the Main Control Room
+      - **1.2.2.5.22** Main Steam Line Isolation Valve Leakage Control System (Deactivated)
+      - **1.2.2.5.23** Fuel Pool Cooling and Cleanup System
+      - **1.2.2.5.24** Hardened Containment Vent (HCV) System
+    - **1.2.2.6** Power Conversion System
+      - **1.2.2.6.1** Turbine Generator
+      - **1.2.2.6.2** Main Steam System
+      - **1.2.2.6.3** Main Condenser
+      - **1.2.2.6.4** Main Condenser Evacuation System
+      - **1.2.2.6.5** Turbine Gland Seal System
+      - **1.2.2.6.6** Steam Bypass System and Pressure Control System
+      - **1.2.2.6.7** Circulating Water System
+      - **1.2.2.6.8** Condensate and Feedwater System
+      - **1.2.2.6.9** Condensate Filter-Demineralizer System
+    - **1.2.2.7** Electrical Systems, Instrumentation, and Control
+      - **1.2.2.7.1** Electrical Power Systems
+      - **1.2.2.7.2** Electrical Power Systems Process Control and Instrumentation
+      - **1.2.2.7.3** Nuclear System Process Control and Instrumentation
+      - **1.2.2.7.3.1** Reactor Manual Control System. The reactor manual control system (RMCS)
+      - **1.2.2.7.4** Power Conversion Systems Process Control and Instrumentation
+    - **1.2.2.8** Radioactive Waste Systems
+      - **1.2.2.8.1** Liquid Radwaste System
+      - **1.2.2.8.2** Solid Radwaste System
+      - **1.2.2.8.3** Gaseous Radwaste System
+    - **1.2.2.9** Radiation Monitoring and Control
+      - **1.2.2.9.1** Process Radiation Monitoring
+      - **1.2.2.9.2** Area Radiation Monitors
+      - **1.2.2.9.3** Site Radiological Environmental Monitoring
+      - **1.2.2.9.4** Liquid Radwaste System Control
+      - **1.2.2.9.5** Solid Radwaste System Control
+      - **1.2.2.9.6** Gaseous Radwaste System Control
+    - **1.2.2.10** Shielding
+    - **1.2.2.11** Fuel Handling and Storage Systems
+      - **1.2.2.11.1** New and Spent Fuel Storage
+      - **1.2.2.11.2** Fuel Handling System
+      - **1.2.2.11.3** Fuel Pool Cooling and Cleanup System
+    - **1.2.2.12** Cooling Water and Auxiliary Systems
+      - **1.2.2.12.1** Reactor Building Closed Cooling Water System
+      - **1.2.2.12.2** Plant Service Water System
+      - **1.2.2.12.3** Ultimate Heat Sink
+      - **1.2.2.12.4** Demineralized Water Makeup System
+      - **1.2.2.12.5** Potable Water and Sanitary Drain Systems
+      - **1.2.2.12.6** Process Sampling Systems
+      - **1.2.2.12.7** Condensate Supply System
+      - **1.2.2.12.8** Equipment and Floor Drainage Systems
+      - **1.2.2.12.9** Compressed Air Systems
+      - **1.2.2.12.10** Heating, Ventilating, and Air Conditioning Systems
+      - **1.2.2.12.11** Fire Protection System
+      - **1.2.2.12.12** Communications Systems
+      - **1.2.2.12.13** Lighting Systems
+      - **1.2.2.12.14** Normal Auxiliary Alternating Current Power System
+      - **1.2.2.12.15** Diesel Generator Fuel-Oil Storage and Transfer System
+      - **1.2.2.12.16** Auxiliary Steam System
+  - **1.2.3** COMPLIANCE WITH NRC REGULATORY GUIDES
+- 10 CFR series
+- 10 CFR 20
+- 10 CFR 50
+- 10 CFR 50, Appendix A General Design Criteria for Nuclear Power Plant Construction
+- 10 CFR 50, Appendix B Quality Assurance Criteria
+- 10 CFR 50, Appendix I Numerical Guides for Design Objectives and Limiting
+- 10 CFR 100
+  - IEEE-279
+  - IEEE-308
+  - ASME B&PV
+  - IN-817
+  - ANSI-B31.1.0
+  - I 11 I 10 2
+  - OPERATORS
+  - MISC. SYMBOLS MISC. SYMBOLS ELECTRICAL SYMBOLS HVAC SYMBOLS
+  - NOTES
+  - ~ ----c><J---
+  - REMOTE PANEL OR
+  - RACKMOUNTEO
+  - D - -
+  - TOASINPUT
+  - COUBINEDBLEECERCHECK
+  - IINDSTOP(ISOLATIONCHECK)
+  - METUINGORIFICEPLATE
+  - REVERSE CURRENT CHECK
+  - SEIMCEISOEFINEO)
+  - PLUG OR BALL
+  - PLUGDRBALL
+  - PIPING SPOOL PIECE
+  - SOLENOID
+  - NEEDLE(NORMALLYCLOSED)
+  - FLOW METER (POSITIVE DISPLACEMENT)
+  - MUFFLER(EXHAUSTSILENCER)
+  - SAUNOER'STYPE(WEIR)
+  - IN LINE FLOW INOICATOR, ELEMEW, ETC. G
+  - PIPING AND SYSTEM CODE GROUPS ANGLE(NCIRMALLYCLOSED)
+  - WJTHASSOCIATEDEOUIPWENT(UON)
+  - ANSIB31.1COOEFORPRESSUREPIPING.
+  - NSSSENGINEEREDINSTRUI.IENTS.
+  - HOT WATER) -------- FLOW DIRECTION ARROW
+  - REDUCER (OR INCREASER)
+  - QUALITY ASSURANCE CLASSES
+  - SOLENOID VALVE WITH
+  - SEISMIC REQUIRMENTS
+  - VANEAXIAI.ORTUBEAXIALFAN
+  - FLEXIBLE CONNECTION
+  - LOGIC DIAGRAM SYMBOLS ----11--
+  - VANWIAI. FANWITHAIJTOMATICVARIABLE MISC. ABBREVIATIONS
+  - P1TCHBLAOESORINLETVANES
+  - OUTDOORS ON SITE --e-
+  - INCLINED DROP IN
+  - RESPECT TO AIR FLOW
+  - FAILASIS
+  - REACTORBUILOING
+  - SERVICE BUILDING
+  - TURBINE GENERATOR BUILDING
+  - RADWASTE/CONTROLBUILDING
+  - INCLINED RISE IN
+  - LINES
+  - -a-
+  - THROTTLED -1-
+  - MISC. EQUIPMENT LEGEND
+  - FIRE HYDRANT
+  - SQUARE ELBOW WITH TURNING VANE
+  - DELUGE
+  - SELECTOR SWITCH
+  - SUPPLY DUCT
+  - LINES (HVAC)
+  - TANKFIU.CONNECTION
+  - HVAC EQUIPMENT LEGEND CLOSES ON AIR FAILURE
+  - DOUBLE CHECK
+  - CG CEILING GRIU.E (HORIZONTAL WITH OR WITHOUT CEILING)
+  - CR CEILING REGISTER (HORIZONTAL WITH OR WITHOUT CEILING)
+  - OC DIJSTCOU.ECTOR
+  - PORTABLE FILTER
+  - SPLITTERD,IJ,IPER
+  - FSAR FIG.
+- **950021.44** I I 1.2-28.2
+
+### 1.3 COMPARISON TABLES  
+`chapters/1.3_COMPARISON_TABLES.md` — source pp. 71–95
+
+- **1.3** COMPARISON TABLES
+  - **1.3.1** COMPARISONS WITH SIMILAR FACILITY DESIGNS
+    - **1.3.1.1** Nuclear Steam Supply System Design Characteristics
+    - **1.3.1.2** Power Conversion System Design Characteristics
+    - **1.3.1.3** Engineered Safety Features Design Characteristics
+    - **1.3.1.4** Containment Design Characteristics
+    - **1.3.1.5** Radioactive Waste Management Systems Design Characteristics
+    - **1.3.1.6** Structural Design Characteristics
+    - **1.3.1.7** Electrical Power Systems Design Characteristics
+  - **1.3.2** COMPARISON OF FINAL AND PRELIMINARY INFORMATION
+  - BWR 5 BWR 4 BWR 5
+  - BWR 5 BWR 4 BWR 5
+  - BWR 5 BWR 4 BWR 5
+  - UO2 UO2 UO2
+  - BWR 5 BWR 4 BWR 5
+  - BWR 5 BWR 4 BWR 5
+  - BWR 5 BWR 4 BWR 5
+  - BWR 5 BWR 4 BWR 5
+  - CGS HATCH I ZIMMER
+  - BWR 5 BWR 4 BWR 5
+  - CGS HATCH I ZIMMER
+  - BWR 5 BWR 4 BWR 5
+  - HATCH 1 ZIMMER
+  - BWR 5 BWR 4 BWR 5
+  - CGS HATCH 1 ZIMMER
+  - BWR 5 BWR 4 BWR 5
+  - CGS HATCH 1 ZIMMER
+  - BWR 5 BWR 4 BWR 5
+  - CGS HATCH 1 ZIMMER
+  - BWR 5 BWR 4 BWR 5
+  - BWR 5 BWR 4 BWR 5
+  - IEEE-279.
+
+### 1.4 IDENTIFICATION OF AGENTS AND CONTRACTORS  
+`chapters/1.4_IDENTIFICATION_OF_AGENTS_AND_CONTRACTORS.md` — source pp. 96–101
+
+- **1.4** IDENTIFICATION OF AGENTS AND CONTRACTORS
+  - **1.4.1** APPLICANT/OPERATOR
+- **1.4.2** ENGINEER AND CONSTRUCTION MANAGEMENT - BURNS & ROE, INC.
+  - **1.4.3** NUCLEAR STEAM SYSTEM SUPPLIER - GENERAL ELECTRIC COMPANY
+- **1.4.4** TURBINE GENERATOR SUPPLIER - WESTINGHOUSE ELECTRIC CORP.
+  - **1.4.5** SYSTEM COMPLETION CONTRACTOR - BECHTEL
+  - **1.4.6** MAJOR CONTRACTORS
+    - **1.4.6.1** Fischbach/Lord
+    - **1.4.6.2** Pittsburgh-Des Moines Steel Company
+    - **1.4.6.3** Wright-Schuchart- Harbor/Boecon (Boeing Construction)/General Energy
+    - **1.4.6.4** Bechtel
+    - **1.4.6.5** Deleted
+    - **1.4.6.6** Westinghouse Electric
+  - **1.4.7** CONSULTING ENGINEER - R. W. BECK AND ASSOCIATES
+  - JCP&L
+  - BKW KKM
+  - PSE&G
+  - PSE&G
+  - CCDPP
+  - NUSCO
+
+### 1.5 REQUIREMENTS FOR FURTHER TECHNICAL INFORMATION  
+`chapters/1.5_REQUIREMENTS_FOR_FURTHER_TECHNICAL_INFORMATION.md` — source pp. 102–112
+
+- **1.5** REQUIREMENTS FOR FURTHER TECHNICAL INFORMATION
+  - **1.5.1** GENERIC ISSUES
+  - NUREG-0737.
+    - **1.5.1.1** Unresolved Safety Issues
+      - **1.5.1.1.1** Unresolved Safety Issues Introduction
+      - **1.5.1.1.2** Implementation of Specific Unresolved Safety Issues
+      - **1.5.1.1.3** Unresolved Safety Issues Implementation Summary
+    - **1.5.1.2** Generic Safety Issues
+      - **1.5.1.2.1** Generic Safety Issues Introduction
+      - **1.5.1.2.2** Implementation of Specific Generic Safety Issues
+      - **1.5.1.2.3** Generic Safety Issues Implementation Summary
+    - **1.5.1.3** TMI Task Action Plans
+  - **1.5.2** REFERENCES
+
+### 1.6 MATERIAL INCORPORATED BY REFERENCE  
+`chapters/1.6_MATERIAL_INCORPORATED_BY_REFERENCE.md` — source pp. 113–125
+
+- **1.6** MATERIAL INCORPORATED BY REFERENCE
+  - LDCN-10-004,15-011
+  - F.3, F.7
+  - NEDO-10602
+- **3.9** Testing of Improved Jet Pump for the BWR/6 Nuclear System (June 1972)
+  - GO2-80-172,
+
+### 1.7 ACRONYMS  
+`chapters/1.7_ACRONYMS.md` — source pp. 126–138
+
+- **1.7** ACRONYMS
+  - LDCN-09-035, 12-020
+
+### 1.8 CONFORMANCE TO NRC REGULATORY GUIDES  
+`chapters/1.8_CONFORMANCE_TO_NRC_REGULATORY_GUIDES.md` — source pp. 139–348
+
+- **1.8** CONFORMANCE TO NRC REGULATORY GUIDES
+  - **1.8.1** INTRODUCTION
+  - **1.8.2** NUCLEAR STEAM SUPPLY SYSTEM SCOPE OF SUPPLY EVALUATION
+  - LDCN-05-009, 06-014
+  - LDCN-04-050, 05-055
+  - IEEE 308-1971.
+  - LPCI (RHR)
+    - **7.3.2.1.3** Primary containment and reactor vessel isolation 7.3.2.1.3 control system (PCRVICS)
+  - ASME NB-3223 NB-3224 NB-3225 NB-3654 NB-3655 NB-3656 NB-3223 NB-3224 NB-3225
+  - NB-3525 NB-3526 NB-3527
+  - NB-3525 NB-3526 NB-3527
+- **1.0** Pr 1.0 Pr 1.0 Pr
+- **1.1** Pr 1.2 Pr 1.5 Pr
+  - COMPARISON WITH REGULATORY GUIDE 1.48
+  - EPC EPC
+  - EPC EPC
+  - NB-3224
+  - NB-3223 NB-3224 NB-3225 NB-3654 NB-3655 NB-3656 NB-3224 NB-3225
+- **1.0** Pr 1.1 Pr 1.2 Pr 1.5 Pr 1.0 Pr 1.0 Pr
+  - U E F U E F U E F U E F U E F U E F U E F
+  - EPC EPC EPC EPC
+  - EPC EPC EPC
+  - U E F U E F U E F U E F U E F U E F U E F
+  - NOTES
+  - NEDO-10899.
+  - RCPB.
+  - FSAR.
+  - DBA (LOCA).
+- **4.1** Required Separation
+- **4.2** Equipment and Circuits Requiring Separation
+- **4.3** Methods of Separation
+- **4.4** Compatibility with Mechanical Systems
+- **4.5** Associated Circuits
+- **4.6** Non-Class 1E Circuits
+  - **4.6.1** Separation from Class 1E Circuits
+  - **4.6.2** Separation from Associated Circuits
+- **5.1** Cables and Raceways
+- **5.2** Standby Power Supply
+- **5.3** DC System
+- **5.4** Distribution System
+- **5.5** Containment Electrical Penetrations
+- **5.6** Control Switch Boards
+  - **5.6.1** Location and Arrangement†
+  - **5.6.2** Internal Separation
+  - **5.6.3** Internal Wiring Identification
+  - **5.6.4** Common Terminations
+  - **5.6.5** Non-Class 1E Wiring
+  - **5.6.6** Cable Entrance
+- **5.7** Instrumentation Cabinets
+- **5.8** Sensors and Sensor to Process Connections
+- **5.9** Actuated Equipment
+  - **1.8.3** BALANCE OF PLANT SCOPE OF SUPPLY EVALUATION
+  - IEEE 334-1974.
+- **2.1** In compliance In compliance
+  - ANSI N509-1976)
+  - ASTM D3803-1989.
+  - LDCN-05-009, 07-025
+  - DELETED.
+
+### 02.0 Chapter Front Matter  
+`chapters/02.0_Chapter_Front_Matter.md` — source pp. 1–14
+
+- SITE CHARACTERISTICS
+- TABLE OF CONTENTS
+- **2.2** NEARBY INDUSTRIAL, TRANSPORTATION, AND MILITARY
+    - SITE CHARACTERISTICS
+        - **2.3.1.2.1.5.1** Evaluation of August 11, 1955 and January 11, 1972 Dust
+        - **2.3.1.2.1.5.2** Hanford Dust Storm Climatology for Design and Operating Bases ... 2.3-13
+    - **2.3.3.1** Permanent Onsite Meteorological Tower and Instrumentation
+    - **2.3.3.3** Other Meteorological Measurement Programs Considered for the Data
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+  - **2.4.12** DISPERSION, DILUTION, AND TRAVEL TIMES OF ACCIDENTAL
+  - **2.4.14** TECHNICAL SPECIFICATIONS AND EMERGENCY OPERATION
+    - SITE CHARACTERISTICS
+    - LIST OF TABLES
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+    - LIST OF FIGURES
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+    - SITE CHARACTERISTICS
+
+### 2.1 GEOGRAPHY AND DEMOGRAPHY  
+`chapters/2.1_GEOGRAPHY_AND_DEMOGRAPHY.md` — source pp. 15–31
+
+- SITE CHARACTERISTICS
+- **2.1** GEOGRAPHY AND DEMOGRAPHY
+  - **2.1.1** SITE LOCATION AND DESCRIPTION
+    - **2.1.1.1** Specification of Location
+    - **2.1.1.2** Site Area Map
+    - **2.1.1.3** Boundaries for Establishing Effluent Release Limits
+- 10 CFR Part 20) is the site area boundary as shown in the ODCM, Figure 3-1. The site area
+  - **2.1.2** EXCLUSION AREA AUTHORITY AND CONTROL
+    - **2.1.2.1** Authority
+    - **2.1.2.2** Control of Activities Unrelated to Plant Operation
+      - **2.1.2.2.1** Industrial Development Complex
+    - **2.1.2.3** Arrangements for Traffic Control
+    - **2.1.2.4** Abandonment or Relocation of Roads
+  - **2.1.3** POPULATION DISTRIBUTION
+    - **2.1.3.1** Population Within Ten Miles
+    - **2.1.3.2** Population Between Ten and Fifty Miles
+    - **2.1.3.3** Transient Population
+    - **2.1.3.4** Low Population Zone
+    - **2.1.3.5** Population Center
+    - **2.1.3.6** Population Density
+  - **2.1.4** REFERENCES
+  - WSW-NNW
+  - SSE-NNW
+  - N-NNE
+  - WSW WNW NNW
+  - ENE NNE ENE SSW NNE ENE SSW ESE ESE SSE ESE SSE
+  - NW SW SW
+  - NE SE
+  - W N N
+  - E S E S E
+  - WNW NNW
+  - WSW WNW NNW WSW
+  - NNE ENE
+  - NNE ENE SSW
+  - NNE ENE SSW
+  - ESE SSE NW
+  - ESE SSE NW
+  - SW NE
+  - NE SE
+  - W N N N
+  - W E E S E S
+  - WNW WSW NNW
+  - SSW SSE
+  - NW SW
+  - NW - W TOTAL
+  - TOTAL
+  - WNW WSW NNW WSW NNW
+  - NNE ENE SSW
+  - NNE ENE SSW
+  - ESE SSE
+  - ESE SSE
+  - NW SW SW
+  - NE SE SE
+  - N E S S
+  - WSW-NW
+  - TOTAL
+  - TOTAL
+  - WNW NNW WSW NNW
+  - NNE ENE SSW
+  - NNE ENE SSW
+  - ESE SSE SSE
+  - NW SW SW NE NE SE SE W N E
+  - N E S S
+  - SSE-NNW
+  - SE-NNW
+  - TOTAL
+  - TOTAL
+  - WNW WSW NNW
+  - NNE ENE SSW
+  - ALL NNE ENE NNE ENE
+  - ESE SSE
+  - ESE ESE NW SW NE NE SE W SE E
+  - E N E S
+  - LDCN-14-009, 13-067
+  - BENTON CO
+- 24 Spring Benson
+  - SADDLE MOUNTAIN
+  - H A N F O R D R E S E R V A T I O N
+  - CABLE BUTTE
+  - GRANT CO
+  - YAKIMA RIVER
+  - RED MOUNTAIN
+  - UNION PACIFIC
+  - BURLINGTON
+- 20 MILES
+- 10 MILES Horn Rapids Rd. Badger
+  - BADGER MOUNTAIN
+  - RINGOLD FLAT
+- 12 Gravel
+  - P A R A D I S E F L A T S ESQUATZEL COULEE
+  - FRANKLIN CO UNION PACIFIC
+  - SNAKE RIVER
+  - RYE GRASS COULEE
+  - SMITH CANYON
+  - MCNARY NATIONAL WILDLIFE REFUGE WALLA
+  - TRAINING SURVIVAL
+  - I Final Safety Analysis Report Columbia Generating Station AREA
+  - LEGEND
+- 10 General Area, 0 - 20 Miles
+- 30 Kilometers
+- **1.2** May 2001
+- 20 Statute Miles
+  - TOPPENISH NWR
+  - CANYON WNW
+  - HEMBRE MTN
+  - HILLS
+  - BADGER POCKET
+  - BIG HORN CANYON
+  - MOXEE VALLEY
+  - BOYLSTON MOUNTAINS JOHNSON CANYON WHISKEY DICK WOOD GULCH
+  - R A T T L E S N A K E H I L L S Y A K I M A R I D G E
+  - U M T A N U M R I D G E
+  - C E N T E R F I R I N G Y A K I M A
+  - SCALE
+  - TOPPENISH SNIPES MOUNTAIN
+  - SAND RIDGE
+  - MIDDLE CANYON NWR
+  - ROCKY COULEE DOUTY CANYON
+  - CORRAL CANYON ALKALI CANYON SADDLE MOUNTAINS
+- 12 Cem
+- 82 Pumping Station
+  - SOURDOUGH CANYON
+  - DEAD CANYON
+- 14 GOLGOTHA BUTTE
+  - HORSE HEAVEN HILLS GRANDVIEW
+- 90 Mabton Siphon Lake 570 Desert CNWR
+- 20 Statute Miles
+  - F R E N C H M A N H I L L S
+  - BURLINGTON
+- 10 Roza Canal
+- 90 Moore Canyon
+  - NATIONAL WILDLIFE REFUGE
+- 24 BOMBING BOARDMAN Mattawa Tank Water CNWR
+  - RANGE LAKE UMATILLA
+  - MORROW CO
+  - FINLEY BUTTES
+  - CABLE BUTTE
+  - WAHATIS CNWR 1150
+  - UNION PACIFIC
+  - UMATILLA ORDNANCE
+  - HIAWATHA VALLEY
+  - RED MOUNTAIN
+  - UNION PACIFIC 224
+  - FOURMILE CANYON
+  - SAND HILLS
+  - BUTTE WARD
+  - BURLINGTON
+  - Horn Rapids Rd. SITE
+  - HERMISTON BUTTE
+  - NORTHERN BADGER MOUNTAIN
+- 82 Big Well
+  - HERMISTON BUTTE
+- 82 Richland
+  - RINGOLD FLAT
+  - STATE PARK
+  - L A K E W A L L U L A
+  - FOURMILE GAP
+  - LIND COULEE
+- 30 UNION PACIFIC
+  - NORTHERN PACIFIC 395
+  - DESPAIN GULCH 50 Miles Switzler Canyon Nine Canyon Pasco
+  - COLD SPRINGS CANYON
+  - JUNIPER CANYON
+  - L A K E W A L L U L A
+- 12 Substa Pipeline
+  - BURLINGTON NORTHERN
+  - R SSE Y 20 MI
+  - NORTHERN PACIFIC WT E
+  - SMITH CANYON 395 G
+  - SOUTH FORK COLD SPRINGS CANYON
+  - STAGE GULCH MIDDLE FORK COLD SPRINGS CANYON
+  - JUNIPER FOREST E
+  - Connell NORTH FORK JUNIPER CANYON 60 Miles
+  - COULEE
+  - PAHA COULEE
+- 90 Clyde 1521 1800 Ritzville
+- 50 MI Bowlus Grain elevator WALLA WALLA Badger Hollow Farm Ranch RECREATION AREA
+  - PALOUSE FALLS
+  - SPRING VALLEY
+- **990306.60** General Area, 0 - 50 Miles Rev.
+  - CABLE MOUNTAIN
+  - CABLE BUTTE
+  - BENTON CO
+  - RATTLESNAKE
+  - HILLS
+  - YAKIMA RIVER
+- 10 MILES
+  - UNION PACIFIC
+  - BADGER MOUNTAIN
+  - WT 20 MILES
+  - NORTHERN
+  - TOPPENISH NWR
+- 12 Cem CANYON
+  - HEMBRE MTN
+  - HILLS H O R S E H E A V E N H I L L S
+  - NORTHERN
+  - SPRING GULCH 0
+  - BIG HORN CANYON
+  - MOXEE VALLEY
+  - BOYLSTON MOUNTAINS JOHNSON CANYON WOOD GULCH WHISKEY DICK
+  - R A T T L E S N A K E H I L L S
+- 5 Ranch
+  - KLICKITAT CO
+  - STEGEMAN CANYON
+  - Y A K I M A
+  - SCALE
+  - TOPPENISH SNIPES MOUNTAIN
+  - SAND RIDGE
+  - MIDDLE CANYON
+  - BURLINGTON
+- 10 Ranch
+  - SADDLE MOUNTAINS
+- 12 Ranch
+  - VALLEY
+  - GRANDVIEW
+- 14 GOLGOTHA BUTTE
+  - HORSE HEAVEN HILLS BUTTE
+- 20 Statute Miles
+  - BURLINGTON
+- 10 Roza Canal
+  - CNWR CNWR IMPACT AREA LARSON AFB
+- 90 Moore Canyon
+  - NATIONAL WILDLIFE REFUGE
+  - UMATILLA NATIONAL WILDLIFE REFUGE
+  - BOARDMAN
+  - LAKE UMATILLA
+  - ELECTRIFIED
+  - BENTON CO
+  - I I' I
+  - PATERSON
+  - FINLEY BUTTES
+  - WAHATIS CNWR 1150
+  - UNION PACIFIC
+  - YAKIMA RIVER
+  - RED MOUNTAIN
+  - UNION PACIFIC 224
+  - FOURMILE CANYON BING CANYON
+  - BURLINGTON
+- 82 Big Well Gravel Young NORTHERN BADGER MOUNTAIN
+  - HERMISTON BUTTE 207
+- 82 Richland 391
+- 32 McNary Dam
+  - STATE PARK
+- 84 FOURMILE GAP L A K E W A L L U L A
+  - STAGE GULCH 37
+  - P A R A D I S E F L A T S
+  - BURLINGTON
+  - ESQUATZEL COULEE
+  - JUNIPER CANYON
+  - FRANKLIN CO
+  - UNION PACIFIC
+  - BURLINGTON NORTHERN
+  - NORTHERN PACIFIC WT E
+  - WILDLIFE REFUGE MCNARY NATIONAL
+  - SOUTH FORK COLD SPRINGS CANYON
+  - O STAGE GULCH MIDDLE FORK COLD SPRINGS CANYON NORTH FORK COLD SPRINGS CANYON WASHINGTON 12 U
+  - JUNIPER FOREST L E
+  - DUNNIGAN 260 37 925
+- 10 Slater Tank Water
+  - BOWERS COULEE
+  - BURLINGTON NORTHERN
+  - WARM SPRINGS CANYON
+- 21 Gardena BURLINGTON NORTHERN
+  - R A T T L E S N A K E F L A T
+- 40 MI Lamar
+- 90 Ritzville
+  - RECREATION AREA SPRING VALLEY PALOUSE FALLS
+
+### 2.2 Nearby Industrial, Transportation, And Military Facilities  
+`chapters/2.2_Nearby_Industrial_Transportation_And_Military_Facilitie.md` — source pp. 32–50
+
+- **2.2** NEARBY INDUSTRIAL, TRANSPORTATION, AND MILITARY FACILITIES
+  - **2.2.1** LOCATION AND ROUTES
+  - LDCN-01-055, 03-023
+  - **2.2.2** DESCRIPTIONS
+    - **2.2.2.1** Description of Facilities
+- 50 Vertical Pipe Units (VPUs), and four caissons. The site was covered with an
+    - **2.2.2.2** Description of Products and Materials
+    - **2.2.2.3** Pipelines
+    - **2.2.2.4** Waterways
+    - **2.2.2.5** Airports
+    - **2.2.2.6** Projection of Industrial Growth
+  - **2.2.3** EVALUATION OF POTENTIAL ACCIDENTS
+    - **2.2.3.1** Determination of Design Basis Events
+    - **2.2.3.2** Effects of Design Basis Events
+  - **2.2.4** REFERENCES
+  - WCH-390
+  - WHC-SD-CP-SAR-021
+  - HNF-SD-WM-BIO-00,
+  - HNF-SD-WM-BIO-002
+
+### 2.3 METEOROLOGY  
+`chapters/2.3_METEOROLOGY.md` — source pp. 51–190
+
+- **2.3** METEOROLOGY
+  - **2.3.1** REGIONAL CLIMATOLOGY*
+    - **2.3.1.1** General Climate
+    - **2.3.1.2** Regional Meteorological Conditions for Design and Operating Bases
+      - **2.3.1.2.1** Severe Weather Phenomena
+  - J F M A M J J A S O N D SUM
+  - I I I I I I I I I I I I I I
+      - **2.3.1.2.1.3** Tornadoes
+- **2.0** Class III Region 150
+      - **2.3.1.2.1.5.1** Evaluation of August 11, 1955 and January 11, 1972 Dust Storms at Hanford.
+      - **2.3.1.2.2** Design Snow Load
+      - **2.3.1.2.3** Meteorological Data Used for Evaluation of Ultimate Heat Sink
+  - **2.3.2** LOCAL METEOROLOGY
+    - **2.3.2.1** Data Comparisons
+      - **2.3.2.1.1** Winds
+      - **2.3.2.1.2** Moisture and Temperature
+      - **2.3.2.1.3** Monthly Precipitation
+      - **2.3.2.1.4** Fog
+      - **2.3.2.1.5** Stability Summaries
+  - REGULATORY GUIDE 1.23
+- **2.5** Extremely stable G greater than 4.4 1.7
+  - HANFORD RESERVATION CLASSIFICATION
+    - **2.3.2.2** Potential Influence of the Plant and Its Facilities on Local Meteorology
+    - **2.3.2.3** Local Meteorological Conditions for Design and Operating Bases
+    - **2.3.2.4** Topographic Description
+  - **2.3.3** ONSITE METEOROLOGICAL MEASUREMENT PROGRAM
+    - **2.3.3.1** Permanent Onsite Meteorological Tower and Instrumentation Characteristics
+    - **2.3.3.2** Quality Assurance Program
+      - **2.3.3.2.1** Data Recovery During April 1, 1974 - March 31, 1976
+      - **2.3.3.2.2** Maintenance and Calibration
+      - **2.3.3.2.3** Data Processing and Analysis
+      - **2.3.3.2.4** Meteorological Monitoring Program During Plant Operation
+    - **2.3.3.3** Other Meteorological Measurement Programs Considered for the Data Comparisons
+      - **2.3.3.3.1** CGS Temporary Tower
+      - **2.3.3.3.2** Hanford Meteorological Station
+    - **2.3.3.4** Joint Stability - Wind Frequency Summaries
+  - **2.3.4** SHORT TERM DIFFUSION ESTIMATES
+    - **2.3.4.1** Objective
+    - **2.3.4.2** Exclusion Area Boundary
+    - **2.3.4.3** Low Population Zone
+    - **2.3.4.4** Control Room
+    - **2.3.4.5** Description of Sources
+    - **2.3.4.6** Control Room Intakes
+    - **2.3.4.7** Calculations
+  - **2.3.5** LONG-TERM (ROUTINE) DIFFUSION ESTIMATES
+    - **2.3.5.1** Objectives
+    - **2.3.5.2** Calculations
+  - **2.3.6** REFERENCES
+  - AND YEAR OR SEASON OF OCCURRENCE
+  - EXTREME AVERAGES OR TOTALS
+  - AVERAGE DAILY TOTAL (LANGLEYS)
+  - HIGHEST SPRING (M-A-M) HIGHEST WINTER (D-J-F) HIGHEST SUMMER (J-J-A)
+  - HIGHEST FALL (S-O-N) GREATEST SEASONAL
+  - GREATEST ANNUAL
+  - HIGHEST ANNUAL HIGHEST ANNUAL HIGHEST ANNUAL HIGHEST ANNUAL LOWEST ANNUAL LOWEST WINTER
+  - HIGHEST ANNUAL LOWEST SUMMER
+  - LEAST SEASONAL LOWEST ANNUAL LOWEST ANNUAL LOWEST ANNUAL
+  - LOWEST SPRING
+  - LEAST ANNUAL
+  - LEAST ANNUAL
+  - MONTHLY 23.4 26.0 4.2 1.5 12.7 19.1 26.0
+  - T T 0 0 0 0
+  - DAILY TOTALS
+  - MAX. IN 24 HOURS
+  - MINIMUM MONTHLY T 0 0 0 0 0 0 T 0 T 0
+  - MAXIMUM MONTHLY
+  - HIGHEST MONTHLY 136 238 388 535 634 698 714 613 463 303 180 116 714
+  - MEAN MONTHLY
+  - MONTHLY 116 194 335 469 569 627 650 548 415 262 130 89 367
+  - COOLING 1960-1980 TOTALS
+  - PAGE 1 OF 2
+  - SKY COVER (SCALE 0-10)
+  - LOWEST MONTHLY 4.3 5.9 4.9 3.7 4.5 2.8 0.9 0.6 1.4 3.9 6.2 6.4 0.6
+  - HIGHEST MONTHLY 9.2 9.3 8.5 8.1 7.7 7.0 4.7 5.9 6.7 8.0 9.1 9.2 9.3
+  - LOWEST 13 14 12 9 7 10 6 7 10 10 16 26 6
+  - YEAR 1950 1956 1955 1955 1977 1953 1955 1960 1972 1946 1955 1964 1950
+  - MAXIMUM MONTHLY
+  - DAILY MINIMUM
+  - LOWEST MONTHLY
+  - RECORD LOWEST -23 -23 6 12 23 33 39 40 25 6 -1 -27 -27
+  - RECORD HIGHEST 53 55 54 60 70 81 82 81 72 60 52 56 82
+  - HIGHEST MONTHLY
+  - DAILY MAXIMUM
+  - RECORD LOWEST -2 -3 24 41 49 55 59 63 52 31 14 -3 -3
+  - PEAK GUSTS
+  - WSW YEAR 1971 1924 1960 1934 1912 1939 1961 1933 1975 1980
+  - SSW SSW SSW SSW SSW DIRECTION SW SW SW SW SW SW SW
+  - SPEED 80 65 70 73 71 72 69 66 65 63 64 71 80
+  - RECORD HIGHEST 72 71 83 95 103 110 115 113 102 90 75 69 115
+  - LOWEST MONTHLY
+  - LOWEST MONTHLY 3.1 4.6 5.9 7.4 5.8 7.7 6.8 6.0 5.4 4.4 2.9 3.9 2.9
+  - HIGHEST MONTHLY 10.3 10.8 10.7 11.1 10.5 10.7 9.6 9.1 9.2 9.1 8.2 8.3 11.1
+  - MONTHLY
+  - MEAN MONTHLY SPEEDS 6.4 7.1 8.5 9.0 8.9 9.2 8.7 8.0 7.5 6.6 6.1 6.1 7.7
+  - DAILY MINIMUM
+  - DIRECTION WNW WNW WNW WNW WNW WNW WNW WNW WNW
+  - PREVAILING NW NW NW NW
+  - CLOUDY (9-10 TENTHS SKY COVER, SR TO SS)
+  - CLEAR (0-3 TENTHS SKY COVER, SR TO SS)
+  - GREATEST SEASONAL (1945-80) GREATEST SEASONAL (1946-80) 3 IN. OR MORE SNOW ON GROUND
+  - LEAST SEASONAL (1945-80) LEAST SEASONAL (1946-80) LEAST SEASONAL (1946-80)
+  - LEAST SEASONAL (1912-80) LEAST SEASONAL (1912-80) LEAST SEASONAL (1912-80)
+  - SNOW 1.0 INCH OR MORE
+  - THUNDERSTORMS
+  - YEAR ------ ------ ------ ------ ------ ------ ------ ------ ------ MIN. TEMP 0 OR BELOW
+  - LEAST MONTHLYY 0 0 0 0 0 0 0 0 0 0 0 0 0
+  - MIN. TEMP. 32 OR BELOW YEAR
+- **1.0** INCH OR MORE
+  - LEAST MONTHLY 0 0 0 0 0 0 0 0 0 0 0 0 0
+  - LEAST MONTHLY 14 SNOW
+  - GREATEST MONTHLY 31 28 25 15 12 30 31 31 MEAN MONTHLY 3 0 0 0 4
+  - PRESENT LOCATION. SINCE 1944, OBSERVATIONS HAVE BEEN
+- **0.10** INCH OR MORE
+  - PRECIPITATION LEAST MONTHLY
+  - LOCATION AND HISTORY
+  - PAGE 2 OF 2
+  - GREATEST MONTHLY 8 5 8 5 4 8 3 4 5 8 10 9 10
+  - MEAN MONTHLY 3 2 2 1 2 2 1 1 1 2 3 3 23
+  - GREATEST MONTLY 30 15 2 0 0 0 0 0 0 2 15 19 30
+  - LEAST MONTHLY
+  - MAX. TEMP 100 OR ABOVE YEAR ------ ------ ------ ------ ------ ------ ------ ------ HEAVY FOG
+  - DOE CONTRACTORS.
+  - GREATEST MONTHLY 15 11 5 1 1 1 0 1 1 7 13 17 17
+  - GREATEST MONTHLY 0 0 0 0 1 9 16 16 2 0 0 0 16
+  - YEAR ------ ------ ------
+  - MEAN MONTHLY
+  - THUNDERSTORMS
+  - LEAST MONTHLY 0 0 0 0 0 0 0 0 0 0 0 0 0
+  - YEAR ------ ------ ------ 1963 1948 ------ ------ ------ MAX. TEMP 90 OR ABOVE
+  - LEAST MONTHLY 0 0 0 0 0 0 8 7 0 0 0 0 0
+  - GREATEST MONTHLY 0 1 1 3 7 8 7 8 4 2 0 1 8
+  - LEAST MONTHLY 17 12 9 6 6 5 0 0 1 9 15 17 0
+  - PEAK GUST 40 MPH OR GREATER
+  - LEAST MONTHLY 0 0 0 0 0 0 0 0 0 0 0 0 0
+  - GREATEST MONTHLY 28 26 23 21 19 15 12 13 16 22 25 28 28
+  - NUMBER OF DAYS (1954-1980)
+  - BEGUN UNTIL 1946
+  - MEAN MONTHLY
+  - LEAST MONTHLY 0 0 0 0 0 0 0 0 0 0 0 0 0
+  - CLEAR
+  - GREATEST MONTHLY
+  - GREATEST MONTHLY 23 16 0 0 0 0 0 0 0 0 12 14 23
+- 24 HRS
+- 12 HRS
+- 6 HRS
+- 3 HRS
+- 2 HRS
+  - MIN 60
+  - MIN 20 0.49 0.72
+- 24 HRS
+- 12 HRS
+- 3 HRS
+- 2 HRS
+  - MIN 0.26 0.40 0.50 0.62 0.72 0.81 0.93 1.02 1.11
+  - MIN 0.16 0.24 0.37 0.47 0.53 0.60 0.68 0.73 0.80 20
+  - WNW WSW
+  - NNE ENE
+  - ESE SSE
+  - NW SW
+  - NE SE W E S
+- 24 Hour HMS Meteorological Profile for August 4, 1961
+- 24 Hour Average:
+  - WNW N/A
+  - WNW N/A 7.6 8.5 78.7 80.0 61.5 62.0 50.2 50.1 .09 .32
+  - S WNW
+  - N/A 10.5 66.1 67.3 52.7 54.0 40.8 42.4 NW
+  - WNW WNW
+  - NW N/A
+  - WNW WNW
+  - HMS HMS HMS HMS HMS HMS CGS CGS CGS CGS CGS
+  - N/A 10.1 52.1 52.6 NW 43.4 43.6 34.8 34.8 4.54 5.87
+- **7.8** Cycle 53.5 ('50 – '70) 43.8 ('50 – '70) 33.8 ('50 – '70) 6.53 ('46 – '70) NW ('55 –'70)
+  - N/A NW
+  - SW 9.1 9.6
+  - WNW NNW
+  - SSW NW 10.4 10.8 37.7 37.3 32.9 33.0 25.4 25.5
+  - NW NW
+  - NW NW
+  - NW 6.4
+  - NNW 32.3 32.0 30.0 30.0 26.3 26.0 1.43 NW SW .93 6.4 6.4 '75
+  - NW NW
+  - HMS HMS HMS HMS CGS HMS CGS CGS CGS CGS
+  - APRIL
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 5 8 6 0 0 0 0 19
+  - NE 0 2 15 4 0 0 0 1 22
+  - ENE 0 1 2 0 0 0 0 0 3
+  - E 0 3 3 0 0 0 0 0 6
+  - ESE 0 6 4 1 0 0 0 0 11
+  - SE 0 4 12 6 1 0 0 0 23
+  - SSE 0 4 26 21 0 0 0 3 54
+  - S 0 8 18 19 12 0 0 7 64
+  - SSW 0 4 16 29 30 2 0 13 94
+  - SW 0 4 18 9 15 4 0 6 56
+  - WSW 0 3 10 12 5 3 1 7 41
+  - W 0 3 14 16 17 4 1 8 63
+  - WNW 0 7 19 26 40 21 8 2 123
+  - NW 0 5 23 15 9 11 3 1 67
+  - NNW 0 5 17 5 1 0 0 2 30
+  - N 0 3 14 5 1 0 0 0 23
+  - VAR 0 2 5 0 0 0 0 0 7
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 14 14
+  - TOTAL 0 69 224 176 131 45 13 64 720
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 5 11 0 0 0 0 0 16
+  - NE 0 7 3 3 0 0 0 0 13
+  - ENE 0 1 6 2 0 0 0 0 9
+  - E 0 8 6 0 0 0 0 0 14
+  - ESE 0 6 9 0 0 0 0 0 15
+  - SE 0 1 16 1 0 0 0 0 18
+  - SSE 0 9 38 13 0 0 0 0 60
+  - S 0 10 27 45 10 0 0 0 92
+  - SSW 0 5 30 49 16 4 2 0 106
+  - SW 0 3 15 18 13 3 0 0 52
+  - WSW 0 6 19 30 13 1 0 0 69
+  - W 0 3 23 35 13 5 0 0 79
+  - WNW 0 11 24 34 17 10 0 0 96
+  - NW 0 4 14 10 13 4 2 0 47
+  - NNW 0 3 13 7 0 0 0 0 23
+  - N 0 4 7 1 0 0 0 0 12
+  - VAR 0 7 8 0 0 0 0 0 15
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 8 8
+  - TOTAL 0 93 269 248 95 27 4 8 744
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 5 12 1 0 0 0 0 18
+  - NE 0 7 9 4 0 0 0 1 21
+  - ENE 0 6 16 9 0 0 0 0 31
+  - E 0 3 14 7 0 0 0 0 24
+  - ESE 0 4 16 6 0 0 0 0 26
+  - SE 0 4 23 10 0 0 0 0 37
+  - SSE 0 7 34 11 0 0 0 0 52
+  - S 0 4 20 18 10 2 0 1 55
+  - SSW 0 6 20 12 12 1 0 0 51
+  - SW 0 3 11 6 4 5 0 0 29
+  - WSW 0 3 15 5 3 1 1 0 28
+  - W 0 2 18 14 13 2 3 0 52
+  - WNW 0 2 24 19 10 10 2 0 67
+  - NW 0 3 15 20 8 5 2 0 53
+  - NNW 0 6 17 3 0 0 0 0 26
+  - N 0 6 11 1 0 0 0 0 18
+  - VAR 0 0 4 0 1 0 0 0 5
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 10 38 26 9 0 0 44 127
+  - TOTAL 0 81 317 172 70 26 8 46 720
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 3 13 2 0 0 0 0 18
+  - NE 0 11 12 1 0 0 0 0 24
+  - ENE 0 3 9 6 0 0 0 0 18
+  - E 0 10 14 6 0 0 0 0 30
+  - ESE 0 6 18 1 0 0 0 0 25
+  - SE 0 10 26 4 0 0 0 0 40
+  - SSE 0 3 37 16 1 0 0 0 57
+  - S 0 6 27 32 5 0 0 0 70
+  - SSW 0 9 16 18 9 2 0 0 54
+  - SW 0 7 22 14 6 0 1 0 50
+  - WSW 0 6 12 11 3 1 2 0 35
+  - W 0 7 14 19 9 0 0 0 49
+  - WNW 0 5 18 18 17 5 0 0 63
+  - NW 0 11 18 21 13 4 0 0 67
+  - NNW 0 10 25 4 2 0 0 0 41
+  - N 0 8 22 5 0 0 0 0 35
+  - VAR 0 5 24 3 0 0 0 0 32
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 36 36
+  - TOTAL 0 120 327 181 65 12 3 36 744
+  - AUGUST
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 16 21 11 0 0 0 0 48
+  - NE 0 12 19 6 3 2 0 0 42
+  - ENE 0 9 6 0 0 0 0 0 15
+  - E 0 10 4 4 0 0 0 0 18
+  - ESE 0 12 9 0 0 0 0 0 21
+  - SE 0 6 25 1 0 0 0 0 32
+  - SSE 0 8 39 16 0 0 0 0 63
+  - S 0 7 33 28 4 3 0 0 75
+  - SSW 0 11 24 17 13 1 0 0 66
+  - SW 0 8 16 8 0 1 0 0 33
+  - WSW 0 9 18 1 0 0 0 0 28
+  - W 0 4 13 6 3 0 0 0 26
+  - WNW 0 8 19 13 22 10 1 0 73
+  - NW 0 12 27 12 8 8 0 0 67
+  - NNW 0 4 35 10 0 0 0 0 49
+  - N 0 15 32 10 0 0 0 0 57
+  - VAR 0 12 5 1 0 0 0 0 18
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 13 13
+  - TOTAL 0 163 345 144 53 25 1 13 744
+  - SEPTEMBER
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 19 29 10 11 0 0 0 69
+  - NE 0 21 11 5 2 0 0 0 39
+  - ENE 0 20 20 0 0 0 0 0 40
+  - E 0 17 7 0 0 0 0 0 24
+  - ESE 0 15 11 1 0 0 0 0 27
+  - SE 0 7 11 3 0 0 0 0 21
+  - SSE 0 1 13 7 0 0 0 0 21
+  - S 0 8 22 25 4 0 0 0 59
+  - SSW 0 5 18 11 3 1 0 0 38
+  - SW 0 12 11 3 3 0 0 0 29
+  - WSW 0 8 5 3 1 0 0 0 17
+  - W 0 12 10 10 4 0 0 0 36
+  - WNW 0 9 12 17 12 5 1 0 56
+  - NW 0 9 19 24 8 4 1 0 65
+  - NNW 0 12 29 14 3 0 1 0 59
+  - N 0 15 38 28 12 0 0 0 93
+  - VAR 0 10 8 1 0 0 0 0 19
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 8 8
+  - TOTAL 0 200 274 162 63 10 3 8 720
+  - OCTOBER
+  - SPEED CLASS(MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 26 15 1 0 0 0 0 42
+  - NE 0 26 17 0 0 0 0 0 43
+  - ENE 0 26 22 1 0 0 0 0 49
+  - E 0 20 4 0 0 0 0 0 24
+  - ESE 0 15 2 0 0 0 0 0 17
+  - SE 0 15 19 2 0 0 0 0 36
+  - SSE 0 16 21 8 0 0 0 0 45
+  - S 0 13 25 13 0 0 0 0 51
+  - SSW 0 15 21 6 0 0 0 0 42
+  - SW 0 12 13 1 0 0 0 0 26
+  - WSW 0 15 11 2 0 0 0 0 28
+  - W 0 12 9 10 5 1 0 0 37
+  - WNW 0 21 11 15 11 6 0 0 64
+  - NW 0 17 17 12 7 0 0 0 53
+  - NNW 0 29 20 9 2 0 0 0 60
+  - N 0 37 24 3 0 0 0 0 64
+  - VAR 0 16 4 0 0 0 0 0 20
+  - CALM 1 0 0 0 0 0 0 0 1
+  - UNKNO 0 0 0 0 0 0 0 42 42
+  - TOTAL 1 331 255 83 25 7 0 42 744
+  - NOVEMBER
+  - SPEED CLASS(MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 18 14 4 0 0 0 2 38
+  - NE 0 10 13 2 0 0 0 1 26
+  - ENE 0 13 10 7 0 0 0 1 31
+  - E 0 6 2 0 0 0 0 0 8
+  - ESE 0 12 3 0 0 0 0 0 15
+  - SE 0 14 13 7 0 0 0 0 34
+  - SSE 0 7 28 15 3 0 0 0 53
+  - S 0 12 29 29 5 0 0 0 75
+  - SSW 0 11 32 14 19 1 0 0 77
+  - SW 0 12 20 6 8 4 0 0 50
+  - WSW 0 9 6 5 2 2 0 0 24
+  - W 0 12 14 3 1 2 0 3 35
+  - WNW 0 22 14 7 5 1 0 2 51
+  - NW 0 27 34 12 0 1 0 1 75
+  - NNW 0 24 34 2 0 0 0 0 60
+  - N 0 30 17 3 0 0 0 0 50
+  - VAR 0 11 2 0 0 0 0 0 13
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 5 5
+  - TOTAL 0 250 285 116 43 11 0 15 720
+  - DECEMBER
+  - SPEED CLASS(MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 12 3 2 0 0 0 0 17
+  - NE 0 9 5 2 0 0 0 0 16
+  - ENE 0 5 4 0 0 0 0 0 9
+  - E 0 6 1 0 0 0 0 0 7
+  - ESE 0 8 1 1 0 0 0 0 10
+  - SE 0 9 6 5 1 0 0 0 21
+  - SSE 0 5 26 25 3 1 0 0 60
+  - S 0 11 39 35 14 1 0 0 100
+  - SSW 0 14 23 29 9 4 3 0 82
+  - SW 0 14 11 9 2 0 0 0 36
+  - WSW 0 16 17 6 3 2 1 0 45
+  - W 0 20 15 7 3 3 4 0 52
+  - WNW 0 27 25 21 6 1 1 0 81
+  - NW 0 17 59 11 3 0 0 1 91
+  - NNW 0 29 27 6 0 0 0 0 62
+  - N 0 21 12 0 1 0 0 0 34
+  - VAR 0 8 3 1 0 0 0 0 12
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 9 9
+  - TOTAL 0 231 277 160 45 12 9 10 744
+  - JANUARY
+  - SPEED CLASS(MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 11 17 6 0 0 0 0 34
+  - NE 0 13 11 4 0 0 0 0 28
+  - ENE 0 10 12 5 0 0 0 6 33
+  - E 0 5 10 1 0 0 0 2 18
+  - ESE 0 15 5 2 0 0 0 1 23
+  - SE 0 10 14 1 0 1 0 1 27
+  - SSE 0 13 17 15 2 1 0 0 48
+  - S 0 10 14 16 6 0 0 0 46
+  - SSW 0 6 18 10 15 3 0 0 52
+  - SW 0 15 14 5 7 4 2 1 48
+  - WSW 0 13 16 4 3 6 3 0 45
+  - W 0 8 8 8 4 0 0 0 28
+  - WNW 0 23 14 13 0 0 0 1 51
+  - NW 0 20 37 19 3 0 0 10 89
+  - NNW 0 29 47 22 0 0 0 4 102
+  - N 0 11 17 15 0 0 0 1 44
+  - VAR 0 7 3 1 0 0 0 0 11
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 17 17
+  - TOTAL 0 219 274 147 40 15 5 44 744
+  - FEBRUARY
+  - SPEED CLASS(MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 15 15 2 0 0 0 0 32
+  - NE 0 8 8 0 0 0 0 0 16
+  - ENE 0 5 8 0 0 0 0 0 13
+  - E 0 4 2 0 0 0 0 0 6
+  - ESE 0 5 5 1 0 0 0 0 11
+  - SE 0 6 10 3 1 0 0 0 20
+  - SSE 0 14 20 13 4 1 0 0 52
+  - S 0 14 11 18 8 2 0 0 53
+  - SSW 0 9 8 10 9 18 1 0 55
+  - SW 0 4 9 3 9 4 4 0 33
+  - WSW 0 9 7 3 7 4 1 0 31
+  - W 0 4 11 6 1 1 1 0 24
+  - WNW 0 7 14 9 2 2 1 0 35
+  - NW 0 12 54 45 10 3 2 0 126
+  - NNW 0 14 45 24 14 0 0 0 97
+  - N 0 16 19 19 1 0 0 0 55
+  - VAR 0 5 2 1 0 0 0 0 8
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 5 5
+  - TOTAL 0 151 248 157 66 35 10 5 672
+  - MARCH
+  - SPEED CLASS(MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 6 8 5 2 0 0 0 21
+  - NE 0 5 4 1 0 0 0 0 10
+  - ENE 0 4 4 1 0 0 0 0 9
+  - E 0 6 2 2 0 0 0 0 10
+  - ESE 0 9 5 1 0 0 0 0 15
+  - SE 0 2 6 7 3 0 0 0 18
+  - SSE 0 5 24 22 3 0 0 0 54
+  - S 0 3 28 35 13 0 0 0 79
+  - SSW 0 1 15 24 16 6 0 0 62
+  - SW 0 5 9 14 31 14 0 0 73
+  - WSW 0 4 7 12 8 6 0 0 37
+  - W 0 1 12 2 0 1 0 0 16
+  - WNW 0 6 21 19 2 0 4 0 52
+  - NW 0 13 32 27 6 1 4 0 83
+  - NNW 0 9 37 23 12 5 0 0 86
+  - N 0 11 18 6 9 0 0 0 44
+  - VAR 0 7 5 0 0 0 0 0 12
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 63 63
+  - TOTAL 0 97 237 201 105 33 8 63 744
+  - ANNUAL
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 141 166 50 13 0 0 2 372
+  - NE 0 131 127 32 5 2 0 3 300
+  - ENE 0 103 119 31 0 0 0 7 260
+  - E 0 98 69 20 0 0 0 2 189
+  - ESE 0 113 88 14 0 0 0 1 216
+  - SE 0 88 181 50 6 1 0 1 327
+  - SSE 0 92 323 182 16 3 0 3 619
+  - S 0 106 293 313 91 8 0 8 819
+  - SSW 0 96 241 229 151 43 6 13 779
+  - SW 0 99 169 96 98 39 7 7 515
+  - WSW 0 101 143 94 48 26 9 7 428
+  - W 0 88 161 136 73 19 9 11 497
+  - WNW 0 148 215 211 144 71 18 5 812
+  - NW 0 150 349 228 88 41 14 13 883
+  - NNW 0 174 346 129 34 5 1 6 695
+  - N 0 177 231 96 24 0 0 1 529
+  - VAR 0 90 73 8 1 0 0 0 172
+  - CALM 1 0 0 0 0 0 0 0 1
+  - UNKNO 0 10 38 26 9 0 0 264 347
+  - TOTAL 0 2005 3332 1945 801 258 64 354 8760
+  - SPEED
+  - SPEED
+  - TOTAL
+  - TOTAL
+  - SPEED CLASS (MPH)
+  - SPEED CLASS (MPH)
+  - APRIL
+  - DIRECTION
+  - DIRECTION
+  - TOTAL CALM CALM
+  - TOTAL
+  - WNW WSW NNW WSW NNW
+  - NNE ENE SSW VAR
+  - NNE ENE SSW VAR ESE
+  - ESE SSE NW
+  - SSE NW
+  - NE SE SW
+  - NE SE SW
+  - W N E S N E S
+  - SPEED
+  - SPEED AVG AVG
+  - TOTAL
+  - TOTAL
+  - SPEED CLASS (MPH)
+  - SPEED CLASS (MPH)
+  - MARCH
+  - DIRECTION
+  - DIRECTION
+  - TOTAL
+  - TOTAL CALM CALM
+  - WSW WNW NNW
+  - WSW WNW NNW NNE VAR NNE VAR ENE
+  - ENE ESE SSE SSW
+  - ESE SSE SSW
+  - NE SW NW
+  - NE SW NW SE SE
+  - W E S E S
+  - TOTAL
+  - TOTAL
+  - AUGUST
+  - DIRECTION
+  - DIRECTION
+  - TOTAL CALM
+  - CALM WNW WNW
+  - WSW NNW NNE ENE SSW VAR NNE ENE SSW VAR
+  - WSW NNW
+  - ESE SSE NW
+  - ESE SSE NW
+  - NE SE SW
+  - NE SE SW
+  - W N E S N E S
+  - SPEED
+  - SPEED AVG AVG
+- **100.0** TOTAL
+  - TOTAL 3.9 3.0 3.7 2.3 2.4 2.2 3.2 2.7 2.9 3.3 6.4 9.8 11.4 18.0 17.2 3.6 3.2 0.6
+  - SPEED CLASS (MPH)
+  - SPEED CLASS (MPH)
+  - JULY MAY
+  - DIRECTION
+  - DIRECTION
+  - TOTAL CALM CALM
+  - TOTAL
+  - WSW WNW NNW
+  - WSW WNW NNW NNE VAR NNE VAR ENE
+  - ENE ESE SSE SSW
+  - ESE SSE SSW
+  - NE SW NW
+  - NE SW NW SE SE
+  - W E S E S
+  - TOTAL
+  - TOTAL
+  - SPEED CLASS (MPH) 25-31 25-31
+  - SPEED CLASS (MPH)
+  - DECEMBER
+  - OCTOBER
+  - DIRECTION DIRECTION
+  - TOTAL TOTAL CALM
+  - WNW WNW WSW NNW
+  - NNE ENE ESE SSW VAR NNE
+  - WSW NNW
+  - SSE SW NW ESE SSE NW NE
+  - ENE SSW VAR
+  - SE NE SW W SE
+  - N E S N
+  - SPEED
+  - AVG 5.3 6.4 5.6 3.9 3.7 4.1 4.6 5.3 5.2 7.0 9.9 9.4 7.6 9.8 10.5 5.7 2.6 7.5
+  - AVG SPEED
+  - TOTAL
+  - TOTAL
+  - SPEED CLASS (MPH) SPEED CLASS (MPH)
+  - SEPTEMBER
+  - DIRECTION
+  - DIRECTION
+  - TOTAL CALM CALM
+  - TOTAL
+  - WSW WNW NNW
+  - WSW WNW NNW NNE VAR NNE VAR ENE
+  - ENE ESE SSE SSW
+  - ESE SSE SSW
+  - NE SW NW
+  - NE SW NW SE SE
+  - W E S E S
+  - SPEED
+  - AVG 4.9 5.7 4.9 4.1 3.9 4.0 4.5 5.7 6.4 9.5 10.9 9.9 7.7 9.7 9.6 5.1 2.7 7.6
+  - TOTAL
+  - COMPOSITE OF ALL MONTHS
+  - SPEED CLASS (MPH)
+  - DIRECTION
+  - TOTAL
+  - WSW WNW NNW
+  - VAR ENE
+  - ESE SSE
+  - NW SW NE SE W
+  - N E S
+  - ABLE VARI-
+  - N 4.2 3.9 3.9 4.5
+  - NNW 4.17 2.36 2.78
+  - WNW 17.08 16.11 22.08 12.90 21.24 24.03 16.53
+  - WSW 15.28 14.92
+  - WIND DIRECTION
+- **10.22** SSW 6.11 3.61 9.14 4.70 7.08 6.53 3.06 7.26 2.96 8.87 5.51 3.49 5.28 5.28 3.61 5.65 7.53 5.65
+  - S 3.2 2.8 2.6 2.5 2.5 2.8 3.5
+  - E 2.3 2.4 2.2 2.5 2.4 2.9 2.8
+  - MONTH/YEAR/SITE/ELEVATION
+  - ABLE VARI-
+  - NW 10.42 8.06 19.31 12.23 10.48 20.02 11.96 6.32 9.81 18.76 5.65 10.71 11.16 6.72 13.04 10.08
+  - SW 6.94 2.22 7.50 4.84 3.09 7.12 6.45 8.20 16.67 4.91 6.25 10.57 9.81 7.66 15.05 5.88
+  - SSW 10.69 5.42 6.25 11.02 5.24 4.70 6.99 17.34 5.24 8.18 13.39 8.63 8.33 10.08 7.12
+  - WIND DIRECTION
+  - S 4.2 3.5 3.6 2.9 3.8 3.2
+  - SSE 7.36 9.72 3.06 8.06 9.95 3.49 6.45 7.12 4.03 7.74 9.08 2.83 7.26 6.72 3.76 7.07
+  - ESE 2.08 4.44 3.61 1.34 3.76 2.28 3.09 3.09 2.55 1.64 4.32 4.17 2.02 1.61 1.21 2.47
+  - ENE 4.31 1.81 1.81 1.21 2.28 2.15 4.44 1.08 2.02 1.93 1.34 2.08 1.21 2.02 2.02 2.97
+  - NE 3.61 4.86 1.67 2.15 5.38 1.48 3.76 1.88 3.09 2.38 1.79 2.68 1.34 2.55 2.69 3.42
+  - NNE 5.28 2.22 3.33 2.28 2.28 2.02 4.57 2.28 2.69 4.76 1.04 2.08 2.82 1.61 1.75 4.25
+  - DATE STARTED WIND DIR HOURS OF HOURS EACH STABILITY AVERAGE SPEED
+  - DAY HOUR
+  - PERSISTENCE
+- 0 V UNS
+- 0 UNSTA
+- 3 NEUTR
+- 11 M STA
+- 0 V STA
+- 0 UNKNO
+- 1 V UNS
+- 7 UNSTA
+- 2 NEUTR
+- 0 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 1 UNSTA
+- 2 NEUTR
+- 7 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 5 NEUTR
+- 5 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 1 UNSTA
+- 7 NEUTR
+- 2 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 1 UNSTA
+- 8 NEUTR
+- 0 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 2 UNSTA
+- 2 NEUTR
+- 5 M STA
+- 0 V STA
+- 0 V UNS
+- 0 UNSTA
+- 9 NEUTR #999.0 (missing data)
+- 0 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 1 NEUTR
+- 8 M STA
+- 0 V STA
+- 0 UNKNO
+  - DATE STARTED WIND DIR HOURS OF HOURS EACH STABILITY AVERAGE SPEED
+  - DAY HOUR
+  - PERSISTENCE
+- 0 V UNS
+- 0 UNSTA
+- 2 NEUTR
+- 7 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 5 UNSTA
+- 1 NEUTR
+- 2 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 6 UNSTA
+- 1 NEUTR
+- 1 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 7 UNSTA
+- 1 NEUTR
+- 0 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 1 UNSTA
+- 2 NEUTR
+- 5 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 5 NEUTR
+- 3 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 4 NEUTR
+- 4 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 5 NEUTR
+- 3 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 7 NEUTR
+- 1 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 2 UNSTA
+- 3 NEUTR
+- 3 V STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 6 UNSTA
+- 1 NEUTR
+- 1 M STA
+- 0 V STA
+- 0 UNKNO
+  - DATE STARTED WIND DIRECTIONS HOURS OF HOURS EACH STABILITY AVERAGE SPEED (MPH)
+  - DAY HOUR
+  - PERSISTENCE
+- 0 V UNS
+- 0 UNSTA
+- 8 NEUTR
+- 15 M STA
+- 3 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 6 NEUTR
+- 17 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 7 NEUTR
+- 15 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 2 UNSTA
+- 8 NEUTR
+- 10 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 8 UNSTA
+- 2 NEUTR
+- 9 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 3 NEUTR
+- 16 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 7 UNSTA
+- 7 NEUTR
+- 4 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 9 NEUTR
+- 9 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 5 UNSTA
+- 5 NEUTR
+- 8 M STA
+- 0 V STA
+- 0 UNKNO
+- 1 V UNS
+- 8 UNSTA
+- 5 NEUTR
+- 3 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 4 UNSTA
+- 3 NEUTR
+- 10 M STA
+- 0 V STA
+- 0 UNKNO
+  - DATE STARTED WIND DIRECTIONS HOURS OF HOURS EACH STABILITY AVERAGE SPEED
+  - DAY HOUR
+  - PERSISTENCE
+- 0 V UNS
+- 0 UNSTA
+- 7 NEUTR
+- 3 M STA
+- 7 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 2 NEUTR
+- 15 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 2 UNSTA
+- 2 NEUTR
+- 7 M STA
+- 6 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 10 NEUTR
+- 6 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 10 NEUTR
+- 6 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 3 UNSTA
+- 4 NEUTR
+- 8 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 2 NEUTR
+- 9 M STA
+- 4 V STA
+- 0 UNKNO
+- 0 V UNS
+- 4 UNSTA
+- 3 NEUTR
+- 8 M STA
+- 0 V STA
+- 0 UNKNO
+- 0 V UNS
+- 0 UNSTA
+- 7 NEUTR
+- 8 M STA
+- 0 V STA
+- 0 UNKNO
+  - AVERAGE
+  - SPEED
+  - WIND .00 30.22 29.04 23.15 .00 .00 .00 30.22 29.04 21.84 .00 .00
+  - UNKNO
+  - UNKNO
+  - UNSTA NEUTR UNSTA NEUTR
+  - V UNS M STA V UNS M STA V STA V STA
+  - STABILITY
+  - OF EACH
+  - HOURS
+  - HOURS OF
+  - DIRECTION
+  - NNE NNE N, WIND
+  - AVERAGE
+  - SPEED
+  - WIND .00 .00 10.30 11.08 .00 .00 .00 .00 11.86 11.05 6.23 .00
+  - UNKNO
+  - UNKNO
+  - UNSTA NEUTR UNSTA NEUTR STABILITY
+  - V UNS M STA V STA V UNS M STA V STA
+  - OF EACH
+  - HOURS
+  - PERSISTENCE
+  - DIRECTION
+  - NW, NNW
+  - MONTH
+  - CGS 33' HMS 3'
+  - CGS 33' HMS 3'
+  - CGS 33' HMS 3'
+  - UNKNO
+  - TOTAL
+  - TOTAL 0 0 0 0 0 0 0 25 88 251 597 968 1220 1336 1178 1124 974 601 164 0 0 0 234 8760
+  - TIME OF DAY 13 0 0 0 0 0 0 0 0 3 6 7 33 50 45 52 49 50 46 12 0 0 0 12 365
+  - UNKNO TOTAL
+  - TOTAL 0 0 0 0 0 0 10 40 77 284 564 1112 1571 1991 1626 934 238 71 13 0 0 0 0 229 8760 0 0 0
+  - UNKNO TOTAL
+  - AVERAGES
+  - JAN 30.3 27.9 76.0 23.2
+  - DEWPOINT DRY BULB WET BULB
+  - REL HUM.
+  - HIGHEST HIGHEST HIGHEST HIGHEST LOWEST LOWEST LOWEST LOWEST
+  - YEAR YEAR YEAR YEAR YEAR YEAR YEAR YEAR
+  - DEWPOINT DRY BULB WET BULB
+  - REL HUM.
+  - MARCH
+  - FEBRUARY
+  - JANUARY
+  - DECEMBER
+  - NOVEMBER
+  - OCTOBER
+  - SEPTEMBER
+  - AUGUST
+  - APRIL
+  - MONTHLY TOTAL PRECIPITATION
+  - HOUR 01 02 03 04 05 06 07 08 09 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+  - HMS CGS
+  - TOTAL 149 21 3 0 0
+  - RAIN INTENSITY GREATER THAN OR EQUAL .016 INCHES PER HOUR
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 2 2 0 0 0 0 0 4
+  - NE 0 2 3 0 0 0 0 0 5
+  - ENE 0 2 1 0 0 0 0 0 3
+  - E 0 1 4 0 0 0 0 0 5
+  - ESE 0 7 2 0 0 0 0 0 9
+  - SE 0 1 1 2 1 0 0 0 5
+  - SSE 0 4 6 4 4 1 0 0 21
+  - S 0 3 3 5 0 0 0 0 11
+  - SSW 0 3 3 4 3 1 0 0 14
+  - SW 0 1 3 4 1 0 0 0 9
+  - WSW 0 1 2 1 0 1 0 0 5
+  - W 0 0 3 2 0 0 1 0 6
+  - WNW 0 0 5 7 0 0 0 0 12
+  - NW 0 5 10 5 1 0 0 0 21
+  - NNW 0 2 10 2 0 0 0 0 14
+  - N 0 0 1 0 0 0 0 0 1
+  - VAR 0 2 1 0 0 0 0 0 3
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 1 1
+  - TOTAL 0 36 60 36 10 3 1 1 149
+  - RAIN INTENSITY GREATER THAN OR EQUAL .050 INCHES PER HOUR
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 1 1 0 0 0 0 0 2
+  - NE 0 1 0 0 0 0 0 0 1
+  - ENE 0 0 0 0 0 0 0 0 0
+  - E 0 0 0 0 0 0 0 0 0
+  - ESE 0 0 0 0 0 0 0 0 0
+  - SE 0 0 0 1 0 0 0 0 1
+  - SSE 0 0 0 3 2 0 0 0 5
+  - S 0 0 0 0 0 0 0 0 0
+  - SSW 0 0 0 2 0 0 0 0 2
+  - SW 0 0 0 0 0 0 0 0 0
+  - WSW 0 0 0 1 0 0 0 0 1
+  - W 0 0 0 1 0 0 0 0 1
+  - WNW 0 0 2 0 0 0 0 0 2
+  - NW 0 0 1 3 0 0 0 0 4
+  - NNW 0 0 1 1 0 0 0 0 2
+  - N 0 0 0 0 0 0 0 0 0
+  - VAR 0 0 0 0 0 0 0 0 0
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 0 0
+  - TOTAL 0 2 5 12 2 0 0 0 21
+  - RAIN INTENSITY GREATER THAN OR EQUAL .100 INCHES PER HOUR
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 0 0 0 0 0 0 0 0
+  - NE 0 0 0 0 0 0 0 0 0
+  - ENE 0 0 0 0 0 0 0 0 0
+  - E 0 0 0 0 0 0 0 0 0
+  - ESE 0 0 0 0 0 0 0 0 0
+  - SE 0 0 0 0 1 0 0 0 0
+  - SSE 0 0 0 0 0 0 0 0 1
+  - S 0 0 0 0 0 0 0 0 0
+  - SSW 0 0 0 0 0 0 0 0 0
+  - SW 0 0 0 0 0 0 0 0 0
+  - WSW 0 0 0 0 0 0 0 0 0
+  - W 0 0 0 0 0 0 0 0 0
+  - WNW 0 0 1 0 0 0 0 0 1
+  - NW 0 0 0 0 0 0 0 0 0
+  - NNW 0 0 0 1 0 0 0 0 1
+  - N 0 0 0 0 0 0 0 0 0
+  - VAR 0 0 0 0 0 0 0 0 0
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 0 0
+  - TOTAL 0 0 1 1 1 0 0 0 3
+  - RAIN INTENSITY GREATER THAN OR EQUAL .250 INCHES PER HOUR
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 0 0 0 0 0 0 0 0
+  - NE 0 0 0 0 0 0 0 0 0
+  - ENE 0 0 0 0 0 0 0 0 0
+  - E 0 0 0 0 0 0 0 0 0
+  - ESE 0 0 0 0 0 0 0 0 0
+  - SE 0 0 0 0 0 0 0 0 0
+  - SSE 0 0 0 0 0 0 0 0 0
+  - S 0 0 0 0 0 0 0 0 0
+  - SSW 0 0 0 0 0 0 0 0 0
+  - SW 0 0 0 0 0 0 0 0 0
+  - WSW 0 0 0 0 0 0 0 0 0
+  - W 0 0 0 0 0 0 0 0 0
+  - WNW 0 0 0 0 0 0 0 0 0
+  - NW 0 0 0 0 0 0 0 0 0
+  - NNW 0 0 0 0 0 0 0 0 0
+  - N 0 0 0 0 0 0 0 0 0
+  - VAR 0 0 0 0 0 0 0 0 0
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 0 0
+  - TOTAL 0 0 0 0 0 0 0 0 0
+  - RAIN INTENSITY GREATER THAN OR EQUAL .500 INCHES PER HOUR
+  - SPEED CLASS (MPH)
+  - CALM 1-3 4-7 8-12 13-18 19-24 25-UP UNKNO TOTAL
+  - NNE 0 0 0 0 0 0 0 0 0
+  - NE 0 0 0 0 0 0 0 0 0
+  - ENE 0 0 0 0 0 0 0 0 0
+  - E 0 0 0 0 0 0 0 0 0
+  - ESE 0 0 0 0 0 0 0 0 0
+  - SE 0 0 0 0 0 0 0 0 0
+  - SSE 0 0 0 0 0 0 0 0 0
+  - S 0 0 0 0 0 0 0 0 0
+  - SSW 0 0 0 0 0 0 0 0 0
+  - SW 0 0 0 0 0 0 0 0 0
+  - WSW 0 0 0 0 0 0 0 0 0
+  - W 0 0 0 0 0 0 0 0 0
+  - WNW 0 0 0 0 0 0 0 0 0
+  - NW 0 0 0 0 0 0 0 0 0
+  - NNW 0 0 0 0 0 0 0 0 0
+  - N 0 0 0 0 0 0 0 0 0
+  - VAR 0 0 0 0 0 0 0 0 0
+  - CALM 0 0 0 0 0 0 0 0 0
+  - UNKNO 0 0 0 0 0 0 0 0 0
+  - TOTAL 0 0 0 0 0 0 0 0 0
+  - N D F A A S O Y
+  - J J J
+  - HMS(1)
+- 24 TOTAL 12 1504 2124 3347 1504 269 8760
+- 33 Frequency of Occurrence ∆T (°F/200 ft) Versus Time of Day from 4/74 through 3/75
+  - UNKNO
+  - TOTAL
+  - LT-2.5 GE-2.5 LT-1.5 GE-1.5 LT-0.5 GE-0.5 LT-3.5 GE-3.5
+  - TOTAL 2550 790 1205 2354 1365 87 69 340 8760
+  - UNKNO
+  - LT 12.5
+  - TOTAL GE22.5
+  - LT22.5 GE17.5 LT17.5 GE12.5 GE3.75 LT3.75
+  - GE7.5 LT7.5 GE2.1 LT2.1
+  - ATMOSPHERIC STABILITY CLASS B
+  - ATMOSPHERIC STABILITY CLASS A
+  - METEOROLOGICAL INSTRUMENTATION
+  - JOINT FREQUENCY DISTRIBUTION OF WIND SPEED AND DIRECTION
+  - JOINT FREQUENCY DISTRIBUTION OF WIND SPEED AND DIRECTION
+  - RELEASE
+  - RELEASE
+  - WIND SPEED (M/S)
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOWER TOTAL
+  - ATMOSPHERIC STABILITY CLASS D
+  - ATMOSPHERIC STABILITY CLASS C
+  - RELEASE
+  - RELEASE
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOWER TOTAL
+  - TOTAL 28.06
+  - ATMOSPHERIC STABILITY CLASS E
+  - ATMOSPHERIC STABILITY CLASS F
+  - RELEASE
+  - RELEASE
+  - WIND SPEED (M/S)
+  - WIND SPEED (M/S)
+  - TOWER TOTAL
+  - TOWER
+  - NNW 9.5
+  - TOTAL 1.046 3.066 5.648 3.123 1.365 .338 .092 .019 .009 .003 .003 .000
+  - NW 10.9
+  - NNW .134 .392 .796 .405 .101 .003 .000 .000 .000 .000 .000 .000
+  - WNW 8.3
+  - NW .094 .275 .667 .395 .221 .019 .006 .000 .000 .000 .000 .000
+  - W 4.7
+  - WNW .071 .209 .307 .139 .044 .016 .000 .000 .000 .000 .000 .000
+  - WSW 4.2 44.704
+  - W .067 .196 .171 .047 .041 .016 .000 .000 .000 .000 .000 .000
+  - ATMOSPHERIC STABILITY CLASS G
+  - SW 5.8 18.038
+  - WSW .061 .180 .120 .051 .019 .013 .003 .000 .000 .000 .000 .000
+  - SSW 8.7 13.031
+  - S 12.1 10.036
+  - SSW .047 .139 .335 .155 .111 .025 .019 .003 .000 .003 .000 .000
+  - SSE 10.2 8.024
+  - S .059 .174 .408 .496 .313 .085 .028 .009 .006 .000 .000 .000
+- **1.58** Table 2.3-28
+  - SE 4.8 6.013
+  - SSE .054 .158 .357 .493 .307 .136 .032 .006 .003 .000 .000 .000
+  - ESE 1.5 5.029
+  - SE .027 .079 .139 .114 .028 .009 .000 .000 .000 .000 .000 .000
+  - E 1.2 4.001
+  - ESE .022 .063 .019 .000 .000 .000 .000 .000 .000 .000 .000 .000
+  - JOINT FREQUENCY DISTRIBUTION OF WIND SPEED AND DIRECTION
+- **3.018** ENE 1.7
+- **19.68** BUILDING CROSS-SECTIONAL AREA: 2861.00 SQUARE METERS
+  - E .020 .060 .019 .003 .003 .000 .000 .000 .000 .000 .000 .000
+- **10.00** METERS
+- **2.034** NE 3.8
+- **24.25** WIND SPEED CORRECTED TO THE RELEASE HEIGHT OF
+  - ENE .030 .088 .092 .044 .019 .006 .003 .000 .000 .000 .000 .000
+  - NNE 5.6 1.006
+  - NE .068 .199 .335 .180 .060 .009 .000 .000 .000 .000 .000 .000
+  - OVERALL WIND DIRECTION FREQUENCY
+  - N 7.1 3.30
+- **10.0** METERS NNE
+- **1.49** MIXING VOLUME COEFFICIENT:
+  - N .113 .332 .860 .281 .025 .000 .000 .000 .000 .000 .000 .000
+- **1.61** WIND SPEED FREQUENCY:
+  - WIND MEASURED AT
+  - RELEASE
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOTAL .42 1.01 2.03 3.02 4.00 5.03 6.01 8.02 10.04 13.03 18.04 44.70
+  - TOTAL 0.036 1.850 4.322 1.646 1.211 0.050 0.002 TOTAL 0.009 0.559 1.318 0.482 0.374 0.016 0.000
+  - NNW 0.005 0.231 0.410 0.086 0.016 0.002 0.000 0.000 0.043 0.136 0.038 0.011 0.000 0.000
+  - NW 0.005 0.197 0.299 0.111 0.075 0.000 0.000 0.002 0.059 0.095 0.016 0.018 0.000 0.000
+  - WNW 0.002 0.129 0.181 0.081 0.104 0.000 0.000 WNW 0.000 0.038 0.059 0.048 0.072 0.005 0.000
+  - W 0.000 0.118 0.136 0.054 0.054 0.007 0.000 W 0.000 0.054 0.057 0.016 0.020 0.000 0.000
+  - ATMOSPHERIC STABILITY CLASS B
+  - ATMOSPHERIC STABILITY CLASS A
+  - SSW 0.000 0.115 0.312 0.231 0.294 0.009 0.002 SSW 0.002 0.050 0.111 0.104 0.072 0.002 0.000
+  - METEOROLOGICAL INSTRUMENTATION
+  - S 0.005 0.131 0.613 0.389 0.186 0.000 0.000 S 0.000 0.041 0.190 0.070 0.045 0.000 0.000
+  - SSE 0.005 0.138 0.573 0.168 0.034 0.000 0.000 SSE 0.000 0.061 0.172 0.043 0.007 0.000 0.000
+  - SE 0.000 0.084 0.226 0.041 0.005 0.000 0.000 SE 0.000 0.027 0.111 0.014 0.002 0.000 0.000
+  - ESE 0.000 0.063 0.125 0.005 0.002 0.000 0.000 ESE 0.002 0.020 0.041 0.005 0.000 0.000 0.000
+  - JOINT FREQUENCY DISTRIBUTION OF WIND SPEED AND DIRECTION
+  - JOINT FREQUENCY DISTRIBUTION OF WIND SPEED AND DIRECTION
+  - E 0.002 0.038 0.057 0.005 0.000 0.000 0.000 E 0.000 0.007 0.007 0.002 0.000 0.000 0.000
+  - ENE 0.000 0.016 0.025 0.002 0.000 0.000 0.000 ENE 0.000 0.007 0.009 0.000 0.000 0.000 0.000
+  - NE 0.002 0.072 0.140 0.052 0.014 0.000 0.000 NE 0.000 0.014 0.029 0.007 0.002 0.000 0.000
+  - NNE 0.002 0.102 0.319 0.079 0.061 0.000 0.000 0.000 0.045 0.061 0.016 0.000 0.000 0.000
+  - N 0.002 0.188 0.460 0.095 0.029 0.000 0.000 N 0.000 0.038 0.111 0.018 0.016 0.000 0.000
+  - RELEASE
+  - RELEASE
+  - WIND SPEED (M/S)
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOWER TOTAL
+  - TOTAL 0.27 1.34 3.13 5.36 8.05 10.73 11.18 0.27 1.34 3.13 5.36 8.05 10.73 11.18
+  - NNW 0.000 0.109 0.179 0.029 0.023 0.000 0.000 0.014 0.534 0.996 0.263 0.170 0.009 0.000
+  - NW 0.000 0.088 0.170 0.045 0.063 0.000 0.000 0.011 0.559 0.894 0.240 0.213 0.020 0.005
+  - WNW 0.005 0.100 0.120 0.041 0.091 0.005 0.000 WNW 0.016 0.448 0.586 0.349 0.387 0.032 0.007
+  - W 0.000 0.075 0.102 0.075 0.045 0.000 0.002 W 0.005 0.355 0.407 0.231 0.177 0.005 0.002
+  - ATMOSPHERIC STABILITY CLASS D
+  - ATMOSPHERIC STABILITY CLASS C
+  - SSW 0.002 0.059 0.161 0.106 0.052 0.005 0.000 SSW 0.011 0.283 0.627 0.475 0.387 0.032 0.000
+  - S 0.000 0.070 0.188 0.154 0.086 0.000 0.000 S 0.002 0.337 0.885 0.414 0.220 0.002 0.000
+  - SSE 0.000 0.102 0.238 0.079 0.020 0.000 0.000 SSE 0.005 0.287 0.847 0.244 0.068 0.000 0.000
+  - SE 0.000 0.043 0.143 0.023 0.000 0.000 0.000 SE 0.005 0.213 0.441 0.072 0.032 0.000 0.000
+  - ESE 0.000 0.027 0.059 0.009 0.007 0.000 0.000 ESE 0.002 0.204 0.231 0.048 0.007 0.000 0.000
+  - E 0.000 0.020 0.034 0.002 0.002 0.000 0.005 E 0.000 0.093 0.140 0.016 0.011 0.000 0.000
+  - ENE 0.000 0.029 0.032 0.000 0.000 0.000 0.000 ENE 0.002 0.081 0.095 0.002 0.011 0.000 0.000
+  - NNE 0.000 0.059 0.097 0.027 0.005 0.000 0.000 0.011 0.267 0.387 0.081 0.052 0.000 0.000
+  - N 0.000 0.095 0.177 0.061 0.032 0.000 0.000 N 0.014 0.469 0.623 0.211 0.109 0.000 0.000
+  - RELEASE
+  - RELEASE
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOWER TOTAL
+  - TOTAL 0.27 1.34 3.13 5.36 8.05 10.73 11.18 0.27 1.34 3.13 5.36 8.05 10.73 11.18
+  - TOTAL 0.326 9.997 15.627 4.611 2.911 0.120 0.014
+  - NNW 0.043 1.050 1.410 0.310 0.152 0.000 0.000 0.023 1.021 0.747 0.025 0.000 0.000 0.014
+  - NW 0.034 1.184 1.813 0.496 0.303 0.007 0.000 0.014 1.050 1.148 0.113 0.045 0.000 0.018
+  - WNW 0.054 1.035 1.648 0.706 0.480 0.016 0.000 WNW 0.034 0.772 0.815 0.195 0.050 0.000 0.000
+  - ATMOSPHERIC STABILITY CLASS E
+  - ATMOSPHERIC STABILITY CLASS F
+  - WSW 0.009 0.718 0.810 0.274 0.177 0.002 0.011 0.020 0.494 0.432 0.034 0.023 0.000 0.000
+  - SSW 0.020 0.700 1.252 0.580 0.552 0.059 0.002 SSW 0.011 0.557 0.643 0.179 0.052 0.005 0.005
+  - S 0.011 0.738 1.684 0.632 0.396 0.009 0.000 S 0.018 0.629 1.320 0.242 0.079 0.000 0.000
+- **2.29** Table 2.3-28A
+  - SSE 0.020 0.521 1.720 0.392 0.170 0.000 0.000 SSE 0.009 0.550 1.288 0.240 0.079 0.005 0.000
+  - SE 0.011 0.421 0.840 0.127 0.054 0.000 0.000 SE 0.007 0.333 0.573 0.066 0.036 0.000 0.000
+  - ESE 0.020 0.285 0.412 0.018 0.000 0.000 0.000 ESE 0.009 0.190 0.152 0.005 0.000 0.000 0.000
+  - E 0.000 0.154 0.168 0.011 0.002 0.000 0.000 E 0.005 0.100 0.070 0.005 0.000 0.000 0.000
+  - ENE 0.014 0.134 0.158 0.034 0.000 0.000 0.000 ENE 0.014 0.131 0.104 0.009 0.000 0.000 0.000
+  - NNE 0.009 0.521 0.552 0.070 0.050 0.000 0.000 0.011 0.552 0.274 0.005 0.000 0.000 0.000
+  - N 0.016 0.808 0.754 0.125 0.043 0.000 0.000 N 0.016 0.752 0.441 0.000 0.000 0.000 0.000
+  - RELEASE
+  - RELEASE
+  - WIND SPEED (M/S)
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOWER TOTAL
+  - TOTAL 0.27 1.34 3.13 5.36 8.05 10.73 11.18 0.27 1.34 3.13 5.36 8.05 10.73 11.18
+  - NNW 9.4
+  - TOTAL 0.183 6.257 4.670 0.258 0.054 0.016 0.125
+  - NW 10.6
+  - NNW 0.027 0.822 0.450 0.000 0.000 0.000 0.007
+  - WNW 9.5
+  - NW 0.020 0.654 0.453 0.018 0.000 0.000 0.000
+  - W 6.0
+  - WNW 0.009 0.473 0.267 0.020 0.005 0.000 0.000
+  - WSW 5.7
+  - W 0.007 0.299 0.115 0.005 0.000 0.000 0.000
+  - ATMOSPHERIC STABILITY CLASS G
+  - SW 6.3
+  - WSW 0.014 0.287 0.104 0.005 0.002 0.000 0.000
+  - SSW 8.8
+  - S 10.9
+  - SSW 0.014 0.310 0.310 0.014 0.007 0.005 0.000
+  - SSE 9.4 0.66
+  - S 0.009 0.392 0.645 0.050 0.011 0.011 0.000
+  - SE 11.176 1.12 4.5
+- **0.20** Table 2.3-28A 0.007 0.385 0.869 0.075 0.014 0.000 0.000 SSE
+  - ESE 2.1 10.729
+  - SE 0.014 0.213 0.272 0.011 0.000 0.000 0.000
+  - E 1.1 8.047
+  - ESE 0.011 0.111 0.059 0.007 0.000 0.000 0.000
+- **5.364** ENE
+- **1.2** OVERALL WIND SPEED FREQUENCY AS MEASURED ON THE TOWER: 12.32
+  - JOINT FREQUENCY DISTRIBUTION OF WIND SPEED AND DIRECTION
+  - E 0.005 0.091 0.023 0.000 0.000 0.000 0.000
+  - WIND SPEED CORRECTED TO THE RELEASE HEIGHT OF
+  - ENE 0.005 0.174 0.084 0.005 0.000 0.000 0.023
+  - NNE 4.7 1.341
+  - NE 0.007 0.303 0.240 0.029 0.005 0.000 0.032
+  - N 6.9 0.94
+  - OVERALL WIND DIRECTION FREQUENCY
+- **10.0** METERS NNE
+- **1.03** MIXING VOLUME COEFFICIENT:
+  - N 0.016 0.790 0.312 0.007 0.002 0.000 0.032
+- **1.16** WIND SPEED FREQUENCY:
+  - WIND MEASURED AT
+  - RELEASE
+  - WIND SPEED (M/S)
+  - TOWER
+  - TOTAL 0.27 1.34 3.13 5.36 8.05 10.73 11.18
+  - TABLE 2.3-29
+  - THROUGH
+  - TABLE 2.3-32
+  - DELETED
+  - DOWWIND SECTOR S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - METEOROLOGICAL INSTRUMENTATION
+  - AVERAGING TIME
+  - VERSUS
+  - DISTANCE (METERS)
+  - DOWNWIND
+  - SITE LIMIT
+  - S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - SRP 2.3.4
+  - SECTOR
+- **2.13** WSW 0.562
+- **2.20** W 0.288
+- **2.19** WNW 0.314
+- **1.93** NW 0.722
+  - DOWWIND SECTOR S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - METEOROLOGICAL INSTRUMENTATION
+  - AVERAGING TIME
+  - VERSUS
+  - DISTANCE (METERS)
+  - DOWNWIND
+  - SITE LIMIT S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - SRP 2.3.4
+  - SECTOR
+- **2.02** WSW 0.548
+- **1.96** W 0.252
+- **1.93** WNW 0.285
+- **1.71** NW 0.740
+  - DOWNWIND SECTOR
+  - S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - AVERAGING TIME
+  - VERSUS
+  - DISTANCE (METERS)
+  - DOWNWIND
+  - SITE LIMIT S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - SRP 2.3.4
+  - SECTOR
+  - DOWNWIND SECTOR S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - AVERAGING TIME
+  - VERSUS
+  - DISTANCE (METERS)
+  - DOWNWIND
+  - SITE LIMIT
+  - S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - SRP 2.3.4
+  - SECTOR
+  - EAB(2)
+  - LPZ(2)
+- **9.83** E-05
+  - DISTANCE IN MILES FROM THE SITE
+  - CORRECTED USING STANDARD OPEN TERRAIN FACTORS
+  - ANNUAL AVERAGE CHI/Q (SEC/METER CUBED)
+  - ANNUAL AVERAGE CHI/Q (SEC/METER CUBED)
+  - CGS TURBINE AND RADWASTE BLDGS
+  - NO DECAY, UNDEPLETED
+  - SECTOR
+  - SECTOR
+  - SEGMENT BOUNDARIES IN MILES FROM THE SITE
+  - CHI/Q (SEC/METER CUBED) FOR EACH SEGMENT
+  - CGS TURBINE AND RADWASTE BLDGS
+  - NO DECAY, UNDEPLETED
+  - DIRECTION FROM SITE
+  - S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - DEPLETED
+  - UNDEPLETED
+  - NO DECAY
+  - DISTANCE
+  - DIRECTION FROM SITE
+  - LOCATION
+  - LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828)
+  - TYPE OF
+  - RELEASE
+  - A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A A
+  - DISTANCE IN MILES FROM THE SITE
+  - CORRECTED USING STANDARD OPEN TERRAIN FACTORS
+  - ANNUAL AVERAGE CHI/Q (SEC/METER CUBED)
+  - ANNUAL AVERAGE CHI/Q (SEC/METER CUBED)
+  - NO DECAY, UNDEPLETED
+  - SECTOR
+  - SECTOR
+  - SEGMENT BOUNDARIES IN MILES FROM THE SITE
+  - CHI/Q (SEC/METER CUBED) FOR EACH SEGMENT
+  - NO DECAY, UNDEPLETED
+  - CGS REACTOR BLDG
+  - DIRECTION FROM SITE
+  - S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE SE SSE
+  - DEPLETED
+  - UNDEPLETED
+  - UNDEPLETED
+  - DISTANCE
+  - CGS REACTOR BLDG, SPECIFIC POINTS OF INTEREST
+  - DIRECTION FROM SITE
+  - LOCATION
+  - LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828) LPZ (4828)
+  - TYPE OF
+  - RELEASE
+  - ID B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B B
+  - DELETED
+- **6.77** Average Dust Storm Concentration
+  - WIND SPEED CLASS (MPH)
+  - SE SSE S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE AVERAGE
+  - TOTAL HOURS 0 3 11 33 74 81 18 29 21 18 58 66 44 9 10 1 476
+  - WIND SPEED CLASS (MPH)
+  - DIRECTION
+  - TOTAL HOURS
+  - SE SSE S SSW SW WSW W WNW NW NNW N NNE NE ENE E ESE
+  - W.B. D.P. --
+  - PST PST
+
+### 2.4 HYDROLOGY ENGINEERING  
+`chapters/2.4_HYDROLOGY_ENGINEERING.md` — source pp. 191–256
+
+- **2.4** HYDROLOGY ENGINEERING
+  - **2.4.1** HYDROLOGIC DESCRIPTION
+    - **2.4.1.1** Site and Facilities
+    - **2.4.1.2** Hydrosphere
+  - **2.4.2** FLOODS
+    - **2.4.2.1** Flood History
+    - **2.4.2.2** Flood Design Considerations
+    - **2.4.2.3** Effects of Local Intense Precipitation
+  - **2.4.3** PROBABLE MAXIMUM FLOOD ON STREAMS AND RIVERS
+    - **2.4.3.1** Probable Maximum Precipitation
+    - **2.4.3.2** Precipitation Losses
+    - **2.4.3.3** Runoff and Stream Course Models
+    - **2.4.3.4** Probable Maximum Flood Flow
+    - **2.4.3.5** Water Level Determinations
+    - **2.4.3.6** Coincident Wind Wave Activity
+  - **2.4.4** POTENTIAL DAM FAILURES, SEISMICALLY INDUCED
+    - **2.4.4.1** Dam Failure Permutations
+    - **2.4.4.2** Unsteady Flow Analysis of Potential Dam Failures
+    - **2.4.4.3** Water Level at Plant Site
+  - **2.4.5** PROBABLE MAXIMUM SURGE AND SEICHE FLOODING
+  - **2.4.6** PROBABLE MAXIMUM TSUNAMI FLOODING
+  - **2.4.7** ICE EFFECTS
+  - **2.4.8** COOLING WATER CANALS AND RESERVOIRS
+  - **2.4.9** CHANNEL DIVERSIONS
+  - **2.4.10** FLOODING PROTECTION REQUIREMENTS
+  - **2.4.11** LOW WATER CONSIDERATIONS
+    - **2.4.11.1** Low Flow in Streams
+    - **2.4.11.2** Low Water Resulting From Surges, Seiches, or Tsunami
+    - **2.4.11.3** Historical Low Water
+    - **2.4.11.4** Future Controls
+    - **2.4.11.5** Plant Requirements
+    - **2.4.11.6** Heat Sink Dependability Requirements
+  - **2.4.12** DISPERSION, DILUTION, AND TRAVEL TIMES OF ACCIDENTAL
+  - RELEASES OF LIQUID EFFLUENTS IN SURFACE WATERS
+  - **2.4.13** GROUNDWATER
+    - **2.4.13.1** Description and Onsite Use
+    - **2.4.13.2** Sources
+    - **2.4.13.3** Accidental Effects
+    - **2.4.13.4** Monitoring or Safeguard Requirements
+    - **2.4.13.5** Design Bases for Subsurface Hydrostatic Loadings
+  - **2.4.14** TECHNICAL SPECIFICATIONS AND EMERGENCY OPERATION
+  - REQUIREMENTS
+  - **2.4.15** REFERENCES
+  - MONTHLY AVERAGE WATER TEMPERATURE,
+  - MONTHLY AVERAGE WATER TEMPERATURE,
+  - HYDRAULIC CONDUCTIVITY ISOPETHS IN FEET PER DAY
+
+### 2.5 GEOLOGY, SEISMOLOGY, AND GEOTECHNICAL ENGINEERING  
+`chapters/2.5_GEOLOGY_SEISMOLOGY_AND_GEOTECHNICAL_ENGINEERING.md` — source pp. 257–258
+
+- **2.5** GEOLOGY, SEISMOLOGY, AND GEOTECHNICAL ENGINEERING
+  - DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+  - AND SYSTEMS
+  - TABLE OF CONTENTS
+    - **3.1.2.1.2** Criterion 2 - Design Bases for Protection Against Natural Phenomena... 3.1-3
+    - **3.1.2.3.6** Criterion 25 - Protection System Requirements for Reactivity
+    - **3.1.2.3.10** Criterion 29 - Protection Against Anticipated Operational
+
+### 03.0 Chapter Front Matter  
+`chapters/03.0_Chapter_Front_Matter.md` — source pp. 1–56
+
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- TABLE OF CONTENTS
+- **3.1.2.4.2** Criterion 31 - Fracture Prevention of Reactor Coolant Pressure
+- **3.1.2.4.13** Criterion 42 - Inspection of Containment Atmosphere Cleanup
+- **3.1.2.4.14** Criterion 43 - Testing of Containment Atmosphere Cleanup Systems ... 3.1-47
+- **3.1.2.5.2** Criterion 51 - Fracture Prevention of Containment Pressure Boundary... 3.1-52
+- **3.1.2.5.6** Criterion 55 - Reactor Coolant Pressure Boundary Penetrating
+- **3.1.2.6.1** Criterion 60 - Control of Releases of Radioactive Materials to the
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.2** CLASSIFICATION OF STRUCTURES, COMPONENTS,
+- **3.2.3.4.2** Design Requirements for General Class G Structures, Systems, and
+- **3.2.5** CORRELATION OF SAFETY CLASSES WITH OTHER DESIGN
+- **3.2.6** IDENTIFICATION OF SAFETY-RELATED SYSTEMS AND
+- COMPONENTS ON FLOW DIAGRAMS AND IN THE MASTER
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.3.2.4** Effect of Failure of Structures or Components Not Designed for
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.5.1.2.5** Secondary Missiles Generated by Postulated Credible Primary
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.6** PROTECTION AGAINST DYNAMIC EFFECTS ASSOCIATED WITH
+- **3.6.1** PLANT DESIGN FOR PROTECTION AGAINST POSTULATED
+- PIPING FAILURES IN FLUID SYSTEMS OUTSIDE PRIMARY
+- **3.6.1.3** Criteria for Establishing the Postulated Design Basis Break Orientations... 3.6-3
+- **3.6.1.4.1** Design Basis Breaks for the Dynamic Analysis Outside
+- **3.6.1.4.3** Effect of Postulated Fluid Piping System Ruptures on Structures,
+- **3.6.1.5** Methods to Protect Structures, Systems, or Components Necessary for
+- **3.6.1.5.2** Protective Provisions for Structures, Systems, and Components
+- **3.6.1.5.4** Description, Number, and Location of Pipe Whip Restraints
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.6.1.6** Procedures to Evaluate the Structural Adequacy of Seismic
+  - **3.6.1.6.4.2** Pipe Break Loads (Excluding Pipe Whip) With or Without
+- **3.6.1.10** Verification That Failure of Any Structure Does Not Preclude
+- **3.6.1.11** Verification That Adequate Redundancy Exists for All Postulated
+- **3.6.1.11.2** Method of Analysis for Postulated High-Energy Fluid
+- **3.6.1.11.3** Method of Analysis for Postulated Moderate-Energy Fluid
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.6.1.15.3** Postulated Ruptures of the Auxiliary Steam, Heating Steam,
+- **3.6.1.18** Emergency Procedures to Mitigate the Consequences of a Postulated
+- **3.6.1.18.3** Methods of Shutdown Following a Postulated Rupture of a
+  - **3.6.1.18.3.1** Postulated Rupture of Main Steam Piping in the Main Steam
+  - **3.6.1.18.3.3** Postulated Rupture of Reactor Core Isolation Cooling System
+  - **3.6.1.18.3.6** Postulated Ruptures of the Auxiliary Steam, Heating Steam,
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.6.1.18.3.7** Postulated Rupture of the Reactor Water Cleanup System
+- **3.6.1.19** Seismic and Quality Classifications of Piping Used in the Dynamic
+- **3.6.1.20** Method Used to Predict Blowdown Rates and Subcompartment
+- **3.6.1.20.1** Blowdown Analysis for a Postulated Pipe Break Outside the
+- **3.6.1.20.2** Subcompartment Analysis for Postulated Pipe Break Outside the
+- **3.6.1.20.3** Subcompartment Analysis for a Postulated Pipe Break in the
+  - **3.6.1.20.3.2** Description of the Main Steam Tunnel, Ventway, and
+  - **3.6.1.20.3.6** Turbine Building Consequences of a Postulated Pipe Break in the
+- **3.6.1.21** Description of Methods of Analyses to Ensure That Primary or
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.6.2** DETERMINATION OF BREAK LOCATIONS FOR DYNAMIC
+- EFFECTS ASSOCIATED WITH THE POSTULATED RUPTURE
+- **3.6.2.1.1** Postulated Pipe Break Locations in High-Energy Fluid System
+  - **3.6.2.1.1.1** Postulated Pipe Break Locations in ASME Section III Class I
+  - **3.6.2.1.1.2** Postulated Pipe Break Locations in ASME Section III Class 2
+- **3.6.2.1.2** Postulated Pipe Break Locations in High-Energy Fluid System
+  - **3.6.2.1.2.1** Postulated Pipe Break Locations in ASME Section III Class 1
+  - **3.6.2.1.2.2** Postulated Pipe Break Locations in ASME Section III Class 2
+- **3.6.2.1.3** Postulated Through Wall Leakage Crack Locations in High-
+- **3.6.2.1.4** Types of Breaks and Cracks Postulated in High-Energy and
+- **3.6.2.2** Analytic Methods to Define Blowdown Forcing Functions and
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.6.2.3.4.2** Pipe Displacement Effects on Structures, Other Systems,
+- **3.6.2.5** Implementation of Criteria for Pipe Whip and Jet Impingement
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.6.2.5.4.5** Residual Heat Removal System - Shutdown Cooling Supply
+  - **3.6.2.5.4.6** Reactor Core Isolation Cooling Reactor Pressure Vessel
+  - **3.6.2.5.4.8** Residual Heat Removal Condensing Mode and Reactor Core
+  - **3.6.2.5.4.11** Main Steam and Reactor Feedwater Piping Inside Main
+- **3.7.2.1.3** Solution of the Equations of Dynamic Equilibrium by Direct
+- **3.7.2.1.4** Solution of the Equations of Dynamic Equilibrium by Mode-
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.7.2.1.8** Dynamic Analysis of Seismic Category I Structures, Systems,
+- **3.7.2.8** Interaction of Non-Category I Structures With Seismic
+- **3.7.3.2.1** Number of Cycles for All Items Except Nuclear Steam Supply
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.7.3.2.2** Number of Cycles for Nuclear Steam Supply System Systems
+- **3.7.3.9** Equipment Components Supported at Multiple Locations with
+- **3.7.3.12.1** Procedures for Predicting the Stresses of Buried Pipes in the
+- **3.7.3.12.2** Procedures for Predicting the Stresses of Buried Pipes at
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.8.2.1.1.4** Personnel Access Lock and the (Combined) Equipment Hatch
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.8.2.4.1.4** Personnel Access Lock and the (Combined) Equipment Hatch
+  - **3.8.2.4.3.2** Seismic Dynamic Analysis of Water in Suppression Chamber
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.8.3** CONCRETE AND STEEL INTERNAL STRUCTURES OF STEEL
+- **3.8.3.1.8** Reinforced-Concrete Lining Inside the Bottom Head of the Primary
+- **3.8.3.2.8** Reinforced-Concrete Lining Inside Bottom Head of Primary
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.8.3.4.3** Drywell Floor Structural System and Support Elements, Including
+- **3.8.3.4.8** Reinforced-Concrete Lining Inside Bottom Head of Primary
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.8.5.4.5** Standby Service Water Pump Houses, Spray Ponds, and Condensate
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.8.6.5.3** Type 4 Electrical Penetrations and Type 5, 6, and 7 Instrumentation
+- **3.8.6.5.4** Allowable Stresses for Piping, Electrical, and Instrumentation
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.9.1.2** Nuclear Steam Supply System Computer Programs Used in Original
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.9.1.2.5.3** Calculation of Shell Attachment Parameters and Coefficients/BILRD. . 3.9-20
+- **3.9.1.4.8** Nuclear Steam Supply System Pumps, Heat Exchangers, and Turbine ... 3.9-24
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.9.2.2** Seismic and Hydrodynamic Loads Qualification of Safety-Related
+- **3.9.2.2.2** Seismic and Hydrodynamic Load Qualification of Specific
+  - **3.9.2.2.2.3** Core Support (Orificed Fuel Support and Control Rod Guide Tube) ... 3.9-32
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.9.2.2.4** Suppression Pool Hydrodynamic Loads Qualification of
+- **3.9.2.3** Dynamic Response of Reactor Internals Under Operational Flow
+- **3.9.2.5** Dynamic System Analysis of the Reactor Internals Under Faulted
+- **3.9.2.6** Correlations of Reactor Internals Vibration Tests With the Analytical
+- **3.9.3** ASME CODE CLASS 1, 2, AND 3 COMPONENTS, COMPONENT
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+  - **3.9.3.1.14.2** Residual Heat Removal Suction Shutdown Thermal Relief
+- **3.9.3.1.16** Fuel Pool Cooling and Cleanup System Heat Exchangers
+- **3.9.3.2.2** Standby Liquid Control Pump and Motor Assembly and Reactor
+- **3.9.3.3** Design and Installation Details for Mounting of Pressure
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.9.3.4.3** Nuclear Steam Supply System Floor-Mounted Equipment (Pumps
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.9.5.4.4** Stress, Deformation, and Fatigue Limits for Reactor Internals
+- **3.10** SEISMIC AND DYNAMIC QUALIFICATION OF SAFETY-RELATED
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.10.2** METHODS AND PROCEDURES FOR QUALIFYING
+- **3.10.2.1** Methods For Qualifying Nuclear Steam Supply System Equipment
+- **3.10.2.3** General Electric-Supplied Equipment Seismic Analyses and/or
+- **3.10.2.3.1** Testing Procedures for Qualifying Equipment (Excluding Motors
+- **3.10.3** METHODS AND PROCEDURES OF ANALYSIS OR TESTING OF
+- SUPPORTS FOR INSTRUMENTATION AND ELECTRICAL
+- **3.10.3.1** Nuclear Steam Supply System Equipment (Other Than Motors
+- **3.10.4.3** Seismic Qualification Review Team Results of the Operating License
+- **3.10.4.4** Pump and Valve Operability Review Team Audit Results of the
+- **3.10.5** ESTABLISHMENT OF OPERATIONAL PHASE SEISMIC
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.11** ENVIRONMENTAL DESIGN OF MECHANICAL AND
+- **3.11.1** EQUIPMENT IDENTIFICATION AND ENVIRONMENTAL
+- **3.11.1.1.1** Engineered Safety Features and Reactor Protection System
+- **3.11.1.1.4** Electrical Equipment Whose Failure Does Not Affect Safety
+- **3.11.1.1.6** Identification of Safety-Related Equipment In Mild
+- **3.11.1.2.1** Normal Plant Operational Environmental Conditions
+- **3.11.3.2** Establishment of Operational Phase Environmental Qualification
+- **3.11.5.1** Suppression Pool, Residual Heat Removal System, and Emergency
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.12** COMPUTER PROGRAMS FOR STRUCTURAL ANALYSIS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- APPENDIX 3A PLANT DESIGN ASSESSMENT REPORT FOR
+- SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- LIST OF TABLES
+- LDCN-06-032, 06-057
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- LIST OF FIGURES
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **0.005** Damping, Horizontal NS and EW
+- **0.005** Damping, Vertical
+- **0.01** Damping, Horizontal NS and EW
+- **0.01** Damping, Vertical
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- LDCN-98-117, 99-000
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+
+### 3.1 Conformance With Nrc General Design Criteria  
+`chapters/3.1_Conformance_With_Nrc_General_Design_Criteria.md` — source pp. 57–121
+
+- DESIGN CRITERIA - STRUCTURES, COMPONENTS, EQUIPMENT,
+- AND SYSTEMS
+- **3.1** CONFORMANCE WITH NRC GENERAL DESIGN CRITERIA
+  - **3.1.1** SUMMARY DESCRIPTION
+  - **3.1.2** CRITERION CONFORMANCE
+    - **3.1.2.1** Group I - Overall Requirements
+      - **3.1.2.1.1** Criterion 1 - Quality Standards and Records
+      - **3.1.2.1.2** Criterion 2 - Design Bases for Protection Against Natural Phenomena
+      - **3.1.2.1.3** Criterion 3 - Fire Protection
+      - **3.1.2.1.4** Criterion 4 - Environmental and Missile Design Bases
+      - **3.1.2.1.5** Criterion 5 - Sharing of Structures, Systems, and Components
+    - **3.1.2.2** Group II - Protection by Multiple Fission Product Barriers
+      - **3.1.2.2.1** Criterion 10 - Reactor Design
+      - **3.1.2.2.2** Criterion 11 - Reactor Inherent Protection
+      - **3.1.2.2.3** Criterion 12 - Suppression of Reactor Power Oscillations
+      - **3.1.2.2.4** Criterion 13 - Instrumentation and Control
+      - **3.1.2.2.5** Criterion 14 - Reactor Coolant Pressure Boundary
+      - **3.1.2.2.6** Criterion 15 - Reactor Coolant System Design
+      - **3.1.2.2.7** Criterion 16 - Containment Design
+  - LOCA.
+      - **3.1.2.2.8** Criterion 17 - Electric Power Systems
+      - **3.1.2.2.9** Criterion 18 - Inspection and Testing of Electric Power Systems
+      - **3.1.2.2.10** Criterion 19 - Control Room
+    - **3.1.2.3** Group III - Protection and Reactivity Control System
+      - **3.1.2.3.1** Criterion 20 - Protection System Functions
+      - **3.1.2.3.2** Criterion 21 - Protection System Reliability and Testability
+      - **3.1.2.3.3** Criterion 22 - Protection System Independence
+      - **3.1.2.3.4** Criterion 23 - Protection System Failure Modes
+      - **3.1.2.3.5** Criterion 24 - Separation of Protection and Control Systems
+      - **3.1.2.3.6** Criterion 25 - Protection System Requirements for Reactivity Control
+      - **3.1.2.3.7** Criterion 26 - Reactivity Control System Redundancy and Capability
+      - **3.1.2.3.8** Criterion 27 - Combined Reactivity Control Systems Capability
+      - **3.1.2.3.9** Criterion 28 - Reactivity Limits
+      - **3.1.2.3.10** Criterion 29 - Protection Against Anticipated Operational Occurrences
+    - **3.1.2.4** Group IV - Fluid Systems
+      - **3.1.2.4.1** Criterion 30 - Quality of Reactor Coolant Pressure Boundary
+      - **3.1.2.4.2** Criterion 31 - Fracture Prevention of Reactor Coolant Pressure Boundary
+      - **3.1.2.4.3** Criterion 32 - Inspection of Reactor Coolant Pressure Boundary
+      - **3.1.2.4.4** Criterion 33 - Reactor Coolant Makeup
+  - LDCN-18-012, 18-030
+      - **3.1.2.4.5** Criterion 34 - Residual Heat Removal
+      - **3.1.2.4.6** Criterion 35 - Emergency Core Cooling
+      - **3.1.2.4.7** Criterion 36 - Inspection of Emergency Core Cooling System
+      - **3.1.2.4.8** Criterion 37 - Testing of Emergency Core Cooling System
+      - **3.1.2.4.9** Criterion 38 - Containment Heat Removal
+      - **3.1.2.4.10** Criterion 39 - Inspection of Containment Heat Removal System
+      - **3.1.2.4.11** Criterion 40 - Testing of Containment Heat Removal System
+      - **3.1.2.4.12** Criterion 41 - Containment Atmosphere Cleanup
+      - **3.1.2.4.13** Criterion 42 - Inspection of Containment Atmosphere Cleanup Systems
+      - **3.1.2.4.14** Criterion 43 - Testing of Containment Atmosphere Cleanup Systems
+      - **3.1.2.4.15** Criterion 44 - Cooling Water
+      - **3.1.2.4.16** Criterion 45 - Inspection of Cooling Water System
+      - **3.1.2.4.17** Criterion 46 - Testing of Cooling Water System
+    - **3.1.2.5** Group V - Containment (Criteria 50-57)
+      - **3.1.2.5.1** Criterion 50 - Containment Design Basis
+      - **3.1.2.5.2** Criterion 51 - Fracture Prevention of Containment Pressure Boundary
+      - **3.1.2.5.3** Criterion 52 - Capability for Containment Leakage Rate Testing
+      - **3.1.2.5.4** Criterion 53 - Provisions for Containment Testing and Inspection
+      - **3.1.2.5.5** Criterion 54 - Piping Systems Penetrating Containment
+      - **3.1.2.5.6** Criterion 55 - Reactor Coolant Pressure Boundary Penetrating Containment
+      - **3.1.2.5.7** Criterion 56 - Primary Containment Isolation
+      - **3.1.2.5.8** Criterion 57 - Closed System Isolation Valves
+    - **3.1.2.6** Group VI - Fuel and Reactivity Control
+      - **3.1.2.6.1** Criterion 60 - Control of Releases of Radioactive Materials to the Environment
+- 10 CFR Part 20. The plant is also designed to prevent radioactivity releases during accidents
+      - **3.1.2.6.2** Criterion 61 - Fuel Storage and Handling and Radioactivity Control
+      - **3.1.2.6.3** Criterion 62 - Prevention of Criticality in Fuel Storage and Handling
+      - **3.1.2.6.4** Criterion 63 - Monitoring Fuel and Waste Storage
+      - **3.1.2.6.5** Criterion 64 - Monitoring Radioactivity Releases
+
+### 3.2 Classification Of Structures, Components, And Systems  
+`chapters/3.2_Classification_Of_Structures_Components_And_Systems.md` — source pp. 122–187
+
+- **3.2** CLASSIFICATION OF STRUCTURES, COMPONENTS, AND SYSTEMS
+  - **3.2.1** SEISMIC CLASSIFICATION
+  - **3.2.2** SYSTEM QUALITY GROUP CLASSIFICATIONS
+  - **3.2.3** SAFETY CLASSIFICATIONS
+    - **3.2.3.1** Safety Class 1
+      - **3.2.3.1.1** Definition of Safety Class 1
+      - **3.2.3.1.2** Design Requirements for Safety Class 1
+    - **3.2.3.2** Safety Class 2
+      - **3.2.3.2.1** Definition of Safety Class 2
+      - **3.2.3.2.2** Design Requirements for Safety Class 2
+    - **3.2.3.3** Safety Class 3
+      - **3.2.3.3.1** Definition of Safety Class 3
+      - **3.2.3.3.2** Design Requirement for Safety Class 3
+    - **3.2.3.4** General Class G, Structures, Systems, and Components
+      - **3.2.3.4.1** Definition of General Class Structures, Systems, and Components
+      - **3.2.3.4.2** Design Requirements for General Class G Structures, Systems, and Components
+  - **3.2.4** QUALITY ASSURANCE CLASSIFICATION
+- 10 CFR 50.62,
+  - **3.2.5** CORRELATION OF SAFETY CLASSES WITH OTHER DESIGN
+  - REQUIREMENTS
+  - **3.2.6** IDENTIFICATION OF SAFETY-RELATED SYSTEMS AND COMPONENTS ON
+  - FLOW DIAGRAMS AND IN THE MASTER EQUIPMENT LIST
+  - I I I I I I I I I I I I I I I I I I I I I I
+  - I I I I I I I I I I I I I I I I I I I I I
+  - N/A N/A N/A N/A N/A N/A N/A N/A
+  - N/A N/A
+  - B A C B A A A A A A
+  - C,R C,R C,R C,R C,R
+  - C C C C C C C C C C C C C C C C
+  - GE GE GE
+  - P P P P
+  - P P P
+  - II II
+  - I I I I I I I I I I I I I I I I I I
+  - II II
+  - I I I I I I I I I I I I I I I I I I
+  - N/A N/A N/A N/A N/A N/A N/A N/A
+  - N/A N/A
+  - D D B B B B B
+  - A A A
+  - C,R,W
+  - C,R,W
+  - C,R,W
+  - C,R C,R
+  - C C C C C C R R R R R R R
+  - GE GE GE GE GE
+  - GE GE GE GE GE GE GE
+  - P P P P P
+  - I I I I I I I I I I I I I I I I I I
+  - I I I I
+  - I I I I I I I I I I I I I I I
+  - N/A N/A N/A N/A B/D N/A N/A N/A N/A N/A NA/ N/A N/A
+  - A A A B B B B
+  - C,R,T,W
+  - C,R,W C,R,W C,R,W
+  - C,R,T
+  - C,R C,R C,R C,R
+  - C,R C,R
+  - R R R R C R R C C C R
+  - GE GE GE GE GE GE GE GE GE GE GE GE GE
+  - I I I I I I I I I I I I I I I I I I I I I
+  - I I I I I I I I I I I I I I I I I I I I I
+  - N/A N/A N/A
+  - N/A N/A N/A N/A
+  - A B B B B B B B B B
+  - C,R,T,W C,R,T,W
+  - C,R,W
+  - C,R C,R
+  - R R R R R R R R R R R R R
+  - GE GE GE GE GE GE GE GE GE GE
+  - I I I I I I I I I I I I I I I I I I
+  - I I I I I I I I I I I I I I I I I I
+  - N/A N/A
+  - N/A N/A N/A N/A
+  - A D B B B B B B B
+  - A A D
+  - C,R DG
+  - C,R C,R R,O
+  - R R R R P C R R
+  - GE GE GE GE
+  - II II
+  - I I I I I I I I I I I I I I I
+  - I I I I I I I I I I I I I
+  - D A A
+  - D B B
+  - C, R R,W C,R W W
+  - R R R R R R R R R R R R R R
+  - G 2 2 1 1 2 2 2 2 2 3 3 G G G 3 G G 2
+  - GE/P GE/P GE/P
+  - P P P P P P P
+  - II II II II II II II II II II II II II II II
+  - I I I I
+  - II II II
+  - II II II II II
+  - D C C C A A
+  - C C C C C B
+  - R,T,W
+  - R,W R,W R,W R,W
+  - W W W W W W W W W
+  - R R C
+  - R R R R R
+  - G G G G G G G G G G G G G G 1 G G 3 3 3 3 G 2 3 1
+  - GE/P GE/P GE/P GE/P GE/P
+  - GE GE GE GE
+  - P P P P
+  - P P P P P
+  - II II II II II II II
+  - II II II
+  - I I I I I I
+  - I I I I I I I
+  - II II
+  - I I I I I
+  - I I I I I I I
+  - N/A N/A N/A N/A
+  - C C C C B
+  - C C C C
+  - P,R,DG,O,W P,R,DG,O,W P,R,DG,O,W P,R,DG,O,W
+  - T,W,O
+  - T,W T,W T,W T,W T,W T,W
+  - W W W W
+  - R R R
+  - GE GE GE GE GE GE GE GE GE
+  - P P P P P P
+  - II II II II II II II II
+  - I I I I I I I I
+  - II II II II
+  - II II I I I I I I
+  - N/A N/A
+  - D D C D D
+  - D D B B B B B D B B
+  - A,T,R,O,P,
+  - C,R C,R
+  - R R R R R R
+  - P R R R C R
+  - G G G G G G 2 G G 2 2 2 2 2 2 G 3
+  - II II II II II II II
+  - II II II
+  - II II II
+  - I I I
+  - I I I
+  - II II II
+  - II II II II II II II II II II II
+  - I I I
+  - N/A N/A N/A N/A N/A N/A
+  - N/A N/A N/A N/A N/A N/A N/A
+  - D D D D
+  - C D D
+  - O,T,R,W
+  - R,W,T,O
+  - P,W,T,S
+  - W W W
+  - W O G
+  - R R R T P T T T
+  - G G G 3 G G G 3 3 G G G G G G G G 3 3 3
+  - LDCN-05-009, 06-032
+  - I I II I I I I I I I I I I I I I I I I I I I
+  - II I I I I I I I I I I I I I I I I I I I I
+  - N/A N/A N/A
+  - N/A N/A N/A
+  - D C C C C C C D D D C C C C B B
+  - DG DG DG DG DG DG DG DG DG DG DG DG DG DG DG DG DG
+  - R R R R
+- 2 G G 3 3 3 3 3 3 3 3 3 3 2 3 3 2 3 2 2 3 3 3
+  - GE GE
+  - II II II II II II II II II II II II II II
+  - I I I I
+  - II II II II II II II II II II II II
+  - II I I I I
+  - D D D D D D D D D D D D D
+  - D A B B
+  - T T T T T T T T T T P P P R R R
+  - G G G G G G G G G G G G G G 1 2 2 2
+  - LDCN-05-009, 06-032
+  - II II II II II
+  - II II
+  - I I I I I I I I I I I
+  - II G II
+  - II II II II
+  - I I I I I I I I I I I
+  - N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A N/A
+  - A A A D D D B B
+  - C,R,T,DG
+  - R,W R,W R,W
+  - C,R C,R DG
+  - R T P S O O O O R R
+- 2 G 3 G G G G 3 3 G 1 G G G 3 1 2 2
+  - O H P
+  - NOTES
+  - ASTM E-94
+  - DELETED.
+  - PI(1)-ST-(IR-64)-4 PI(1)-ST-(IR-64)-5 PI(1)-ST-MS-PT-2
+  - PI(1)-ST-X114 PI(1)-ST-X115 PI(1)-4S-X114 PI(1)-4S-X115
+  - RFW(1)-4A RFW(1)-4B
+  - B22-G001A B22-G001B B22-G001C B22-G001D
+  - MS(9)-4
+  - PI(1)-1-RRC-SPV-85A PI(1)-1-RRC-SPV-85B
+  - RRC(5)-4S-B
+  - B35-G001A B35-G001B
+  - RRC(51)-1 RRC(51)-4
+  - CRD-SCRAM/INST 5, 13, G
+  - CRD-I/W
+  - PI(1)-ST-SLC-FT-1 PI(1)-ST-SLC-PT-4
+  - SLC(1)-1S SLC(2)-3S SLC(2)-4S
+  - PI(1)-ST-(H22-PO21)-A10
+  - PI(1)-ST-RHR-DPIS-9A PI(1)-ST-RHR-DPIS-9B PI(1)-ST-RHR-DPIS-9C
+  - PI(1)-ST-RHR-LT-8A PI(1)-ST-RHR-LT-8B
+  - PI(1)-ST-RHR-FT-13 PI(1)-ST-RHR-PI-2A PI(1)-ST-RHR-PI-2B PI(1)-ST-RHR-PI-2C PI(1)-ST-RHR-PS-18
+  - PI(1)-ST-RHR-FT-1
+  - PI(1)-ST-(IR-69)-2 PI(1)-ST-(IR-69)-3 PI(1)-ST-(IR-69)-7 PI(1)-ST-(IR-71)-1 PI(1)-ST-(IR-71)-2
+  - RHR(1)-2A RHR(1)-4A RHR(1)-2B RHR(1)-2C RHR(1)-4B
+  - PI(1)-ST-(H22-P018)-A10
+  - RHR(3)-2A RHR(4)-1A RHR(1)-4C RHR(3)-1C RHR(3)-2B RHR(4)-1B RHR(4)-1C
+  - RHR(9)-1
+  - PI(1)-ST-LPCS-PI-1
+  - LPCS(1)-2 LPCS(1)-4 LPCS(2)-1 LPCS(3)-1
+  - PI(1)-ST-HPCS-PS-3
+  - HPCS(1)-4CL1 HPCS(1)-4CL2
+  - HPCS(2)-1 HPCS(3)-1
+  - PI(1)-ST-(H22-PO18)-A13 PI(1)-ST-(H22-PO21)-A13
+  - PI(1)-ST-(H22-PO17)-A5 PI(1)-ST-(H22-PO17)-A6 PI(1)-ST-(H22-PO17)-A7 PI(1)-ST-(H22-PO17)-A8
+  - PI(1)-ST-RCIC-PCV-15
+  - PI(1)-ST-RCIC-PS-9A PI(1)-ST-RCIC-PS-9B PI(1)-ST-RCIC-PS-34
+  - PI(1)-ST-RCIC-PS-1
+  - PI(1)-ST-(IR-63)-15 PI(1)-ST-(IR-63)-16
+  - PI(1)-ST-(IR-62)-2 PI(1)-ST-(IR-62)-4 PI(1)-ST-(IR-62)-5 PI(1)-ST-(IR-67)-4
+  - K,L,M,S,T
+  - RCIC(1)-4CL1 RCIC(1)-4CL2
+  - RCIC(16)-1 RCIC(19)-1 RCIC(50)-1
+  - RCIC(2)-1
+  - PI(1)-ST-(IR-62)-17 PI(1)-ST-(IR-62)-18
+  - PI(1)-ST-(IR-61)-6 PI(1)-ST-(IR-65)-3 PI(1)-ST-(IR-61)-4 PI(1)-ST-(IR-65)-4
+  - MWR(62)-15
+  - EDR(48)-1 FDR(48)-1
+  - PI(1)-ST-(H22-P002)-A12 PI(1)-ST-(H22-P002)-A13
+  - PI(1)-ST-(H22-P002)-A8 PI(1)-ST-(H22-P002)-A9
+  - RWCU(1)-3A RWCU(1)-3B
+  - PI(1)-ST-FPC-LIS-1A PI(1)-ST-FPC-LIS-1B
+  - PI(1)-ST-FPC-FT-16 PI(1)-ST-FPC-FT-17 PI(1)-ST-FPC-SPV-1
+  - PI(1)-ST-(IR-69)-10
+  - PI(1)-ST-(IR-69)-1 PI(1)-ST-(IR-69)-8 PI(1)-ST-(IR-62)-3 PI(1)-ST-(IR-71)-4 PI(1)-ST-(IR-71)-5
+  - FPC(2)-1A FPC(2)-1B FPC(12)-1
+  - FPC(1)-1 FPC(5)-2 FPC(7)-1
+  - PI(1)-ST-(CMS-SR-14)-C2
+  - PI(1)-ST-(SW-SR-43)-A PI(1)-ST-(SW-SR-43)-B
+  - PI(1)-ST-SW-PS-11B PI(1)-ST-SW-PS-11A
+  - PI(1)-ST-SW-FIS-12 PI(1)-ST-SW-FIS-15
+  - PI(1)-ST-(IR-69)-15 P1(1)-ST-SW-FIS-9
+  - PI(1)-ST-(IR-22)-1 PI(1)-ST-(IR-22)-2 PI(1)-ST-(IR-22)-3
+  - PI(1)-ST-(CMS-SR-14)-C1
+  - PI(1)-ST-(SW-SR-42)-A PI(1)-ST-(SW-SR-42)-B
+  - PI(1)-ST-SW-FT-8A PI(1)-ST-SW-FT-8B
+  - SW(70)-1-HPCS SW(71)-1-HPCS
+  - SW(21)-2-UG SW(22)-2-UG
+  - SW(21)-2 SW(22)-2
+  - SW(1)-2 SW(2)-2
+  - RCC(36)-1
+  - RCC(3)-1 RCC(4)-2 RCC(5)-2
+  - PI(1)-ST-(IR-62)-14 PI(1)-ST-(IR-62)-15 PI(1)-ST-(IR-62)-16
+  - CEP(1)-1A CSP(1)-1B CEP(1)-1B
+  - PI(1)-ST-(CMS-SR-13)-DT PI(1)-ST-(CMS-SR-14)-DT
+  - PI(1)-ST-(IR-64)-1A PI(1)-ST-(IR-63)-1B PI(1)-ST-(IR-64)-1B
+  - PI(1)-ST-(IR-63)-1A
+  - PI(1)-ST-(IR-63)-10 PI(1)-ST-(IR-64)-38
+  - PI(1)-ST-(IR-62)-19
+  - PI(1)-ST-SGT-FT-1A1 PI(1)-ST-SGT-FT-1A2 PI(1)-ST-SGT-FT-1B1 PI(1)-ST-SGT-FT-1B2
+  - CAC(11)-1 CAC(12)-1
+  - CAC(1)-1 CAC(2)-1
+  - COND(98)-1
+  - CAS(5)-1
+  - SA(1)-1
+  - PI(1)-1-X56
+  - CIA(5)-1A CIA(5)-2A CIA(5)-1B CIA(5)-2B
+  - CIA(3)-2
+  - PI(1)-ST-DO-LS-11A PI(1)-ST-DO-LS-11B
+  - PI(1)-ST-DO-LS-13
+  - DO(1)-1-HPCS DO(9)-1-HPCS
+  - DO(1)-1A DO(1)-1B DO(9)-1A DO(9)-1B
+  - PI(1)-ST-MS-PTD-1A PI(1)-ST-MS-PTD-1B
+  - MS(1)-4A MS(1)-4B MS(1)-4C MS(1)-4D
+  - PI(1)-ST-(IR-21)-7 PI(1)-ST-(IR-21)-9
+  - MSLC(2)-1 MSLC(4)-1
+  - PI(1)-4S-X88
+  - A. N-154
+  - B. N-122
+  - C. N-318
+  - D. N-316
+  - E. N-328
+  - F. N-362
+  - G. 1606-1
+  - H. N-58 (1614)
+  - J. N-192
+  - K. 1718
+  - L. N-111 (1729)
+  - M. N-247
+  - N. N-240
+  - P. N-272
+  - R. N-252
+  - S. 1683-1
+  - T. N-175 (1818)
+  - U. N-411-1
+  - AWWA-D100
+  - API-650
+  - TEMA C TEMA C TEMA C
+  - TEMA C
+  - D A B C
+  - A B C D
+  - I I, 1M I, 1M II
+
+### 3.3 WIND AND TORNADO LOADINGS  
+`chapters/3.3_WIND_AND_TORNADO_LOADINGS.md` — source pp. 188–195
+
+- **3.3** WIND AND TORNADO LOADINGS
+  - **3.3.1** WIND LOADINGS
+    - **3.3.1.1** Design Wind Velocity
+    - **3.3.1.2** Determination of Applied Forces
+  - **3.3.2** TORNADO LOADINGS
+    - **3.3.2.1** Applicable Design Parameters
+    - **3.3.2.2** Determination of Forces on Structures
+    - **3.3.2.3** Additional Design Features
+    - **3.3.2.4** Effect of Failure of Structures or Components Not Designed for Tornado Loads
+    - **3.3.2.5** Conformance with Regulatory Guide 1.76, Revision 0
+  - **3.3.3** REFERENCES
+
+### 3.4 WATER LEVEL (FLOOD) DESIGN  
+`chapters/3.4_WATER_LEVEL_FLOOD_DESIGN.md` — source pp. 196–203
+
+- **3.4** WATER LEVEL (FLOOD) DESIGN
+  - **3.4.1** FLOOD PROTECTION
+    - **3.4.1.1** External Flood Levels
+      - **3.4.1.1.1** Design Basis Flood
+      - **3.4.1.1.2** Breach of the Grand Coulee Dam
+      - **3.4.1.1.3** Acceptance Criteria
+    - **3.4.1.2** Groundwater Levels
+      - **3.4.1.2.1** Design Basis Groundwater
+      - **3.4.1.2.2** Breach of the Grand Coulee Dam
+      - **3.4.1.2.3** Design Basis Flood Probable Maximum Precipitation
+    - **3.4.1.3** Identification of Structures, Systems, and Components
+    - **3.4.1.4** Description of Structures, Systems, and Components
+      - **3.4.1.4.1** Flood Protection Requirements
+      - **3.4.1.4.2** Groundwater Protection Requirements
+    - **3.4.1.5** Flood Protection Measures
+      - **3.4.1.5.1** External Flood Protection Measures
+      - **3.4.1.5.2** Internal Flood Protection Measures
+    - **3.4.1.6** Emergency Flood Protection
+  - **3.4.2** ANALYSIS PROCEDURES
+
+### 3.5 MISSILE PROTECTION  
+`chapters/3.5_MISSILE_PROTECTION.md` — source pp. 204–249
+
+- **3.5** MISSILE PROTECTION
+  - **3.5.1** MISSILE SELECTION AND DESCRIPTIONS
+    - **3.5.1.1** Internally Generated Missiles (Outside Containment)
+      - **3.5.1.1.1** Systems Available for Safe Shutdown
+      - **3.5.1.1.2** Missiles Due to Rotating Equipment Failure
+      - **3.5.1.1.3** Missiles Due to Pressurized Component Failure
+      - **3.5.1.1.4** Evaluation of Postulated Missiles
+  - A A P
+      - **3.5.1.1.5** Example of Postulated Missile Evaluation
+    - **3.5.1.2** Internally Generated Missiles (Inside Containment)
+      - **3.5.1.2.1** Systems Available for Safe Shutdown
+      - **3.5.1.2.2** Missiles Due to Rotating Equipment
+      - **3.5.1.2.3** Missiles Due to Pressurized Component Failure
+      - **3.5.1.2.4** Falling Objects
+      - **3.5.1.2.5** Secondary Missiles Generated by Postulated Credible Primary Missiles
+    - **3.5.1.3** Turbine Missiles
+      - **3.5.1.3.1** Safety-Related Targets
+      - **3.5.1.3.2** Turbine Placement and Orientation
+      - **3.5.1.3.3** Missile Identification and Characteristics
+      - **3.5.1.3.3.1** High Pressure Turbine. Postulated missiles from the high pressure turbine (HPT)
+      - **3.5.1.3.4** Strike and Damage Probability
+      - **3.5.1.3.5** Turbine Overspeed Protection System and Testing
+      - **3.5.1.3.6** Turbine Valve Testing
+      - **3.5.1.3.7** Turbine Characteristics
+    - **3.5.1.4** Missiles Generated by Natural Phenomena
+      - **3.5.1.4.1** Tornado-Generated External Missiles
+      - **3.5.1.4.2** Tornado-Generated Internal Missiles
+      - **3.5.1.4.3** Flood Generated Missiles
+      - **3.5.1.4.4** Protection and Design
+    - **3.5.1.5** Missiles Generated by Events Near the Site
+    - **3.5.1.6** Aircraft Hazards
+      - **3.5.1.6.1** Airports
+      - **3.5.1.6.2** Military Airspace Use
+      - **3.5.1.6.3** Federal Airways and Airport Approaches
+      - **3.5.1.6.4** Summary
+  - **3.5.2** SYSTEMS TO BE PROTECTED
+  - **3.5.3** BARRIER DESIGN
+    - **3.5.3.1** Concrete Barriers
+    - **3.5.3.2** Steel Barriers
+    - **3.5.3.3** Earth Barriers
+    - **3.5.3.4** Applications
+  - **3.5.4** REFERENCES
+  - F-76 DEA-FN-32
+  - F-80 DRA-EUH-11
+- 24 V dc power supply system DP-SO-A
+- 24 V dc power supply system PP-DP-SO-8
+  - Figure 3.5-40
+
+### 3.6 Protection Against Dynamic Effects Associated With The  
+`chapters/3.6_Protection_Against_Dynamic_Effects_Associated_With_The.md` — source pp. 250–414
+
+- **3.6** PROTECTION AGAINST DYNAMIC EFFECTS ASSOCIATED WITH THE
+  - POSTULATED RUPTURE OF PIPING
+  - **3.6.1** PLANT DESIGN FOR PROTECTION AGAINST POSTULATED PIPING
+  - FAILURES IN FLUID SYSTEMS OUTSIDE PRIMARY CONTAINMENT
+    - **3.6.1.1** Energy Classification of Fluid Piping Systems Outside Containment
+      - **3.6.1.1.1** High and Moderate Energy Criteria
+      - **3.6.1.1.2** Systems Subject to Analysis
+    - **3.6.1.2** Criteria for Establishing the Postulated Design Basis Break Locations
+    - **3.6.1.3** Criteria for Establishing the Postulated Design Basis Break Orientations
+    - **3.6.1.4** Summary of Dynamic Analysis of Category I Piping and Supports
+      - **3.6.1.4.1** Design Basis Breaks for the Dynamic Analysis Outside Primary Containment
+      - **3.6.1.4.2** Diagrams of Mathematical Models Used in the Dynamic Analysis
+      - **3.6.1.4.3** Effect of Postulated Fluid Piping System Ruptures on Structures, Systems, or
+    - **3.6.1.5** Methods to Protect Structures, Systems, or Components Necessary for Safe Reactor
+      - **3.6.1.5.1** Pipe Whip Restraints
+      - **3.6.1.5.2** Protective Provisions for Structures, Systems, and Components Important to
+      - **3.6.1.5.3** Physical Separation of Systems or Components Important to Safety
+      - **3.6.1.5.4** Description, Number, and Location of Pipe Whip Restraints Outside Primary
+    - **3.6.1.6** Procedures to Evaluate the Structural Adequacy of Seismic Category I Structures
+      - **3.6.1.6.1** General Approach
+      - **3.6.1.6.2** Local Damage Prediction
+      - **3.6.1.6.3** Overall Structural Response
+      - **3.6.1.6.3.2** Structural Response to Whipping Pipe Missile Impact Load.
+  - M V M V
+  - M ( D T D )( T
+      - **3.6.1.6.4** Allowable Design Stresses and Strains
+      - **3.6.1.6.5** Loads, Definition of Terms, and Nomenclature
+      - **3.6.1.6.6** Load Combinations
+    - **3.6.1.7** Structural Design Loads
+    - **3.6.1.8** Analysis of Load Reversal
+    - **3.6.1.9** Modified Structures
+    - **3.6.1.10** Verification That Failure of Any Structure Does Not Preclude Safe Reactor
+    - **3.6.1.11** Verification That Adequate Redundancy Exists for All Postulated Fluid Piping
+      - **3.6.1.11.1** Approach
+      - **3.6.1.11.2** Method of Analysis for Postulated High-Energy Fluid System Ruptures
+  - LDCN-98-078, 00-075
+      - **3.6.1.11.3** Method of Analysis for Postulated Moderate-Energy Fluid System Ruptures
+      - **3.6.1.11.4** Summary of Analysis
+    - **3.6.1.12** Control Room Habitability
+  - LDCN-16-031, 18-002
+    - **3.6.1.13** Electrical Equipment Environmental Qualifications
+      - **3.6.1.13.1** Identification of Equipment
+      - **3.6.1.13.2** Environmental Design
+      - **3.6.1.13.3** Jet Impingement Barriers
+      - **3.6.1.13.4** Control Room Equipment
+      - **3.6.1.13.5** Onsite Power Distribution System Equipment
+    - **3.6.1.14** Design Diagrams of Nuclear Steam Supply System Piping
+    - **3.6.1.15** Flooding Analysis
+      - **3.6.1.15.1** Postulated Rupture of the Reactor Feedwater Piping
+      - **3.6.1.15.2** Postulated Ruptures of Reactor Water Cleanup System
+      - **3.6.1.15.3** Postulated Ruptures of the Auxiliary Steam, Heating Steam, Auxiliary
+      - **3.6.1.15.4** Additional Considerations
+    - **3.6.1.16** Quality Control and Inspection Programs
+    - **3.6.1.17** Leak Detection System Capabilities
+    - **3.6.1.18** Emergency Procedures to Mitigate the Consequences of a Postulated Fluid Piping
+      - **3.6.1.18.1** Reactor Not Isolated
+      - **3.6.1.18.2** Reactor Isolated
+      - **3.6.1.18.3** Methods of Shutdown Following a Postulated Rupture of a Fluid Piping System
+      - **3.6.1.18.3.1** Postulated Rupture of Main Steam Piping in the Main Steam Tunnel Vicinity.
+    - **3.6.1.19** Seismic and Quality Classifications of Piping Used in the Dynamic Analysis
+    - **3.6.1.20** Method Used to Predict Blowdown Rates and Subcompartment Pressure Transient
+      - **3.6.1.20.1** Blowdown Analysis for a Postulated Pipe Break Outside the Primary Containment
+      - **3.6.1.20.2** Subcompartment Analysis for Postulated Pipe Break Outside the Primary
+      - **3.6.1.20.3** Subcompartment Analysis for a Postulated Pipe Break in the Main Steam Tunnel
+      - **3.6.1.20.3.2** Description of the Main Steam Tunnel, Ventway, and Tunnel Extension.
+    - **3.6.1.21** Description of Methods of Analyses to Ensure That Primary or Secondary
+  - **3.6.2** DETERMINATION OF BREAK LOCATIONS FOR DYNAMIC EFFECTS
+  - ASSOCIATED WITH THE POSTULATED RUPTURE OF PIPING
+    - **3.6.2.1** Criteria Used to Define Break and Crack Location and Configuration
+      - **3.6.2.1.1** Postulated Pipe Break Locations in High-Energy Fluid System Piping Not in the
+      - **3.6.2.1.1.1** Postulated Pipe Break Locations in ASME Section III Class I Piping Runs.
+      - **3.6.2.1.1.2** Postulated Pipe Break Locations in ASME Section III Class 2 and 3 Piping Runs.
+      - **3.6.2.1.2** Postulated Pipe Break Locations in High-Energy Fluid System Piping Between
+      - **3.6.2.1.3** Postulated Through Wall Leakage Crack Locations in High- and Moderate-Energy
+      - **3.6.2.1.4** Types of Breaks and Cracks Postulated in High-Energy and Moderate-Energy
+      - **3.6.2.1.5** Protection Criteria for the Effects of Pipe Break
+    - **3.6.2.2** Analytic Methods to Define Blowdown Forcing Functions and Response Models
+      - **3.6.2.2.1** Analytical Methods to Define Blowdown Forcing Functions
+      - **3.6.2.2.2** Analytical Methods to Define Response Models
+      - **3.6.2.2.2.2** Dynamic Analysis of the Effects of Pipe Rupture.
+      - **3.6.2.2.3** Material Properties Under Dynamic Loads
+    - **3.6.2.3** Dynamic Analysis Methods to Verify Integrity and Operability
+      - **3.6.2.3.1** Dynamic Analysis Methods for Jet Impingement Effects
+- 4 A  
+      - **3.6.2.3.2** Jet Impingement Effect
+      - **3.6.2.3.3** Pipe Whip Restraints
+      - **3.6.2.3.4** Pipe Whip Effects on Safety-Related Components
+    - **3.6.2.4** Guard Pipe Assembly Design Criteria for Dual Barrier Containment
+    - **3.6.2.5** Implementation of Criteria for Pipe Whip and Jet Impingement Protection
+      - **3.6.2.5.1** Piping Systems Outside Primary Containment
+      - **3.6.2.5.2** Piping Systems Inside Primary Containment
+      - **3.6.2.5.3** System Requirements Subsequent to Postulated Pipe Rupture
+      - **3.6.2.5.4** System by System Description of Pipe Whip Protection
+      - **3.6.2.5.4.1** Main Steam System.
+      - **3.6.2.5.4.2** Reactor Feedwater System (Inside Primary Containment).
+      - **3.6.2.5.4.3** Reactor Water Cleanup System.
+      - **3.6.2.5.4.4** Standby Liquid Control Piping.
+      - **3.6.2.5.4.5** Residual Heat Removal System - Shutdown Cooling Supply and Return Piping.
+      - **3.6.2.5.4.6** Reactor Core Isolation Cooling Reactor Pressure Vessel Head Spray System.
+      - **3.6.2.5.4.7** Low-Pressure and High-Pressure Core Spray Piping.
+      - **3.6.2.5.4.9** Main Steam Valve Drainage Piping.
+      - **3.6.2.5.4.10** Main Steam Reactor Pressure Vessel Head Vent System.
+      - **3.6.2.5.4.11** Main Steam and Reactor Feedwater Piping Inside Main Steam Tunnel.
+      - **3.6.2.5.4.12** Residual Heat Removal System - Low Pressure Core Injection.
+      - **3.6.2.5.4.13** Reactor Pressure Vessel Drain System.
+      - **3.6.2.5.4.14** Reactor Recirculation Cooling System.
+  - **3.6.3** REFERENCES
+  - RCIC 54
+  - RWCU 75
+  - RWCU 45
+  - RWCU 23
+  - RWCU 2
+- 94 RWCU
+  - RWCU 133
+  - RWCU 38
+  - RWCU 17
+  - MS 195
+  - MS 207
+  - MS 219
+  - MS 228
+  - MS 171
+  - AS 87/387 139 4
+  - AS 42, 73, 44 139 4
+  - AS 168
+  - AS 12
+  - AS 87
+  - AS 153
+  - AS 42
+- **30.25** RWCU 1 142
+- **30.25** RWCU 13 142
+  - RWCU 1
+  - RWCU 31
+  - RWCU 48
+- **13.25** RWCU 105 144
+  - RWCU 767-771 144 6
+  - RWCU 1140
+  - HS 387/987 148 4
+  - HS 143
+  - HS 151
+  - HS 161
+  - HS 443
+  - HS 424
+  - HS 17
+  - HS 192
+  - HS 203
+  - HS 1101
+  - HCO 211
+  - HCO 269
+  - HCO 59
+  - HCO 923
+  - RFW 159
+  - RFW 160
+  - RFW 161
+  - RFW 166
+  - RFW 876
+  - RFW 874
+  - RFW 839
+  - RFW 837
+  - RFW 875 (36) 335B (128) 4
+  - RFW 838 (6) 335B (128) 4
+  - HS 313
+  - AS 34
+  - SS 1000
+  - MS 1190
+  - MS 171
+  - MS 67
+  - CO --
+  - CO --
+  - CO --
+  - HS 43
+  - HS --
+  - HS 1000
+  - HS 193-194 447 6
+  - HS 313
+  - HS 47 (203-205) 448 6
+  - HS 201-202 448 6
+  - HS 199-200 448 6
+  - HS 43 (198-984) 448 6
+  - HS 206-207 448 6
+  - HS 44 (208-209) 448 6
+  - HS 209-210 448 6
+  - HS 45 (211-213) 448 4
+  - HS 18
+  - HCO 0
+  - HCO 1-2
+  - HCO 3-4
+  - HCO 5-6
+  - HCO 170 (7-8) 449 3
+  - HCO 9-10
+  - HCO 11-12
+  - HCO 145
+  - HCO 160 (15-17) 449 3
+  - HCO 18-19
+  - HCO 21-22
+  - HCO 26 (25-27) 450 3
+  - HCO 27-28
+  - HCO 29-131 450 2.5
+  - HCO 227-1227 450 2.5
+  - HCO 1228-228 450 2.5
+  - RWCU 600
+  - RWCU 1670
+  - RWCU 720
+  - RWCU 6913
+  - RWCU 501
+  - RWCU 4770
+  - RWCU 310
+  - RWCU 2898
+  - RWCU 270
+  - RWCU 100
+  - R L 3
+  - R L 3
+  - NOTES
+- 2 A 0 25 . fc t
+  - I I I I I I I I I I I
+  - al
+- 2 R 2π M M α R a
+  - I I I I I I I I I
+  - R113 R112 R206 R313 R408 R406 R407 R409 R511 R510
+  - REINFORCED-CONCRETE STRUCTURAL COMPONENTS
+- **1.25** Shear as a measure of diagonal tension and
+- **1.10** Compression
+- **1.10** Shear reinforcement to resist shear as a measure
+- **1.10** Compression
+- **1.10** Shear
+  - R15, R112/R14, R113
+  - R15, R112/R6, R116
+  - R313/R308, R408 R102/R107/R111,
+  - R15, R112/R206
+  - R308/R206
+  - R102/R107/
+  - R206C
+  - R206 R308 R308 R313 R105 R111 R206 R305 R404 R510
+  - C230/C217, C212,
+  - C344/C325, C326
+  - R604/R607/R608, R406/R404, R305 R406/R407, R409 R409/R504, R404
+  - R409/R405
+  - R604/R607/
+  - C230 C344
+  - R608 R704
+  - R509/R508, R408 R510/R504, R508 R510/R404, R604 R511/R404, R504
+  - R511/R604
+  - R408/R404 R408/R305 R408/R509 R509/R607
+  - R511A
+  - R511/
+  - R408 R509 R510
+  - M747 ANO M7491'HRU M752
+  - SEC DWG. MGIO.
+  - G.Y-I
+  - OWG, M53 4.
+  - FLOW DIA.GRAM- RAD IOAC T IVE.
+  - BUBBLER,
+  - GRAPHIC SCALE ,
+  - CONDENSATE POLISHING AND RWCU
+  - PARTIAL PLANS AND SECTIONS
+  - CL PWS 315-10
+  - PWS 315-9 PWS 315-9
+
+### 3.7 SEISMIC DESIGN  
+`chapters/3.7_SEISMIC_DESIGN.md` — source pp. 415–499
+
+- **3.7** SEISMIC DESIGN
+  - **3.7.1** SEISMIC INPUT
+    - **3.7.1.1** Design Response Spectra
+    - **3.7.1.2** Design Time History
+    - **3.7.1.3** Critical Damping Values
+    - **3.7.1.4** Supporting Media for Seismic Category I Structures
+  - **3.7.2** SEISMIC SYSTEM ANALYSIS
+    - **3.7.2.1** Seismic Analysis Methods
+      - **3.7.2.1.1** Introduction
+      - **3.7.2.1.2** The Equations of Dynamic Equilibrium
+      - **3.7.2.1.3** Solution of the Equations of Dynamic Equilibrium by Direct Integration
+      - **3.7.2.1.4** Solution of the Equations of Dynamic Equilibrium by Mode-Superposition
+      - **3.7.2.1.5** Response Spectrum Method of Analysis
+      - **3.7.2.1.5.1.2** Double Sum Method. This method is defined mathematically as
+      - **3.7.2.1.6** Time-History Method of Analysis
+      - **3.7.2.1.7** Analysis for Differential Support Displacements
+      - **3.7.2.1.8** Dynamic Analysis of Seismic Category I Structures, Systems, and Components
+      - **3.7.2.1.9** Equivalent Static Load Method
+      - **3.7.2.1.10** Dynamic Testing
+    - **3.7.2.2** Natural Frequencies and Response Loads
+    - **3.7.2.3** Procedure Used for Modeling
+      - **3.7.2.3.1** Modeling of Structures
+      - **3.7.2.3.2** Modeling of Piping Systems
+      - **3.7.2.3.3** Modeling of Equipment
+      - **3.7.2.3.4** Modeling of Reactor Pressure Vessel and Internals
+    - **3.7.2.4** Soil/Structure Interaction
+    - **3.7.2.5** Development of Floor Response Spectra
+    - **3.7.2.6** Three Components of Earthquake Motion
+- **1.25** Hz. In the frequency range of interest for the CGS plant (approximately greater than
+    - **3.7.2.7** Combination of Modal Responses
+    - **3.7.2.8** Interaction of Non-Category I Structures With Seismic Category I Structures
+    - **3.7.2.9** Effects of Parameter Variations on Floor Response Spectra
+    - **3.7.2.10** Use of Constant Vertical Static Factors
+    - **3.7.2.11** Method Used to Account for Torsional Effects
+    - **3.7.2.12** Comparison of Responses
+    - **3.7.2.13** Methods for Seismic Analysis of Dams
+    - **3.7.2.14** Determination of Seismic Category I Structure Overturning Moments
+    - **3.7.2.15** Analysis Procedure for Damping
+  - **3.7.3** SEISMIC SUBSYSTEM ANALYSIS
+    - **3.7.3.1** Seismic Analysis Methods
+    - **3.7.3.2** Determination of Number of Earthquake Cycles
+      - **3.7.3.2.1** Number of Cycles for All Items Except Nuclear Steam Supply System Systems
+      - **3.7.3.2.2** Number of Cycles for Nuclear Steam Supply System Systems and Components
+    - **3.7.3.3** Procedure Used for Modeling
+    - **3.7.3.4** Basis for Selection of Frequencies
+- 33 Hz, it is treated as rigid and analyzed accordingly. Frequencies less than 0.25 Hz are not
+    - **3.7.3.5** Use of Equivalent Static Load Method of Analysis
+    - **3.7.3.6** Three Components of Earthquake Motion
+    - **3.7.3.7** Procedure for Combining Modal Responses
+    - **3.7.3.8** Analytical Procedures for Piping
+    - **3.7.3.9** Equipment Components Supported at Multiple Locations with Distinct Inputs
+    - **3.7.3.10** Use of Constant Vertical Static Factors
+    - **3.7.3.11** Torsional Effects of Eccentric Masses
+    - **3.7.3.12** Buried Seismic Category I Piping Systems and Tunnels
+      - **3.7.3.12.1** Procedures for Predicting the Stresses of Buried Pipes in the Free Field
+      - **3.7.3.12.1.1** Method of Analysis. The method of analysis developed is based on Reference 3.7-12.
+      - **3.7.3.12.1.3** Bending Stresses in Pipes. The method of analysis as suggested by N. M.
+      - **3.7.3.12.2** Procedures for Predicting the Stresses of Buried Pipes at Connections to Various
+    - **3.7.3.13** Interaction of Other Piping With Seismic Category I Piping
+    - **3.7.3.14** Seismic Analyses for Reactor Internals
+    - **3.7.3.15** Analysis Procedure for Damping
+  - **3.7.4** SEISMIC INSTRUMENTATION
+    - **3.7.4.1** Comparison With Regulatory Guide 1.12
+    - **3.7.4.2** Location and Description of Instrumentation
+  - LDCN-18-011, 18-030
+    - **3.7.4.3** Control Room Operator Notification
+    - **3.7.4.4** Comparison of Measured and Predicted Responses
+  - **3.7.5** REFERENCES
+  - LDCN-18-011, 18-030
+- **1.0** Welded steel frame structures
+- **2.0** Bolted or riveted steel frame structures
+- **2.5** Reinforced-concrete equipment supports
+- **3.0** Reinforced-concrete structures
+- **1.0** Equipmentc
+- **3.0** Reactor pressure vessel, support skirt, shroud head, 2.0
+- **3.5** Fuel 7.0 7.0 Steel frame structures
+- **3.0** Soil Rocking 5 7 Translation (horizontal and vertical)
+
+### 3.8 DESIGN OF SEISMIC CATEGORY I STRUCTURES  
+`chapters/3.8_DESIGN_OF_SEISMIC_CATEGORY_I_STRUCTURES.md` — source pp. 500–681
+
+- **3.8** DESIGN OF SEISMIC CATEGORY I STRUCTURES
+  - LDCN-05-009, 06-014
+  - **3.8.1** CONCRETE CONTAINMENT VESSEL (Not Applicable to CGS)
+  - **3.8.2** STEEL CONTAINMENT VESSEL (ASME Class MC Components)
+    - **3.8.2.1** Description of the Primary Containment Vessel
+- **3.1** Code Requirements
+      - **3.8.2.1.1** Description of Penetrations
+      - **3.8.2.1.2** Description of Crane Girder (Not Applicable to CGS)
+      - **3.8.2.1.3** Description of Vacuum Relief System
+      - **3.8.2.1.4** Containment Pressure Boundaries
+      - **3.8.2.1.5** Primary Containment Environmental Conditions
+    - **3.8.2.2** Applicable Codes, Standards, Specifications, and Regulatory Guides
+      - **3.8.2.2.1** Codes, Standards, and Specifications
+      - **3.8.2.2.2** Code Classification
+      - **3.8.2.2.3** Code Compliance
+      - **3.8.2.2.4** Regulatory Guides
+    - **3.8.2.3** Loads and Loading Combinations
+      - **3.8.2.3.1** Design Pressures and Temperatures
+      - **3.8.2.3.2** Operating Pressure and Temperature
+      - **3.8.2.3.3** Dead Loads
+      - **3.8.2.3.4** Live Loads
+      - **3.8.2.3.5** Mechanical Piping Loads
+      - **3.8.2.3.6** Thermal Loads
+      - **3.8.2.3.7** Construction Loads
+      - **3.8.2.3.8** Missile Loads
+      - **3.8.2.3.9** Loss-of-Coolant Accident Loads
+      - **3.8.2.3.10** Accident Recovery Loads
+      - **3.8.2.3.11** Seismic Loads
+      - **3.8.2.3.12** Loading Combinations
+    - **3.8.2.4** Design and Analysis Procedure
+      - **3.8.2.4.1** Description
+      - **3.8.2.4.2** Computer Programs Utilized in Design and Analysis
+      - **3.8.2.4.3** Seismic Analysis
+      - **3.8.2.4.3.2** Seismic Dynamic Analysis of Water in Suppression Chamber (Sloshing Effects).
+- **3.74** Below 20 5.84
+      - **3.8.2.4.4** Protective Coatings
+    - **3.8.2.5** Structural Acceptance Criteria
+      - **3.8.2.5.1** Primary Stresses
+      - **3.8.2.5.2** Primary and Secondary Stresses
+      - **3.8.2.5.3** Peak Stresses
+      - **3.8.2.5.4** Buckling Criteria for the Primary Containment Vessel
+    - **3.8.2.6** Materials, Quality Control, and Special Construction Techniques
+      - **3.8.2.6.1** Materials
+  - ASME SA-299
+  - ASME SA-182 F304
+  - ASME SA-420
+  - ASTM A-514
+  - ASTM A-36
+  - ASTM A-307
+      - **3.8.2.6.2** Quality Control
+      - **3.8.2.6.3** Special Construction Techniques
+    - **3.8.2.7** Testing and Inservice Inspection Requirements
+      - **3.8.2.7.1** Inspection of Material and Parts for Fabrication
+      - **3.8.2.7.2** Testing of Primary Containment Vessel During Field Erection
+      - **3.8.2.7.3** Testing of the Erected Primary Containment Vessel
+  - ANSI N45.4-1972.
+      - **3.8.2.7.4** Tests on Electrical and Mechanical Penetrations
+      - **3.8.2.7.5** Tests on Personnel Access Lock
+      - **3.8.2.7.6** Tests on Penetration Field Welds
+      - **3.8.2.7.7** Preoperational Leakage Rate Test and Periodic Leakage Rate Tests
+      - **3.8.2.7.8** Examination of Coatings on Immersed Surfaces
+  - **3.8.3** CONCRETE AND STEEL INTERNAL STRUCTURES OF STEEL
+  - CONTAINMENT
+    - **3.8.3.1** Description of Internal Structures
+      - **3.8.3.1.1** Reactor Pedestal
+      - **3.8.3.1.2** Sacrificial Shield Wall
+      - **3.8.3.1.3** Drywell Floor Structural System and Support Elements
+      - **3.8.3.1.4** Radial Beam Framing Systems
+      - **3.8.3.1.5** Stabilizer Truss
+      - **3.8.3.1.6** Refueling Bellows Seals
+      - **3.8.3.1.7** Reactor Steam Supply System Hangers and Supports
+      - **3.8.3.1.8** Reinforced-Concrete Lining Inside the Bottom Head of the Primary Containment
+    - **3.8.3.2** Applicable Codes, Standards, Specifications, and Regulatory Guides
+      - **3.8.3.2.1** Reactor Pedestal
+      - **3.8.3.2.2** Sacrificial Shield Wall
+      - **3.8.3.2.3** Drywell Floor Structural System and Support Elements
+      - **3.8.3.2.3.1** Reinforced-Concrete Slab.
+      - **3.8.3.2.3.3** Reinforced-Concrete Reactor Pedestal. See Section 3.8.3.2.1.
+      - **3.8.3.2.3.4** Circular Closure Girder.
+      - **3.8.3.2.3.5** Drywell Floor Peripheral Seal.
+      - **3.8.3.2.3.7** Shear Lugs. Same as Section 3.8.3.2.3.5, except that reference 43 is not applied.
+      - **3.8.3.2.3.8** Downcomers
+      - **3.8.3.2.4** Radial Beam Framing Systems
+      - **3.8.3.2.5** Stabilizer Truss
+      - **3.8.3.2.6** Refueling Bellows Seals
+      - **3.8.3.2.7** Reactor Steam Supply System Hangers and Supports
+      - **3.8.3.2.8** Reinforced-Concrete Lining Inside Bottom Head of Primary Containment Vessel
+    - **3.8.3.3** Loads and Load Combinations
+      - **3.8.3.3.1** Load Conditions
+      - **3.8.3.3.2** Load Categories
+      - **3.8.3.3.3** Load Definitions
+      - **3.8.3.3.4** Internal Structures in the Suppression Chamber
+      - **3.8.3.3.5** Internal Structures in the Drywell
+    - **3.8.3.4** Design and Analysis Procedures
+      - **3.8.3.4.1** Reactor Pedestal
+      - **3.8.3.4.2** Sacrificial Shield Wall
+      - **3.8.3.4.3** Drywell Floor Structural System and Support Elements, Including the Peripheral
+      - **3.8.3.4.4** Radial Beam Framing Systems
+      - **3.8.3.4.5** Stabilizer Truss
+      - **3.8.3.4.6** Refueling Bellows Seals
+      - **3.8.3.4.7** Reactor Steam Supply System Hangers and Supports
+      - **3.8.3.4.8** Reinforced-Concrete Lining Inside Bottom Head of Primary Containment Vessel
+      - **3.8.3.4.9** Downcomer Vent Pipes
+    - **3.8.3.5** Structural Acceptance Criteria
+      - **3.8.3.5.1** Reinforced Concrete
+      - **3.8.3.5.2** Structural Steel
+    - **3.8.3.6** Materials, Quality Control, and Special Construction Techniques
+    - **3.8.3.7** Testing and Inservice Surveillance Programs
+  - **3.8.4** REDACTED
+  - LDCN-98-078, 02-036
+  - LDCN-98-117, 99-000
+  - **3.8.5** FOUNDATIONS
+    - **3.8.5.1** Descriptions of Foundations
+      - **3.8.5.1.1** Reactor Building
+      - **3.8.5.1.2** Radwaste and Control Building
+      - **3.8.5.1.3** Diesel Generator Building
+      - **3.8.5.1.4** Standby Service Water Pump House and Spray Pond
+      - **3.8.5.1.5** Condensate Storage Tank Retaining Area
+      - **3.8.5.1.6** Turbine Generator Building
+      - **3.8.5.1.7** Non-Seismic Category I Safety-Related Foundations
+    - **3.8.5.2** Applicable Codes, Standards, and Specifications
+    - **3.8.5.3** Loads and Loading Combinations
+    - **3.8.5.4** Design and Analysis Procedures
+      - **3.8.5.4.1** General
+      - **3.8.5.4.2** Reactor Building Foundation Mat
+      - **3.8.5.4.3** Radwaste and Control Building
+      - **3.8.5.4.4** Diesel Generator Building
+      - **3.8.5.4.5** Standby Service Water Pump Houses, Spray Ponds, and Condensate Storage Tank
+      - **3.8.5.4.6** Turbine Generator Building
+      - **3.8.5.4.7** Makeup Water Pump House
+    - **3.8.5.5** Structural Acceptance Criteria
+    - **3.8.5.6** Materials, Quality Control, and Special Construction Techniques
+    - **3.8.5.7** Testing and Inservice Surveillance Techniques
+  - **3.8.6** PIPING AND ELECTRICAL PENETRATIONS
+    - **3.8.6.1** Description
+      - **3.8.6.1.1** Piping Penetrations - Type 1
+      - **3.8.6.1.2** Piping Penetrations - Type 2
+      - **3.8.6.1.3** Piping Penetrations - Type 3
+      - **3.8.6.1.4** Electrical Penetrations - Type 4
+      - **3.8.6.1.4.1** Configuration.
+      - **3.8.6.1.4.3** Auxiliary Hardware.
+      - **3.8.6.1.5** Instrumentation Piping Penetrations - Type 5, 6, and 7
+    - **3.8.6.2** Applicable Codes, Standards, Specifications, and Regulatory Guides
+      - **3.8.6.2.1** Codes, Standards, and Specifications
+      - **3.8.6.2.2** Conformance with Regulatory Guides
+    - **3.8.6.3** Loads and Loading Combinations
+      - **3.8.6.3.1** Loads
+      - **3.8.6.3.2** Loading Combinations
+    - **3.8.6.4** Design and Analysis Procedures
+      - **3.8.6.4.1** Piping Penetrations
+      - **3.8.6.4.2** Flued Head Fitting Design
+      - **3.8.6.4.3** Thermal Stress Analysis for Flued Head Fittings
+      - **3.8.6.4.4** Primary Containment Vessel Design at Penetration Nozzle Interface
+- **1.5** Sm. For maximum primary plus secondary stress intensity, the allowable
+      - **3.8.6.4.5** Electrical Penetrations
+      - **3.8.6.4.6** Protective Coatings
+    - **3.8.6.5** Structural Acceptance Criteria
+      - **3.8.6.5.1** Type I Piping Penetrations
+      - **3.8.6.5.2** Types 2 and 3 Piping Penetrations
+      - **3.8.6.5.3** Type 4 Electrical Penetrations and Type 5, 6, and 7 Instrumentation Penetrations
+      - **3.8.6.5.4** Allowable Stresses for Piping, Electrical, and Instrumentation Penetrations
+    - **3.8.6.6** Materials, Quality Control, and Special Construction Techniques
+      - **3.8.6.6.1** Materials
+      - **3.8.6.6.2** Quality Control
+      - **3.8.6.6.3** Special Construction Techniques
+    - **3.8.6.7** Testing and Inservice Inspection Requirements
+      - **3.8.6.7.1** Inspection of Material and Parts for Fabrication
+      - **3.8.6.7.2** Shop Hydrostatic Testing
+      - **3.8.6.7.3** Shop Tests on Electrical Penetration Assemblies
+  - LOCA.
+      - **3.8.6.7.4** Field Tests on Electrical Penetration Assemblies
+      - **3.8.6.7.5** Testing of Penetrations After Erected
+      - **3.8.6.7.6** Tests on Penetration Field Welds
+      - **3.8.6.7.7** Preoperational Leakage Rate Tests and Periodic Leakage Rate Tests
+  - **3.8.7** REFERENCES
+- 3 ACI 347-68 Recommended Practice for Concrete March 1968
+- 4 ACI 605-72 Recommended Practice for Hot 1972
+- 6 ACI 614-73 Recommended Practice for Measuring, 1971
+- 7 ACI 315-74 Manual of Standard Practice for 1971
+- 8 ACI 306-66 Recommended Practice for Cold 1966
+- 9 ACI 609-72 Recommended Practice for
+- 10 ACI 322-72 Building Code Requirements for 1972
+- 11 ACI 308-71 Recommended Practice for Curing 1971, Title 69-1
+- 12 ACI 212 Guide for Use of Admixtures in ACI Journal,
+- 13 ACI 214-65 Recommended Practice for Evaluation 1965
+- 14 ACI 311-64 Recommended Practice for Concrete 1964
+- 15 ACI SP-2 Manual of Concrete Inspection 1968 (5th Edition)
+- 16 Report by ACI Placing Concrete by Pumping ACI Journal, May
+- 17 Report by ACI Strength Evaluation of Existing ACI Journal,
+- 18 AISC-69 Specification for the Design, February 12, 1969
+- 19 AISC-68 Specification for the Design of Light 1968
+- 20 AWS D1.1-72 Structural Welding Code
+- 21 AWS D12.1-61 Recommended Practice for Welding 1961
+- 25 ASTM Annual Books of ASTM Standards 1972
+- 26 ANSI B31.1.0 Standard Code for Pressure Piping, Latest edition
+- 27 API Spec. Specification for Welded Steel Storage February 1970
+- 28 UBC
+- 29 NEC
+- 30 ASTM C 1107 Standard Specification for Packaged Latest edition
+- 31 ASTM C 1090 Standard Test Method for Measuring Latest edition
+- 32 CRSI
+- 33 ANSI 45.2.5-74 Supplementary Quality Assurance 1974
+- 35 Regulatory Mechanical Cadweld Splices in January 2, 1973
+- 36 Regulatory Instrumentation for Earthquakes March 1997
+- 37 Regulatory Fuel Storage Facility Design Basis March 10, 1971
+- 38 Regulatory Testing of Reinforcing Bars for December 28, 1972
+- 40 Regulatory Quality Group Classification and September 1974
+- 41 Regulatory Ultimate Heat Sink for Nuclear Power March 1974
+- 42 Regulatory Seismic Design Classification September 1978
+- 43 Regulatory Control of Stainless Steel Welding June 1973
+- 44 Not Used
+- 45 Regulatory Concrete Placement in Category I June 1973
+- 46 ASME 1971 Boiler and Pressure Vessel Code, Summer of 1972
+- 47 ASME 1971 ASME Boiler and Pressure Summer of 1972
+- 48 ASME 1971 Code Interpretations Case
+- 49 EJMA Standards of the EJMA
+- 50 SSPC
+- 51 ANSI N 101.4 Protective Coating Applied to Nuclear Latest edition
+- 54 Regulatory Quality Assurance Requirements for April 1976
+- 55 Regulatory Pre-Earthquake Planning and March 1997
+- 56 Regulatory Restart of a Nuclear Power Plant Shut March 1997
+  - LDCN-18-011, 18-030
+- **1.0** Po 1.7 1.7
+- **1.0** To Normal
+  - D 1.4 1.4
+- **1.0** Abnormal Ra
+  - L 1.0
+  - D 1.0 1.0
+  - II I I
+  - II I I
+- **1.0** Abnormal
+- **1.4** Load Combinations and Load Factors 1.4
+- **1.3** W 1.3 1.3 1.3 1.3
+- **1.3** Q 1.7 1.7 1.7 1.3
+- **1.1** Ro 0.9 1.4
+- **1.0** Extreme
+- **1.0** Table 3.8-10
+  - L --- --- --- --- --- --- --- --- --- ---
+  - U12 U14
+- **1.0** Extreme
+- **1.0** Rr Abnormal
+- **1.0** Table 3.8-10
+  - L --- --- --- --- --- --- ---
+  - U12 U14
+  - U12 1.6S
+  - U13 1.7S
+  - U14 1.7S
+  - U12 0.9Y
+  - U13 0.9Y
+  - U14 0.9Y
+- 4 Shear
+  - ~ QUAD R\ ""1~ SEA.\.S, SHAFT 4 &eAR\\i-1~
+  - OR. F304 5TAIULE'&S STL,.-
+  - LUCN-02-000
+  - SECTION B-B
+  - ELEVATION A-A
+
+### 3.9 MECHANICAL SYSTEMS AND COMPONENTS  
+`chapters/3.9_MECHANICAL_SYSTEMS_AND_COMPONENTS.md` — source pp. 682–858
+
+- **3.9** MECHANICAL SYSTEMS AND COMPONENTS
+  - **3.9.1** SPECIAL TOPICS FOR MECHANICAL COMPONENTS
+    - **3.9.1.1** Design Transients
+      - **3.9.1.1.1** Control Rod Drive Transients
+      - **3.9.1.1.2** Control Rod Drive Housing and In-Core Housing Transients
+      - **3.9.1.1.3** Hydraulic Control Unit Transients
+      - **3.9.1.1.4** Core Support and Reactor Internals Transients
+      - **3.9.1.1.5** Nuclear Steam Supply System Scope Main Steam System Transients
+      - **3.9.1.1.6** Recirculation System Transients
+      - **3.9.1.1.7** Reactor Assembly Transients
+      - **3.9.1.1.8** Main Steam Isolation Valve Transients
+      - **3.9.1.1.9** Main Steam Safety/Relief Valve Transients
+      - **3.9.1.1.10** Recirculation Flow Control Valve Transients
+      - **3.9.1.1.11** Recirculation Pump Transients
+      - **3.9.1.1.12** Recirculation Gate Valve Transients
+      - **3.9.1.1.13** Balance-of-Plant Transients
+    - **3.9.1.2** Nuclear Steam Supply System Computer Programs Used in Original Analysis
+  - MASS.
+  - SNAP (MULTISHELL)
+  - HEATER
+  - PISYS
+  - ANSI7
+  - SAP4G
+  - FTFLG01
+  - ANSYS
+  - BSTIF01
+  - RTRMEC
+  - POSUM
+  - BILRD
+  - RVFOR
+  - TSFOR
+  - LUGST
+  - DYSEA
+  - SPECA
+  - SEISM
+      - **3.9.1.2.1** Reactor Pressure Vessel and Internals
+      - **3.9.1.2.1.1.17** CB&I Program 953. The program is a general purpose program, which does the following:
+      - **3.9.1.2.2** Nuclear Steam Supply System Piping
+      - **3.9.1.2.3** Recirculation Pump
+      - **3.9.1.2.4** Emergency Core Cooling System Pumps and Motors
+      - **3.9.1.2.5** Residual Heat Removal Heat Exchangers
+      - **3.9.1.2.5.3** Calculation of Shell Attachment Parameters and Coefficients/BILRD.
+      - **3.9.1.2.6** Dynamic Loads Analysis
+      - **3.9.1.2.7** Balance-of-Plant Computer Programs
+    - **3.9.1.3** Experimental Stress Analysis
+      - **3.9.1.3.1** Experimental Stress Analysis of Piping Components
+      - **3.9.1.3.2** Orificed Fuel Support, Vertical, and Horizontal Load Tests
+    - **3.9.1.4** Considerations for the Evaluation of Faulted Conditions
+      - **3.9.1.4.1** Control Rod Drive System Components
+      - **3.9.1.4.2** Standard Reactor Internal Components
+      - **3.9.1.4.3** Reactor Pressure Vessel Assembly
+      - **3.9.1.4.4** Core Structure
+      - **3.9.1.4.5** Main Steam Isolation, Recirculation Gate, and Safety/Relief Valves
+      - **3.9.1.4.6** Recirculation System Flow Control Valve
+      - **3.9.1.4.7** Main Steam and Recirculation Piping
+      - **3.9.1.4.8** Nuclear Steam Supply System Pumps, Heat Exchangers, and Turbine
+      - **3.9.1.4.9** Control Rod Drive Housing Supports
+      - **3.9.1.4.10** Fuel Storage Racks
+      - **3.9.1.4.11** Fuel Assembly Including Channels
+      - **3.9.1.4.12** Refueling Equipment
+      - **3.9.1.4.13** Balance-of-Plant Equipment
+  - **3.9.2** DYNAMIC TESTING AND ANALYSIS
+    - **3.9.2.1** Preoperational Vibration and Dynamic Effects Testing on Piping
+      - **3.9.2.1.1** Preoperational Vibration Testing
+      - **3.9.2.1.2** Small Attached Piping
+      - **3.9.2.1.3** Startup Vibration
+      - **3.9.2.1.4** Operating Transient Loads
+      - **3.9.2.1.5** Test Evaluation and Acceptance Criteria
+      - **3.9.2.1.6** Corrective Actions
+      - **3.9.2.1.7** Measurement Locations
+    - **3.9.2.2** Seismic and Hydrodynamic Loads Qualification of Safety-Related Mechanical
+      - **3.9.2.2.1** Test and Analysis Criteria and Methods
+      - **3.9.2.2.1.1** Random Vibration Input. See Section 3.10.
+      - **3.9.2.2.1.2** Application of Input Motion. See Section 3.10 for test input motion.
+      - **3.9.2.2.2** Seismic and Hydrodynamic Load Qualification of Specific Nuclear Steam Supply
+      - **3.9.2.2.2.7** Emergency Core Cooling System Pumps and Motors Assembly.
+      - **3.9.2.2.2.12** Standby Liquid Control Tank. The SLC tank is not considered safety related
+      - **3.9.2.2.3** Balance-of-Plant Safety-Related Mechanical Equipment
+      - **3.9.2.2.4** Suppression Pool Hydrodynamic Loads Qualification of Safety-Related
+    - **3.9.2.3** Dynamic Response of Reactor Internals Under Operational Flow Transients and
+    - **3.9.2.4** Confirmatory Flow-Induced Vibration Testing of Reactor Internals
+    - **3.9.2.5** Dynamic System Analysis of the Reactor Internals Under Faulted Conditions
+    - **3.9.2.6** Correlations of Reactor Internals Vibration Tests With the Analytical Results
+  - **3.9.3** ASME CODE CLASS 1, 2, AND 3 COMPONENTS, COMPONENT SUPPORTS,
+  - AND CORE SUPPORT STRUCTURES
+    - **3.9.3.1** Loading Combinations, Design Transients, and Stress Limits
+      - **3.9.3.1.1** Plant Conditions
+- **1.0** P 10-2
+      - **3.9.3.1.2** Reactor Pressure Vessel Assembly
+      - **3.9.3.1.3** Main Steam Piping
+      - **3.9.3.1.4** Recirculation Loop Piping
+      - **3.9.3.1.5** Recirculation System Valves
+      - **3.9.3.1.6** Recirculation Pump
+      - **3.9.3.1.7** Standby Liquid Control Tank
+      - **3.9.3.1.8** Residual Heat Removal Heat Exchangers
+      - **3.9.3.1.9** Reactor Core Isolation Cooling Turbine
+      - **3.9.3.1.10** Reactor Core Isolation Cooling Pump
+      - **3.9.3.1.11** Emergency Core Cooling System Pumps
+      - **3.9.3.1.12** Standby Liquid Control Pump
+      - **3.9.3.1.13** Safety/Relief Valves and Main Steam Isolation Valves
+      - **3.9.3.1.14** Safety/Relief Valve Discharge Piping
+      - **3.9.3.1.15** Reactor Water Cleanup System Pump and Heat Exchangers
+      - **3.9.3.1.16** Fuel Pool Cooling and Cleanup System Heat Exchangers and Pumps
+      - **3.9.3.1.17** Control Rod Drive Piping
+  - ANSI B31.1.
+      - **3.9.3.1.18** Balance-of-Plant Piping
+  - NB-3630.
+    - **3.9.3.2** Pump and Valve Operability Assurance
+  - NB-3500.
+      - **3.9.3.2.1** Emergency Core Cooling System Pumps
+      - **3.9.3.2.2** Standby Liquid Control Pump and Motor Assembly and Reactor Core Isolation
+      - **3.9.3.2.3** Emergency Core Cooling System Pump Motors
+      - **3.9.3.2.4** ASME Code Class 1 Active Valves
+      - **3.9.3.2.4.4** High-Pressure Core Spray Valve. This valve is a motor-operated gate valve.
+      - **3.9.3.2.5** Class 2 and 3 Active Valves
+      - **3.9.3.2.6** Engineered Safety Features Pumps
+- 33 Hz, the assemblies may have been qualified by static analytical methods only. The ECCS
+    - **3.9.3.3** Design and Installation Details for Mounting of Pressure Relief Devices
+      - **3.9.3.3.1** Main Steam Safety/Relief Valves
+      - **3.9.3.3.2** Open Relief Systems
+      - **3.9.3.3.3** Closed Relief System
+    - **3.9.3.4** Component Supports
+      - **3.9.3.4.1** Pipe Supports
+  - XVII-3000).
+      - **3.9.3.4.2** Reactor Pressure Vessel Support Skirt
+      - **3.9.3.4.3** Nuclear Steam Supply System Floor-Mounted Equipment (Pumps and Heat
+      - **3.9.3.4.4** Supports for ASME Code Class 1, 2, and 3 Active Components
+    - **3.9.3.5** Pipe Support Analysis
+  - **3.9.4** CONTROL ROD DRIVE SYSTEM
+    - **3.9.4.1** Descriptive Information Regarding Control Rod Drive Systems
+    - **3.9.4.2** Applicable Control Rod Drive Systems Design Specification
+    - **3.9.4.3** Design Loads, Stress Limits, and Allowable Deformation
+    - **3.9.4.4** Control Rod Drive Performance Assurance Program
+  - **3.9.5** REACTOR PRESSURE VESSEL INTERNALS
+    - **3.9.5.1** Design Arrangements
+      - **3.9.5.1.1** Core Support Structures and Vessel Internals
+      - **3.9.5.1.2** Core Plate
+      - **3.9.5.1.3** Top Guide
+      - **3.9.5.1.4** Fuel Support
+      - **3.9.5.1.5** Control Rod Guide Tubes
+      - **3.9.5.1.6** Jet Pump Assemblies
+      - **3.9.5.1.7** Steam Dryers
+      - **3.9.5.1.8** Feedwater Spargers
+  - LDCN-05-021, 05-023
+      - **3.9.5.1.9** Core Spray Lines and Standby Liquid Control Injection
+      - **3.9.5.1.10** Vessel Head Spray Nozzle
+      - **3.9.5.1.11** Differential Pressure Line
+      - **3.9.5.1.12** In-Core Flux Monitor Guide Tubes
+      - **3.9.5.1.13** Surveillance Sample Holders
+      - **3.9.5.1.14** Low-Pressure Coolant Injection Lines
+      - **3.9.5.1.15** Startup Neutron Sources
+    - **3.9.5.2** Design Loading Conditions
+      - **3.9.5.2.1** Events to be Evaluated
+      - **3.9.5.2.2** Pressure Differential During Rapid Depressurization
+      - **3.9.5.2.3** Recirculation Line and Steam Line Break
+      - **3.9.5.2.4** Seismic and Hydrodynamic Events
+    - **3.9.5.3** Design Loading Categories
+    - **3.9.5.4** Design Bases
+      - **3.9.5.4.1** Safety Design Bases
+      - **3.9.5.4.2** Power Generation Design Bases
+      - **3.9.5.4.3** Response of Internals Due to Inside Steam Break Accident
+      - **3.9.5.4.4** Stress, Deformation, and Fatigue Limits for Reactor Internals (Except Core
+- **2.25** Upset
+- **2.25** Emergency
+- **1.5** Faulted
+      - **3.9.5.4.5** Stress, Deformation, and Fatigue Limits for Core Support Structures
+  - **3.9.6** INSERVICE TESTING OF PUMPS AND VALVES
+  - **3.9.7** REFERENCES
+- 10 CFR 50 Appendix K,” General Electric Company, NEDO-20566-A,
+  - INTRODUCTION
+  - INDEX TO INDIVIDUAL COMPONENTS
+  - GE SCOPE OF SUPPLY
+- 1 P + DW
+- 2 N + [OBE2 + SRV2ONE]½
+- 3 N + [OBE2 + SRV2TWO]½
+- 4 N + [OBE2 + SRV2ALL]½
+- 5 N + [OBE2 + SRV2ADS + SBA2]½
+- 6 N + [OBE2 + SRV2TWO + SBA2]½
+- 7 N + [SSE2 + SRV2ADS + SBA2/IBA2]½ Faultedb (D)
+- 8 N + [SSE2 + SRV2TWO + SBA2/IBA2]½ Faultedb (D)
+- 9 N + [SSE2 + SRV2ONE]½
+- 10 N + [SSE2 + SRV2TWO]½
+- 11 N + [SSE2 + SRV2ALL]½
+- 12 N + [SSE2 + DBA2]½
+  - LEGEND
+- **1.5** Sy = 63,450 @ 575F
+- **1.5** Sy = 63,450 @ 575F
+- **1.5** Sm = 40,050 @ 575F
+  - D. B.
+- **1.5** Sy = 42,150 @ 575F
+- **1.5** Sy = 42,150 @ 575F
+- **1.2** Sm = 27,960 @ 575F Normal and upset condition:
+- **1.5** Sm = 35,900 @ 575F 1.2 Sm = 27,960 @ 575F
+- **1.5** Sy = 42,000 @ 575F
+- **1.5** Sy = 42,000 @ 575F
+  - D. B.
+- **1.2** Sm = 19,980 @ 550F
+- **1.2** Sm = 19,980 @ 550F Normal and upset condition:
+- **1.5** Sy = 35,150 @ 550F
+- **1.5** Sy = 35,150 @ 550F
+  - D. B.
+  - D. B.
+  - C. B.
+  - MS-SC-2
+  - MS-SC-1 MS-SC-2
+  - SRV 4B SRC 5C
+  - RHR TEE
+  - RHR TEE
+  - RHR TEE
+  - SA6 SB6
+- **1.5** Sm =
+- 1 Inlet: Sm @ 575°F = 18,200 psi
+- **1.5** Sm SH = Longitudinal “hub” wall Sm
+  - SP SP
+- **1.5** Sm (for maximum
+  - SH’ SR’ ST)
+  - H R T
+  - S S S
+- **1.5** Sm = 67,838 psi 1.5 Sm = 67,838 psi
+  - SSAP0
+- 2 Criterion satisfied
+  - QT SP ,
+- 1 QT 2
+- 4 Main Steam Isolation Valve (Continued)
+- 22 Sshear at inner edge disk f
+- 3 St ,
+- 1 A Fs 3
+  - MG S S
+  - H 9814 8750
+  - S S S
+  - H M R S T H
+  - S S S S S (
+- **1.5** Sm = 22,607 psi
+- 2 Table 3.9-2i a
+- 2 Casing cover minimum thickness r =
+- **1.5** Sm per ASME
+  - A. B.
+  - A. B.
+- **1.5** Sm = 29,400 psi
+  - C F S
+  - P SET
+  - P P P P P
+- **1.5** Sm per ASME Code
+  - A. B.
+  - A. B.
+  - A. B. A. B.
+  - A. B.
+  - A. B. A. B.
+- **1.5** Sm = 29,400 psi
+  - NB-3542-1
+  - SA 479-304,
+  - SAE 4140,
+- **0.75** Su or 2.4 Sm
+- **1.5** Sy = 63,450
+  - NB-3600.
+
+### 3.10 Seismic And Dynamic Qualification Of Safety-Related  
+`chapters/3.10_Seismic_And_Dynamic_Qualification_Of_Safety_Related.md` — source pp. 859–907
+
+- **3.10** SEISMIC AND DYNAMIC QUALIFICATION OF SAFETY-RELATED
+  - INSTRUMENTATION AND ELECTRICAL EQUIPMENT
+  - **3.10.1** SEISMIC AND DYNAMIC QUALIFICATION CRITERIA
+    - **3.10.1.1** Safety-Related Equipment Identification
+    - **3.10.1.2** Criteria for Acceptability
+  - NP-5024.
+      - **3.10.1.2.1** Cable Tray and Conduit Supports
+      - **3.10.1.2.2** Decision Criteria (Original Construction Permit Basis)
+      - **3.10.1.2.2.1** Structurally Simple Equipment. See Section 3.7.2.1.9.
+  - IEEE 344-1975.)
+      - **3.10.1.2.3** Reevaluation of Original Seismic Qualification
+  - **3.10.2** METHODS AND PROCEDURES FOR QUALIFYING INSTRUMENTATION
+  - AND ELECTRICAL EQUIPMENT
+    - **3.10.2.1** Methods For Qualifying Nuclear Steam Supply System Equipment (Excluding
+    - **3.10.2.2** Methods For Qualifying Balance-of-Plant Equipment
+    - **3.10.2.3** General Electric-Supplied Equipment Seismic Analyses and/or Testing Procedures
+      - **3.10.2.3.1** Testing Procedures for Qualifying Equipment (Excluding Motors and
+      - **3.10.2.3.2** Qualification Procedures for Motors
+      - **3.10.2.3.3** Qualification Procedures for Valve-Mounted Equipment
+    - **3.10.2.4** Balance-of-Plant Equipment Analyses and/or Testing Procedures
+  - **3.10.3** METHODS AND PROCEDURES OF ANALYSIS OR TESTING OF SUPPORTS
+  - FOR INSTRUMENTATION AND ELECTRICAL EQUIPMENT
+    - **3.10.3.1** Nuclear Steam Supply System Equipment (Other Than Motors and Valve-Mounted
+    - **3.10.3.2** Balance-of-Plant Supports
+  - **3.10.4** OPERATING LICENSE REVIEW
+    - **3.10.4.1** Establishment of Service Conditions
+    - **3.10.4.2** Establishment of Qualification Information and Documentation Files
+    - **3.10.4.3** Seismic Qualification Review Team Results of the Operating License
+    - **3.10.4.4** Pump and Valve Operability Review Team Audit Results of the Operating
+  - **3.10.5** ESTABLISHMENT OF OPERATIONAL PHASE SEISMIC QUALIFICATION
+  - PROGRAM
+  - **3.10.6** REFERENCES
+  - APPENDIX 3.10A
+  - DYNAMIC ANALYSIS BY RESPONSE SPECTRUM METHOD
+  - FOR NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - DYNAMIC ANALYSIS BY RESPONSE SPECTRUM METHOD
+  - FOR NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - TABLE OF CONTENTS
+  - METHOD FOR NUCLEAR STEAM SUPPLY SYSTEM
+  - EQUIPMENT
+  - SAMPLE SEISMIC STATIC ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - TABLE OF CONTENTS
+  - CALCULATION OF MAXIMUM NORMAL AND SHEAR
+  - SAMPLE SEISMIC STATIC ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - LIST OF TABLES
+  - SAMPLE SEISMIC STATIC ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - LIST OF FIGURES
+  - SAMPLE SEISMIC STATIC ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - NORMAL AND SHEAR STRESSES IN ENCLOSURE MOUNTING BOLTS
+- 1 A 2 1 L j
+  - A2(G)
+  - C7 700 C6 C5 600 C4
+  - SAMPLE PANEL FREQUENCY ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - TABLE OF CONTENTS
+  - SAMPLE PANEL FREQUENCY ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - LIST OF FIGURES
+  - SAMPLE PANEL FREQUENCY ANALYSIS FOR
+  - NUCLEAR STEAM SUPPLY SYSTEM EQUIPMENT
+  - r
+  - l
+
+### 3.11 Environmental Design Of Mechanical And Electrical  
+`chapters/3.11_Environmental_Design_Of_Mechanical_And_Electrical.md` — source pp. 908–930
+
+- **3.11** ENVIRONMENTAL DESIGN OF MECHANICAL AND ELECTRICAL
+  - EQUIPMENT
+  - **3.11.1** EQUIPMENT IDENTIFICATION AND ENVIRONMENTAL CONDITIONS
+    - **3.11.1.1** Identification of Electrical Equipment Important to Safety
+      - **3.11.1.1.1** Engineered Safety Features and Reactor Protection System Equipment
+      - **3.11.1.1.2** Postaccident Monitoring Electrical Equipment
+      - **3.11.1.1.3** Other Electrical Equipment Important to Safety
+      - **3.11.1.1.4** Electrical Equipment Whose Failure Does Not Affect Safety Function
+      - **3.11.1.1.5** Safety-Related Mechanical Equipment
+      - **3.11.1.1.6** Identification of Safety-Related Equipment In Mild Environmental Plant Areas
+    - **3.11.1.2** Normal and Accident Environmental Service Conditions
+      - **3.11.1.2.1** Normal Plant Operational Environmental Conditions (Except Radiation)
+      - **3.11.1.2.2** Accident Environmental Service Conditions (Except Radiation)
+      - **3.11.1.2.3** Radiation Service Conditions
+      - **3.11.1.2.4** Accident Conditions - Harsh Environments
+  - **3.11.2** QUALIFICATION TESTS AND ANALYSES
+  - **3.11.3** QUALIFICATION PROGRAM RESULTS
+    - **3.11.3.1** NRC Review of the CGS Environmental Qualification Program
+    - **3.11.3.2** Establishment of Operational Phase Environmental Qualification Review
+  - **3.11.4** LOSS OF VENTILATION
+    - **3.11.4.1** Main Control Room Air Conditioning and Ventilation System
+    - **3.11.4.2** Reactor Building Emergency Cooling System
+    - **3.11.4.3** Miscellaneous Ventilation Systems
+  - **3.11.5** ESTIMATED CHEMICAL AND RADIATION ENVIRONMENT
+    - **3.11.5.1** Suppression Pool, Residual Heat Removal System, and Emergency Core Cooling
+    - **3.11.5.2** Qualification
+  - **3.11.6** REFERENCES
+  - R409)
+  - N/A N/A
+- 4 N/A Notes
+  - FSAR N/A 1 2 2 2 2 3 2
+  - RRA-M-1 RRA-M-2 RRA-M-3
+  - EQUIPMENT QUALIFICATION REPORT
+- 90 Max Normal
+- **14.7** Normal 90 Abnormal 100 Accident
+- 40 Normal 6 months
+
+### 3.12 Computer Programs For Structural Analysis And Design  
+`chapters/3.12_Computer_Programs_For_Structural_Analysis_And_Design.md` — source pp. 931–1251
+
+- **3.12** COMPUTER PROGRAMS FOR STRUCTURAL ANALYSIS AND DESIGN
+  - ADLPIPE
+  - ANSYS
+  - CB&I PROGRAM 979 - ASFAST
+  - CB&I PROGRAM 1027
+  - CB&I PROGRAM 1037 - DUNHAM’S
+  - CB&I PROGRAM 1335
+  - CB&I PROGRAM 1606 AND 1657 - HAP
+  - CB&I PROGRAM 1635
+  - CB&I PROGRAM 711 - GENOZZ
+  - CB&I PROGRAM 766 - TEMAPR
+  - CB&I PROGRAM 767 - PRINCESS
+  - CB&I PROGRAM 781 - KALNINS
+  - CB&I PROGRAM 846
+  - CB&I PROGRAM 928 - TGRV
+  - CB&I PROGRAM 948 - NAPALM
+  - CB&I PROGRAM 953
+  - CB&I PROGRAM 962 - E0962A
+  - CB&I PROGRAM 984
+  - CB&I PROGRAM 992 - GASP
+  - DACSR
+  - FLXMAT
+  - GOTHIC
+  - ISOFINITE
+  - MULTISHELL
+  - NASTRAN
+  - RELAP3
+  - RELAP4/MOD5
+  - SAP4G07
+  - S/RVDAM
+  - SSAPO ALGOR SUPERSAP
+  - SPLUG
+  - STARS-2S
+  - STRUDL II
+  - **3.12.1** DACSR
+  - **3.12.2** AX1
+  - **3.12.3** AX2
+  - **3.12.4** AX3
+  - **3.12.5** STRUDL II
+  - **3.12.6** STARS-2S
+  - **3.12.7** NASTRAN
+  - NASA-SP-221(01)
+  - NASA-SP-222(01)
+  - NASA-SP-222
+  - NASA-SP-223(01)
+  - **3.12.8** FLXMAT
+  - EXAMPLE PROBLEM
+  - **3.12.9** ISOFINITE
+  - NASTRAN.
+  - **3.12.10** ANSYS
+  - **3.12.11** RELAP3
+    - **3.12.11.1** RELAP4/MOD5
+    - **3.12.11.2** S/RVDAM
+    - **3.12.11.3** GOTHIC 7.0/8.1
+  - **3.12.12** CB&I PROGRAM 711 - “GENOZZ”
+  - **3.12.13** CB&I PROGRAM 948 - "NAPALM"
+  - **3.12.14** CB&I PROGRAM 1027
+  - **3.12.15** CB&I PROGRAM 846
+  - **3.12.16** CB&I PROGRAM 781 - "KALNINS"
+  - **3.12.17** CB&I PROGRAM 979 - "ASFAST"
+  - **3.12.18** CB&I PROGRAM 766 - "TEMAPR"
+  - **3.12.19** CB&I PROGRAM 767 - "PRINCESS"
+  - **3.12.20** CB&I PROGRAM 928 - "TGRV"
+  - **3.12.21** CB&I PROGRAM 962 - "E0962A"
+  - **3.12.22** CB&I PROGRAM 984
+  - **3.12.23** CB&I PROGRAM 992 - "GASP"
+  - **3.12.24** CB&I PROGRAM 1037 - "DUNHAM'S"
+  - **3.12.25** CB&I PROGRAM 1335
+  - **3.12.26** CB&I PROGRAM 1606 and 1657 - "HAP"
+  - **3.12.27** CB&I PROGRAM 1635
+  - **3.12.28** CB&I PROGRAM 953
+  - **3.12.29** ALGOR SUPERSAP COMPUTER PROGRAM
+  - **3.12.30** MASS
+  - **3.12.31** MULTISHELL
+  - **3.12.32** SAP4G07
+  - **3.12.33** PDA
+  - **3.12.34** DELETED
+  - **3.12.35** DELETED
+  - **3.12.36** DELETED
+  - **3.12.37** ADLPIPE
+  - **3.12.38** NUPIPE-IIM (Version 1.6.3)
+  - **3.12.39** TPIPE (Version 4.2)
+  - **3.12.40** PIPESUP-CS102 (Version 2): Gilbert Commonwealth
+  - **3.12.41** P001 (Version 6.0): Gilbert Commonwealth
+  - **3.12.42** P002 (Version 4.0): Gilbert Commonwealth
+  - **3.12.43** P003 (Version 5.0): Gilbert Commonwealth
+  - CO-208.)
+  - **3.12.44** T-MOVE (Version V0-00): Gilbert Commonwealth
+  - **3.12.45** BPIPE-CS085 (Version 2)
+  - **3.12.46** SPLUG (Originators J. Kutzen, J. B. Mahoney, V. Ral-Bahade)
+  - **3.12.47** REFERENCES
+  - N.Y., 1961.
+  - STARDYNE
+  - DACSR
+  - STARDYNE
+  - TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION TRANSLATION
+  - STARDYNE
+  - TRANSLATION TRANSLATION TRANSLATION TRANSLATION
+  - TRANSLATION TRANSLATION TRANSLATION TRANSLATION
+  - ROTATION ROTATION ROTATION ROTATION
+  - STARDYNE
+  - TRANSLATION TRANSLATION TRANSLATION TRANSLATION
+  - ROTATION ROTATION
+  - DACSR X6 DACSR X1
+  - DACSR X1
+  - DACSR X6
+  - DACSR X1
+  - DACSR X6
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - TABLE OF CONTENTS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - VALVE DISCHARGE AND LOSS-OF-COOLANT
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - ATTACHMENTS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - LIST OF TABLES
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - LIST OF FIGURES
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+  - PLANT DESIGN ASSESSMENT REPORT FOR
+  - SAFETY/RELIEF VALVES AND LOSS-OF-COOLANT
+  - ACCIDENT LOADS
+- 18 SRVs are routed inside selected downcomers into the suppression chamber
+- **15.0** Hz to 40 Hz. Following the pressure spikes are damped oscillations exhibiting primarily
+- **15.0** Hz to 40.0 Hz and a distinct peak in the range of 6.0 Hz to 10.0 Hz. There is negligible
+- **12.0** Hz at intervals of 1.0 Hz. As a result, each type of wave form (MFP and SFP) is
+  - P.S.P
+- **1.5** Ratio of Hmax to Ho (downcomer submergence)
+  - C: --
+  - ca - (I)
+  - **3.1.3.2** Part. Sub.
+  - **3.1.3.2** Sub.
+  - SBA/IBA
+  - N/A N/A N/A
+- **1.5** Sm 1.5 Sm 1.5 Sm
+- **1.5** Sm 1.5 Sm 1.5 Sm Local
+  - PSR 1.5 1.3 1.25
+- **1.1** Load Combinations - Reinforced-Concrete Structures ESS
+  - RO 1.0 1.0
+  - TO 1.0 1.0
+  - PO 1.0 1.0 1.0
+  - L 1.7 1.3 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+  - D 1.4 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+  - RO 1.0 1.0
+  - TO 1.0 1.0
+  - PO 1.0 1.0 1.0
+  - D 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.7 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0 1.0
+- 2 N+OBE+SRVONE
+- 3 N+OBE+SRVTWO
+- 4 N+OBE+SRVALL
+- 5 N+OBE+SRVALL+SBA
+- 6 N+OBE+SRVTWO+SBA
+- 7 N+SSE+SRVADS+SBA/IBA
+- 8 N+SSE+SRVTWO+SBA/IBA
+- 9 N+SSE+SRVONE
+- 10 N+SSE+SRVTWO
+- 11 N+SSE+SRVALL
+- 12 N+SSE+DBA
+  - PSR 511 32 32
+  - PB 76 1 20
+  - EO 123,600 1,530
+  - ESS 212,300 2,665
+  - PSR 2,825 719
+  - PB 5,088 29
+  - PL 13,480 2540 -275 13,755 26,364 1.92
+  - PL 16,964 1711 -275 17,239 28,761 1.67
+  - PL 16,982 1712 -275 17,257 38,347 1.99
+  - PL 14,738 1633 -275 15,013 33,347 2.55
+  - N/A 86B 87B
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X
+  - X X X X
+  - X-100
+  - X-101
+  - X-104
+- 3 A 3.4. - 1 Figure
+  - DISCHARGE AND LOSS-OF-COOLANT ACCIDENT LOADS
+  - THREE-DIMENSIONAL SOURCE FLOWS IN EXACT
+  - CONTAINMENT GEOMETRY
+  - II - Q
+- **1.0** Normalized Total Velocity at 0 = 0° and R = 182
+- 00 J 7
+  - S0,39
+  - n co ,.c ... c no o\ C ~n n no , on ,.,,~ o.oo
+  - CONCEPT OF DRAG FORCES DUE TO HYDRODYNAMIC FLOW FIELDS
+  - CALCULATION MODELS FOR SHORT-TERM
+  - LOSS-OF-COOLANT ACCIDENT PHENOMENA
+- 2 P P h d n
+  - I H 1
+  - LOCA.
+- **0.667** Initially 0.573 0.381
+- **1.0** Probe 6.5 feet above downcomer vent exit
+  - rt-~
+  - 1::: .. l;· • l ;· • ·-.:·
+  - R, R, R .. .
+- 2 Q i (t) = R
+  - R, R, R
+  - SUPPRESSION POOL TEMPERATURE MONITORING SYSTEM
+  - LDCN-14-049, 15-014
+  - COMPUTER PROGRAMS
+  - ANSYS
+  - NASTRAN
+  - MCAUTO-STRUDL
+  - ADLPIPE
+  - FLUSH
+  - BESSEL
+  - HYDI-1
+  - FOX/HYDI-2
+  - SWELL
+  - SOURCE
+  - CONFORMANCE OF CGS DESIGN TO NRC ACCEPTANCE CRITERIA
+  - PSAM.
+  - A (4)
+  - FSAR.
+  - SAFETY/RELIEF VALVE AND LOSS-OF-COOLANT ACCIDENT LOADS
+  - ON SUBMERGED STRUCTURES
+  - COOLANT ACCIDENT JET/BUBBLE LOADS
+  - COOLANT ACCIDENT STEAM CONDENSATION LOADS
+  - VALVE LOADS
+  - TABLE OF CONTENTS
+  - LDCN-02-022, 03-003
+  - LDCN-02-000, 02-022, 03-003
+
+### 04.0 Chapter Front Matter  
+`chapters/04.0_Chapter_Front_Matter.md` — source pp. 1–11
+
+- **4.4.2** DESCRIPTION OF THERMAL-HYDRAULIC DESIGN OF
+- **4.4.3** DESCRIPTION OF THE THERMAL AND HYDRAULIC DESIGN
+  - LDCN-15-011, 10-004
+  - **4.5.2.4** Fabrication and Processing of Austenitic Stainless Steel - Regulatory
+      - **4.6.2.2.2.2.3** Simultaneous Breakage of the Pressure-Over and Pressure-Under
+- **4.6.4** INFORMATION FOR COMBINED PERFORMANCE OF REACTIVITY
+  - LIST OF TABLES
+  - REACTOR
+  - LIST OF FIGURES
+  - REACTOR
+
+### 4.1 Summary Description  
+`chapters/4.1_Summary_Description.md` — source pp. 12–31
+
+- REACTOR
+- **4.1** SUMMARY DESCRIPTION
+  - **4.1.1** REACTOR VESSEL
+  - **4.1.2** REACTOR INTERNAL COMPONENTS
+    - **4.1.2.1** Reactor Core
+      - **4.1.2.1.1** General
+      - **4.1.2.1.2** Core Configuration
+      - **4.1.2.1.3** Fuel Assembly Description
+      - **4.1.2.1.3.1** Fuel Rod. A fuel rod consists of UO2 pellets and a Zircaloy-2 cladding tube.
+      - **4.1.2.1.3.2** Fuel Bundle. The fuel bundle has two important design features:
+      - **4.1.2.1.4** Assembly Support and Control Rod Location
+    - **4.1.2.2** Shroud
+    - **4.1.2.3** Shroud Head and Steam Separators
+    - **4.1.2.4** Steam Dryer Assembly
+  - **4.1.3** REACTIVITY CONTROL SYSTEMS
+    - **4.1.3.1** Operation
+    - **4.1.3.2** Description of Rods
+    - **4.1.3.3** Supplementary Reactivity Control
+  - **4.1.4** ANALYSIS TECHNIQUES
+    - **4.1.4.1** Reactor Internal Components
+      - **4.1.4.1.1** MASS (Mechanical Analysis of Space Structure)
+      - **4.1.4.1.2** SNAP (MULTISHELL)
+  - GE/NED.
+      - **4.1.4.1.3** GASP
+      - **4.1.4.1.3.3** History of Use. The program was developed by Professor E. L. Wilson in 1965
+      - **4.1.4.1.4** NOHEAT
+      - **4.1.4.1.5** FINITE
+      - **4.1.4.1.6** DYSEA
+      - **4.1.4.1.7** SHELL 5
+      - **4.1.4.1.8** HEATER
+      - **4.1.4.1.9** FAP-71 (Fatigue Analysis Program)
+      - **4.1.4.1.10** CREEP/PLAST
+      - **4.1.4.1.10.3** History of Use. This program was developed by Y. R. Rashid (Reference 4.1-17)
+    - **4.1.4.2** Fuel Rod Thermal Analysis
+    - **4.1.4.3** Reactor Systems Dynamics
+    - **4.1.4.4** Nuclear Engineering Analysis
+    - **4.1.4.5** Neutron Fluence Calculations
+    - **4.1.4.6** Thermal Hydraulic Calculations
+  - **4.1.5** REFERENCES
+
+### 4.2 FUEL SYSTEM DESIGN  
+`chapters/4.2_FUEL_SYSTEM_DESIGN.md` — source pp. 32–51
+
+- **4.2** FUEL SYSTEM DESIGN
+  - **4.2.1** DESIGN BASES
+    - **4.2.1.1** Fuel System Damage Limits
+      - **4.2.1.1.1** Stress/Strain Limits
+      - **4.2.1.1.2** Fatigue Limits
+      - **4.2.1.1.3** Fretting Wear Limits
+      - **4.2.1.1.4** Oxidation, Hydriding, and Corrosion Limits
+      - **4.2.1.1.5** Dimensional Change Limits
+      - **4.2.1.1.6** Internal Gas Pressure Limit
+      - **4.2.1.1.7** Hydraulic Loads Limits
+      - **4.2.1.1.8** Control Rod Reactivity Limits
+    - **4.2.1.2** Fuel Rod Failure Limits
+      - **4.2.1.2.1** Hydriding Limits
+      - **4.2.1.2.2** Cladding Collapse Limits
+      - **4.2.1.2.3** Fretting Wear Limits
+      - **4.2.1.2.4** Overheating of Cladding Limits
+      - **4.2.1.2.5** Overheating of Pellet Limits
+      - **4.2.1.2.6** Excessive Fuel Enthalpy Limits
+      - **4.2.1.2.7** Pellet-Cladding Interaction Limits
+      - **4.2.1.2.8** Bursting Limits
+      - **4.2.1.2.9** Mechanical Fracturing Limits
+    - **4.2.1.3** Fuel Coolability Limits
+      - **4.2.1.3.1** Cladding Embrittlement Limits
+      - **4.2.1.3.2** Violent Expulsion of Fuel Limits
+      - **4.2.1.3.3** Generalized Cladding Melt Limits
+      - **4.2.1.3.4** Fuel Rod Ballooning Limits
+      - **4.2.1.3.5** Structural Deformation Limits
+  - **4.2.2** DESCRIPTION AND DESIGN DRAWINGS
+    - **4.2.2.1** Control Rods
+    - **4.2.2.2** Velocity Limiter
+  - **4.2.3** DESIGN EVALUATION
+    - **4.2.3.1** Fuel System Damage Evaluation
+      - **4.2.3.1.1** Stress/Strain Evaluation
+      - **4.2.3.1.2** Fatigue Evaluation
+      - **4.2.3.1.3** Fretting Wear Evaluation
+      - **4.2.3.1.4** Oxidation, Hydriding, and Corrosion Evaluation
+      - **4.2.3.1.5** Dimensional Change Evaluation
+      - **4.2.3.1.6** Internal Gas Pressure Evaluation
+      - **4.2.3.1.7** Hydraulic Load Evaluation
+      - **4.2.3.1.8** Control Rod Reactivity Evaluation
+    - **4.2.3.2** Fuel Rod Failure
+      - **4.2.3.2.1** Hydriding Evaluation
+      - **4.2.3.2.2** Cladding Collapse Evaluation
+      - **4.2.3.2.3** Fretting Wear Evaluation
+      - **4.2.3.2.4** Overheating of Cladding Evaluation
+      - **4.2.3.2.5** Overheating of Pellet Limits
+      - **4.2.3.2.6** Excessive Fuel Enthalpy Evaluation
+      - **4.2.3.2.7** Pellet-Cladding Interaction Evaluation
+      - **4.2.3.2.8** Bursting Evaluation
+      - **4.2.3.2.9** Mechanical Fracturing Evaluation
+    - **4.2.3.3** Fuel Coolability Evaluation
+      - **4.2.3.3.1** Cladding Embrittlement Evaluation
+      - **4.2.3.3.2** Violent Expulsion of Fuel Evaluation
+      - **4.2.3.3.3** Generalized Cladding Melt Evaluation
+      - **4.2.3.3.4** Fuel Rod Ballooning Evaluation
+      - **4.2.3.3.5** Structural Deformation Evaluation
+  - **4.2.4** TESTING, INSPECTION, AND SURVEILLANCE PLANS
+    - **4.2.4.1** Fuel Testing, Inspection, and Surveillance
+    - **4.2.4.2** Online Fuel System Monitoring
+    - **4.2.4.3** Post-Irradiation Surveillance
+    - **4.2.4.4** Channel Management Program
+  - **4.2.5** REFERENCES
+  - PH 13-8 MO
+
+### 4.3 NUCLEAR DESIGN  
+`chapters/4.3_NUCLEAR_DESIGN.md` — source pp. 52–61
+
+- **4.3** NUCLEAR DESIGN
+  - **4.3.1** DESIGN BASES
+    - **4.3.1.1** Reactivity Basis
+    - **4.3.1.2** Overpower Bases
+  - **4.3.2** DESCRIPTION
+    - **4.3.2.1** Nuclear Design Description
+    - **4.3.2.2** Power Distribution
+      - **4.3.2.2.1** Power Distribution Calculations
+      - **4.3.2.2.2** Power Distribution Measurements
+      - **4.3.2.2.3** Power Distribution Accuracy
+      - **4.3.2.2.4** Power Distribution Anomalies
+    - **4.3.2.3** Reactivity Coefficients
+    - **4.3.2.4** Control Requirements
+      - **4.3.2.4.1** Shutdown Reactivity
+      - **4.3.2.4.2** Reactivity Variations
+    - **4.3.2.5** Control Rod Patterns and Reactivity Worths
+    - **4.3.2.6** Criticality of Reactor During Refueling
+    - **4.3.2.7** Stability
+      - **4.3.2.7.1** Xenon Transients
+      - **4.3.2.7.2** Thermal Hydraulic Stability
+    - **4.3.2.8** Vessel Irradiations
+  - **4.3.3** ANALYTICAL METHODS
+  - **4.3.4** CHANGES
+  - **4.3.5** REFERENCES
+- 31 EFPY 43 EFPY 54 EFPY
+- 1 Calculated using EFPY values based on OLTP power level of 3,323 MWt
+- 2 Calculated using EFPY values based on CLTP of each historical cycle and 3,544 MWt for
+  - DELETED
+
+### 4.4 THERMAL-HYDRAULIC DESIGN  
+`chapters/4.4_THERMAL_HYDRAULIC_DESIGN.md` — source pp. 62–77
+
+- **4.4** THERMAL-HYDRAULIC DESIGN
+  - **4.4.1** DESIGN BASES
+    - **4.4.1.1** Safety Design Bases
+    - **4.4.1.2** Requirements for Steady-State Conditions
+    - **4.4.1.3** Requirements for Anticipated Operational Occurrences (AOOs)
+    - **4.4.1.4** Summary of Design Bases
+  - **4.4.2** DESCRIPTION OF THERMAL-HYDRAULIC DESIGN OF REACTOR CORE
+    - **4.4.2.1** Summary Comparison
+    - **4.4.2.2** Critical Power Ratio
+    - **4.4.2.3** Linear Heat Generation Rate
+    - **4.4.2.4** Void Fraction Distribution
+    - **4.4.2.5** Core Coolant Flow Distribution and Orificing Pattern
+      - **4.4.2.5.1** Flow Distribution Data Comparison
+      - **4.4.2.5.2** Effect of Channel Flow Uncertainties on the MCPR Uncertainty
+    - **4.4.2.6** Core Pressure Drop and Hydraulic Loads
+    - **4.4.2.7** Correlation and Physical Data
+    - **4.4.2.8** Thermal Effects of Operational Transients
+    - **4.4.2.9** Uncertainties in Estimates
+    - **4.4.2.10** Flux Tilt Considerations
+  - **4.4.3** DESCRIPTION OF THE THERMAL AND HYDRAULIC DESIGN OF THE
+  - REACTOR COOLANT SYSTEM
+    - **4.4.3.1** Plant Configuration Data
+      - **4.4.3.1.1** Reactor Coolant System Configuration
+      - **4.4.3.1.2** Reactor Coolant System Thermal Hydraulic Data
+      - **4.4.3.1.3** Reactor Coolant System Geometric Data
+    - **4.4.3.2** Operating Restrictions on Pumps
+    - **4.4.3.3** Power-Flow Operating Map
+      - **4.4.3.3.1** Limits for Normal Operation
+      - **4.4.3.3.2** Regions of the Power-Flow Map
+      - **4.4.3.3.3** Design Features for Power-Flow Control
+    - **4.4.3.4** Temperature-Power Operating Map
+    - **4.4.3.5** Load-Following Characteristics
+    - **4.4.3.6** Thermal and Hydraulic Characteristics Summary Table
+  - **4.4.4** EVALUATION
+    - **4.4.4.1** Bypass Flow
+    - **4.4.4.2** Thermal Hydraulic Stability Analysis
+  - **4.4.5** TESTING AND VERIFICATION
+  - **4.4.6** INSTRUMENTATION REQUIREMENTS
+    - **4.4.6.1** Loose Parts
+  - **4.4.7** REFERENCES
+- **22.9393** Core pressure drop, psid
+- 2 Core Operating Limits Report
+
+### 4.5 REACTOR MATERIALS  
+`chapters/4.5_REACTOR_MATERIALS.md` — source pp. 78–86
+
+- **4.5** REACTOR MATERIALS
+  - **4.5.1** CONTROL ROD SYSTEM STRUCTURAL MATERIALS
+    - **4.5.1.1** Material Specifications
+    - **4.5.1.2** Special Materials
+    - **4.5.1.3** Processes, Inspections, and Tests
+  - XM-19.
+    - **4.5.1.4** Control of Delta Ferrite Content
+    - **4.5.1.5** Protection of Materials During Fabrication, Shipping, and Storage
+  - ANSI 45.2.2.
+  - **4.5.2** REACTOR INTERNAL MATERIALS
+    - **4.5.2.1** Material Specifications
+  - LDCN-19-028, 21-024
+    - **4.5.2.2** Controls on Welding
+    - **4.5.2.3** Nondestructive Examination of Wrought Seamless Tubular Products
+    - **4.5.2.4** Fabrication and Processing of Austenitic Stainless Steel - Regulatory Guide
+    - **4.5.2.5** Contamination, Protection, and Cleaning of Austenitic Stainless Steel
+  - **4.5.3** CONTROL ROD DRIVE HOUSING SUPPORTS
+  - ASTM A441,
+
+### 4.6 FUNCTIONAL DESIGN OF REACTIVITY CONTROL SYSTEMS  
+`chapters/4.6_FUNCTIONAL_DESIGN_OF_REACTIVITY_CONTROL_SYSTEMS.md` — source pp. 87–131
+
+- **4.6** FUNCTIONAL DESIGN OF REACTIVITY CONTROL SYSTEMS
+  - **4.6.1** INFORMATION FOR THE CONTROL ROD DRIVE SYSTEM
+    - **4.6.1.1** Control Rod Drive System Design
+      - **4.6.1.1.1** Design Bases
+      - **4.6.1.1.1.1** Safety Design Bases. The CRD mechanical system meets the following safety design bases:
+      - **4.6.1.1.2** Description
+      - **4.6.1.1.2.2** Drive Components. Figure 4.6-2 illustrates the operating principle of a drive.
+      - **4.6.1.1.2.2.1** Drive Piston. The drive piston is mounted at the lower end of the index tube.
+      - **4.6.1.1.2.4** Control Rod Drive Hydraulic System. The CRD hydraulic system (Figure 4.6-5)
+      - **4.6.1.1.2.5.2** Rod Withdrawal. Rod withdrawal is by design more involved than insertion.
+    - **4.6.1.2** Control Rod Drive Housing Supports
+      - **4.6.1.2.1** Safety Objective
+      - **4.6.1.2.2** Safety Design Bases
+      - **4.6.1.2.3** Description
+  - **4.6.2** EVALUATION OF THE CONTROL ROD DRIVES
+    - **4.6.2.1** Control Rods
+      - **4.6.2.1.1** Materials Adequacy Throughout Design Lifetime
+      - **4.6.2.1.2** Dimensional and Tolerance Analysis
+      - **4.6.2.1.3** Thermal Analysis of the Tendency to Warp
+      - **4.6.2.1.4** Forces for Expulsion
+      - **4.6.2.1.5** Functional Failure of Critical Components
+      - **4.6.2.1.6** Precluding Excessive Rates of Reactivity Addition
+      - **4.6.2.1.7** Effect of Fuel Rod Failure on Control Rod Channel Clearances
+      - **4.6.2.1.8** Mechanical Damage
+      - **4.6.2.1.9** Evaluation of Control Rod Velocity Limiter
+    - **4.6.2.2** Control Rod Drives
+      - **4.6.2.2.1** Evaluation of Scram Time
+      - **4.6.2.2.2** Analysis of Malfunction Relating to Rod Withdrawal
+      - **4.6.2.2.3** Scram Reliability
+      - **4.6.2.2.4** Control Rod Support and Operation
+    - **4.6.2.3** Control Rod Drive Housing Supports
+  - **4.6.3** TESTING AND VERIFICATION OF THE CONTROL ROD DRIVES
+    - **4.6.3.1** Control Rod Drives
+      - **4.6.3.1.1** Testing and Inspection
+      - **4.6.3.1.1.5** Surveillance Tests. The surveillance requirements for the CRD system are as follows:
+    - **4.6.3.2** Control Rod Drive Housing Supports
+  - **4.6.4** INFORMATION FOR COMBINED PERFORMANCE OF REACTIVITY
+  - CONTROL SYSTEMS
+    - **4.6.4.1** Vulnerability to Common Mode Failures
+    - **4.6.4.2** Accidents Taking Credit for Multiple Reactivity Systems
+  - **4.6.5** EVALUATION OF COMBINED PERFORMANCE
+  - **4.6.6** ALTERNATE ROD INSERTION SYSTEM
+    - **4.6.6.1** System Description
+    - **4.6.6.2** Alternate Rod Insertion Redundancy
+  - **4.6.7** REFERENCES
+  - UNLESS SPECIFICALLY NOTED OTHERWISE
+- 2 THES( COMPONENTS AR( SUPPLIED WITH 1·c ss - J- 15
+  - CLASSIFIED 1'S FOLLOWS (BREAK POINTS
+  - ARE INDICATED ON THE FLOW DIAGRAM)
+  - A.. ALLPIPINGANOVALVES,EXCEPTAS
+  - NOTED
+  - COOE GROUP D
+  - SEISMIC CATEGORY I LOADS
+  - C. PIPING ANO VALVES OF SUBSYSTEM
+  - ANO (60) AS NOTED
+  - QUALITY CLASS I
+  - COOE GROUP 8
+  - SEISMIC CATEGORY I 6
+  - QUALITY CLASS I
+  - CONTROL UNIT (HCU) I.IPL NUMBERS
+- 5 ALL INSTRUMENTATION ON THIS DRAWING TO
+  - UNLESS OTHERWISE NOTED
+  - SEISMIC CATEGORY I
+  - DUALITY CLASS I
+  - CODE GROUP D
+  - NEUTRAL POSITJON
+  - A OPI, WIRES AND SWITCH ARE SPARED IN
+  - CRO TK SOIVIA
+  - PLACE.
+  - CRD - V- 116/'. COPPER TUBING IS AN
+  - ACCEPTABLE ALTERNATIVE.
+  - CHARGING WATER HEADER
+  - I CHARGING UNIT
+  - TOCRO-V-160 11 I
+  - TOSCFW.I
+  - DISCH. HEAOER
+  - F1J6 FROI.IREACTOR
+  - TO CR0- 1.1/A- D009A & B
+  - WATER
+  - M528-1
+  - CONTFRDM
+  - M528-1 (D/5)
+  - CRD-V-717 C12-R004 CONTONM529
+  - CONT FROM
+  - M528-1 (C/B)
+  - -- -->-----------_..J
+  - CRD-V-711 16
+  - FOUR ORIFICES
+  - I,~-~~ -"'IIJlli
+  - ZONE(H/5)
+  - CONTONM529
+  - CRD 1 MS
+  - FLOW CONTROL PANEL 4C
+  - CRD-Y-752
+  - CONT ON DWG
+  - TO RWCU PUMPS
+  - DRAIN
+  - MOTOR PURGE
+- 4 CR □- s
+  - SEE DWG M525-2
+  - P-1A(B/10)
+  - P- 18 (8/11)
+  - LUBRICATION DETAIL FOR CRD P 1 (A & 8)
+  - A OR B DEPENDING ON THE PUMP THEY SERVE)
+  - TOCONDENS'.TESTORAGETANK
+  - M528-2
+  - REFERENCE DOCUMENTS
+- 2 CONTROL ROD ORIIIE HYD SYS l'CO - - - - - - - - -- - Cl2·1030
+- 3 DES.IGN SPECIFICAT'ON - - - - - - - - - - - - - - -- - C12·4010
+- 5 PIPING & INSTRUMENT SYMBOLS - - - - - - - - - - -- - A4'Z.•l010
+- 6 PROCESS DATA - - - - - - - - - - - - - - - - - -- - Cl2·1020
+- 7 REACTOR WATER CLEAN VP SYS P&1D - - - - -- ·- - - - - - - 333· 10 10
+  - H(XAGONS REFER TO PROCESS DATA REI' 6-
+  - NORMALLY FROM CONOENS4TE TREATMENT
+  - SYSTEM. CONDENSATE STORAGE TANK IS THE
+  - REACTOR
+  - J. DELE TEO VESSEL
+  - SHALL BE 50 PSIG.
+  - SEAL PUR/3E LINE.
+  - CONTROL
+  - ROD DRIYE
+  - DRIVE WATER
+  - FILTER
+  - WITHDRAWAL
+  - WITHDRAWAL
+  - INSERT
+  - COOLING HE ADER
+  - CONDENSATE
+  - DRIVE HEADER
+  - I SEE
+  - MOTE Z CONDENSATE
+  - HYDRAULIC
+  - CONT R'OL
+- 5 I I ,,&
+  - CONTROL ROD DRIVE HYO SYSTEM
+  - LOCATION 0
+  - LOCATION 0
+  - ZS 14 15 16 17 18 20 21 22 23 24 26 27
+  - LOCATION 0
+  - IZ 13 IA 2 3 5 SA II
+  - MODE 8 SIZES THE DRIVE WATER HEADERS.
+  - FLOW. GPM 0 2 0
+  - MAX MAX M/IX I
+  - LOCATION IA I
+  - I. DRIVES SCRAMMING
+  - SEE SEE
+  - PRESSURE PSIG 21 21 1S50 1550
+  - NOTE 9 NOTE 9
+  - LOCATION 0
+  - NOTE 9
+  - J MOOE 0
+  - NOTE 10
+- 5 SA 6 7 8 9 10 II 12 13
+  - ' - zoo zoo
+  - ZI 19 1210
+  - MOOE 0 SIZES THE PUMP SUCTION LINE.
+  - r,
+  - SEE SEE I FLOW, GPM
+  - NOTE 9 NOTE 9
+  - TABLE I
+  - DESIGN PRESS.
+  - PROCESS DIAGRAM AND THIS PROCESS DATA, THE PROCESS DATA CPSIG.J
+  - LOCATION
+  - MOOE A -
+  - SURIZES TO EQUAL THE REACTOR PRESSURE. AFTER THE SCRAM DIS- 4 .4 2 I 1.5 I 0.75
+  - SIZE CINCHES)
+  - CHARGE VOLUME AND THE REACTOR VESSEL PRESSURE HAVE EQUAL-
+  - MOOE O -
+  - DESIGN PRESS. 1750 1750 1750 1750 1750 1750 1750
+  - PRESSURE WILL SUBSEQUENT LY EQUALIZE WITH REACTOR PRESSURE.
+  - DESIGN TEMP.
+  - ONLY. ACTUAL LINE SIZES AS DETERMINED BY THE PIPING DESIGNER
+  - SHALL MEET THE PROCESS DATA HYDRAULIC REQUIREMENTS. -
+  - LOCATION 21-22 24-25 27A-27B 278-27 27-27C 27C-27D SA
+  - BY THE COOLING WATER FLOW .
+  - DESIGN PRESS.
+  - CPSIG.)
+  - REQUIREMENTS WILL NOT BE LESS THAN 0.20 GPM/ORIVE.
+  - FULL STROKE SC.RAM AND A SCRAM WITI-I FAILED CRD BUFFER . DESIGN TEMP.
+  - (~ (PEAK) (PEAi() (PEAK) PEAK)
+  - SIGNAL. WITHDRAW VALVE F007-B CLOSES ON DRIVE WITHDRAW SIGNAL
+  - I 0.75 0.75
+- 14 THE SCRAM DISCHARGE VOLUME (SDV) MJD ITS VBIT AND DRAIN SIZE CINCHES)
+  - BUT DOES NOT STAY CLOSED DURING SETTLING.
+  - PIPING DESIGI-J SHAL L CONS.IDE.R THE HYDRODYNAMIC. LOADS --..
+  - OPERATING PRESSURE .
+  - A.DELETED
+  - AND TEMPERATURE.
+  - SYSTEM. SEE THE CRO HYDRAULIC SYSTEM DESIGN SPECIFICATION TO
+  - DETERMINE CYCLIC STRESS OUE TO THERMAL EXPANSION.
+  - C. LOCATION 21 TO 22 - THE PRESSURE DROP FROM LOCATION 21 TO 22 SHALL
+  - NOT EXCEED 435 PSI AT 90 GPM FOR ANY CRO.
+  - D. LOCATION 23 - A NEGATIVE FLOW RATE INDICATES FLOW FROM THE REACTOR
+  - THROUGH THE DRIVE SEAL. INTO THE CRO. THE MAXIMUM LEAK RATE FROM THE
+  - THE REACTOR CAN REACH 10 GPM PER DRIVE.
+  - NOT EXCEED 162 PSI AT 30 GPM FOR ANY CRD.
+  - F. RESPONSE TIME OF FCV-F002 IS SUCH THAT SCRAM IS COMPLETED BEFORE
+  - FCV-F002 STARTS TO CLOSE.
+  - A. DELETED
+  - PSIG . .
+  - FSAR FIG.
+  - REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+  - TABLE OF CONTENTS
+
+### 05.0 Chapter Front Matter  
+`chapters/05.0_Chapter_Front_Matter.md` — source pp. 1–11
+
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- **5.2.3.2.4** Compatibility of Construction Materials with External Insulation
+- **5.2.3.3** Fabrication and Processing of Ferritic Materials and Austenitic
+- **5.2.4** INSERVICE INSPECTION AND TESTING OF THE REACTOR
+- **5.2.4.9** Augmented Inservice Inspection to Protect Against Postulated Piping
+- **5.2.4.10** Augmented Inservice Inspection of Reactor Pressure Vessel Feedwater
+- **5.2.4.11** Augmented Inservice Inspection for Intergrannular Stress Corrosion
+- **5.2.5** DETECTION OF LEAKAGE THROUGH REACTOR COOLANT
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- **5.2.5.5.3** Criteria to Evaluate the Adequacy and Margin of the Leak
+- **5.3.1.6.1** Positioning of Surveillance Capsules and Method of Attachment for
+- LDCN-02-046, 04-033
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- LDCN-00-056, 01-009, 01-025
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- **5.4.7.1.2** Design Basis for Isolation of Residual Heat Removal System from
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- LDCN-01-009, 01-025
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- LIST OF FIGURES
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+
+### 5.1 Summary Description  
+`chapters/5.1_Summary_Description.md` — source pp. 12–16
+
+- REACTOR COOLANT SYSTEM AND CONNECTED SYSTEMS
+- **5.1** SUMMARY DESCRIPTION
+  - **5.1.1** SCHEMATIC FLOW DIAGRAM
+  - **5.1.2** PIPING AND INSTRUMENTATION DIAGRAM
+  - **5.1.3** ELEVATION DRAWING
+
+### 5.2 Integrity Of Reactor Coolant Pressure Boundary  
+`chapters/5.2_Integrity_Of_Reactor_Coolant_Pressure_Boundary.md` — source pp. 17–78
+
+- **5.2** INTEGRITY OF REACTOR COOLANT PRESSURE BOUNDARY
+  - **5.2.1** COMPLIANCE WITH CODES AND CODE CASES
+    - **5.2.1.1** Compliance with 10 CFR Part 50, Section 50.55a
+    - **5.2.1.2** Applicable Code Cases
+  - **5.2.2** OVERPRESSURIZATION PROTECTION
+    - **5.2.2.1** Design Bases
+      - **5.2.2.1.1** Safety Design Basis
+      - **5.2.2.1.2** Power Generation Design Bases
+      - **5.2.2.1.3** Discussion
+      - **5.2.2.1.4** Safety Valve Capacity
+    - **5.2.2.2** Design Evaluation
+      - **5.2.2.2.1** Method of Analysis
+      - **5.2.2.2.2** System Design
+      - **5.2.2.2.3** Evaluation of Results
+    - **5.2.2.3** Piping and Instrumentation Diagrams
+    - **5.2.2.4** Equipment and Component Description
+      - **5.2.2.4.1** Description
+      - **5.2.2.4.2** Design Parameters
+    - **5.2.2.5** Mounting of Pressure Relief Devices
+    - **5.2.2.6** Applicable Codes and Classification
+    - **5.2.2.7** Material Specification
+    - **5.2.2.8** Process Instrumentation
+    - **5.2.2.9** System Reliability
+    - **5.2.2.10** Inspection and Testing
+  - **5.2.3** REACTOR COOLANT PRESSURE BOUNDARY MATERIALS
+    - **5.2.3.1** Material Specifications
+    - **5.2.3.2** Compatibility with Reactor Coolant
+      - **5.2.3.2.1** Pressurized Water Reactor Chemistry of Reactor Coolant
+      - **5.2.3.2.2** Boiling Water Reactor Chemistry of Reactor Coolant
+  - LDCN-02-046, 03-069
+      - **5.2.3.2.3** Compatibility of Construction Materials with Reactor Coolant
+      - **5.2.3.2.4** Compatibility of Construction Materials with External Insulation and Reactor
+    - **5.2.3.3** Fabrication and Processing of Ferritic Materials and Austenitic Stainless Steels
+  - **5.2.4** INSERVICE INSPECTION AND TESTING OF THE REACTOR COOLANT
+  - PRESSURE BOUNDARY
+    - **5.2.4.1** System Boundary Subject to Inspection
+    - **5.2.4.2** Arrangement of Systems and Components to Provide Accessibility
+      - **5.2.4.2.1** Reactor Pressure Vessel
+      - **5.2.4.2.2** Piping, Pumps, and Valves
+    - **5.2.4.3** Examination Techniques and Procedures
+      - **5.2.4.3.1** Equipment for Inservice Inspection
+      - **5.2.4.3.2** Coordination of Inspection Equipment With Access Provisions
+      - **5.2.4.3.3** Manual Examination
+    - **5.2.4.4** Inspection Intervals
+    - **5.2.4.5** Examination Categories and Requirements
+    - **5.2.4.6** Evaluation of Examination Results
+    - **5.2.4.7** System Leakage and Hydrostatic Pressure Tests
+    - **5.2.4.8** Inservice Inspection Commitment
+    - **5.2.4.9** Augmented Inservice Inspection to Protect Against Postulated Piping Failures
+    - **5.2.4.10** Augmented Inservice Inspection of Reactor Pressure Vessel Feedwater Nozzles
+      - **5.2.4.10.1** Preservice Examination
+      - **5.2.4.10.2** Inservice Examination
+    - **5.2.4.11** Augmented Inservice Inspection for Intergranular Stress Corrosion
+    - **5.2.4.12** ASME Section XI Repairs/Replacements
+  - **5.2.5** DETECTION OF LEAKAGE THROUGH REACTOR COOLANT
+  - PRESSURE BOUNDARY
+    - **5.2.5.1** Leakage Detection Methods
+      - **5.2.5.1.1** Detection of Abnormal Leakage Within the Primary Containment
+      - **5.2.5.1.2** Detection of Abnormal Leakage Outside the Primary Containment
+    - **5.2.5.2** Leak Detection Devices
+    - **5.2.5.3** Indication in the Control Room
+    - **5.2.5.4** Limits for Reactor Coolant Leakage
+      - **5.2.5.4.1** Total Leakage Rate
+      - **5.2.5.4.2** Normally Expected Leakage Rate
+    - **5.2.5.5** Unidentified Leakage Inside the Drywell
+      - **5.2.5.5.1** Unidentified Leakage Rate
+      - **5.2.5.5.2** Length of Through-Wall Flaw
+      - **5.2.5.5.3** Criteria to Evaluate the Adequacy and Margin of the Leak Detection System
+    - **5.2.5.6** Safety Interfaces
+    - **5.2.5.7** Testing and Calibration
+  - **5.2.6** REFERENCES
+  - LDCN-10-029, 11-005
+  - FS FS FS FS
+- 10 CFR 50.55(a)
+  - MS-RV-1 A-D MS-RV-2 A-D MS-RV-3 A-D MS-RV-4 A-D MS-RV-5 B-C
+  - RRC-P-1A RRC-V-67 RRC-V-60
+  - B35-G001
+- **3.0** MSIVs completely closed.
+- **3.5** All safety relief valves opened.
+- **3.9** Vessel bottom pressure reached its peak value.
+  - SFA-5.17 F70
+  - SFA-5.14
+  - SFA-5.14
+- **0.15** High
+  - TOTAL 113
+  - TOTAL 35
+  - TOTAL 4
+  - SA-216
+  - GR WCB
+  - SA-105
+  - GR II
+  - SA-105
+  - SA-105
+  - A-182
+  - GR F6A C1 3
+  - A X X X X X X
+  - X X X X X X X X
+  - X X X
+  - X X X X X X X
+  - A/I PC
+  - X X X X X X X X
+  - A X X X X X X
+  - A X X X X X X X X
+  - A X X X X X X
+  - PC RB PC RB PC RB PC RB PC PC RB PC RB PC RB
+  - PC RB
+- **1.03** Code Approved Capacity t
+- **1.02** I I I Pressure/Pressure Set Point I
+- **0.97** I I i 0.96 100 80 20 60 40 0
+  - M PL NO. 822-1040 (4PI..AC.ES) (IE, PLACE'3)
+  - TO FT
+  - SEE NOTE 3
+  - INCI-IES
+  - DATA, IF THERE ARE ANY CONFLICTS BETWEEN THE P&ID AND THIS
+  - ABOVE
+  - IDENTITY
+  - ASSUMED TO BE 75 F.
+  - l STEAM LIN[ 648
+  - NOZZLE N3
+  - WATER STEAM CONDITIONS AT O PSIG IN THE
+  - VESSEL AND THE ORYWELL WITH NO JET PUMP
+  - CLOSE MA.IN TURBINE
+  - THE MIDDLE WATER LEVEL NOZZ.LE WITH NO JET 4 ---
+  - PUMP FLOW. WATER LEVEL SWITCH TRIP UNCERTAINTY
+  - ARE CALIBRATED FOR SATURATED WATER STEAM 3
+  - DEPRESSURIZATION.
+  - RUN 8AC.K. RECIRC
+  - INITIATE RC-IC& HPCS,
+  - SYSTEMS ISOLATION
+  - TOFT N034D
+  - LINE DRAIN VALVES
+  - TOP OF ACTIVE FUEL
+  - NOZZLE N9 143.5
+  - A003 (ADS)
+  - V A004
+  - I 2 3 7 8 9 10 II
+  - R ' e.
+  - F036 A B C D E
+  - V B D H IS M
+  - A B C D E
+  - K602B
+  - YES YES YES YES YES YES YES ADS FUNCTION
+  - A.I7',0
+- 0 C &
+  - THE SUPPLY SYSTEM IS RESPONSIBLE. FOR
+  - NUMBER.
+  - PS N023B IB RPS
+  - PS N045A RECIRC (A) --
+  - CVI NO CVI SHT REV DWG SHT RECIRC(A) -- PS N045C
+  - HPCS --
+  - IA PS N015A
+  - IB C72A-K613A P5 N015B
+  - PS N015C IIA
+  - II B MS-LS-JOOC 2 C72A-K613C PS N015D
+  - C72A-K613D VS N056A I B
+  - MS-LS-JOOD
+  - VS N056B
+  - IIB VSN0560
+  - K615 LIS-N036D 2
+  - FIGURE II
+  - L.T -N027
+  - C72A-K6138
+  - RHRCB) &,.CC)
+  - C72A-K613C
+  - C72A-K613D
+
+### 5.3 REACTOR VESSEL  
+`chapters/5.3_REACTOR_VESSEL.md` — source pp. 79–119
+
+- **5.3** REACTOR VESSEL
+  - **5.3.1** REACTOR VESSEL MATERIALS
+    - **5.3.1.1** Materials Specifications
+    - **5.3.1.2** Special Processes Used for Manufacturing and Fabrication
+    - **5.3.1.3** Special Methods for Nondestructive Examination
+    - **5.3.1.4** Special Controls for Ferritic and Austenitic Stainless Steels
+    - **5.3.1.5** Fracture Toughness
+      - **5.3.1.5.1** Compliance with Code Requirements
+      - **5.3.1.5.2** Compliance with 10 CFR 50 Appendix G
+    - **5.3.1.6** Material Surveillance
+      - **5.3.1.6.1** Positioning of Surveillance Capsules and Method of Attachment for Plant-Specific
+      - **5.3.1.6.2** Time and Number of Dosimetry Measurements
+      - **5.3.1.6.3** Neutron Flux and Fluence Calculations
+    - **5.3.1.7** Reactor Vessel Fasteners
+  - **5.3.2** PRESSURE-TEMPERATURE LIMITS
+    - **5.3.2.1** Limit Curves
+    - **5.3.2.2** Operating Procedures
+  - **5.3.3** REACTOR VESSEL INTEGRITY
+    - **5.3.3.1** Design
+      - **5.3.3.1.1** Description
+      - **5.3.3.1.1.2** Shroud Support. The shroud support is a circular plate welded to the vessel wall.
+      - **5.3.3.1.2** Safety Design Bases
+      - **5.3.3.1.3** Power Generation Design Basis
+      - **5.3.3.1.4** Reactor Vessel Design Data
+    - **5.3.3.2** Materials of Construction
+    - **5.3.3.3** Fabrication Methods
+    - **5.3.3.4** Inspection Requirements
+    - **5.3.3.5** Shipment and Installation
+    - **5.3.3.6** Operating Conditions
+    - **5.3.3.7** Inservice Surveillance
+  - **5.3.4** REFERENCES
+- 10 CFR 50 Appendix G Matrix
+  - III.B.1 III.B.2 III.B.3
+  - III.B.4 III.B.5 III.C.1
+  - III.A
+  - I, II
+- 10 CFR 50 Appendix G Matrix (Continued)
+  - IV.A.1
+  - IV.A.3 IV.A.4 III.C.2
+- 10 CFR 50 Appendix G Matrix (Continued)
+  - V.C V.B
+  - LDCN-04-005, 04-033
+- 10 CFR 50 Appendix G Matrix for (Continued)
+  - N/A N/A
+  - REFERENCES
+  - V.D V.E
+  - PCMK 21-1-1 C1272
+  - PCMK 21-1-2 C1273
+  - PCMK 21-1-3 C1273
+  - PCMK 21-1-4 C1272
+  - PCMK 22-1-1 B5301
+  - PCMK 22-1-2 C1336
+  - PCMK 22-1-3 C1337
+  - PCMK 22-1-4 C1337
+  - RAC01NMM 5P6756
+  - RAC01NMM 3P4955
+  - E8018NM
+  - A423B27AG
+  - E8018NM
+  - D217A27A
+  - E8018NM
+  - K004A27A
+  - RAC01NMM 3P4966
+  - E8018NM
+  - D217A27A
+  - E8018NM
+  - K004A27A
+  - E8018NM
+  - C3L46C
+  - J020A27A
+  - RAC01NMM 3P4966
+  - E8018NM
+  - G128A27A
+  - E8018NM
+  - A111A27A
+  - E8018NM
+  - C3L46C
+  - J020A27A
+  - RAC01NMM 3P4966
+  - E8018NM
+  - C3L46C
+  - J020A27A
+  - RAC01NMM 3P4966
+  - E8018NM
+  - D217A27A
+  - E8018NM
+  - C3L46C
+  - J020A27A
+  - RAC01NMM 3P4966
+  - E8018NM
+  - D217A27A
+  - E8018NM
+  - D211A27A
+  - RAC01NM 3P4966
+  - E8018NM
+  - C228A27A
+  - E8018NM
+  - D224A27A
+  - RAC01NMM 3P4966
+  - E8018NM
+  - D217A27A
+  - E8018NM
+  - D205A27A
+  - RAC01NMM 3P4966
+  - E8018NM/07L669 50, 50, 54 44, 44, 46
+  - E8018NM/07L669 50, 50, 54 44, 44, 46
+  - E8018NM/C3L46C 35, 39, 40 34, 39, 39
+  - E8018NM/08M365 49, 50, 51 38, 40, 43
+  - E8018NM/09L853 78, 78, 79 60, 62, 62
+  - E8018NM/C3L46C 35, 39, 40 34, 39, 39
+  - E8018NM/C3L46C 35, 39, 40 34, 39, 39
+  - C1272-1 0.013 0.15 0.23 1.31 0.26 0.02 0.60 0.55 --
+  - C1272-2 0.013 0.15 0.23 1.31 0.26 0.02 0.60 0.55 --
+  - C1273-1 0.014 0.14 0.23 1.28 0.23 0.018 0.60 0.57 --
+  - C1273-2 0.014 0.14 0.23 1.28 0.23 0.018 0.60 0.57 --
+  - B5301-1 0.017 0.13 0.20 1.34 0.23 0.014 0.50 0.52 --
+  - C1336-1 0.017 0.13 0.21 1.36 0.22 0.013 0.50 0.49 --
+  - C1337-1 0.018 0.15 0.22 1.32 0.21 0.013 0.51 0.50 --
+  - C1337-2 0.018 0.15 0.22 1.32 0.21 0.013 0.51 0.50 --
+- 10 CFR 50 Appendix H Matrix
+  - II.C.1
+  - II.C.2
+  - II.A II.B
+- 10 CFR 50 Appendix H Matrix (Continued)
+  - IV.A III.A III.B IV.B IV.C
+  - LDCN-04-005, 04-033
+
+### 5.4 COMPONENT AND SUBSYSTEM DESIGN  
+`chapters/5.4_COMPONENT_AND_SUBSYSTEM_DESIGN.md` — source pp. 120–215
+
+- **5.4** COMPONENT AND SUBSYSTEM DESIGN
+  - **5.4.1** REACTOR RECIRCULATION PUMPS
+    - **5.4.1.1** Safety Design Bases
+    - **5.4.1.2** Power Generation Design Bases
+    - **5.4.1.3** Description
+      - **5.4.1.3.1** Recirculation System Cavitation Consideration
+    - **5.4.1.4** Safety Evaluation
+    - **5.4.1.5** Inspection and Testing
+  - **5.4.2** STEAM GENERATORS (Pressurized Water Reactor)
+  - **5.4.3** REACTOR COOLANT PIPING
+  - **5.4.4** MAIN STEAM LINE FLOW RESTRICTORS
+    - **5.4.4.1** Safety Design Bases
+    - **5.4.4.2** Description
+    - **5.4.4.3** Safety Evaluation
+    - **5.4.4.4** Inspection and Testing
+  - **5.4.5** MAIN STEAM LINE ISOLATION SYSTEM
+    - **5.4.5.1** Safety Design Bases
+    - **5.4.5.2** Description
+    - **5.4.5.3** Safety Evaluation
+    - **5.4.5.4** Inspection and Testing
+  - **5.4.6** REACTOR CORE ISOLATION COOLING SYSTEM
+    - **5.4.6.1** Design Bases
+    - **5.4.6.2** System Design
+      - **5.4.6.2.1** General
+      - **5.4.6.2.1.2** Diagrams. The following diagrams are included for the RCIC systems:
+      - **5.4.6.2.1.3** Interlocks. The following defines the various electrical interlocks:
+      - **5.4.6.2.2** Equipment and Component Description
+  - RCIC-DT-1 (C002)
+  - RCIC-RO-9 (D009)
+  - RCIC-RO-5 (D005)
+  - RCIC-RO-6 (D006)
+  - RCIC-V-45 (F045)
+  - RCIC-V-13 (F013)
+  - RCIC-RV-17 (F017)
+  - RCIC-V-22 (F022)
+  - RCIC-V-59 (F059)
+  - RCIC-RV-33 (F033)
+  - RCIC-V-31 (F031)
+  - RCIC-V-76 (F076)
+      - **5.4.6.2.3** Applicable Codes and Classifications
+      - **5.4.6.2.4** System Reliability Considerations
+      - **5.4.6.2.5** System Operation
+    - **5.4.6.3** Performance Evaluation
+    - **5.4.6.4** Preoperational Testing
+    - **5.4.6.5** Safety Interfaces
+  - **5.4.7** RESIDUAL HEAT REMOVAL SYSTEM
+    - **5.4.7.1** Design Bases
+      - **5.4.7.1.1** Functional Design Basis
+      - **5.4.7.1.2** Design Basis for Isolation of Residual Heat Removal System from Reactor
+      - **5.4.7.1.3** Design Basis for Pressure Relief Capacity
+      - **5.4.7.1.4** Design Basis With Respect to General Design Criterion 5
+      - **5.4.7.1.5** Design Basis for Reliability and Operability
+      - **5.4.7.1.6** Design Basis for Protection from Physical Damage
+    - **5.4.7.2** Systems Design
+      - **5.4.7.2.1** System Diagrams
+      - **5.4.7.2.2** Equipment and Component Description
+      - **5.4.7.2.3** Controls and Instrumentation
+      - **5.4.7.2.4** Applicable Codes and Classifications
+      - **5.4.7.2.5** Reliability Considerations
+      - **5.4.7.2.6** Manual Action
+    - **5.4.7.3** Performance Evaluation
+      - **5.4.7.3.1** Shutdown Cooling With All Components Available
+      - **5.4.7.3.2** Shutdown Cooling With Most Limiting Failure
+    - **5.4.7.4** Preoperational Testing
+  - **5.4.8** REACTOR WATER CLEANUP SYSTEM
+    - **5.4.8.1** Design Bases
+      - **5.4.8.1.1** Safety Design Bases
+      - **5.4.8.1.2** Power Generation Design Bases
+    - **5.4.8.2** System Description
+    - **5.4.8.3** System Evaluation
+    - **5.4.8.4** Demineralizer Resins
+    - **5.4.8.5** Reactor Water Cleanup Water Chemistry
+      - **5.4.8.5.1** Analytical Methods
+      - **5.4.8.5.2** Relationship of Filter-Demineralizer Condition to Water Chemistry
+  - **5.4.9** MAIN STEAM LINES AND FEEDWATER PIPING
+    - **5.4.9.1** Safety Design Bases
+    - **5.4.9.2** Power Generation Design Bases
+    - **5.4.9.3** Description
+    - **5.4.9.4** Safety Evaluation
+    - **5.4.9.5** Inspection and Testing
+  - **5.4.10** PRESSURIZER
+  - **5.4.11** PRESSURIZER RELIEF DISCHARGE SYSTEM
+  - **5.4.12** VALVES
+    - **5.4.12.1** Safety Design Bases
+    - **5.4.12.2** Description
+    - **5.4.12.3** Safety Evaluation
+    - **5.4.12.4** Inspection and Testing
+  - **5.4.13** SAFETY AND RELIEF VALVES
+    - **5.4.13.1** Safety Design Bases
+    - **5.4.13.2** Description
+    - **5.4.13.3** Safety Evaluation
+    - **5.4.13.4** Inspection and Testing
+  - **5.4.14** COMPONENT AND PIPING SUPPORTS
+    - **5.4.14.1** Safety Design Bases
+    - **5.4.14.2** Description
+    - **5.4.14.3** Inspection and Testing
+  - **5.4.15** HIGH-PRESSURE CORE SPRAY SYSTEM
+  - **5.4.16** LOW-PRESSURE CORE SPRAY SYSTEM
+  - **5.4.17** STANDBY LIQUID CONTROL SYSTEM
+  - **5.4.18** REFERENCES
+  - RHR-V-41A
+  - RHR-V-41B
+  - RHR-V-41C
+  - RHR-V-42A
+  - RHR-V-42B
+  - RHR-V-42C
+  - RHR-V-111A
+  - RHR-V-111B
+  - RHR-V-111C
+  - RHR-V-50A
+  - RHR-V-50B
+  - RHR-V-53A
+  - RHR-V-53B
+  - RHR-V-112A
+  - RHR-V-112B
+  - RHR-V-123A
+  - RHR-V-123B
+  - RHR-V-19 (E12F019) 5.4-15
+  - RHR-V-23 (E12F023) 5.4-15
+  - RHR-V-8 (E12F008) 5.4-15
+  - RHR-V-9 (E12F009) 5.4-15
+  - RHR-V-113 (E12F113) 5.4-15
+  - RCIC-V-8 (E51F008) 5.4-11
+  - RCIC-V-63 (E51F063) 5.4-11
+  - RCIC-V-64 (E51F064) 5.4-11
+  - RCIC-V-76 (E51F0076) 5.4-11
+  - MS-V-1 (B22F001) 10.3-2
+  - MS-V-2 (B22F002) 10.3-2
+  - RFW-V-10A
+  - RFW-V-10B
+  - RFW-V-11A
+  - RFW-V-11B
+  - RFW-V-32A
+  - RFW-V-32B
+  - RFW-V-65A
+  - RFW-V-65B
+  - MS-RV-2A
+  - MS-RV-3A
+  - MS-RV-2D
+  - MS-RV-2C
+  - MS-RV-1B
+  - MS-RV-2B
+  - MS-RV-3C
+  - MS-RV-3B
+  - MS-RV-1A
+  - MS-RV-1D
+  - MS-RV-1C
+  - MS-RV-4C
+  - MS-RV-5C
+  - MS-RV-4D
+  - MS-RV-4B
+  - MS-RV-4A
+  - MS-RV-5B
+  - MS-RV-3D
+  - RWCU-V-103
+  - RWCU-V-1 (G33F001) 5.4-22
+  - RWCU-V-4 (G33F004) 5.4-22
+  - RWCU-V-100 (G33F100) 5.4-22
+  - RWCU-V-101
+  - RWCU-V-102
+  - RWCU-V-106
+  - RWCU-V-40
+  - MS-V-16
+  - MS-V-19
+  - MS-V-22A
+  - MS-V-22B
+  - MS-V-22C
+  - MS-V-22D
+  - MS-V-28A
+  - MS-V-28B
+  - MS-V-28C
+  - MS-V-28D
+  - MS-V-67A
+  - MS-V-67B
+  - MS-V-67C
+  - MS-V-67D (B22F067) 10.3-2
+  - RRC-V-23A
+  - RRC-V-23B (B35F023) 5.4-7
+  - RRC-V-60A
+  - RRC-V-60B
+  - RRC-V-67A
+  - RRC-V-67B
+  - RCIC-V-13 (E51F013) 5.4-11
+  - RCIC-V-65 (E51F065) 5.4-11
+  - RCIC-V-66 (E51F066) 5.4-11
+  - HPCS-V-4 (E22F005) 6.3-4
+  - HPCS-V-5 (E22F004) 6.3-4
+  - HPCS-V-38 (E22F038) 6.3-4
+  - LPCS-V-5 (E21F005) 6.3-4
+  - LPCS-V-6 (E21F006) 6.3-4
+  - LPCS-V-51 (E21F051) 6.3-4
+  - SLC-V-4A
+  - SLC-V-4B
+  - SLC-V-6
+  - SLC-V-7
+  - SLC-V-8
+  - RRC-P-1A
+  - RRC-P-1B (B35C001) 5.4-7
+  - LDCN-05-009, 06-000
+- **19.0** Nozzle I.D. (five each), in.
+  - RHR 2A
+  - LPCS 2A
+  - MS-RV-1A (B22F013J-N)
+  - MS-RV-1B (B22F013A-H)
+  - MS-RV-1C (B22F013J-N)
+  - MS-RV-1D (B22F013J-N)
+  - MS-RV-2A (B22F013A-H)
+  - MS-RV-2B (B22F013A-H)
+  - MS-RV-2C (B22F013A-H)
+  - MS-RV-2D (B22F013A-H)
+  - MS-RV-3A (B22F013A-H)
+  - MS-RV-3B (B22F013A-H)
+  - MS-RV-3C (B22F013A-H)
+  - MS-RV-3D (B22F013U-V)
+  - MS-RV-4A (B22F013R-S)
+  - MS-RV-4B (B22F013R-S)
+  - MS-RV-4C (B22F013J-N)
+  - MS-RV-4D (B22F013P)
+  - MS-RV-5B (B22F013U-V)
+  - MS-RV-5C (B22F013J-N)
+  - RCIC-RV-3
+  - RCIC-RV-17 (E51F017)
+  - RCIC-RV-19T
+  - RHR-RV-5 (E12F005)
+  - RHR-RV-25A
+  - RHR-RV-25B (F12F025A, B)
+  - RHR-RV-88A
+  - RHR-RV-88B
+  - RHR-RV-88C
+  - RHR-RV-30 (E12F030)
+  - RHR-RV-1A
+  - RHR-RV-1B
+  - HPCS-RV-14 (E22F014)
+  - HPCS-RV-35 (E22F035)
+  - LPCS-RV-18 (E21F018)
+  - LPCS-RV-31 (E21F031)
+  - SLC-RV-29A
+  - SLC-RV-29B (C41F029A, B)
+- 12 COD E BR E.&.K DEFINITIONS FOR THERs! OWELLS I ALL ITEMS M,i,,RKED • ARE FURNISHED WI TH
+  - PIPING AN D VALVESOFS.UBSYSTEMRRC
+- 15 SEEVENOOR DWG81999-F-OOl(CV102835-15,5)
+  - QUALITY CLASS I
+  - CODE GRQUP
+- 17 FOR SAMPLE FUNCTI~ & INSTRUM ENTATION AS SOCIATED
+  - WITH THE SAMPLE POI NTS SEE DWG. SERIES M607
+  - STEAM & LIQUID SAMPLING FLOW DIAGRAMS AND DWG.
+  - AS NOTED DIAGRAMS
+  - QUALITY CLASS II 0
+  - CODE GROU P D
+  - QUALITY CLASS I
+  - CODE GROU P C
+  - DENOTE A THRDTTLED
+  - EJ1-R608
+  - TO HPCS SYSTD. HPCS-DP1S-9.
+  - LEAK-OFF .. FG
+  - SEE (J/11)
+  - SEE (J/11)
+  - SEE (J/7) MS-J P-1 5
+  - OWG. M'.12'.1-1 (F/7)
+  - SEE (J/7)
+  - RS 72 B 0
+- 6 THIS EQUI P~ ENT IS NOR~ALLY CONTRQLED
+  - ANOCONTROLTRANSFERREO TO THE
+  - REMOTE SHUT-DOWN PANEL C61-P001
+  - SEE DWG. M530-2 FOR RRC MISCELLANEOUS
+  - SYSTEMS.
+  - SHALL BE AS
+- 10 ALL INSTRUMENTATION ON THIS DRAWING TD BE
+  - NOTED OTHERWISE
+  - WITH LI NE NUMBERSNOTSHOWN.
+  - NOTESCDNT.AT ZONE (K/4)
+  - J/4 RRC 56)-4S-1
+  - RRC-Y-512(0)
+  - RRC-V-617(0)
+  - PRIMARY
+  - CONTAINMENT
+  - M530-1
+  - DE',OCT1VA1EOAND
+  - SPAREDINPIACE
+  - , ":B:-~~~+-S1 [~ ,E 1 ""-"
+  - LUBE OIL COOLER
+  - REACTOR
+  - TOCMS-TR-6/MUXI
+  - V-113
+  - CONTAINMENT
+  - SEAL CIRCULAIION PIPING
+  - ! L,..Jq? ,.
+  - PRESSURE TEST ( RCIC-V-67 RCIC
+  - RCIC-Y-10
+  - REFERENCES TO CONTRACT NUMBERS,
+  - RCIC-Y-60J(O)
+  - II 10
+  - THE SUPPLIED EQUIPMENT, ESTIMATED LINE SIZES ARE FOR INFORMATION ONLY. ACTUAL
+  - BY THE RCIC AND RHR SHALL BE EQUAL TO OR GREATER THAN THE COMBINED INTERNAL
+  - ID-II
+  - CONDENSATE
+  - STORAGE
+  - ST0RAGE
+  - TP..NK
+  - TURBINE EXHAUST - - - - - - - MODE A. & C
+- 15 PS1 (SH.NOTE G.)
+  - TEST LINE - - - - - - - - - - - MODE F
+  - COOLING SYSTEM- - - - - - - - - - - - - - MODE A
+  - VESSEL AND THE SUPPRESSION POOL, HOMEYER, THESE CONDITIONS DO NOT CONTROL
+  - PIPE OR VA.LYE SIZING OR SPECIFICATION, AND NO DATA JS SHOWN,
+  - LOCATION 0
+  - FLOW- SEE NOTE 'Z.
+  - TO RHR
+  - F008 BB
+  - O.CM 0
+  - FLOW - 5H NOTE 'Z. - 600 025 600 - -
+  - I I 2
+  - MAX/MIN
+  - SEE. NOTE 17
+  - MIN FLOW LINE
+  - = 15 14 13 12 11 10 4
+  - RHR HEAT EXCHANGER
+  - NOTEJ1
+  - C0HTR SP
+  - =~ 5-----Mf---~----< J"RHR(17)- 2- \
+  - COHT. ONOWG.
+- 19 ALI. ITEMS IN CROSSHATCHED MEA ARE PART OF THE RHR SITAM CONDENSING l,IOOC
+  - 21.TI-IISEQl.JIPMENTISHORMAl..LYCONTROU.EDFROMTHEMAJNCONTROLl!OOM.IF THEMAIN t
+  - RHR- V- 110,,.
+  - TOADSNUCID.II
+  - SUPPRESSION CHAMBER
+  - SUPPRESSION POOL
+  - REOJIREMENTS. )-2-5
+  - M521-1
+  - I -------- -------- ------
+  - CONT.ONOWC.
+  - MS21 - 4 (J/S)
+  - MS24-2 (C/14)
+  - RECIRCULATION
+  - RHR-V-J1B SUPPRESSION CHAMBER
+  - SUPPRESSION POOL
+  - FSAR FIG.
+  - M521-2
+  - RDW-6- - I
+  - THE SUPPLY SYSTEM IS RESPONSIBLE.
+  - FOR DESIGN CHANGE CONTROL OF
+  - THIS DOCUMEMT
+  - DRAIN VALVE.
+  - TO RWCU-T/SS-601
+  - ZONE (C/11)
+  - PIPING AND VALVES IN RADWASTE BUILDING EXCEPT AS NOTED IN
+  - EACTORI VESSEL
+  - PIPES), CF, COND, CPR, MWR AND SA SYSTEMS IN RADWASTE
+  - LD-SUM-604, ZONE (D/11)
+  - HANGERS IN THE RADWASTE BLDG ARE QUALIFIED TO ELEV 521'- 0 1/4 CORRIDOR.
+  - CIRCUI.A RECIRCULATION
+  - PUI.IP
+  - VALVES UNLESS SPECIFICALLY NOTED OTHERWISE.
+- 1 O. AU. PIPING DOWN STREAM OF THE LAST ISOLATION VALVE, AND OPEN
+  - THIS DRAWING. EXCEPT WHERE THE APPLICABLE NOTES CAU. FOR
+  - ARE RADWASTE LINES.
+  - EXAMPLE, LINES ORIGJNATING OUTSIDE CONTAINMENT.
+  - M607-4 (H/10)
+  - CONTAINMENT JS DESIGNATED AS FOLLOWS, WITH LINE NUMBERS
+  - NOT SHOWN.
+  - TO RWCU-FCV-33
+  - CRD-FS-2A
+  - DWG. M523-2
+  - ZONE (H/9)
+  - RWCU-V-IIZJM
+  - FLOW DIAGRAMS AND DWG. SERIES 801.-00 SAMPLE RACKS DETAILS &
+  - FLOW DIAGRAMS . RWCU
+  - I 11 INTERLOCK I ROM R'NCU-TE-19
+  - RWCU-LS-11681/82 ARE SPARED IN PLACE. THEY HAVE BEEN
+  - HISTORICALLY UNREI..IABL.E. SLUDGE LEVEL IS PRESENTLY MORE
+  - RELIABLY DETERMINED AND CONTROLLED BY USING THE PPM (SOLID
+  - WASTE PROCESSING SYSTEM).
+  - RWCU GJJ-N601 C GJJ-K601 I
+  - RWCU-V-459M
+  - VALVES OR SAFETY RELATED INSTRUMENT LINES) WERE ASME 111/J.
+  - RWCU-V-.J2
+  - PROCESS PIPING TO ANSI 831.1. FROM 2013 THESE VALVES, PUMPS,
+  - SEE NOTE 25
+  - PUMPIB
+  - ORIGINAL CONSTRUCTION DESIGN VIII QUALITY CLASS II.
+  - REQUIREMENTS.
+  - SPECIFICATIONS AND ACTIVE CONTRACT
+  - THE RAOWASTE BLDG HAVE BEEN RECLASSIFIED TO ANSI BJ1.1
+  - M523-1
+  - DWG. M5.34 (E/1)
+  - BACKWASH SUPPLY)
+  - G33-Z001-3B
+  - CLEAN-UP
+  - I ... --
+  - SH SEE
+  - DWG. M523-1 (J/4)
+  - ZDNE (D/6) I
+  - RMS J
+  - ZONE (C/9)
+  - ISOLATION
+  - VALVES
+  - OR 8.
+  - VE5SEL. B
+  - PROCESS FUM D IA&RNI F ILTER/DEIIIIIERALIZER SUPPL,
+  - DOC. 7,
+  - CDIIIECTIOHS SEE SUPPL, DOC, 6,
+  - FRICTION DU AS SIIOIIII SIDAJI NOT IE EXCEEDED,
+  - TO PROCESS DATA SUPPL DOC. 1,
+  - RETIJRI&
+- 8 Tllmll lS I 21 T1lllll6II 29, ,-, I
+  - • ootlll!"!'lll".11!!'!,~- '!.~!!!!!"'"'!~'!"I"!!'!~~ .. J \ , I
+  - IN CONJIIIICTIOII 111TH THIS DIWIIN&,
+  - L_
+  - I 2 I 4
+  - I 7 I 8
+- 12 LOCATION ) 5 10 11 IJ
+  - DIIOI'
+  - LOCATION
+  - I I I
+  - LOCATION
+  - I 2 J 5 7
+- 10 IJ 12 13 14 15 17 18 9
+  - FLOW, GPH
+  - I I I JSR,
+  - I I I
+  - PRESSURE
+  - DROPS
+  - D -
+  - PRESSURE
+- 5 I Figure
+
+### 06.0 Chapter Front Matter  
+`chapters/06.0_Chapter_Front_Matter.md` — source pp. 1–17
+
+- ENGINEERED SAFETY FEATURES
+- TABLE OF CONTENTS
+- **6.1.1.1.2** Compatibility of Construction Materials with Core Cooling Water and
+- **6.1.1.2** Composition, Compatibility, and Stability of Containment and
+- ENGINEERED SAFETY FEATURES
+  - **6.2.1.1.8.1** Temperature, Humidity, and Pressure Control During Reactor
+- **6.2.1.3** Mass and Energy Release Analyses for Postulated Loss-of-Coolant
+- ENGINEERED SAFETY FEATURES
+- **6.2.2** RESIDUAL HEAT REMOVAL CONTAINMENT HEAT REMOVAL
+  - **6.2.4.3.2.1.1.5** Residual Heat Removal and Reactor Core Isolation Cooling
+- ENGINEERED SAFETY FEATURES
+  - **6.2.4.3.2.1.2.1** Main Steam, Main Steam Drain Lines, and Residual Heat
+  - **6.2.4.3.2.2.1.1** Low-Pressure Core Spray, High-Pressure Core Spray, and
+  - **6.2.4.3.2.2.1.2** Reactor Core Isolation Cooling Turbine Exhaust, Vacuum Pump
+  - **6.2.4.3.2.2.1.4** Low-Pressure Core Spray, High-Pressure Core Spray, and
+  - **6.2.4.3.2.2.1.6** Deactivated Residual Heat Removal Steam Condensing Mode
+  - **6.2.4.3.2.2.3** Influent and Effluent Lines From Drywell and Suppression Chamber
+- ENGINEERED SAFETY FEATURES
+  - **6.2.4.3.2.2.3.8.2** Primary Containment Instrument Air System Nitrogen
+- **6.3.1.1.3** Emergency Core Cooling System Requirements for Protection from
+- ENGINEERED SAFETY FEATURES
+- **6.3.3** EMERGENCY CORE COOLING SYSTEM PERFORMANCE
+- **6.3.3.5** Use of Dual Function Components for Emergency Core Cooling System .. 6.3-23
+- **6.3.3.6** Emergency Core Cooling System Analyses for Loss-of-Coolant Accident . 6.3-24
+- LDCN-10-004, 15-011
+- ENGINEERED SAFETY FEATURES
+- LDCN-10-004, 15-011
+- ENGINEERED SAFETY FEATURES
+- **6.6** INSERVICE INSPECTION OF ASME CODE CLASS 2 AND CLASS 3
+- ENGINEERED SAFETY FEATURES
+- LIST OF TABLES
+- ENGINEERED SAFETY FEATURES
+- ENGINEERED SAFETY FEATURES
+- ENGINEERED SAFETY FEATURES
+- LIST OF FIGURES
+- ENGINEERED SAFETY FEATURES
+- ENGINEERED SAFETY FEATURES
+- X-43B
+- ENGINEERED SAFETY FEATURES
+- X-80B
+- ENGINEERED SAFETY FEATURES
+- ENGINEERED SAFETY FEATURES
+
+### 6.1 ENGINEERED SAFETY FEATURE MATERIALS  
+`chapters/6.1_ENGINEERED_SAFETY_FEATURE_MATERIALS.md` — source pp. 18–26
+
+- **6.1** ENGINEERED SAFETY FEATURE MATERIALS
+  - **6.1.1** METALLIC MATERIALS
+    - **6.1.1.1** Materials Selection and Fabrication
+      - **6.1.1.1.1** Material Specifications
+      - **6.1.1.1.2** Compatibility of Construction Materials with Core Cooling Water and
+      - **6.1.1.1.3** Controls for Austenitic Stainless Steel
+    - **6.1.1.2** Composition, Compatibility, and Stability of Containment and Core Spray
+  - **6.1.2** ORGANIC MATERIALS
+  - **6.1.3** POSTACCIDENT CHEMISTRY
+  - CA6NM CL A
+
+### 6.2 CONTAINMENT SYSTEMS  
+`chapters/6.2_CONTAINMENT_SYSTEMS.md` — source pp. 27–218
+
+- **6.2** CONTAINMENT SYSTEMS
+  - **6.2.1** CONTAINMENT FUNCTIONAL DESIGN
+    - **6.2.1.1** Pressure Suppression Containment
+      - **6.2.1.1.1** Design Basis
+      - **6.2.1.1.2** Design Features
+      - **6.2.1.1.3** Design Evaluation
+      - **6.2.1.1.3.3.3** Hot Standby Accident Analysis. This section is not applicable to BWR-5.
+      - **6.2.1.1.3.3.5** Small Size Breaks.
+      - **6.2.1.1.3.4** Accident Analysis Models.
+      - **6.2.1.1.3.4.3** Analytical Assumptions. The key assumptions employed in the model are as follows:
+      - **6.2.1.1.4** Negative Pressure Design Evaluation
+  - LOCA,
+      - **6.2.1.1.5** Suppression Pool Bypass Effects
+  - A / K
+      - **6.2.1.1.6** Suppression Pool Dynamic Loads
+      - **6.2.1.1.7** Asymmetric Loading Conditions
+      - **6.2.1.1.8** Primary Containment Environmental Control
+      - **6.2.1.1.9** Postaccident Monitoring
+    - **6.2.1.2** Containment Subcompartments
+    - **6.2.1.3** Mass and Energy Release Analyses for Postulated Loss-of-Coolant Accidents
+      - **6.2.1.3.1** Mass and Energy Release Data
+      - **6.2.1.3.2** Energy Sources
+      - **6.2.1.3.3** Reactor Blowdown and Core Reflood Model Description
+      - **6.2.1.3.4** Effects of Metal-Water Reaction
+      - **6.2.1.3.5** Thermal Hydraulic Data for Reactor Analysis
+      - **6.2.1.3.6** Long Term Cooling Model Description
+      - **6.2.1.3.7** Single Failure Analysis
+  - **6.2.1.4** Not applicable to BWR plants.
+  - **6.2.1.5** Not applicable to BWR plants.
+    - **6.2.1.6** Testing and Inspection
+      - **6.2.1.6.1** Structural Integrity Test
+      - **6.2.1.6.2** Integrated Leak Rate Test
+      - **6.2.1.6.3** Drywell Bypass Leak Test
+      - **6.2.1.6.4** Vacuum Relief Testing
+    - **6.2.1.7** Required Instrumentation
+  - **6.2.2** RESIDUAL HEAT REMOVAL CONTAINMENT HEAT REMOVAL SYSTEM
+    - **6.2.2.1** Design Bases
+    - **6.2.2.2** Residual Heat Removal Containment Cooling System Design
+    - **6.2.2.3** Design Evaluation of the Containment Cooling System
+    - **6.2.2.4** Tests and Inspections
+    - **6.2.2.5** Instrumentation Requirements
+  - **6.2.3** SECONDARY CONTAINMENT FUNCTIONAL DESIGN
+    - **6.2.3.1** Design Bases
+    - **6.2.3.2** System Design
+    - **6.2.3.3** Design Evaluation
+      - **6.2.3.3.1** Calculation Model
+      - **6.2.3.3.2** Results
+  - PARAMETER
+  - VALUE
+  - **6.2.3.4** Tests and Inspections.
+    - **6.2.3.5** Instrumentation Requirements
+  - **6.2.4** CONTAINMENT ISOLATION SYSTEM
+    - **6.2.4.1** Design Bases
+    - **6.2.4.2** System Design
+    - **6.2.4.3** Design Evaluation
+      - **6.2.4.3.1** Introduction
+      - **6.2.4.3.2** Evaluation Against General Design Criteria
+      - **6.2.4.3.2.1** Evaluation Against Criterion 55. The reactor coolant pressure boundary (RCPB)
+  - I ----
+      - **6.2.4.3.2.2.1** Influent Lines to Suppression Pool.
+  - I ----
+      - **6.2.4.3.2.2.2** Effluent Lines From Suppression Pool.
+      - **6.2.4.3.2.2.3** Influent and Effluent Lines From Drywell and Suppression Chamber Free Volume.
+      - **6.2.4.3.2.2.3.8** Air Supply Lines.
+      - **6.2.4.3.3** Failure Mode and Effects Analyses
+      - **6.2.4.3.4** Operator Actions
+    - **6.2.4.4** Tests and Inspections
+  - **6.2.5** COMBUSTIBLE GAS CONTROL IN CONTAINMENT
+    - **6.2.5.1** Design Bases
+    - **6.2.5.2** System Design
+      - **6.2.5.2.1** Atmosphere Mixing System
+      - **6.2.5.2.2** Hydrogen and Oxygen Concentration Monitoring System
+      - **6.2.5.2.3** Containment Purge
+    - **6.2.5.3** Design Evaluation
+      - **6.2.5.3.1** Hydrogen and Oxygen Generation
+    - **6.2.5.4** Testing and Inspections
+    - **6.2.5.5** Instrumentation Requirements
+    - **6.2.5.6** Materials
+    - **6.2.5.7** Containment Nitrogen Inerting System
+  - **6.2.6** CONTAINMENT LEAKAGE TESTING
+    - **6.2.6.1** Containment Leakage Rate Tests
+    - **6.2.6.2** Special Testing Requirements
+  - **6.2.7** REFERENCES
+- **1.995** Total vent area, ft2 3.
+  - N/A N/A N/A N/A N/A N/A N/A N/A N/A
+  - NA/NA NA/NA NA/NA
+  - NA/ NA/
+  - NA/12 NA/12 NA/12
+  - EDR-V-18
+  - FDR-V-15
+  - RRC-V-19
+  - RRC-V-20
+  - PSR-V-X77A/1
+  - PSR-V-X77A/2
+  - PSR-V-X77A/3
+  - PSR-V-X77A/4
+  - CEP-V-2A
+  - CSP-V-2
+  - CSP-V-4
+  - CSP-V-5
+  - CSP-V-4A
+  - CSP-V-6
+  - CSP-V-9
+  - SBO (62)
+  - SB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB -- -- --
+  - LC LC -- -- O O O O C C C C C C C C C C O C O
+  - LC LC -- -- O O O O C C C C C C C C C C O C O
+  - O O O O LC LC
+  - RM RM RM RM RM RM RM RM RM RM
+  - F,A,Z F,A,Z F,A,Z F,A,Z F,A,Z F,A,Z F,A,Z F,A,Z
+  - EF EF
+  - I I I
+  - CIA-V-30A CEP-V-1A
+  - CAS-V-730
+  - CEP-V-1B CEP-V-2A CEP-V-2B CEP-V-3A CEP-V-3B CEP-V-4A CEP-V-4B CIA-V-20 CIA-V-21
+  - B B B B B A A B B B B B B B B B B B B B B B
+  - GDC 55 55 56 56 56 55 55 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56
+  - SBO (62)
+  - SB SB RB RB RB RB RB RB
+  - A A A A A A A A A A A A A A A A A W W W W W W W W
+  - LC LC O C C C C C C C C C C C C C C C C C C C C C C
+  - LC LC O C C C C C C C C C C C C C C C C O O O O C C
+  - LC LC O O O O
+  - C C C C C C C C C C C C C
+  - F,A,Z F,A,Z F,A,Z F,A,Z
+  - F,A,Z F,A,Z F,A,Z F,A,Z
+  - F,A F,A F,A F,A F,A F,A (9) 42
+  - O O O O O O O O O O O O O O O O O O O O O I I I I
+  - FPC-V-149 FPC-V-153 DW-V-156 DW-V-157 EDR-V-19 EDR-V-20
+  - CSP-V-93 CSP-V-96 CSP-V-97 CSP-V-98
+  - CSP-V-10
+  - FDR-V-3 FDR-V-4
+  - CSP-V-1 CSP-V-2 CSP-V-3 CSP-V-4 CSP-V-5 CSP-V-6 CSP-V-7 CSP-V-8 CSP-V-9
+  - B B B B B B B B B B B B B B B B B B B B B B B B B
+  - GDC 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56
+  - SBO (62)
+  - M 5 5 H C 3 5 5 5 5 L C 3 5 5 2 2
+  - M M H H
+  - A,S A,S W W W W W W W W W
+  - A A W W W W W W W A A S
+  - O/C O/C O/C O/C O/C O/C O/C O/C LC LC LC LC
+  - C C C
+  - C C C C C
+  - C C C
+  - LC LC C C C C C C C C C C C C O C C C C C C
+  - LC LC
+  - RM RM RM
+  - V,G, F,A F,A F,A F,V D,P
+  - LPCS-FCV-11
+  - HPCS-RV-14 HPCS-RV-35
+  - LPCS-RV-18 LPCS-RV-31
+  - LPCS-V-12 LPCS-V-66 LPCS-V-67 HPCS-V-4 HPCS-V-5
+  - LPCS-V-1 LPCS-V-5 LPCS-V-6
+  - HCV-V-1 HCV-V-2 MS-V-16
+  - B B B B B B B A A B B B B B B B A A B B A B B
+  - GDC 56 56 56 56 56 56 56 55 55 56 56 56 56 56 56 56 55 55 56 56 55 56 56
+  - SBO (62)
+  - N 2 2 2 2 2 2 2 2 5 5 5 5 5 5 5 5 5
+  - TB TB TB TB TB TB TB TB TB TB TB TB TB RB RB RB RB RB
+  - S S S S S S S S S S S S S S S S S W
+  - LC C C C C C C C C C C C C C C C C C
+  - O/C O/C O/C O/C O/C O/C O/C O/C
+  - LC C C C C C C C C C
+  - O O O O
+  - O O O O C C C C C C C C
+  - D,P D,P D,P D,P D,P D,P D,P D,P D,P D,P D,P D,P D,P (9)
+  - O O O O O O O O O O O O O I I I I
+  - MSLC-V-3A MSLC-V-3C MSLC-V-3D MWR-V-124 MSLC-V-3B
+  - MS-V-19
+  - A A A A A A A A A A A A B
+  - GDC 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 55 56
+  - MSIV MSIV MSIV MSIV MSIV MSIV MSIV MSIV
+  - SBO (62)
+  - RB RB RB RB RB RB RB RB RB
+  - RB RB RB RB RB RB
+  - A, S A, S A, S
+  - W A A
+  - A A A A A A A A
+  - LC LC LC LC LC C C O O O O O O O O O O O C C C
+  - LC LC LC LC LC O O O O O O O O O O O O O O O O
+  - LC LC LC LC LC
+  - O O O O O O O O O O O O O
+  - O O O
+  - RM RM RM
+  - F,A F,A F,A (9)
+  - EF EF
+  - O O O O O O O O O O O O O O O O O O O O I I
+  - PI-EFC-X42C PI-EFC-X78A
+  - MWR-V-125 PI-V-X73E/1
+  - B B B B B B B B B B B B B B B B B B B B B B
+  - GDC 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56
+  - RHR-V-50A RHR-V-41A RHR-V-41C RHR-V-41B RHR-V-50B
+  - SBO (62)
+  - RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RW RW RW RW RW RW
+  - A A A A A A A W W W W
+  - A A A
+  - NA NA NA NA NA NA NA
+  - LC LC LC LC LC C C C O O O O O O O O O O O O O
+  - LC LC LC LC LC O O O O O O O O O O C C C C C C
+  - LC LC LC LC LC
+  - O O O O O O O O O O
+  - C C C C C C
+  - RM RM RM RM RM RM
+  - F,A F,A F,A (9)
+  - O O O O O O O O O O O O O O O O O O I I I
+  - PSR-V-X77A1 PSR-V-X77A2 PSR-V-X77A3 PSR-V-X77A4 PSR-V-X73-1 PSR-V-X73-2
+  - B B B B B B B B B B B B B B B B B A A A A
+  - GDC 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 55 55 55 55
+  - RHR-V-50A RHR-V-41A RHR-V-41C RHR-V-41B RHR-V-50B
+  - SBO (62)
+  - RB RB RB RB RB RB RB RB
+  - A A W A A A A A A A W W W W W W W W W W
+  - O/C O/C LC
+  - O O O O O O O O O O O O C C C C C
+  - O/C LC
+  - C C C C C C C C C C C C O O O C O C
+  - C C C C C C C C C C C C O O O C O C C
+  - RM RM
+  - F,A F,A F,A F,A (9)
+  - O O O O O O O O O O O O O O O O O I I I
+  - RCIC-V-13 RCIC-V-19 RCC-V-21 RCC-V-40
+  - RCC-V-5
+  - B B B B B B B B B B B B B B B B B A B B
+  - GDC 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 55 56 56
+  - SBO (62)
+  - M 5 N 3 1 3 C 5 5 5 5 P 3 3 3 3 C C L L
+  - RB RB RB RB RB RB RB RB RB RB RB RB TB TB TB TB TB TB RB RB
+  - W W S S S W S W A W S S W W W W W W W W
+- **0.75** Size (14)
+  - O/C O/C O/C O/C O/C O/C O/C O/C O/C LC LC LC
+  - O/C O/C O/C O/C O/C O/C O/C O/C LC LC LC
+  - O O C O O O C
+  - LC O O LC LC C O O O O O O O C C
+  - C C O O C
+  - RM RM
+  - O O O O O O O O O O O O O O I I I I I
+  - RHR-FCV-64A RHR-FCV-64B
+  - RCIC-V-28 RCIC-V-31 RCIC-V-40 RCIC-V-63 RCIC-V-64 RCIC-V-66 RCIC-V-68 RCIC-V-69 RCIC-V-76
+  - RCIC-V-8
+  - B B B A A A B B B A A A A A A A A A B B
+  - GDC 56 56 56 55 55 55 56 56 56 55 55 55 55 55 55 55 55 55 56 56
+  - SBO (62)
+  - L 5 5 5 5 5 5 5 5 5 5 1 1 1 1 5 5 5 5
+  - LC LC LC LC LC LC C C C C C C C C C C -- --
+  - O/C O/C LC LC LC LC LC LC
+  - C C C C C C C C C C C
+  - LC LC LC LC LC LC
+  - C C C C C C C C C C
+  - RM RM RM RM
+  - F,L F,L (9) 38
+  - RHR-FCV-64C
+  - RHR-RV-25A RHR-RV-25B RHR-RV-25C RHR-RV-88A RHR-RV-88B RHR-RV-88C
+  - RHR-V-123A RHR-V-124A RHR-RV-1A RHR-V-123B RHR-V-124B
+  - RHR-RV-1B
+  - RHR-RV-30
+  - RHR-RV-5
+  - B B B B B B B B B B B B B B B A A B B
+  - GDC 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 55 55 56 56
+  - SBO (62)
+  - RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB
+  - W W W W W W W W W W W W W W W W W W
+  - O/C O/C O/C O/C LC LC LC LC
+  - O/C O/C O/C O/C O/C -- C C
+  - LC LC LC LC
+  - C C C O C C C C C C C C C
+  - LC LC LC LC
+  - C C C C C C C C C C C C C C
+  - L, U, M, R F,V
+  - F,V F,V F,V F,V (9) 39 39 -- -- 46 46 46 46 --
+  - O O O O I I I
+  - RHR-V-125A RHR-V-125B RHR-V-134A RHR-V-134B
+  - RHR-V-16A RHR-V-16B RHR-V-17A RHR-V-17B
+  - RHR-V-21 RHR-V-23
+  - B B B B B B B B A B A B B B B A A A
+  - GDC 56 56 56 56 56 56 56 56 55 56 55 56 56 56 56 55 55 55
+  - LPCI A LPCI B LPCI C
+  - SBO (62)
+  - C C C L L L 3 3 C C 5 5 N N 5 5
+  - RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB
+  - A/W A/W
+  - W W W W
+  - W W W W W W W W W W
+  - O O O -- -- -- -- C C -- -- O O
+  - O/C O/C O/C
+  - O/C O/C
+  - O O O O C C C
+  - O O O O
+  - C C C O O O C C C C C C C C O O
+  - RM RM RM RM RM
+  - M, L, M, L,
+  - L, U, M, R L, U, M, R U, R U, R
+  - O O O O O O I I O O O O O I I I
+  - RHR-V-42A
+  - RHR-V-50A RHR-V-53A RHR-V-73A
+  - RHR-V-4A RHR-V-4B RHR-V-4C
+  - RHR-V-8 RHR-V-9
+  - A A A B B B A A A A B B A A B B
+  - GDC 55 55 55 56 56 56 55 55 55 55 56 56 55 55 56 56
+  - LPCI A LPCI B LPCI C
+  - SDC SDC
+  - SBO (62)
+  - RW RW RB RB TB TB TB SB RB RB RB RB RB RB RB RB RB RB RB RB RB RB RB
+  - W W W W W W W A W W W A A A A A A A A A A A A
+  - O O C C C C C C O O C C C C C C O O O
+  - O O O O LC
+  - O O O
+  - O O O C C O C C C C C C C C C
+  - RM RM RM RM RM
+  - A,J,E A,J,E, Y, W A,C A,C
+  - A,F A,F A,F A,F A,F A,F (9) 45 45 47 43 43 43 43 43
+  - O O I O I O O O O O I O O O O O O O O I O O O
+  - RWCU-V-1 RWCU-V-4
+  - SLC-V-4A RRC-V-19 RRC-V-20 SA-V-109 SLC-V-4B
+  - TIP-V-10 TIP-V-11 TIP-V-15 SLC-V-7
+  - TIP-V-1 TIP-V-2 TIP-V-3 TIP-V-4 TIP-V-5 TIP-V-6 TIP-V-7 TIP-V-8 TIP-V-9
+  - B B A A A A A B A A A B B B B B B B B B B B B
+  - GDC 56 56 55 55 55 55 55 56 55 55 55 56 56 56 56 56 56 56 56 56 56 56 56
+  - ABBREVIATIONS/LEGEND
+  - NOTES
+  - NOTES
+  - NOTES
+  - NOTES
+  - NOTES
+  - NOTES
+  - NOTES
+  - NOTES
+  - COND-RSP-4.
+  - NOTES
+  - NOTES
+  - NOTES
+  - DELETED
+  - DW-WW RB-WW DW
+- 1 Drywell above 4,789.5
+- 2 Drywell below 195,759.5
+- **1.10** In Lower Region
+
+### 6.3 EMERGENCY CORE COOLING SYSTEM  
+`chapters/6.3_EMERGENCY_CORE_COOLING_SYSTEM.md` — source pp. 219–271
+
+- **6.3** EMERGENCY CORE COOLING SYSTEM
+  - **6.3.1** DESIGN BASES AND SUMMARY DESCRIPTION
+    - **6.3.1.1** Design Bases
+      - **6.3.1.1.1** Performance and Functional Requirements
+- 10 CFR 50.46. The ECCS is designed to meet the following requirements:
+      - **6.3.1.1.2** Reliability Requirements
+      - **6.3.1.1.3** Emergency Core Cooling System Requirements for Protection from Physical
+      - **6.3.1.1.4** Emergency Core Cooling System Environmental Design Basis
+    - **6.3.1.2** Summary Descriptions of Emergency Core Cooling System
+      - **6.3.1.2.1** High-Pressure Core Spray
+      - **6.3.1.2.2** Low-Pressure Core Spray
+      - **6.3.1.2.3** Low-Pressure Coolant Injection
+      - **6.3.1.2.4** Automatic Depressurization System
+  - **6.3.2** SYSTEM DESIGN
+    - **6.3.2.1** Schematic Piping and Instrumentation Diagrams
+    - **6.3.2.2** Equipment and Component Descriptions
+      - **6.3.2.2.1** High-Pressure Core Spray System
+      - **6.3.2.2.2** Automatic Depressurization System
+      - **6.3.2.2.3** Low-Pressure Core Spray System
+  - LDCN-02-010, 03-003
+  - LDCN-02-010, 03-003
+      - **6.3.2.2.4** Low-Pressure Coolant Injection System
+      - **6.3.2.2.5** Emergency Core Cooling System Discharge Line Fill System
+      - **6.3.2.2.6** Emergency Core Cooling System Suction Strainers
+  - RHR LPCS HPCS
+    - **6.3.2.3** Applicable Codes and Classifications
+    - **6.3.2.4** Materials Specifications and Compatibility
+    - **6.3.2.5** System Reliability
+    - **6.3.2.6** Protection Provisions
+    - **6.3.2.7** Provisions for Performance Testing
+    - **6.3.2.8** Manual Actions
+  - **6.3.3** EMERGENCY CORE COOLING SYSTEM PERFORMANCE EVALUATION
+- 10 CFR 50.46. The methods used analyze the full LOCA break spectrum, including small,
+    - **6.3.3.1** Emergency Core Cooling System Bases for Technical Specifications
+    - **6.3.3.2** Acceptance Criteria for Emergency Core Cooling System Performance
+  - LDCN-10-004, 15-011
+    - **6.3.3.3** Single Failure Considerations
+    - **6.3.3.4** System Performance During the Accident
+    - **6.3.3.5** Use of Dual Function Components for Emergency Core Cooling System
+    - **6.3.3.6** Emergency Core Cooling System Analyses for Loss-of-Coolant Accident
+      - **6.3.3.6.1** Loss-of-Coolant Accident Description
+      - **6.3.3.6.2** Loss-of-Coolant Accident Analysis Procedures and Input Variables
+      - **6.3.3.6.2.1** LOCA Analysis Methodology, GE Hitachi Nuclear Energy
+      - **6.3.3.6.2.2** Deleted.
+      - **6.3.3.6.2.3** LOCA Analysis Input Variables
+    - **6.3.3.7** Break Spectrum Calculations
+      - **6.3.3.7.1** Break Spectrum Calculation, GE Hitachi Nuclear Energy
+    - **6.3.3.7.2** Deleted.
+    - **6.3.3.8** Loss-of-Coolant Accident Analysis Conclusions
+  - **6.3.4** TESTS AND INSPECTIONS
+    - **6.3.4.1** Emergency Core Cooling System Performance Tests
+    - **6.3.4.2** Reliability Tests and Inspections
+      - **6.3.4.2.1** High-Pressure Core Spray Testing
+      - **6.3.4.2.2** Automatic Depressurization System Testing
+      - **6.3.4.2.3** Low-Pressure Core Spray Testing
+      - **6.3.4.2.4** Low-Pressure Coolant Injection Testing
+  - **6.3.5** INSTRUMENTATION REQUIREMENTS
+  - **6.3.6** REFERENCES
+  - N/A 2
+  - LDCN-10-004, 15-011
+- **1.25** Initial Operating MCPR – LOCA Analysis Limit
+  - D I C'SEL CNGJNC
+  - I . ALL EMPTY PRESSURE DATA BLANKS CAN BE FILLED IN BY OTHERS
+  - SIGNIFICANT, POStrJON 0 a JO "
+  - I 2 .! 4 5 7 9 Ii! 14 TEMP ,.. -
+  - EMPTY PRESSURE DATA BLANKS .
+  - IMPACT ON THE HIGH PRESSURE CORE SPRAY SYSTEM EVALUATED .
+  - PRESS. PS/A
+  - OR EXCEED 32.2 FEET.
+  - NPSH MUST EQUAL OR EXCEED THE VALUE SPECIFIEO IN NOTE 7 ABOVE
+  - BE DETERMINED BASED ON FINAL SYSTEM DESIGN . THE FLOW GIVEN
+  - POSSIBLE AND MAY BE INCREASED BY OTHERS (THROTTLING) TO ...
+  - = /A ~50 ""'° "/,. -1z.oo-e1-1000- POSITION< 4 5 6 10 II 20
+  - ACCOMMODATE PIPING ARRANGEMENT.
+  - MUST 8E 22 FT OR GREATER .
+  - US6 . '/ .. --
+  - •1 -H -
+  - IMATED LINE SIZES ARE FOR INFORMATION ONLY. ACTUAL DESIGN
+  - ' . ., .. ""'" N/A
+  - MINIMUM FLOW SHALL NOT BE BELOW 1150 GPM-
+  - MODE C C 0 C C C 0 0
+  - CONJUNCTION WITH THIS DRAWING .
+  - MODE E 0 0 C C C C C 0
+  - C C C C 0
+  - MOOE H C 0 0 C C C 0 0
+  - C 0 C C C 0 C 0
+  - C C C C 0
+  - MOOE CC C 0 C C 0 0 C 0
+- 0 VAL VE OPEN
+  - C V,4 L VE CLOSE
+  - SEE NOTE 27
+  - FLOW GPM
+  - P RESS PS/A
+  - "t AJ,//J '1t,
+  - DROP FEET
+  - MOOE S SYSTEM ON STANDBY DUTY ...
+  - 172! 14.7 - - - -
+  - PRESS PS /A -
+  - LIMITING LINE LOSS
+  - F E -
+  - H JO -2 1- 22-Z3-14 -25 -Z.5.5
+  - OTHERWISE.
+  - OUIJJTYCL.ASS I
+  - REACTOR ISOLATION VALVES PLUS AU.
+  - COOE CROUP B
+  - COOE CROUP 0
+  - ASSOCIATED COMPONENTS ON MS ORAWIHC
+  - HPCS-V-M(V)
+  - PCS-V-79-M
+  - V-1101
+  - A. UN(ORIGIHATINOOUTSIDCCONTAINIKNT.
+  - ,---1
+  - 1
+  - LPCS- S-1
+  - VSH-OVT
+  - SEENOTE17.
+  - HPCS- 1 -4
+  - T--------------
+  - A (B/1J)
+
+### 6.4 HABITABILITY SYSTEMS  
+`chapters/6.4_HABITABILITY_SYSTEMS.md` — source pp. 272–281
+
+- **6.4** HABITABILITY SYSTEMS
+  - **6.4.1** DESIGN BASIS
+  - **6.4.2** SYSTEM DESIGN
+    - **6.4.2.1** Definition of Main Control Room Envelope
+    - **6.4.2.2** Ventilation System Design
+    - **6.4.2.3** Leaktightness
+    - **6.4.2.4** Interaction With Other Zones and Pressure Containing Equipment
+    - **6.4.2.5** Shielding Design
+  - **6.4.3** SYSTEM OPERATIONAL PROCEDURES
+  - **6.4.4** DESIGN EVALUATION
+    - **6.4.4.1** Radiological Protection
+    - **6.4.4.2** Toxic Gas Protection
+      - **6.4.4.2.1** Chlorine
+      - **6.4.4.2.2** Sodium Oxide
+      - **6.4.4.2.3** Miscellaneous Chemicals
+  - **6.4.5** TESTING AND INSPECTION
+  - **6.4.6** INSTRUMENTATION REQUIREMENTS
+  - **6.4.7** REFERENCES
+
+### 6.5 FISSION PRODUCT REMOVAL AND CONTROL SYSTEMS  
+`chapters/6.5_FISSION_PRODUCT_REMOVAL_AND_CONTROL_SYSTEMS.md` — source pp. 282–291
+
+- **6.5** FISSION PRODUCT REMOVAL AND CONTROL SYSTEMS
+  - **6.5.1** ENGINEERED SAFETY FEATURE FILTER SYSTEMS
+    - **6.5.1.1** Design Bases
+    - **6.5.1.2** System Design
+    - **6.5.1.3** Design Evaluation
+    - **6.5.1.4** Tests and Inspections
+    - **6.5.1.5** Instrumentation Requirements
+    - **6.5.1.6** Materials
+  - **6.5.2** CONTAINMENT SPRAY SYSTEM
+  - **6.5.3** FISSION PRODUCT CONTROL SYSTEMS
+    - **6.5.3.1** Primary Containment
+    - **6.5.3.2** Secondary Containment
+    - **6.5.3.3** Standby Liquid Control (SLC) System
+
+### 6.6 Inservice Inspection Of Asme Code Class 2 And Class 3  
+`chapters/6.6_Inservice_Inspection_Of_Asme_Code_Class_2_And_Class_3.md` — source pp. 292–292
+
+- **6.6** INSERVICE INSPECTION OF ASME CODE CLASS 2 AND CLASS 3
+  - COMPONENTS
+
+### 6.7 MAIN STEAM ISOLATION VALVE LEAKAGE CONTROL SYSTEM  
+`chapters/6.7_MAIN_STEAM_ISOLATION_VALVE_LEAKAGE_CONTROL_SYSTEM.md` — source pp. 293–293
+
+- **6.7** MAIN STEAM ISOLATION VALVE LEAKAGE CONTROL SYSTEM
+
+### 07.0 Chapter Front Matter  
+`chapters/07.0_Chapter_Front_Matter.md` — source pp. 1–18
+
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- TABLE OF CONTENTS
+- **7.1.1.6** Main Control Room and Critical Switchgear Rooms Heating,
+- **7.1.2.3** Conformance to Institute of Electrical and Electronics Engineers
+- INSTRUMENTATION AND CONTROL SYSTEMS
+  - **7.2.1.2.6** Malfunctions, Accidents, and Other Unusual Events Which
+- INSTRUMENTATION AND CONTROL SYSTEMS
+    - **7.3.1.1.1.4** Residual Heat Removal System - Low Pressure Coolant
+  - **7.3.1.1.2** Primary Containment and Reactor Vessel Isolation Control System
+    - **7.3.1.1.2.4** Main Steam Line - Tunnel High Ambient Temperature or High
+    - **7.3.1.1.2.9** Reactor Water Cleanup System - Area High Ambient Temperature
+    - **7.3.1.1.2.11** Residual Heat Removal System - Area High Ambient Temperature
+  - **7.3.1.1.7** Main Control Room and Critical Switchgear Rooms Heating,
+- INSTRUMENTATION AND CONTROL SYSTEMS
+  - **7.3.1.2.7** Malfunctions, Accidents, and Other Unusual Events Which
+- INSTRUMENTATION AND CONTROL SYSTEMS
+  - **7.4.1.7.7** Malfunctions, Accidents, and Other Unusual Events Which
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- **7.5.1.4** Emergency Core Cooling System and Reactor Core Isolation
+- INSTRUMENTATION AND CONTROL SYSTEMS
+    - **7.5.2.2.2.1** IEEE Standard 279-1971, Criteria for Protection Systems
+    - **7.5.2.2.2.2** IEEE Standard 323-1974, Standard for Qualifying Class 1E
+- **7.6** ALL OTHER INSTRUMENTATION SYSTEMS REQUIRED FOR
+    - **7.6.1.3.4.3** Reactor Core Isolation Cooling Turbine Exhaust Diaphragm
+- INSTRUMENTATION AND CONTROL SYSTEMS
+  - **7.6.1.3.9** Reactor Building Floor Drain and Equipment Drain Sumps
+- INSTRUMENTATION AND CONTROL SYSTEMS
+  - **7.6.1.8.7** Malfunctions, Accidents, and Other Unusual Events Which Could
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- **7.7.1.11** DELETED
+    - **7.7.1.15.4.1** Regulatory Guide 1.75, Revision 2, Physical Independence
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- LIST OF TABLES
+- LDCN-02-032, 05-009
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- LDCN-02-032, 05-009
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- LIST OF FIGURES
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- INSTRUMENTATION AND CONTROL SYSTEMS
+
+### 7.1 INTRODUCTION  
+`chapters/7.1_INTRODUCTION.md` — source pp. 19–35
+
+- INSTRUMENTATION AND CONTROL SYSTEMS
+- **7.1** INTRODUCTION
+  - **7.1.1** IDENTIFICATION OF SAFETY-RELATED SYSTEMS
+    - **7.1.1.1** Reactor Protection System
+    - **7.1.1.2** Primary Containment and Reactor Vessel Isolation Control System
+    - **7.1.1.3** Emergency Core Cooling System
+    - **7.1.1.4** Neutron Monitoring System
+    - **7.1.1.5** Process Radiation Monitoring System
+    - **7.1.1.6** Main Control Room and Critical Switchgear Rooms Heating, Ventilating, and Air
+    - **7.1.1.7** Standby Service Water System
+    - **7.1.1.8** Containment Atmosphere Control System
+  - LDCN-14-002, 13-044
+    - **7.1.1.9** Reactor Core Isolation Cooling System
+    - **7.1.1.10** Standby Liquid Control System
+    - **7.1.1.11** Leak Detection System
+    - **7.1.1.12** Residual Heat Removal System - Shutdown Cooling Modes
+    - **7.1.1.13** Fuel Pool Cooling and Cleanup System
+    - **7.1.1.14** Suppression Pool Temperature Monitoring System
+    - **7.1.1.15** Standby Gas Treatment System
+  - LDCN-04-027, 05-009
+    - **7.1.1.17** Safety-Related Display Instrumentation
+    - **7.1.1.18** Containment Instrument Air System
+    - **7.1.1.19** Residual Heat Removal System - Containment Spray Cooling Mode
+    - **7.1.1.20** Remote Shutdown System
+    - **7.1.1.21** Recirculation Pump Trip
+    - **7.1.1.22** Residual Heat Removal System - Suppression Pool Cooling Mode
+    - **7.1.1.23** Anticipated Transient Without Scram Recirculation Pump Trip
+    - **7.1.1.24** Anticipated Transient Without Scram - Alternate Rod Insertion
+  - **7.1.2** IDENTIFICATION OF SAFETY CRITERIA
+    - **7.1.2.1** Regulatory Requirements
+    - **7.1.2.2** Regulatory Conformance - 10 CFR 50 Appendix A
+    - **7.1.2.3** Conformance to Institute of Electrical and Electronics Engineers Standards
+    - **7.1.2.4** Conformance to Regulatory Guides
+  - OQAPD.
+    - **7.1.2.5** Instrument Errors
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X
+  - X X X X X X
+  - X RPT
+  - X X X X X X
+  - COOL. MODE X X X X X X
+  - X X X X X X X X SUPP. POOL
+  - RPT X X X X X X
+  - REMOTE
+  - SHUT- DOWN X X X X X X X
+  - SPRAY CONT. MODE
+  - X X X X RHR
+  - X X X X X X
+  - RELATED DISPLAY
+  - SAFETY-
+  - X X X X X X
+  - MSIVLCS (DEACTI-
+  - VATED)
+  - X X X X
+  - X X X X X X
+  - X X X X X X
+  - SFPCS
+  - X X X X X X
+  - DOWN COOL. SHUT- MODE
+  - X X X
+  - X X X X X X
+  - SYSTEMS
+  - DETEC.
+  - X LEAK
+  - X X X X X X
+  - CONTAIN.
+  - ATMOS.
+  - X X X X X X MON.
+  - X X X
+  - X X X X X X
+  - X X X X X X
+  - X X X
+  - SERVICE SYSTEM
+  - WATER
+  - X X X X X X
+  - X X X X X X
+  - CONTROL SWGR RM
+  - EMERG
+  - X MAIN
+  - ROOM HVAC X X X X X X
+  - RAD MON.
+  - PROCESS
+  - X X X X X X X X X X X X
+  - NMS X X X X X X X X X X X X X X X X
+  - X X X X X X
+  - X X X X X X X X X
+  - PCRVICS
+  - X X X X X X
+  - X X X
+  - RPS X X X X X X X X X X X X X X X X X
+  - COOL. MODE
+  - X X X X X X X X X X X X X X X SUPP. POOL
+  - X X X X X X X X X X X X X X
+  - REMOTE
+  - SHUT- DOWN
+  - X X X X X X X X X
+  - SPRAY CONT. MODE
+  - X X X X X X X X X X X X X X RHR
+  - RELATED DISPLAY
+  - SAFETY-
+  - X X X
+  - MSIVLCS (DEACTI-
+  - VATED)
+  - X X X X X X X X X X X X X X
+  - X X X X X X X X X X X X X X
+  - SFPCS
+  - X X X X X X X X X X X X X X X X
+  - DOWN COOL. SHUT- MODE
+  - X X X X X X X X X X X X X X X X
+  - SYSTEMS
+  - DETEC.
+  - X X X X X X X X X X X X X X LEAK
+  - CONTAIN.
+  - ATMOS.
+  - X X X X X X X X X X X X X MON.
+  - X X X X X X X X X X X X X
+  - X X X X X X X X X X X X X X X X X
+  - SERVICE SYSTEM
+  - WATER
+  - X X X X X X X X X X X X X X X
+  - CONTROL SWGR RM
+  - EMERG
+  - X X X X X X X X X X X X X X MAIN
+  - ROOM HVAC
+  - RAD MON.
+  - PROCESS
+  - X X X X X X X X X X X X X
+  - X X X X X X X X X X X X X
+  - X X X X X X X X X X X X X X X X X
+  - PCRVICS
+  - X X X X X X X X X X X X X X X X X
+  - X X X X X X X X X X X X X X X X
+  - RG 1.6 3/10/71 2/17/72 2/17/72
+
+### 7.2 REACTOR PROTECTION (TRIP) SYSTEM  
+`chapters/7.2_REACTOR_PROTECTION_TRIP_SYSTEM.md` — source pp. 36–77
+
+- **7.2** REACTOR PROTECTION (TRIP) SYSTEM
+  - **7.2.1** DESCRIPTION
+    - **7.2.1.1** Reactor Protection System Description
+      - **7.2.1.1.1** Neutron Monitoring System Trip
+      - **7.2.1.1.2** Reactor Vessel Pressure
+      - **7.2.1.1.3** Reactor Vessel Water Level
+      - **7.2.1.1.4** Turbine Throttle Valve Position
+      - **7.2.1.1.5** Turbine Governor Valve Position
+      - **7.2.1.1.6** Main Steam Line Isolation Valves Position
+      - **7.2.1.1.7** Scram Discharge Volume Water Level
+      - **7.2.1.1.8** Drywell Pressure
+      - **7.2.1.1.9** Manual Scram
+      - **7.2.1.1.10** Reactor Mode Switch Manual Scram
+    - **7.2.1.2** Design Basis
+      - **7.2.1.2.1** Variables Monitored to Provide Protective Actions
+      - **7.2.1.2.2** Location and Minimum Number of Sensors
+      - **7.2.1.2.3** Prudent Operational Limits
+      - **7.2.1.2.4** Margin
+      - **7.2.1.2.5** Levels
+      - **7.2.1.2.6** Malfunctions, Accidents, and Other Unusual Events Which Could Cause Damage
+      - **7.2.1.2.6.7** Missiles. Missile protection for RPS components is described in Section 3.5.
+      - **7.2.1.2.7** Minimum Performance Requirements
+    - **7.2.1.3** Final System Drawings
+  - **7.2.2** ANALYSIS
+    - **7.2.2.1** Conformance to 10 CFR 50, Appendix A - General Design Criteria
+    - **7.2.2.2** Conformance to IEEE Standards
+    - **7.2.2.3** Conformance to NRC Regulatory Guides
+  - MS-PS-23A-D
+  - RPS-PS-2A-D
+  - MS-LIS-24A-D
+  - CRD-LT-12A-D
+  - CRD-LIS-601A-D
+  - CRD-LT-13A-D
+  - CRD-LS-613-A-D
+  - RPS-POS-33T/1A-4A
+  - RPS-POS-33T/1B-4B
+  - RPS-PS-5A-D
+  - MS-V-22 A-D
+  - MS-V-28 A-D
+  - IRM, APRM, OPRM
+  - MS-PS-3A-D
+  - MS-PS-20A-D
+  - I •• I • • I 4 I
+- 4 I 9 •• II I t • I I • t • - t
+  - -a I I D I 4 I 9 I t 4 I • • I •
+  - er, - t •
+- 4 I I • • t I
+  - -------------------1------------ -~
+  - i~,.z..----------. It~ NDIU
+  - <r, :f~'!~=~~ll-
+  - - --- _,, _ _,, llftC•
+  - OCMPUIERINPUTS
+  - 0,,00 C"39 IL R£AC1'0ASCIW,I 0$39 - Cl!l40 -
+- 13 RPf lmSTIM •a•Tll!P Clll34 c1e3, - C:1880 ,, .. - -
+  - PDNIHMIWIIOI
+  - IIOVACIIITIIM
+- 1 I r-•♦+-----•-
+  - 11A ==~ : CJ"
+- 1 I 1 I I I
+- 0 ALLCAILUSHAI.LQOWLYWITHCIIE&IOl,flPIC:-:J. T, r.f~~- .ILMll d RADII.UTI-CUll>MDVAlft -ITN • ! I I I
+  - .., B•t~N~~..,.i..,~~-...
+  - COIA•- llli.
+  - D -- __ ,ICH,_Oll_,..,.,_ou,cw
+  - SNALL AUIIM.
+  - AQ-1010
+  - I. IUCUAII IOILII SYS ,CO
+  - IIIJ--
+  - OCT -
+  - F022 A F022 A
+  - F022 C F022 C F022 D F022 D F022 B F022 B
+  - F028 A F028 A F028 B F028 B F028 C F028 C F028 D F028 D
+  - BUS B)
+  - A E C G B F D H
+  - A1 A2 B1 B2
+  - C B A D A D C B
+  - D A B C B C D A
+  - B A D C D C B A B A D C
+  - C D A B A B C D C D A B
+  - A D A D C B C B A D A D C B
+  - B C B C D A D A B C B C D A
+  - D C B A B A D C D C B A B A
+  - A B C D C D A B A B C D C D
+  - C B C B A D A D C B C B A D
+  - D A D A B C B C D A D A B C --
+  - B A D C D C B A B A D C D C
+  - C D A B A B C D C D A B A B
+  - A D C B C B A D A D
+  - B C D A D A B C B C
+  - I I I I I I I I I I I I I I I
+
+### 7.3 ENGINEERED SAFETY FEATURE SYSTEMS  
+`chapters/7.3_ENGINEERED_SAFETY_FEATURE_SYSTEMS.md` — source pp. 78–196
+
+- **7.3** ENGINEERED SAFETY FEATURE SYSTEMS
+  - **7.3.1** DESCRIPTION
+    - **7.3.1.1** System Description
+      - **7.3.1.1.1** Emergency Core Cooling Systems
+      - **7.3.1.1.1.1** High-Pressure Core Spray System.
+  - LDCN-04-027, 05-009
+      - **7.3.1.1.1.2** Automatic Depressurization System.
+      - **7.3.1.1.1.3** Low-Pressure Core Spray.
+      - **7.3.1.1.1.4** Residual Heat Removal System - Low Pressure Coolant Injection Mode.
+      - **7.3.1.1.2** Primary Containment and Reactor Vessel Isolation Control System (PCRVICS)
+      - **7.3.1.1.3** DELETED
+      - **7.3.1.1.4** Residual Heat Removal System - Containment Spray Cooling Mode
+      - **7.3.1.1.5** Residual Heat Removal System - Suppression Pool Cooling Mode
+      - **7.3.1.1.6** Standby Service Water System
+      - **7.3.1.1.7** Main Control Room and Critical Switchgear Rooms Heating, Ventilating, and Air
+      - **7.3.1.1.8** Standby Gas Treatment System
+      - **7.3.1.1.9** Reactor Building Ventilation and Pressure Control System
+      - **7.3.1.1.10** Containment Instrument Air System
+    - **7.3.1.2** Design Basis
+      - **7.3.1.2.1** Variables Monitored to Provide Protective Action
+      - **7.3.1.2.2** Location and Minimum Number of Sensors
+      - **7.3.1.2.3** Prudent Operational Limits
+      - **7.3.1.2.4** Margin
+      - **7.3.1.2.5** Levels
+      - **7.3.1.2.6** Range of Transient, Steady State, and Environmental Conditions
+      - **7.3.1.2.7** Malfunctions, Accidents, and Other Unusual Events Which Could Cause Damage
+      - **7.3.1.2.7.7** Missiles. Protection for safety-related components is described in Section 3.5.
+      - **7.3.1.2.8** Minimum Performance Requirements
+    - **7.3.1.3** Final System Drawings
+  - **7.3.2** ANALYSIS
+    - **7.3.2.1** Engineered Safety Feature Systems - Instrumentation and Controls
+      - **7.3.2.1.1** Conformance to 10 CFR 50 Appendix A
+  - GDC 33
+  - GDC 34
+  - GDC 35
+  - GDC 38
+  - GDC 41
+  - GDC 44
+  - GDC 64
+      - **7.3.2.1.2** Conformance to IEEE Standards
+      - **7.3.2.1.3** Conformance to Regulatory Guides
+  - MS-LIS-31A-D
+  - MS-PS-47A-D
+  - MS-LIS-100A, B
+  - HPCS-FIS-6
+  - HPCS-LS-2A, B
+  - HPCS-LS-1A, B
+  - HPCS-PS-3A, B
+  - MS-LIS-38A, B
+  - MS-LIS-37A-D
+  - RHR-PS-16A-C
+  - RHR-PS-19A-C
+  - LPCS-PS-1
+  - LPCS-PS-9
+  - B22-K5AA
+  - B22-K5BB
+  - MS-LIS-37A, C
+  - MS-PS-48A, C
+  - MS-PS-413C
+  - LPCS-FIS-4
+  - MS-LIS-37A-D
+  - MS-PS-48A-D
+  - RHR-RLY-K70A, B
+  - MS-PS-413A, B, D
+  - RHR-FIS-10A-C
+  - MS-LIS-24A-D
+  - MS-LT-61A-D
+  - MS-LS-300A-D
+  - MS-LT-61A-D
+  - MS-LIS-200A-D
+  - MS-RIS-610A-D
+  - LD-MON-2A (2B)
+  - MS-PS-15A-D
+  - RPS-PS-2A-D
+  - REA-RIS-609A-D
+  - MS-PS-56A-D
+  - MS-DPIS-8A-D
+  - MS-DPIS-9A-D
+  - MS-DPIS-810A-D
+  - MS-DPIS-11A-D
+  - LD-FS-605A,B
+  - LD-FS-15,16
+  - LD-MON-1A,1B
+  - RHR-DPIS-12A,B
+  - LD-MON-2A,2B
+  - RCIC-DPIS-13A,B
+  - RCIC-DPIS-7B
+  - LD-MON-1A,1B
+  - DELETED
+  - LDCN-02-032, 05-009
+  - MS-PS-48A-D
+  - MS-LIS-37A-D
+  - MS-LIS-37A-D
+  - MS-PS-48A-D
+  - CMS-TR-5, 6
+  - SPTM-TI-5
+  - WMA-TIC-11A, B
+  - WMA-TIC-52A, B
+  - WMA-TIC-53A, B
+  - MS-LT-61A-D
+  - MS-LS-300A-D
+  - RPS-PS-2A-D
+  - REA-RIS-609A-D
+  - MS-LT-61A-D
+  - MS-LS-300A-D
+  - RPS-PS-2A-D
+  - REA-RIS-609A-D
+  - REA-DPT-1A1-1A4
+  - REA-DPT-1B1-1B4
+  - REA-DPIC-1A, 1B
+  - CIA-PIS-21A, B
+  - CIA-PS-22A, B
+  - CIA-PS-39A, B
+  - DELETED
+  - LDCN-02-032, 05-009
+  - I.IIPL NO G33-1020
+  - SEE SUPPL
+  - POSIT ION
+  - RMS CR
+  - VALVE MO F004 PU14P
+  - POS ITI ON POSITION
+  - STATION
+  - LIMIT ON
+  - RMC LIMIT ON - CR RMS CR RMS C-G CR CR
+  - SWIT CH VALVE LOCAL
+  - SWITCH VALVE
+  - AIR CURRENT /
+  - OE -ENERGIZED
+  - SOLENOID
+  - PERMISSI VE /
+  - UN LESS VALVE UNLESS VALVE PERMISSIVE
+  - WHEN VALV.E. IS UNLESS VALVE /
+  - PILOT OPEN WHEN WHEN
+- 15 FULLY CLOSED IS OVER TORQUED
+  - ENERGIZED
+  - NUMBERS USAS SPEC. C37.2.
+  - l
+  - I. INTERLOCK PUMP ST ART -UP CIRCUIT WITH
+  - PUMP TO BE STARTED. PUMP 15 TO TRIP
+  - OFF AFTER SY AR T IF FLOW IS NOT ESTABLISHED
+  - LIGHT REQU IREMENTS ANO PROCESS INSTRU- START STOP OPEN CLOSE PILOT DE-ENERGIZED
+  - MENTATION REQUI REMENTS NOT SHOWN ON FCD MAY I AO F033
+  - LOC AL
+  - CONTROL SW
+  - POSITION
+  - SYSTEM NO. G3J UNLESS NOTED.
+  - SEAL- IN. MOTOR OPERATED GLOBE TYPE VALVES
+  - CONTROL SW
+  - VALVE F004 ONLY. POSITION
+  - POS ITION
+  - POSITION
+  - FILTER DEMIN
+  - FILTEA INLET
+  - J - 1 E.Y.CCPT F040
+  - RMS CR
+  - PERMISSIVE
+  - PERMISSI VE PERMISSIYE PERMISSIVE PERMISSIV E
+  - WHEN VALVE UNLESS VAL VE WHEN VALVE UNLESS VALVE UNLESS VAJJ/E
+  - IS FULLY OPEN
+  - IS FULLY OPEN IS FULLY OPEN IS OVER TORQUED
+  - VALVE SWITCH VALVE SWITCH VALVE SWITCH
+  - OPEN CLOSED
+  - CLOSE
+- 4 A◄2-1030
+  - I.. G.33-3050
+  - THROTTLING VALVES (SEE NOTE 6)
+  - EXCEPT
+  - F ULLY OPEN
+  - LIMIT ON
+  - 'It AJtNJIICIA~ ANO 11Qc;A1'011 IJDNII - IN TMt COMTIIOL :cp: £ ~r~~':Er=:~~O:~ ~TED anew
+  - u- __ .. _-_--..
+  - UC. MCC
+  - I ...
+  - J I,, -
+- 7 I ; B
+  - BATTERY
+  - VOL1AG E. NOT-- DIESEL GENERATOR
+  - DEGRADED V'O L.TAGE
+  - PRESSURE HIGM
+  - HPCS DIESEL CB - 40G3 CB HPCS HPCS PUMP HPCS SERVICE
+  - DIESEL GENERATOR
+  - GENERATOR
+  - ELEC TRICAL
+  - OUT OF OUT OF
+  - ROOM HVAC WATER ROOM HVAC ROOM HVAC
+  - SERVICE SERVICE
+  - I REF 0 3 POSITI ON SWITCH
+  - DIESEL I.EN. VOL T AGE NOT VOLT AGE NOT LOCAL DIE SEL LOCAL DIESEL DIESEL GEN.
+  - IN MAINTENANCE NOT READY
+  - POSI TION FOR AUTO START
+  - POSITION POSITION POSIT ION
+  - LP AUX. DEV. SH.2,M-9
+  - RMS CR
+  - MODE SWITCH
+  - MOOE SWITCH MODE SWITCH MODE SW ITCH
+  - IN C.R.
+  - IN LOCAL.. IN LOCAL ON C.R .
+  - RMS RMS RMS
+  - SH I F-'-
+  - H PCS BREAKER NO. I
+  - TEST IN LOWER
+  - STATUS POSITION
+  - NOT PERMISSIV E
+  - ON O.G. BRK NO.I
+  - CLOSE POSITION
+  - BREA.KER NO. 2
+  - IN LOWER
+  - POSITION
+  - NOT PERMISSIVE
+- 3 POSITION SWITCH
+  - SH-I E- 2
+  - COMTROL 5W
+  - POS IT ION
+  - POSITIOII
+  - RMS CR RMS NOT PERMI SS IVE
+  - IN MAIN TENANCE
+  - POSITION
+  - NOT PERMISSIVE
+  - WHEN STOP
+  - SIGNAL JS
+  - PRESENT
+  - START
+  - CONTROL SW
+  - CONTROL SW
+  - HPCS FLOW
+  - POSITION
+  - POSIT ION
+  - LIMIT ON
+  - J-11 H-10
+  - LOCAL
+  - RMS CR RMS J-5 H-10 RMS CR RMS J-12
+  - SWITH VALVE
+  - NOOG.
+  - PERMISSIVE WHEN PERMISSIVE UNLESS
+  - FULLY CLOSED WHILE OPENING
+  - LIMIT ON TORQUE ON
+  - SWITCH VALVE SWITCH VALVE
+  - PERMISSIVE UNLESS
+  - VAL VE IS VALVE IS
+  - VALVE IS OVER TORQUED
+  - FULLY OPEN
+  - LIMIT ON
+  - LIMIT ON TORQUE ON
+  - SWITCH VALVE SWITCH VALVE
+  - SWITH VALVE
+  - PERMISSIVE 1/NLESS PERMISSIVE UNLESS PERMISSIVE UNLESS
+  - VALVE IS
+  - VALVE IS VALVE IS OVERTORQUED
+  - FULLY OPEN FULLY CLOSED WHILE CLOSING
+  - REVERSING CONTACTOR
+- 0 LOW BYPASS TO SUPPRESSION POOL VALVE MO·FOIZ MINIMUM
+  - CLOSE
+  - TEST RETURN TO CONDENSATE STORAGE TANK VALVE MO-FOIO
+  - ETECT
+  - LOCAL LOCAL
+  - ' / LIGHT ON l
+  - A WHEN IN
+  - OVERRIDE
+  - CONDENSATE CONDENSATE SUPPRESSION SUPPRES'SION
+  - POSITION
+  - LOW LEVEL LOW LEVEL HIGH LEVEL HIGH LEVEL
+  - NOOIA NOOIB
+  - PERMISSIVE AFTER
+  - IS PRESENT
+  - WHEN AUTO SIGNAL
+  - IS PRESENT
+  - CR I AUX
+  - DE VICE
+  - POSITION
+  - PERMISSIVE UNLESS 8-9 RMS (R
+  - CLOSE SIGNAL IS /
+  - PRESENT
+  - l
+  - ARE FULLY CLOSED
+  - FULLY CLOSED
+  - VALVE I LIMIT ON
+  - SWITCH VALVE SWITCH
+  - FULLY OPEN
+  - SWITCH VALVE
+  - I OPEN CLOSE
+  - PUMP SUCTION FROM SUPPRESSION POOL VALVE MO- FOIS
+  - SPRAY HEADER TO HPC S PUMP PUMP C003 REACTOR REACTOR HPCS MANUAL HIGH HIGH
+  - HIGH HIGH HPCS SYS
+  - PSB22- LP LP PB CR
+  - A / ' '
+  - PUMP--- REACTOR SUPPRESSION SUPPRESSION
+  - SWITCHOVER SWITCHOVER
+  - LIMIT ON LIMIT ON
+  - LOCA7- N002A SH. 2 NOOZB SH. 2
+  - FOR-ALARM)
+  - PUSH BUTTON
+  - POSITION
+  - PB CR
+  - AIR SUPPLY
+  - HPCS LOG IC MOV NETWORK
+  - H PCS IN
+  - VALVE VALVE
+  - OR OVER LOAD
+  - VALVE 0 SOLE NO ID IS SOLENOID IS
+  - DE - ENE RGI ZED
+  - ENERGII.ED
+  - DEVICE
+  - SOLENOID ENERGIZ.EV
+  - VALVE OPEN
+  - HPCS P-3
+  - AO-FOOS LOCAL
+  - POWER LOSS
+  - TESTABLE CHECK VALVE AO-FOOS EE
+  - AUX MCC
+  - REF, 5 DEV ICE
+- 2 POSITION SWITCH REACTOR WATER REACTOR WATER
+  - POSITION
+  - RMS CR
+  - I. WHEN TEST SOLENOID PILOT IS ENERGIZED, THE MAIN STEAM ISOLATION
+  - PERMISSIVE WHEN
+  - VALVE OPERATOR IS SLOWLY EXHAUSTED (60 SEC CLOSURE TIMEJ WHILE VALVE
+  - PERMISSIVE WHEN
+  - IS CLOSED BY ACTION OF THE VALVE SPRING WITHOUT AID OF AIR PRESSURE.
+  - LEVEL ABOVE LEVEL ISOLATION
+  - ENERGIZED
+  - MS-LS-
+  - ANO PROCESS INSTRUMENTATION NOT SHOWN ON THIS FCD MAY BE OBTAINED
+  - WHERE REQUIRED TO CLARIFY FUNCTION.
+  - SET B. UNLESS MANUAL NOTE 13
+  - ISOLATION SIGNAL
+  - OTHERWISE NOTED.
+  - AUX CR
+  - SHEET LISTED IN MPL (REF. 22)
+  - SHALL HAVE REDUNDANT POWER SUPPLIES SO THAT A SINGLE FAILURE WILL NOT
+  - DISABLE THE AUTO DEPRESSURIZATION FUNCTION.
+  - PERMISSIVE WHLN PERMISSIVE WHEN
+  - TO INITIATE ISOLATION FUNCTIONS WHEN DE-ENERGIZED. AUX C-2
+  - DEVICE CR AUX D-2
+  - DEVICE I
+  - LOGIC ARE ESSENTIAL AND MUST MEET THE REQUIREMENTS OF
+  - IEEE 279.
+- 15 DEPRESSED
+  - DEVICE
+- 15 SEE REF. 4 F'OR INITIATION OF "SELECT ROD INSERT",
+  - SOLENOID ENERGIZED
+  - VALVE OPENS
+  - AUXILIARY RELAY
+  - DEVICE CR
+  - CR RMS
+  - CLOSE DRYWELL EQUIP
+  - SEAL-1N
+  - MPL ITEM NO.
+  - DE-ENERGIZED POSITION
+  - INOPERATIVE IN REACTOR
+  - BLDG VENT EXHAUST SYS
+  - UNLESS MANUAL
+  - IS 'PRESENT
+  - C-2 I
+  - WATER LEVEL VESSEL PRESSURE
+  - SWITCH I VALVE
+  - VALVE SWITCH VALVE
+  - ADS AUTO OEPRESSURIZA TION SYSTEM K
+  - RPS REACTOR PROTECTION SYSTEM
+  - RESET PUSHBUTTON
+  - SWITCHGEAR DEVICE FUNCTION NO'S ASA SPEC C37.2 / NOT TRIPPED
+  - NOT TRIPPED
+  - PB C.R
+  - I OPEN CLOSE
+  - SWITCH CHART SPEED
+  - MAIN STEAM LINE DRAIN VALVE MO F016
+  - POST ACCIDENT MONITORING OF WATER
+  - CNOTE 4J
+  - BYPASS POSITION
+  - RMS I CR /
+  - REF. 4
+  - OUT OF ANY INBOARD
+  - CR DL)T OF SERVICE PERMISSIVE CR SERVICE
+  - AMS I CR
+  - DEVICE MCC OTHERS
+  - PERMISSIVE WHEN MAIN
+  - NORMAL OR BELOW
+  - TURBINE STOP
+  - THAN 901. OPEN
+  - PERMISSIVE WHEN MAIN
+  - REF. 4
+  - NORMAL OR BELOW
+  - POWER LOS5 OR MANUAL BATTEA.Y BH BATTE RY B2-J
+  - OYEPLOAD OF
+  - NORMAL OR BELOW
+- 3 POSITION
+  - PERMISSIVE WHEN MAIN
+  - SELECTOR SW
+  - NORMAL OR BELOW
+  - POSITION
+  - CR I I
+  - POSITION ENERGIZED
+  - CR L /
+  - AUX DEVICE
+  - AUX DEVI E
+  - CR I MAIN STEAM LINE HIGH FLOW
+  - ENERGIZED
+  - I EITHER MSIV ALL OUTBOARD MSIV
+  - BYPASS SW HI
+  - ENERGIZED CLOSED POS BYPASS POSITION
+  - MANUAL
+  - AUX DEVICE
+  - AUX DEVI E IN TEST POIITION
+  - PB I CR
+  - ENERGIZED
+  - CP I CR /
+  - PB I I
+  - PRESENT
+  - SELECTOR SW ITC.M IS
+  - AUXILIARY DEVICE
+  - FSAR FIG.
+  - CR DEVICE A
+  - FOR LETTER SUFFIXES WHICH SHALL
+  - I ENERGIZE SOLENOID I BE B,C&D RESPECTIVELY CSEE NOTE 9)
+  - PILOT VALVE
+  - PILOT VALVE
+  - PILOT VALVE SOLENOIDS PILOT VALVE SOLENOID I
+  - ARE DE-ENERGIZED I -
+  - IS ENERGIZED (NOTE I)
+  - INITIATED
+  - IIITIATED
+  - RELAY .ADDITIONAL FUNCTIONS LP
+  - INITIA.TION
+  - PUSNBUTTON
+  - I.OQIIC. C
+  - JET PUMP
+  - JET PUMP
+  - TOTAL FLOW
+  - K6028 CR
+  - K602A CR
+  - RECIRCULATION I
+  - RECIRCULATION I
+- 1 PUMP "B" I I
+  - ENERGIZED
+  - I I TRIPPED I
+  - ENERGIZED
+  - AUX D -2.
+  - DEVICE
+  - DEVICE LP I
+  - DEVICE
+  - PERMISSIVE WHEN
+  - PERMISSIVE WHEN I
+  - I PERMISSIVE WHEN
+  - RUNNING
+  - ENERGIZED
+  - ENERGIZED
+  - I AUX LP D-2.
+  - AUX I
+  - LP I DEVICE DEVICE
+  - FOR NATURAL
+  - ENERGIZED
+  - ENERGIZED
+  - ALL JET PUMPS ARE
+  - DEVICE
+  - PROVIDING DRIVE FLOW
+  - TOTAL JET
+  - PROVIDING JET PUMP DRIVE FLOW D ARE PROVIDING DRIVE OR
+  - SUMMER
+  - JET PUMPS ONLY
+  - JET PUMPS ONLY
+  - PROVIDING-JET PUMP DRIVE FLOW
+  - PROVIDING DRIVE
+  - K606 CR
+  - PROVIDING DRIVE
+  - FLOW FLOW
+  - PERMISSIVE WHEN
+  - PERMISSIVE WHEN PERMISSIVE WHEN
+  - DE-ENERGIZED
+  - DE-ENERGIZED DE-ENERGIZED
+  - LEVEL ABOVE LEVEL LEVEL. A80VE LEVEL
+- 3 TftlP E
+- 3 TR P
+  - AUX D-'.2.
+  - AUX LIS LIS D-2.
+  - DEVICE LP
+  - DEVICE
+  - DEVICE
+  - N0240
+  - REACTOR WATER REACTOR WATER
+  - LP PERMISSIVE WHEN
+  - PERMISSIVE WHEN PERMISSIVE WHEN N024D
+  - DE-ENERGIZED
+  - ENERGIZED ENERGIZED
+  - P5C72- LP
+  - DEVICE LP
+  - N002 C
+  - UNLESS '1ANIIAL
+  - IS PRESENT
+  - RECORDER
+  - CR DIFF PRESSURE/ R613
+  - FLOW RECORDER UH'LESS MAHIJAL
+  - ISOLATIOM SIGNAL
+  - IS PRESENT
+  - PERMISSIVE WHEN AUX - SH I IN80AR O C/D
+  - DEPRESSED ENERGIZED
+  - PB CR
+  - TOTAL JET PUMP FLOW MEASUREMENT SYSTEM
+  - I AUX DEVICE
+  - I I ----7
+  - ENERGIZED
+  - AUXILIARY RELAY 1
+  - AUX J-2.
+  - DEVICE
+  - AUX DEVICE CR I
+  - AUXILIARY RELAY I
+  - CR AUX DEVICE
+  - AUXILIARY R'E'LAY
+  - DE-ENERGIZED
+  - DEVICE J I Z
+  - NOTE9
+  - AUXILIARY RELAY
+  - J -2 DEVICE
+  - SHUTDOWN COOL.ING IHJECTIOH
+  - RHR INBOA'RD ISOLATION LOGIC
+  - MANUAL
+  - AHMED CR
+  - DRYWELL
+  - PRESSURE
+  - REF 5
+- 6 NUCLEAR AO!Ll~ SYSTEM I-CD-- 82 /0??·-1030
+  - A42-IOJO
+  - CR CA
+  - POTENTIAL FOR
+  - SH. I
+  - LIMIT ON CR
+  - CR , ' A A
+  - VALVE
+  - ORYWUI.
+  - HVAC OUT
+  - LPCS PUMO DIV I 5WGA
+  - PWR 81-1 OUT
+  - OUI' ROO .. MVAC OUT AOOII HYAC OIJT
+  - QJT OF
+  - I IS PUNP 11, RUNNING
+  - STARIER/
+  - CCIITIIOL SW
+  - SUL-IN
+  - OVERLOAD
+  - OE--E,.EAGIZEO 1-12
+  - NA. OOHT
+  - LOCAL 1-12
+  - LIMIT OH LINIT OM
+  - LOCAL
+  - OE.VICE
+  - CLOSE OP(N
+  - NAIIIIAL D
+  - RIIOMI.TMTW
+- 7 I, i a
+  - NOT'E 4
+  - POSITON
+- 15 PR£$(Nt
+  - VALVE IS
+  - FULL V CLOSED
+  - SWIT-C,.
+  - CONTROL SW
+  - THIS BLOCK
+  - FOK F027B
+  - I R F 5
+  - MO F009 -
+  - RETURN LINE
+  - CR LP
+  - RMS J-'S N0128
+  - L-7 '
+  - S.EAL- IN-S
+  - TORQUE SWITCH JUMPERED 1
+  - NOTE 4
+  - RUNNING POSITION THAN SET POINT
+  - POSITION
+  - NOTE 4
+  - POSITION
+  - LOOP 6
+  - PERMISSIVE UNLESS
+  - AUX. CONT
+  - PERMISSII/E UNLESS PERMISSII/E UNLESS
+  - SW'I TCH PERMISSIVE
+  - SWITCH VALVE VALVE
+  - CPEN CLOSE.
+  - CLOSE
+  - TYPICAL FOR MC F064C
+  - RHR TE.ST RETURN VALVE. MO F021
+  - WAHR. CROSSTIE
+  - VALVES FULLY
+  - CLOSED
+  - A.MS 1 K-10
+  - PUSH BUTTON
+  - PILOT
+  - VALVE
+  - LOC.AL
+  - DEACTIVATED AND SPARED IN PLACE
+  - FOR RHR-Y-89
+  - PS 822 -
+  - US B22-
+  - PS 8 22 -
+  - N0.370
+  - N048D
+  - RHR SYS 2
+  - SWITCH IN
+  - LP PB CR
+  - N0308
+  - W BISI
+  - W BISI
+  - BISI BISI
+  - OUT OF OIJT OF NOT AM HYAC OUT OUT OF
+  - IY AE LOCAL IY AE LOCAL IY AE LOCAL BY AE ,WITCH VALVE
+  - LOCN..
+  - RHR B
+  - SUCTJON VALVE
+  - OVER LAOO PO.,ER OUT OF CONTROL SW
+  - PUI.AP TRIP OUT OF
+  - SERVICE
+  - TYP FOR PUMP C
+  - TYP FOR PUMP C
+  - OUT OF
+  - SERVICE
+  - DEVICE
+  - W BISI
+  - SHUTDOWN PANEL E-CP-AAS FOR VALVES F003A, F004A, & FQ06A
+  - AND IN THE REMOTE SHUTDOWN PANEL E-CP-C61/P001 FO R VALVE DESCRIPTION
+  - SE RVICE
+  - FULLY OPE N LOSS/OL FAILURE &TATUS
+  - LIMIT ON I Y AE LOCAL
+  - REMOVED CA IY AE LOCAL
+  - SWITCH WALYE
+  - OUT OF OUT OF
+  - POWER
+  - FOD3A (REF 14)
+  - SERVICE SERVICE SERVICE LOSS
+  - NOT REQUIRED CR
+  - FOR VALVES
+  - NOTE 1
+  - FOR VALVE POSITION
+  - FOOJA(B)
+  - OF SERVICE LOSS POWER LOSS/OL
+  - AUX BISI IV AE LOCAL BISI IY AE LOCAL BISI MCC
+  - REQUIRED FOR VALVE
+  - NOT REQUIRED FOR VALVES F006B(A)ONLY
+  - REQUI RED FOR VALVE
+  - F004A(B) ONLY
+  - SERVICE
+  - NOT REQUIRED
+  - FOR VALVES
+  - F003A(B)
+  - W BISI W BISI W
+  - LOGIC PWR LOGIC
+  - OUT OF
+  - IN TEST
+  - FULLY CLOSED F0748 WHILE OPENING ONLY
+  - SERVICE FULLY OPEN FAIL
+  - IN TEST
+  - TORQUE ON
+  - UNLESS VALVE IS CR SWITCH VALVE SWITCH VALVE
+  - LIMIT
+  - SWITCH VALVE DEVJCE
+  - DEVICE
+  - FULLY CLOSED
+  - UMJTT
+  - SWITCH
+  - LPCS P-2 CB RH R 2A WMA-FN-53A RRA- FN-1 1 RHR PUMP 2/1.
+  - PERMISSIVE UNLESS
+  - POWER
+  - POWER
+  - OUT OF
+  - POWER RM HVAC OUT
+  - VALVE IS
+  - LOSS/OL SERVICE
+  - LOSS OF SERVICE
+  - FULLY OPEN
+  - LI MIT ON
+  - SWITCH VALVE
+  - OUT OF
+  - OUT OF NETWORK
+  - SERVICE SERVICE SERVJCE PWR LOSS/OL
+  - BY AE
+  - DEVICE
+  - RHR 'A'
+  - SERVJCE
+  - DEVICE
+  - SW-RMS-V /2A
+  - -n-
+  - SW-V-2A
+  - CLOSE
+  - SPRING RETURN TO AUTO
+  - LOCAL -
+  - SW-V-2A
+  - -u
+  - E-RMS-ARST15
+  - XFR SW FOR
+  - --r-..._ __ SW-P-1A
+  - I SW-V-2A
+  - o_P_EN __ _;-LJ----r-l-R
+  - NORMAL
+  - CLOSE 1-------T------i G l@
+  - EMERG
+  - E-CP-ARS
+  - E-CP-ARS
+  - FOR SW-V-2A
+  - NORMAL
+  - CLOSE
+  - E-IR-21
+  - SW-PS-1A
+  - OPEN PERM FOR
+  - SW-V-2A
+  - L.-~ ss
+  - INCREASING
+  - PRESSURE
+  - 0
+  - BD-A MOTOR OVLD
+  - C C0968
+  - UNDERVOLTAGE
+  - 1--____ ___,_ ___
+  - AND E514-31.
+  - SW-RLY-86/P1A
+  - CIRCUIT BKR
+  - FOR SETPOINT INFORMATION.
+  - BD-S INOPERATIVE
+  - OVERCURRENT
+  - ________ ...!...!MA!_C~LINE - SEE OWG. 524-2
+  - I RMS
+  - I . I I
+  - LOCAL I
+  - SW-V-28
+  - - p
+  - SW-V-2B
+  - ~ I ~"Y
+  - PUMP 18
+  - I ---
+  - DISCH.VA" . -
+  - CLOSE
+  - I R -
+  - I I I OPEN I I
+  - P.STS- 2.
+  - 1@ BD-B _,,,, -
+  - TRANSFER SW
+  - FOR SW-V-2B
+  - BO-RS
+  - MAIN CONTR. P.M
+  - BD-RS
+  - -G
+  - BO-RS
+  - -h
+  - u SW-V-28
+  - I ...
+  - NEUTRAL
+  - - h -u
+  - CLOSE
+  - JR-22
+  - PRESS . SW .
+  - SW-PS-18
+  - REFER TO INSTRUMENT MASTE R
+  - MOTOR OVLO i----...L...--------+---~A BO-B
+  - CJRCUIT BKR
+  - INOPERATlVE 1 -----r------1---.../
+  - A ao-s
+  - LOCAL
+  - .,.,· "'.I FRON G.E.
+  - WATER. PUMP ESS LOGJC
+  - R STARTl
+  - SIGNAL A
+  - CONT.ON ---sJ"OP _________ .. __
+  - SHT.,524 .. 10
+  - HOTOR
+  - OVERLOAD
+  - STANDBY SERVICE WATER SYSTEM
+  - FLOW OIAG. M-524
+  - LOCAL
+  - ...,_. ----1 I OPEN - - - -'
+  - CLOSE
+  - L ... ... ...
+  - CLOSE
+  - RSTS•l
+  - XfR SW.f"OR
+  - SN•V•70B
+  - LOCAL
+  - SPRAY POND
+  - SW•V•70B.
+  - SW-V-70B
+  - BD•A
+  - OPEN OPEN DR
+  - BD-A
+  - NEUT.
+  - CLOSE
+  - RU DWB.
+  - STANDBY SERV.WTR.f'L•D•H-524
+  - DESIGN CONTROL FOR START-UP SYSTEMCS)
+  - TRANSFERRED TO WPPSS. ALL FUTUR.E CHANGES
+  - REV1S10NS TO THIS DRAWING REQUIRE APPROVAL
+  - OF THE SUPPLY SYSTEM
+  - SPRAY POND A
+  - REY DWG.
+  - STANDBY SERVICE WATER F'L••D
+  - IR•21
+  - LOCAL
+  - SPRAY POND
+  - SPRAY
+  - A WATER
+  - POND A
+  - NAICE UP
+  - SOLENOID
+  - lP SHUT
+  - OFT VA.
+  - NOT .. ·e-e.eN REMCNEO. OCR!I ilr154
+  - IA
+  - •IA
+  - CLOSE
+  - DIV. I
+  - SPRAY POND A WATER NAKE•UP
+  - CONTROL SCHENATIC AND LOGIC DIAGRAtl
+  - MATCH LINE-SEE DWB. 524-IA
+  - SH-TS-23B
+  - CLG COIL RRA-CC-6 SH-TS-29 RRA-CC-3
+  - LOCAL
+  - LOCAL
+  - RHR PUMP B
+  - SW-TS-178
+  - BD·C
+  - BD-B
+  - TO ON
+  - LOW FLOW I ~ , ------.. LOCAL
+  - LOCAL AL · · ______ _. LOCAL
+  - LOCAL
+  - LOCAL
+  - LOCAL
+  - sw-r:s -1 ◄I SW-f"$ -428 SW·FS -l ◄A -
+  - PRA-CC·lB
+  - LOW .FLOW OMA-CC-21
+  - DMA-CC-22 :z: RAA-CC-\9 'o, ;;,o o -1 <.n . LOW FLOW sw-rs· -21
+  - CLG COJL RRA•CC-3
+  - DJESEL
+  - _z 0~ z~ --1,, (fl -I rn C,
+  - a..
+  - V 2;◄ 9.
+- 0 m .
+  - . m Q . .
+  - ~ N ~
+  - CE -
+- 9 UC ::r 9 ::x:
+  - ~ 0 m~
+  - m
+  - ~ ti ..J Q .m • m
+- 15 C
+  - ~ g C u-"'
+  - .J 0 .J - - fl .J a,z:• '
+  - CE -.J I
+  - • m. \II w
+  - -1-00 i N"' \J.. la.I ..J -
+  - i• "' u :c :: '=- .JD I
+  - CE CE la. ~ M I 3:
+  - C CEi I ~ ~ °' i 8
+  - I ' ..I 'W
+  - - 3 3 9 . a, :c
+  - TRANSFERRED TO WPPSS. ALL FUTURE CHANGES
+  - OF THE SUPPLY SYSTEM
+- 15 SEC.
+  - BD•A
+  - N.U ..
+  - N.U.
+  - • ·•:• ... cc-a2
+  - N.U.
+  - BD-A
+  - • _ _.,. ····_; __ -.--LDCAL1 ·
+  - fAN-COIL
+  - CHPCSl
+  - RRA•FC-4
+  - Dl9CH•_TENP.
+  - N.U.a NOT USED
+  - -LOCAL
+  - C0301
+  - SW•f'IS•I. ,
+  - 8D•A
+  - HPCS SERVICE WATER 'LOW FLOW' ALARl1
+  - LOW-FLOw··-1.· ----------~--...-1---~-------<~
+  - _ CONTROL LOSJ~J)JAGRAM
+  - "C =
+  - J t"\.~
+  - El>IERGalCV ~ p 2. RE FER TO INSTRUMENT MASTER DATA . .ts t.0'-JiRO\..\..iO ow ;5,4 ·30~ E;5t'4:3I
+  - OPEN C.LOSE
+  - VOLTAGE.
+  - START
+  - CJ AUTO
+  - :I]
+  - O.FF I I .
+  - HE.ATER CONTROL
+  - = e "Cl .,Q
+  - r\T\ •
+  - EMERGENC(
+  - SIGNALS
+  - VOLTAGE
+  - DIV.U BD-K1
+  - START
+- 00 CZ::
+- 1 IC\ C;OS'lS
+  - DIV.U LOCAL
+  - START
+  - DIV.JI LOCA.L
+  - OVER TEMP
+  - OIV.11 LOCAL
+  - J $TAG£
+  - I HEATER CONT.
+  - 'l)f---1~ "" i.
+  - SGT-EHC-IA'2
+  - HEATE.R
+  - ON AUTO OFF
+  - PULL TO LOCK
+  - MOMEN'TARY P. &.
+  - C-0'200 .
+  - RMS
+  - ·"a·,. ,,~,,
+  - _VAt.Vl. "C..., •A."
+  - A
+  - ·-12~-- :A
+  - Kl. ~<=T•~-E,AI
+  - e. -- 1e.;1 ·-· . _;___ - ·---- -l4G
+  - 9-:
+  - _,,_ 1,,; ;_Ki,; S& T· ,-4:., ~ 1 SI ·• -· Ir
+  - a!
+  - : Lou.-
+- 20 STEP
+  - STEPPING
+  - PROGIWltER
+  - CJA•PROIR•
+  - IA
+  - VALVES
+  - LOCAL
+  - 911.ENDID
+  - VALVE·
+  - CIA•9PV•1A
+  - CJA•V•39A __ ..,
+  - C1A·V-39A
+  - OPEN(ENERGl
+  - CLOSE
+  - JR-71
+  - a TO CJA•SPY•SA
+  - CJA•PS•31A
+- 4 NOT& "A"
+  - s
+  - CLOSED
+- 0 • IR.fo1
+  - C.IA-PS-2'21'
+  - ll 5UllE. Slt.HAL WOULD .. l!.ER.•
+  - TNCR PRE.55 ..
+  - STEPPING PRDGRAtttER
+  - HDTOR DRIVE
+  - POWER SUPPLY
+  - n I • To C.1/lrt,,. •SW••~ A. loll (1Q
+  - AF\"ER 8'C.H USE OF PROGfW.AMER
+  - l+lO 80TTLeS,RE~ PROG~MMER
+  - 'TO 'ZERO,AN) ~S4S R£45ET BUTTON
+  - A.T REMOTE Mt 80TTLE CST._TION # IA,
+  - c= - g~
+  - STEPPING
+  - SWITCMES1TMUS. CAUSING TME._ PROGRAMM~~ TO-~~ _ PRDGIWltER
+  - TYPICAL FOR
+  - ALL SOL.
+  - ~t.L~-~~-~;!~~+_;..!Qj;~~~-~J~~,,bv.,
+  - LOCAL
+  - IGLENOID BD-8
+  - '51$(,•6~ w
+  - LOCAL
+  - CIA•9PV•IB
+  - CIA•V .. 391!1
+  - CJA•V•318
+  - DEENER&IZE
+  - COPEN)
+  - 111•74
+  - GJBD·B
+  - a TD CJA•SPY•l8
+- 1 • CJA•P9•318
+  - s
+  - td9 r
+- 7 IMTfRRLIPTi1> ANO ~PPltSl,).
+  - ECREASIN& PRESS. -
+  - 10
+  - 11
+  - 0
+  - STEPPINS PRGSIWl1ER
+  - ttDTDlt DRIVE
+- 0 TO( SHEET ~b-6A
+  - POWER·~Y•
+  - IS
+  - • TO CIA~9PV•11B a
+- 1 Pt.Qf1&AldmfC StALS ltJ AIJO A!)VAUCc~
+  - TO CJA-SPV-178 1
+  - TO CIA-SPY- I ••
+  - I ~n 0 I
+  - A- LA1'CHING MITROGEN
+  - NSil• LOCAL LIGMT
+  - OJV 1
+  - CJA•V•308 80•8 DIV JI
+  - . ISOLATION
+  - - VA.
+  - - CLOSE •• 10· •·
+  - SEE TABLE
+- 11 TO THIS (THESE).SYSTEM(S) .SHAl~ BE INITIATED
+  - CONTAINMENT 1901.ATJDN,VALVE
+  - CONTROL LOGIC DJABRAH
+
+### 7.4 SYSTEMS REQUIRED FOR SAFE SHUTDOWN  
+`chapters/7.4_SYSTEMS_REQUIRED_FOR_SAFE_SHUTDOWN.md` — source pp. 197–229
+
+- **7.4** SYSTEMS REQUIRED FOR SAFE SHUTDOWN
+  - **7.4.1** DESCRIPTION
+    - **7.4.1.1** Reactor Core Isolation Cooling System
+      - **7.4.1.1.1** Function
+      - **7.4.1.1.2** Operation
+    - **7.4.1.2** Standby Liquid Control System
+      - **7.4.1.2.1** Function
+      - **7.4.1.2.2** Operation
+    - **7.4.1.3** Residual Heat Removal System/Shutdown Cooling Mode
+      - **7.4.1.3.1** Function
+      - **7.4.1.3.2** Operation
+    - **7.4.1.4** Remote Shutdown Systems
+      - **7.4.1.4.1** Function
+      - **7.4.1.4.2** Operation
+    - **7.4.1.5** Anticipated Transient Without Scram - Recirculation Pump Trip
+      - **7.4.1.5.1** Function
+      - **7.4.1.5.2** Operation
+    - **7.4.1.6** Anticipated Transient Without Scram - Alternate Rod Insertion
+      - **7.4.1.6.1** Function
+      - **7.4.1.6.2** Operation
+    - **7.4.1.7** Design Basis
+      - **7.4.1.7.1** Variables Monitored to Provide Protective Actions
+      - **7.4.1.7.2** Location and Minimum Number of Sensors
+      - **7.4.1.7.3** Prudent Operational Limits
+      - **7.4.1.7.4** Margin
+      - **7.4.1.7.5** Levels
+      - **7.4.1.7.6** Range of Transient, Steady State, and Environmental Conditions
+      - **7.4.1.7.7** Malfunctions, Accidents, and Other Unusual Events Which Could Cause Damage
+      - **7.4.1.7.7.7** Missiles. Protection for safe shutdown systems is described in Section 3.5.
+      - **7.4.1.7.8** Minimum Performance Requirements
+    - **7.4.1.8** Final System Drawings
+  - **7.4.2** ANALYSIS
+    - **7.4.2.1** Conformance to 10 CFR 50 Appendix A - General Design Criteria
+    - **7.4.2.2** Conformance to IEEE Standards
+    - **7.4.2.3** Regulatory Guides Conformance
+  - **7.4.3** REFERENCES
+  - MS-LIS-24B, D
+  - RCIC-PS-6
+  - MS-LIS-37A-D
+  - MS-PS-48A-D
+  - RCIC-LS-15A, B
+  - MS-LIS-36A-D
+  - MS-PS-45A-D
+  - MS-LIS-36A-D
+  - MS-PS-45A-D
+  - EQUIP AREA
+  - LOW LEVEL LOW LEVEL THESE FUI-.CTIONS
+  - N03)A N037B
+  - I THE RCIC 5'15 15 ARRANGED FOR TEST OF PUMP AT FULL
+  - S'/5 AUTOMATICA.LL'/ RETURNS TO STARTUP MODE
+  - PB CR
+  - YE55EL
+  - US B21-
+  - UNTIL RESET
+  - N037C NC)370
+- 4 A2 ~3
+  - REK1DR
+  - NOO-TB
+  - RCIC EQUIP
+  - DIAPHRAGM
+  - PRE55 LOW
+  - DIFF TEMP
+  - UNE BREAK
+  - E51- IOIO
+  - A4'Z-1030
+  - I RHR EQUIP
+  - AREA HIGH
+  - RMS CR
+  - SEAL-JN
+  - ISOLATION SIG
+  - CONTROL 5W
+  - POSITION
+  - AUX CONT L-11 RMS
+  - D-9 RMS -1-5
+  - CONTROL 5W
+- 15 PRESENT ►-------'I
+  - CONTROL SW
+  - SEAL-IN AUX
+  - F'OSITION
+  - M-8 PE.RMISSIVE
+  - WHILE CLOSIN.G
+  - SWITCH 1./ALYE SWITCH VALVE
+  - CLOSE 7
+  - WHILE. CLOSING
+  - NOTE 5
+  - VALVE
+  - CLOSE' M
+  - DC REVERSING CONTACTOR 721'
+  - IICIC
+  - AND TNQOTILE
+  - LIMIT
+  - • \ Tlffi"I" I v,f:'!,.. / ,~~~~";. •• ' \ LINIT • 01
+  - SVIICN YALVI
+  - IICIC IIITII.TIOI
+  - SICUL
+  - UAINTII-TRIP
+  - CR CR
+  - VALVL
+  - RMS F CR
+  - LD-NJQN-2B
+  - VALV(
+  - ON LOSS OF AIR
+  - A'O F054
+  - T&ILI I -
+  - IAD 8 7 8 II 10
+  - SEAL-IN POSITION SEAL-IN
+  - POSITION
+  - POSITION
+  - POSITION
+  - C-IZ ,
+  - FOR OPTIMIZING
+  - FLOW IMOCATOR
+  - CONTROLLER
+  - FULLV CLOSED
+  - CLOSE
+  - START
+  - VALVE MO-F068, TURBINE EXHAUST
+  - WATER LEG PUMP C003
+  - TO SUPPRESSION POOL (TYPICAL FOR
+  - LOW A/MP
+  - RGIC TURBINE SPEED CONTROL
+  - PUSHBUTTON HIGH TURBINE HIGH TURBINE
+  - SW CLOSE EXHAUST EXHAUST
+  - TO TRIP
+  - PRESSURE PRESSURE
+  - PB CR
+  - SH3 ,A-12 SH 3 ,A- 13
+  - MECHANICAL 3 POSITION SWITCH VALVE CONTROL ENERGIZE SOL
+  - OVERSPEED SPRING RETURN TO SWITCH IN TO TRIP
+  - TURBINE OPEN POSITION
+  - RATED SPEED
+  - RMS CR REF 8
+  - VALVE CONTROL
+  - H CONTROL SW
+  - SWITCH IN
+  - CLOSE PO'SITION POSITION
+  - POSITION
+  - I I I
+  - I RMS CR RMS H-3 RMS
+  - MICRO SWITCH MOUNTED ON & OPERATED BY MECHANICAL OVERSPEED
+  - TRIP. SWITCH CONTACTS STAY OPEN AFTER MECHANICAL OVERSPEEO 1 I
+  - I TRIP UNTIL TRIP IS MANUALLY RESET AT TURBINE.
+  - VALVE OVE.RTORQUED
+  - WMU O..OSIN6
+  - I LINKAGES I
+  - ON LIMIT ON / ' '
+  - VALVE SI/ VALVE I
+  - I J /
+  - VALVE MAY BE OPENED OR CLOSED OR POSITIONED AT ANY DESIRED
+  - START
+  - CLOSE OPEN
+  - THE VALVE CONTROL SWITCH POSITION.
+  - FSAR FIG.
+  - Figure 7.4-2
+  - ICOIII II -- ---
+  - IIISIONAYION
+  - -· A _
+  - NORMAL
+  - L.OCMC
+  - SUPPL DOC II
+  - POSIJIDN
+  - RSH ASP AST1
+  - IISTS RSP
+  - ICITE 7
+  - DEVICE
+  - CEVICE
+  - CONTROL SWI 'ICH
+  - JU,RNATE
+  - RSTS ...
+  - POSITIO
+  - SOLENOD IS
+  - PUMP EIJ-C0028
+  - CCIUPUNO K
+  - IND IEAAINQ
+  - SUPPL DOC 8
+
+### 7.5 SAFETY-RELATED DISPLAY INSTRUMENTATION  
+`chapters/7.5_SAFETY_RELATED_DISPLAY_INSTRUMENTATION.md` — source pp. 230–267
+
+- **7.5** SAFETY-RELATED DISPLAY INSTRUMENTATION
+  - **7.5.1** SUMMARY DESCRIPTION
+    - **7.5.1.1** General
+      - **7.5.1.1.1** Reactor Water Level
+      - **7.5.1.1.2** Reactor Pressure
+    - **7.5.1.2** Reactor Shutdown Indication
+    - **7.5.1.3** Primary Containment and Reactor Vessel Isolation Indication
+    - **7.5.1.4** Emergency Core Cooling System and Reactor Core Isolation Cooling Indication
+    - **7.5.1.5** Containment Indications
+      - **7.5.1.5.1** Primary Containment Pressure Monitoring
+      - **7.5.1.5.2** Primary Containment Temperature
+      - **7.5.1.5.3** Primary Containment Radiation
+      - **7.5.1.5.4** Primary Containment Hydrogen and Oxygen Concentration
+      - **7.5.1.5.5** Suppression Chamber Pressure
+      - **7.5.1.5.6** Suppression Pool Temperature Monitoring
+      - **7.5.1.5.7** Suppression Pool Water Level Monitoring
+    - **7.5.1.6** Monitoring for Radioactive Release to the Environment
+      - **7.5.1.6.1** Building Effluent Gas Monitors
+      - **7.5.1.6.2** Meteorological Conditions
+    - **7.5.1.7** Radiation Exposure (Postaccident) (See Section 12.3.4.2)
+    - **7.5.1.8** Postaccident Sampling System
+    - **7.5.1.9** Primary System Relief Valve Position Indication
+    - **7.5.1.10** Power Supply Status Monitoring
+    - **7.5.1.11** Primary Water Source Indication
+    - **7.5.1.12** Residual Heat Removal System
+    - **7.5.1.13** Standby Liquid Control System
+    - **7.5.1.15** High Levels in Radioactive Liquid Tanks
+    - **7.5.1.16** Emergency Ventilation Damper Position Indication
+    - **7.5.1.17** Standby Service Water System
+    - **7.5.1.18** Spent Fuel Pool Cooling System
+    - **7.5.1.19** Main Control Room Heating, Ventilating, and Air Conditioning
+    - **7.5.1.20** Standby Gas Treatment System
+    - **7.5.1.21** Containment Instrument Air
+    - **7.5.1.22** Safety Parameter Display
+      - **7.5.1.22.1** Description
+      - **7.5.1.22.2** Conformance to NUREG-0696
+  - **7.5.2** ANALYSIS AND DESIGN BASIS
+    - **7.5.2.1** Design Basis
+    - **7.5.2.2** Analysis
+      - **7.5.2.2.1** Conformance To 10 CFR 50 Appendix A, General Design Criteria
+      - **7.5.2.2.2** Conformance To IEEE Standards
+      - **7.5.2.2.3** Regulatory Guide Conformance
+  - **7.5.3** REFERENCES
+  - MS-LI-605
+  - RFW-LR-608
+  - RCIC-FI-600/1
+  - HPCS-FI-603
+  - LPCS-FI-600
+  - CMS RIS-27E)
+  - PRM-RR-2
+  - CMS RIS-27F)
+  - C,3 CR
+  - C,2 CR
+  - CMS-O2H2R-1,2
+  - SPTM-TI-5
+  - E,C,2
+  - E,C,2
+  - PRM-LCRM-1BC
+  - E,C,2
+  - PRM-LCRM-1CC
+  - PRM-COMP-1C
+  - WEA-RIS-14
+  - PRM-RIS-1)
+  - D,2 CR
+  - E,3 CR
+  - MET-WSR-4
+  - E,3 CR
+  - MET-WDR-4
+  - E,3 CR
+  - E,3 CR
+  - MS-TR-614
+  - D,2 CR
+  - D,2 CR
+  - HPCS-VM-R610
+  - DG-VM-DG1/A
+  - DG-VM-DG1/B
+  - DG-VM-DG1/C
+  - DG-VM-DG2/A
+  - DG-VM-DG2/B
+  - DG-VM-DG2/C
+  - E-VM-SM/7
+  - E-VM-SM/8
+  - D,2 CR
+  - E-VM-SL71
+  - E-VM-SL73
+  - E-VM-SL81
+  - E-VM-SL83
+  - D,2 CR
+  - E-VM-PP7AA
+  - E-VM-PP8AA
+  - D,2 CR
+  - E-VM-DPS2/1
+  - D,2 CR
+  - HPCS-VM-R618
+  - E-VM-DPS1/1
+  - E-VM-DPS1/2
+  - D,2 CR
+  - E-VM-DP/S0/A
+  - E-VM-DP/S/B
+  - D,2 CR
+  - E-AM-C0/2A/2B
+  - E-AM-B0/1A/1B
+  - E-AM-B0/2A/2B
+  - E-AM-C1/1
+  - E-AM-C1/2
+  - E-AM-C2/1
+  - E-AM-B1/1
+  - E-AM-B1/2
+  - E-AM-B2/1
+  - E-AM-IN2/A
+  - E-AM-IN2/B
+  - E-AM-IN3/A
+  - E-AM-IN3/B
+  - E-AM-7/71
+  - E-AM-7/73
+  - E-AM-8/81
+  - E-AM-8/83
+  - DG-AM-DG1
+  - DG-AM-DG2
+  - HPCS-AM-R607
+  - RFW-FI-604A,B
+  - D,3 CR
+  - COND-LI-40A,B
+  - SLC-FI-1
+  - SLC-LI-601
+  - SW-FI-9A,B
+  - SGT-FR-2A1,2A2,
+- 2 Pen 1, -5 to A,B,1 CR
+  - A,1 CR
+  - FPC-FI-16,17
+  - SW-RIS-604,
+  - SW-RIS-605
+
+### 7.6 All Other Instrumentation Systems Required For Safety  
+`chapters/7.6_All_Other_Instrumentation_Systems_Required_For_Safety.md` — source pp. 268–342
+
+- **7.6** ALL OTHER INSTRUMENTATION SYSTEMS REQUIRED FOR SAFETY
+  - **7.6.1** DESCRIPTION
+    - **7.6.1.1** Process Radiation Monitoring System
+    - **7.6.1.2** High-Pressure/Low-Pressure Systems Interlocks and Alarms
+      - **7.6.1.2.1** Function
+      - **7.6.1.2.2** Operation
+  - RHR-V-8 (F008)
+  - RHR-V-53B
+  - MO RHR-V-23 (F023)
+  - MO RHR-V-42A,B,C
+  - MO LPCS-V-5 (F005)
+    - **7.6.1.3** Leak Detection System
+      - **7.6.1.3.1** Function
+      - **7.6.1.3.2** Operation
+      - **7.6.1.3.3** Main Steam Line Leak Detection
+      - **7.6.1.3.4** Reactor Core Isolation Cooling System Leak Detection
+      - **7.6.1.3.4.3** Reactor Core Isolation Cooling Turbine Exhaust Diaphragm Pressure Monitoring.
+      - **7.6.1.3.5** Residual Heat Removal System Leak Detection
+      - **7.6.1.3.6** Reactor Water Cleanup System Leak Detection
+      - **7.6.1.3.6.2** Reactor Water Cleanup Area Temperature Monitoring. See Section 7.3.1.1.2.
+      - **7.6.1.3.7** Drywell Floor Drain Leak Detection
+      - **7.6.1.3.8** Drywell Equipment Drain Leak Detection
+      - **7.6.1.3.9** Reactor Building Floor Drain and Equipment Drain Sumps Leak Detection
+      - **7.6.1.3.10** Emergency Core Cooling Systems Pump Room Flooding Detection
+      - **7.6.1.3.11** Drywell Atmosphere Radiation Monitoring System
+      - **7.6.1.3.12** Auxiliary Steam Line Leak Detection
+    - **7.6.1.4** Neutron Monitoring System
+      - **7.6.1.4.1** Intermediate Range Monitor
+      - **7.6.1.4.2** Local Power Range Monitor
+      - **7.6.1.4.3** Average Power Range Monitor
+      - **7.6.1.4.4** Oscillation Power Range Monitor
+    - **7.6.1.5** Recirculation Pump Trip System
+      - **7.6.1.5.1** Function
+      - **7.6.1.5.2** Operation
+    - **7.6.1.6** Spent Fuel Pool Cooling and Cleanup System
+      - **7.6.1.6.1** Function
+      - **7.6.1.6.2** Operation
+    - **7.6.1.7** Suppression Pool Temperature Monitoring System
+      - **7.6.1.7.1** Function
+      - **7.6.1.7.2** Operation
+    - **7.6.1.8** Design Basis
+      - **7.6.1.8.1** Variables Monitored to Provide Protective Actions
+      - **7.6.1.8.2** Location and Minimum Number of Sensors
+      - **7.6.1.8.3** Prudent Operational Limits
+      - **7.6.1.8.4** Margin
+      - **7.6.1.8.5** Levels
+      - **7.6.1.8.6** Range of Transient, Steady State, and Environmental Conditions
+      - **7.6.1.8.7** Malfunctions, Accidents, and Other Unusual Events Which Could Cause Damage
+      - **7.6.1.8.7.7** Missiles. Protection for safety-related components is described in Section 3.5.
+      - **7.6.1.8.8** Minimum Performance Requirements
+    - **7.6.1.9** Final System Drawings
+  - **7.6.2** ANALYSIS
+    - **7.6.2.1** Safety-Related Systems - Instrumentation and Controls
+    - **7.6.2.2** Conformance to 10 CFR 50, Appendix A - General Design Criteria
+    - **7.6.2.3** Conformance to IEEE Standards
+    - **7.6.2.4** Conformance to Regulatory Guides
+  - LDCN-11-005, 11-024
+  - **7.6.3** REFERENCES
+  - RRC-PS-18A, B
+  - MS-PS-413A, B, D
+  - MS-PS-413C
+  - RCIC-PS-22A-D
+  - RCIC-DPIS-7B
+  - RCIC-DPIS-13A, B
+  - RCIC-PS-12A-D
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-2A
+  - LD-MON-2B
+  - LD-MON-2A
+  - LD-MON-2B
+  - LD-MON-2A
+  - LD-MON-2B
+  - LD-MON-2A
+  - LD-MON-2B
+  - RHR-DPIS-12A, B
+  - LD-MON-2A
+  - LD-MON-2B
+  - E31-N011A-D)
+  - MS-DPIS-8A-D, 9A-D,
+  - EDR-LS-14A, B
+  - FDR-LS-6A, B
+  - FDR-LS-5A, B
+  - EDR-FRS-623
+  - CMS-RIS-12A, 12B
+  - CMS-RIS-12A, 12B
+  - LD-FS-605A, B
+  - LD-FS-15, 16
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-1A
+  - LD-MON-1B
+  - LD-MON-1A
+  - LD-MON-1B
+  - LIS-1A, LIS-1B
+  - LIS-3A2, LIS-3B2
+  - LIS-3A1, LIS-3B1
+  - LIS-2A, LIS-2B
+  - CMS-TR-5, CMS-TR-6
+  - SPTM-TI-5
+  - PRIMARY CONTAINMENT
+- 4 Nl'.l(l5A '"""' 3
+  - TO TRS R406
+  - TYl'1{AL ,r i-L rl
+- 2 IN SACH EOIJIP. • E
+  - LEAK DETECTION FOR
+  - I el :m
+  - DISPLAY
+  - LOCAL
+  - ALARM I TRIP
+  - FLOW REF FLOW ALARM
+  - ALARM
+  - ON INSTRUMENT
+  - ALARM COMPARATOR
+  - FOR RBM USE 53
+  - INOPERATIVE
+  - PART OF
+  - PART OF APRM ODA
+  - RBM ODA
+  - REMOTE
+  - REMOTE
+  - REMOTE INDICATION INDICATION
+  - INDICATION IN IN CONTROL
+  - IN CONTROL CONTROL ROOM
+  - ROOM ROOM
+  - INOP)
+  - DOWNSCALE/ NNUNCIATORS
+  - ANNUNCIATORS
+  - ANNUNCIATORS
+  - IN CONTROL TROUBLE)
+  - IN CONTROL
+  - IN CONTROL
+  - ROOM (APRM FLOW ROOM
+  - REFERENCE
+  - G OFF NORMAL)
+  - COMPARATOR
+  - DEVICE
+  - DEVICE
+  - INPUTS TO
+  - INPUTS TO
+  - INPUTS TO
+  - COMPUTER
+  - COMPUTER
+  - COMPUTER
+  - FROM OTHER
+  - PART OF
+  - ROD WITHDRAW
+  - BLOCK SYSTEM
+  - BYPASS PART
+  - OF ROD
+  - D WITHDRAWAL
+  - BLOCKSYSTEM
+  - ROD BLOCK MONITORING
+  - FLOW FUNCTION IN APRM CHANNELS 1 & 3
+  - CHANNEL A ----------------,
+  - RANGE MONITORJNG (TYPICAL FOR APRM CHANNELS 2 & 4)
+  - CHANNEL
+  - ARBITRARILY NUMBERED
+  - RBM CHANNELS)
+  - LEGEND
+  - LPRM CHANNELS)
+  - ROD BLOCK MONITORING
+  - LOCAL POWER CHANNEL A ----------------,
+  - I & 3
+  - RANGE MONITORJNG
+  - CHANNEL
+  - COPYRIGHT 2009
+  - GE-HITACHI NUCLEAR ENERGY AMERICAS LLC
+  - •-c:iur- "
+  - TIP -
+  - MAIi ___ -- ~l&IICT'iQ
+  - ABBREYIATIQNS
+  - SOURCE RANGE MONITOR
+  - ROO BLOCK MONITOR X
+  - TRAVERSING IN-CORE PROBE
+  - CHANNEL
+  - SPECIAL COAXIAL
+  - PENETRATION
+  - L_ ______ L __ r _
+  - xA x' • CI-I.E CH.C • • CH.D __t ________ J CH.F •
+  - I I I I
+  - CH. A, 8, CORD
+  - CH.A,C,EORG
+  - INT RMEDIAT RANGE MON. CHANNELS
+  - SOURC RANGE MON. CHANNE
+  - INT RM DIA RANGE MON. CHANNE S
+  - REACTOR PROTECTION SYSTEM - TRIP SYSTEM A
+  - COUNT
+  - RATER600 RANGE SWITCH
+  - INTERMEDIATE RANGE MONITOR
+  - SOURCE RANGE MONITOR
+  - K601 K600
+  - TO RECORDER
+  - UPSCALE UPSCALE
+  - SEE REFERENCE DOCUIJENT 4 FDR FUNCTIONAL USE OF THESE DEVICES
+  - SEE REFERENCE DOCUMENT 4 FOR FUNCTIONAL USE OF THESE DEVICES.
+  - START UP RANGE NEUTRON MONITORING
+  - FIGURE 2
+  - LPRIJ LEVEL GROUP DISPLAY
+  - FSAR FI G.
+  - POWER QISJRIBUTION
+  - S3 S3
+  - K4X I K4Y I
+  - K4X I K4Y I K4X I K4Y I
+  - T T T T
+  - LEGEND
+  - LOCAL
+  - IA-80
+  - COND-V-462 COND-SPV-462 RMS
+  - CLOSE
+  - I I I I
+  - SKIMMER
+  - SURGE TANK 1A
+  - LEVEL
+  - FPC-LIS-1
+  - SKIMMER
+  - SURGE TANK 18
+  - LEVEL
+
+### 7.7 CONTROL SYSTEMS NOT REQUIRED FOR SAFETY  
+`chapters/7.7_CONTROL_SYSTEMS_NOT_REQUIRED_FOR_SAFETY.md` — source pp. 343–416
+
+- Figure 10.3-2
+- **7.7.1.1.1** Function
+- **7.7.1.1.2** Operation
+- LDCN-98-104, 98-117
+- **7.7.1.2** Reactor Manual Control System
+- **7.7.1.2.1** Function
+- **7.7.1.2.2** Operation
+- RMCS.
+- LDCN-14-004, 10-004
+- LDCN 98-104
+- **7.7.1.3** Recirculation Flow Control System
+- **7.7.1.3.1** Function
+- **7.7.1.3.2** Operation
+- H13-P602.
+- **7.7.1.4** Feedwater Control System
+- **7.7.1.4.1** Function
+- **7.7.1.4.2** Operation
+- **7.7.1.5** Digital Electro-Hydraulic Control System
+- **7.7.1.5.1** Function
+- **7.7.1.5.2** Operation
+- **7.7.1.5.2.4** Turbine Speed/Load Control Interfaces.
+- **7.7.1.6** Neutron Monitoring System - Traversing In-Core Probe
+- **7.7.1.6.1** Function
+- **7.7.1.6.2** Operation
+- **7.7.1.7** Neutron Monitoring System - Source Range Monitor
+- **7.7.1.7.1** Function
+- **7.7.1.7.2** Operation
+- **7.7.1.8** Neutron Monitoring System - Rod Block Monitor
+- **7.7.1.8.1** Function
+- **7.7.1.8.2** Operation
+- **7.7.1.9** Process Computer System
+- **7.7.1.9.1** Function
+- **7.7.1.9.2** Operation
+- **7.7.1.10** Rod Worth Minimizer Function
+- **7.7.1.10.1** Function
+- **7.7.1.10.2** Operation
+- DELETED
+- DELETED
+- **7.7.1.12** Loose Parts Detection System
+- **7.7.1.13** Refueling Interlocks
+- **7.7.1.13.1** Function
+- **7.7.1.13.2** Operation
+- **7.7.1.14** Safety/Relief Valves - Relief Function
+- **7.7.1.14.1** Function
+- **7.7.1.14.2** Operation
+- **7.7.1.15** Transient Data Acquisition System
+- **7.7.1.15.1** Function
+- **7.7.1.15.2** Description
+- **7.7.1.15.3** Operation
+- **7.7.1.15.4** Conformance to NRC Regulatory Guides
+- **7.7.1.15.4.1** Regulatory Guide 1.75, Revision 2, Physical Independence of Electric Systems.
+- **7.7.1.15.4.2** NUREG-0737, Supplement 1, Clarification of TMI Action Plan Requirements:
+- **7.7.1.16** Design Differences
+- **7.7.2** ANALYSIS
+- UL UL UL
+- UL UL UL UL
+- UL UL UL
+- UL UL UL UL
+- UL UL UL
+- FG UL
+- IIIYAILIJ
+- IOI WITNOU.W f'l:llltlHIVI ® ®
+- HD IIIHllf PU"lll"I ~~G, 51.0Uttitl: stltCTIOtt "4----i
+- INIHT
+- c:DNTINUIIUI 11111111T Plll"IMl~I @
+- IY""IUD IIOW-0 111 UD Lf.1>'5 Ill ® 11111 SlLECTlD AND Dl1VIN6
+- MARGIN
+- LATCIIUJ
+- Figure 7.7-2
+- I I I
+- I I I
+- I ' ' '
+- APIS II OIIIMTSI (781JSI
+- -~ •--!,~•lrt1t·•10•-..J •c.-•-~- ~- -~~-:-~~--_ --L -~~=ictt;,t,~•-·-,_
+- i--..------------------------1
+- I Rev. 1 I Figure
+- I L...------------..1 I I L..------------..1 I I
+- I L...------------...1 I I L...------------..1 I I
+- I I I
+- I I I
+- I L...------------...1 L..------------...1 I L..------------...1 L...------------..1 I
+- FEED FLOW
+- FW FHD FLOW
+- MISMATCH GAIN
+- HAVE AT LEAST THE SAME DEGREE OF RELIABILITY AS THE POWER SOURCE FOR THE
+- REACTOR/FEED/BOOSTER/CONDENSATE PUMPS.
+- LEADLAG GAIN
+- CUSTOMER (AE C.B.) AJJXILIARY CONTACTS AND CONTACTS FROM CR/K626 (E4) TO
+- SEPARATION OF RECIRC LOOP A CONTROL CIRCUIT FROM LOOP 8.
+- SHEET(REF 10)
+- CUSTOIAER/AE FOR (BWRSD) DESIGN COMPI..ETION
+- MS- PT- 51A MS- PT- 518
+- TH(REACTORRECIEVESASCRAMSIGNAL.
+- COMMUNICATION NETWORKS.
+- 10 THESE INPUTS f"ORM THE ~IS f"OR THE 1.41Nfl 0W RECIRC CONTROL .-\LGORllHM
+- SCRAM SIGNAL
+- I VALIDATED I
+- WIOERANGE .
+- NARROW RANGE
+- LEVEL
+- MS-LR-608
+- SH. 2. C- 10 REDUCTION (NOTE 5) 3 ELEMENT
+- RFW-E/S- P1000
+- STEAM FLOW .
+- FEED FLOW
+- AUTO DEMAND
+- SIGNAL
+- POS IND POS IND
+- P840 P840
+- LOW POWER SET POINT 1. CJ4 - 4010
+- DESCRIPTION
+- FEEOWATER SYSTEIJ P&ID
+- MAIN TURB G(NERATOR TRIP LOGI ELEM
+- PIPING AND INSTRUMENT SYMBOLS
+- INSTRUMENT DATA SHEET
+- Ltti11 t-----r---91
+- TV/GV SP
+- Lead
+- Lag
+- 4 Pressure
+
+### 08.0 Chapter Front Matter  
+`chapters/08.0_Chapter_Front_Matter.md` — source pp. 1–12
+
+- ELECTRIC POWER
+- TABLE OF CONTENTS
+- **8.3.1.1.5** Divisions 1 and 2 120/240-Volt Critical (Class 1E) Instrumentation
+  - **8.3.1.1.7.1** Redundant (Division 1 and Division 2) Standby Alternating Current
+- ELECTRIC POWER
+  - **8.3.1.1.7.2** High-Pressure Core Spray (Division 3) Standby Alternating Current
+- LDCN-08-030, 09-006, 09-020
+- ELECTRIC POWER
+  - **8.3.1.1.9.19** Vital Inverter Instrumentation Power System Protection
+  - **8.3.1.2.1.3** Redundant (Division 1 and Division 2) Standby Alternating
+  - **8.3.1.2.1.4** High-Pressure Core Spray (Division 3) Standby Alternating
+  - **8.3.1.2.4.2** Class 1E Auxiliary Alternating Current Distribution System
+  - **8.3.1.2.4.3** Class 1E Auxiliary Alternating Current Distribution System Voltage
+- **8.3.1.3.1** Class 1E Raceways, Cables, Equipment (Panels and Racks), and
+- **8.3.1.3.2** Prime and Associated by Proximity Circuit Raceways, Cables,
+- ELECTRIC POWER
+  - **8.3.1.4.3.6.3** Power Generation Control Complex Cable Assembly and Routing ... 8.3-57
+  - **8.3.1.4.3.9** Spatial Separation of 120/140VAC Critical (Class 1E) Instrument
+- ELECTRIC POWER
+  - **8.3.1.4.4.3** Specific Deviations to Separation Criteria - Reactor Protection
+- **8.3.2.1.2** High-Pressure Core Spray (Division 3) 125-Volt Direct Current System 8.3-68
+  - **8.3.2.1.5.2** Makeup Pump House 125-Volt Direct Current (Non-Class 1E) System 8.3-71
+- ELECTRIC POWER
+  - **8.3.2.1.7.2** Exceptions to Institute of Electrical and Electronics Engineers
+  - **8.3.2.2.1.2** Divisions 1 and 2 125-Volt, ±24-Volt, and 250-Volt Direct Current
+  - **8.3.2.2.1.3** High-Pressure Core Spray (Division 3) 125-Volt Direct Current
+- ELECTRIC POWER
+- LIST OF TABLES
+- ELECTRIC POWER
+- LIST OF TABLES
+- ELECTRIC POWER
+- LIST OF FIGURES
+- ELECTRIC POWER
+- ELECTRIC POWER
+- ELECTRIC POWER
+
+### 8.1 INTRODUCTION  
+`chapters/8.1_INTRODUCTION.md` — source pp. 13–24
+
+- ELECTRIC POWER
+- **8.1** INTRODUCTION
+  - **8.1.1** UTILITY GRID DESCRIPTION
+  - **8.1.2** OFFSITE ELECTRICAL POWER SYSTEM DESCRIPTION
+  - **8.1.3** ONSITE ELECTRICAL POWER SYSTEM DESCRIPTION
+  - **8.1.4** SAFETY LOADS
+  - **8.1.5** DESIGN BASES
+    - **8.1.5.1** Offsite Electrical Power System
+    - **8.1.5.2** Onsite Electrical Power System
+
+### 8.2 OFFSITE POWER SYSTEM  
+`chapters/8.2_OFFSITE_POWER_SYSTEM.md` — source pp. 25–36
+
+- **8.2** OFFSITE POWER SYSTEM
+  - **8.2.1** DESCRIPTION
+    - **8.2.1.1** Utility Grid Arrangement
+    - **8.2.1.2** Offsite Power Transmission Lines
+    - **8.2.1.3** Main Generator and Step-Up Main Transformer Bank
+    - **8.2.1.4** Normal Auxiliary, Startup, and Backup Transformers and Buses
+    - **8.2.1.5** Power System Communications
+  - **8.2.2** REDACTED
+
+### 8.3 ONSITE POWER SYSTEMS  
+`chapters/8.3_ONSITE_POWER_SYSTEMS.md` — source pp. 37–186
+
+- **8.3** ONSITE POWER SYSTEMS
+  - **8.3.1** ALTERNATING CURRENT POWER SYSTEMS
+    - **8.3.1.1** Description
+  - SM-85.
+      - **8.3.1.1.5** Divisions 1 and 2 120/240-Volt Critical (Class 1E) Instrumentation Power System
+      - **8.3.1.1.6** Reactor Protection System Power System
+      - **8.3.1.1.7** Standby Alternating Current Power System
+      - **8.3.1.1.7.1** Redundant (Division 1 and Division 2) Standby Alternating Current Power Supplies.
+      - **8.3.1.1.7.2** High-Pressure Core Spray (Division 3) Standby Alternating Current Power Supply.
+  - LDCN 12-005
+      - **8.3.1.1.7.2.11** Light Load Operation. Light load operating capability of the HPCS
+      - **8.3.1.1.8** Electrical Equipment Tests
+      - **8.3.1.1.9** Equipment Criteria
+      - **8.3.1.1.9.18** Grounding Requirements. The design criteria for grounding are
+      - **8.3.1.1.9.19** Vital Inverter Instrumentation Power System Protection Requirements.
+      - **8.3.1.1.10** Class 1E Electrical Equipment Arrangement
+    - **8.3.1.2** Analysis
+      - **8.3.1.2.1** Compliance to Criteria
+      - **8.3.1.2.1.4** High-Pressure Core Spray (Division 3) Standby Alternating Current Power Supply.
+  - IEEE 308-1971.
+  - IEEE 308-1971.
+      - **8.3.1.2.2** Tests and Inspection
+  - LDCN-16-056, 19-007
+      - **8.3.1.2.3** Service Environment
+  - LDCN-21-031, 21-042
+      - **8.3.1.2.4** Offsite Power System Degradation
+      - **8.3.1.2.4.2** Class 1E Auxiliary Alternating Current Distribution System Voltages.
+      - **8.3.1.2.4.3** Class 1E Auxiliary Alternating Current Distribution System Voltage Sensing.
+    - **8.3.1.3** Physical Identification of Safety-Related (Class 1E) Equipment
+      - **8.3.1.3.1** Class 1E Raceways, Cables, Equipment (Panels and Racks), and Enclosures
+      - **8.3.1.3.2** Prime and Associated by Proximity Circuit Raceways, Cables, Equipment, and
+      - **8.3.1.3.3** Non-Class 1E Raceways, Cables, Equipment, and Enclosures
+    - **8.3.1.4** Independence of Redundant Systems
+      - **8.3.1.4.1** Definitions
+      - **8.3.1.4.2** General Separation Criteria
+      - **8.3.1.4.2.5** Separation For Fail-Safe Systems. See Reference 8.3-2.
+      - **8.3.1.4.3** Physical And Spatial Separation Details
+      - **8.3.1.4.3.6** Power Generation Control Complex. The PGCC is defined in Reference 8.3-2.
+      - **8.3.1.4.3.7** Separation Within Enclosures and Equipment. See Reference 8.3-2.
+      - **8.3.1.4.3.8** Spatial Separation Between Raceways. See Reference 8.3-2.
+      - **8.3.1.4.3.9** Spatial Separation of 120/240 VAC Critical (Class 1E) Instrument Power System.
+      - **8.3.1.4.4** Associated Circuit Analysis
+  - RCC-CB-P/1B, RCC-CB-P/1C, ROA-CB-FN/1A, ROA-CB-FN/1B, REA-CB-FN/1A,
+  - **8.3.2** DIRECT CURRENT POWER SYSTEMS
+    - **8.3.2.1** Description
+- **2.25** V per cell. Should the voltage increase approximately 5 to 8%, a high voltage alarm is
+      - **8.3.2.1.2** High-Pressure Core Spray (Division 3) 125-Volt Direct Current System
+      - **8.3.2.1.3.2** Batteries. In the event of a loss or interruption of charger 24-V dc (plus or minus)
+      - **8.3.2.1.5** Non-Class 1E Direct Current Systems
+      - **8.3.2.1.5.1** Main Plant 125-Volt Direct Current (Non-Class 1E) System.
+      - **8.3.2.1.5.1.1.1** Battery (B1-7). The battery has 58 cells which are floated to 2.25 V per cell.
+      - **8.3.2.1.5.2** Makeup Pump House 125-Volt Direct Current (Non-Class 1E) System.
+      - **8.3.2.1.5.2.3** Chargers (C1-3 and C1-4). The battery chargers are each sized 25 amps at 125 V dc.
+      - **8.3.2.1.5.3.2** Battery (B1-6). The battery is made up of 180 cells in series and floated at
+- **2.25** V per cell. Its 1-hr discharge rate is 601.3 amps down to a minimum voltage of 1.75 V
+      - **8.3.2.1.6** Ventilation
+      - **8.3.2.1.7** Testing and Maintenance
+      - **8.3.2.1.7.3** The following exceptions are taken to the requirements listed in IEEE 450-2002.
+    - **8.3.2.2** Analysis
+      - **8.3.2.2.1** Compliance to Criteria
+      - **8.3.2.2.1.2** Divisions 1 and 2 125-Volt, ±24-Volt, and 250-Volt Direct Current Systems.
+      - **8.3.2.2.2** Service Environment
+    - **8.3.2.3** Physical Identification of Safety-Related (Class 1E) Equipment
+    - **8.3.2.4** Independence of Electrical Divisions
+  - **8.3.3** FIRE PROTECTION FOR CABLE SYSTEMS
+    - **8.3.3.1** Resistance of Cables to Combustion
+    - **8.3.3.2** Localization of Fires
+    - **8.3.3.3** Detection and Protection Systems
+  - **8.3.4** REFERENCES
+  - POA-FN-2A)
+  - X ---
+  - X ---
+  - X ---
+  - X ---
+  - X ---
+  - X ---
+  - X ---
+  - X ---
+  - EMD-20-645E4
+  - EMD-20-645E4
+  - A DP-S1-1C
+  - B DP-S1-2C
+- 1 DP-S1-1F
+  - SH-10
+- 2 DP-S1-2D
+  - SH-11
+- 2 DP-S1-2D
+  - SH-12
+- 1 DP-S1-1F
+  - A DP-S1-1C
+  - B DP-S1-2C
+  - A DP-S1-1C
+- 3 DP-HPCS
+- 1 DP-S1-1D
+- 2 DP-S1-2D
+  - SM-72
+  - A DP-S1-3
+  - SM-75
+  - A DP-S1-1C
+  - SM-82
+  - B DP-S1-4
+  - SM-85
+  - B DP-S1-2C
+  - DG1-7
+- 1 DP-S1-1E
+  - DG2-8
+- 2 DP-S1-2E
+  - SL-11
+  - A DP-S1-1C
+  - SL-21
+  - B DP-S1-2C
+  - SL-31
+  - A DP-S1-1C
+  - SL-51
+  - SL-52
+  - SL-53
+  - A DP-S1-1C-2 A
+  - SL-54
+  - A DP-S1-1C
+  - SL-61
+  - SL-62
+  - SL-63
+  - B DP-S1-2C
+  - SL-71
+- 1 DP-S1-1F
+  - SL-73
+- 1 DP-S1-1F
+  - SL-81
+- 2 DP-S1-2D
+  - SL-83
+- 2 DP-S1-2D
+- 1 DP-S1-1
+- 2 DP-S1-2
+- 1 DP-S1-1D
+  - A DP-S1-1C-1 A
+- **11.99** Minutes
+  - E-B0-1A/-1B E-B0-2A/-2B
+  - E-B1-HPCS
+  - E-B1-1 E-B1-2 E-B2-1
+  - MC-S1-1D
+  - MC-S1-2D
+  - MC-S2-1A
+  - MC-S2-1B
+  - ELEMENTARY
+  - I O OG- RES- DG1/FFR INST GND BUS
+  - DG-OI0-001/CRB
+  - COMPLITE TRANSFORMER CONRGURATION.)
+  - I I EWD-47E-046 EW0-47E-0-46
+  - LEGEND, I I G
+  - I I OG-RLY-OG1/K10 OG-RLY-OG1/K14B
+  - EWD- 47E- 046
+  - IN426
+  - DG-RLY-DG1/LR
+  - J CIRCUIT
+  - J CIRCUIT
+  - CR6 C0-1033
+  - C0-1033 DIODE OR SCR DIODE OR SCR
+  - ®f,-9~0
+  - L -- -- ...J
+  - DG-CT-001/SCPT/A
+  - RUNB,A,CK
+  - E'M>-47E-042A {MOf'-1) (NOTI 4) l I DG-~-DG1/~PT/B OG-RlY-OG1/K75
+  - JG BRIDGE
+  - I C1A
+  - ENERGIZE
+  - DG- CT- DG1/SCPT/C
+  - L-----
+  - MJTO I
+  - REGULATOR
+  - IN4726
+  - CIRCUIT
+  - T6 1'1-------4
+- 8 OG-RMS-OG1/54 OG- RMS-DG 1/S4 8
+  - SK LID
+  - IN4726
+  - C2M 1
+  - ELEMENTARY
+  - CONT FROM
+  - '""} (OSJJ)
+  - FOR RELAYS AND SWITCH OEVEI.OPUOOS SCE EWD- 47E- 042A OO- RLY-OG1/K59
+  - ENGINE
+  - RUNNING
+  - REUOTE
+  - '""} LEGEND: (DSJ4)
+  - ENGINE OG- R..,- OG1/:20 STOP T ,._,..,_,.1 OG-RLY- OG1/K9
+  - OO- RLY-OG1/K59
+  - REUOTE C B
+  - SUCH PER EC 16405.
+  - OC-RLY-OG1/K15
+  - LOOP START
+  - ENGINEAIRSTART
+  - EW0-47E-048
+  - OC- DIO- OC1/CRJ
+  - ENGINE RI.INNING
+  - ENGINE RI.INNING
+  - OO-OIO-001/CR2
+  - DETECTION D
+  - EWD- 47E- 046
+  - DG-RLY-DC1/K14
+  - DG-RLV-OG1/K6
+  - DG-RLY-OG1/K1J
+  - OG-RLY-OG1/K22
+  - L1 L2 SO UP
+  - OG- RLY- 001/K22
+  - ENGINE RI.INNING
+  - E529-14
+  - ESJ7- 7C
+  - OG- RLY- 001/KX
+  - E54J-2
+  - IJC-AI.T-IIGIM5' -
+  - DG-RMS-DG1/S5/L
+  - POSITION
+  - INFORMATION OBTAINED FROM THE INDICATED REFERENCE DRAWING. H LOOP INTERLOCKS TO I I CONTACTS
+  - DG- RLY-DG1/K 1-4B
+  - SPARE L '
+  - EWD-47E-042A
+  - OO-DI0-DG1/CR18
+  - SPARE
+  - DG-RLY-DG1/K59X RATED
+  - SPARE
+  - EWD-47E-032
+  - SPARE I
+  - DG-RLY-DG1/SSX1 DG-RLY-DG1/K59X
+  - DECK 1 2 FIELD FLASH HANDLE END
+  - SPARE RATED IDLE
+  - SPARE
+  - YR SHUTDOWN FOR IDLE
+  - SPARE
+  - EWD-47E-042A 850RPM
+  - X SPARE
+  - MAINTAINED CONTACT DG-RLY-DG1/K19 DG-RLY-DG1/K1-4A
+  - SPARE I
+  - DG-RMS--DG1/S5 DG-POTR-DG1/A9
+  - SPARE DG-RMS-DG1/S5
+  - I NORM I
+  - GOVERNOR
+  - ADJUSTER
+  - ESCUTCHEON
+  - EWD-47E-042A
+- 4 X SPARE
+  - LOWER
+  - DG-RLY--DG1/K14A DG--RLY-DG1/K14B DG--RLY--DG1/K59F DG-RLY--DG1/K59X
+  - CONTACTS DWG CONTACTS DWG CONTIGTS DWG CONTACTS DWC
+  - EWD-47E-042
+  - DG-RMS-DG1/PS
+  - SPARE
+  - DROOP SWITCHDVE
+  - DG-RLY-DG1/KTB
+  - EWD-47E-0.32A
+  - SPARE
+  - SPARE
+  - DG-E/S-DG1/A7
+  - SPARE
+  - SPARE
+  - VOLTAGE CONVERTER
+  - DG-SE-DG1/MPU1
+  - SPARE
+  - SPARE
+  - SPARE
+  - SPARE
+  - SPARE
+  - SIGNAL 0 0 0 0
+  - SELECTOR --------'I
+  - SPARE EWD-47E-0.32 SPARE
+  - MOIII.JLE I
+  - DG-RLY--DG1/K77 DG--RLY-DG1/SSX1 DG--RLY--DG1/SSX3 DG-RLY--DGI KTB
+  - CONTACTS DWG CONTACTS DWG CONTICS DWG CONTACTS DWO
+  - RATED 850 RPM
+  - SPARE
+  - SPARE
+  - SPARE
+  - SPARE DG-RLY-DG1/SSX1
+  - GOVERNOR CONTROL
+  - SPARE
+  - SPARE
+  - EWD-47E-042A
+  - SPARE
+  - SPARE
+  - SPARE
+  - SPARE
+  - DG-SS-DG1/A12
+  - REF DWG DESCRIPTION
+  - SPEED SWITCH
+  - E537 15B CONN WIRING DIAG (E CP-H13 P802
+  - CONN WIRING DIAG DG1 (E-CP-DG/RP1. E5-43-2
+  - E543 5 CONN WIRING DIAG DG1 E CP DG EP1
+  - SPEED INDICATOR
+  - FOR GENERAL NOTES SEE EWD-47E-OOO
+  - INFORMATION OBTAINED FROM THE INDICATED REFERENCE DRAWING.
+  - DG-SS-2A1
+  - DG-RLY-DG1/K26 H
+  - DG-RLY-DG1/K3
+  - ENGINE FAILURE SW-B
+  - ENGINE
+  - TO START AUXILIARY
+  - OVERSPEED
+  - THIS CONDUCTOR IS SHOWN ON MULTIPLE EWDS FOR CIRCUIT CONTINUITY. TDC
+  - EWD-47E-044
+  - SEE APPROPRIATE CABLE SCHEDULE FOR ADDITIONAL EWDS
+  - DG-RLY-94/DG1
+  - DG-RLY-DG1/K4
+  - ENGINE FAILURE
+  - TO START AUXILIARY DG-SS-2A2
+  - SHUTDOWN TRIP
+  - OVERSPEED
+  - SHUTDOWN AUXILIARY
+  - AND EW0-47E-051 (SHOWN ON EWD-47E-051 FOR CIRCUIT CONTINUITY) SHUTDOWN DG-DIO-DG1/CR5
+  - B A L K
+  - TIME DELAY
+  - TIME DELAY RELAY SETPOINT IS NOMINAL. FOR TIME DELAY
+  - RELAY SETTINGS, SEE E514-30
+  - DG-RLY-OC1/K60A DG-RLY-DG1/K60A DG-DIO-DG1/CR23
+  - DG-RLY-DG1/K60A DG-RLY-DG1/K60A
+  - DG-SV-1A1 (L05) OVERSPEED
+  - OVERSPEED
+  - DCW-TS-11A2
+  - DG-SV-1A2 (LOSA) SW-18 OVERSPEED
+  - DG-RLY-DG1/K60A DG-RLY-DG1/K60A
+  - SHUTDOWN SOLENOID
+  - DG-ENG-1A2 ' 4
+  - DG-D10-DG1/CR6
+  - DCW-TS-11A1
+  - DG-RLY-30/2/DG1
+  - DG-RES-DG1/R6 TDAPERATURE
+  - SHUTDOWN
+  - DG-RLY-270C/DGI
+  - DC POWER LOSS
+  - ALARM F C2
+  - ENGINE SHUTDOWN
+  - LOCKOUT
+  - DLO-PS-3A1
+  - DC POWER ON SW-2B DG-DIO-DG1/CRIO
+  - LUBE OIL LOW EWD-47E-040
+  - PRESSURE SHUTDOWN
+  - E-CB-7/1
+  - OVERCURRENT
+  - E-P0S-52S/DG1/7
+  - DG-RLY-DG1/K15A
+  - AUXILIARY -
+  - ENGINE SHUTDOWN
+  - EWD-47E-052
+  - S27 0 S27T
+  - NORMAL POWER
+  - DG-RLY-30/1/DG1 EWD-47E-042A
+  - DG-RLY-DG1/K15A DG-RLY-62/DG1
+  - EWD-4 7E-OOJA
+  - OVERCURRENT
+  - INTERLOCK
+  - SHUTDOWN TARGET
+  - EWD-47E-042A TDC
+  - DG-RLY-30/2/DG1
+  - DG-RLY-67/DG1
+  - REVERSE POWER
+  - SHUTDOWN TARGET
+  - EWD-47E-040
+  - DG-RLY-30/2/DG1
+  - DG-RLY-62/DG1 UNDER/OVER VOLTAGE
+  - DG-RLY-51VX/DG1
+  - OVERCURRENT
+  - SHUTDOWN TARGET 1 11 10
+  - AUXILIARY -
+  - EWD-47E-040
+  - ENGINE SHUTDOWN
+  - DG-RLY-40/DG1
+  - EWD-47E-040
+  - FIELD FAILURE
+  - SHUTDOWN TARGET
+  - E-P0S-52S/DG1/7
+  - S35T 0 S35
+  - EWD-47E-003A
+  - FIELD GROUND
+  - DETECTION
+  - C1 AUXILIARY
+  - EWD-47E-042
+  - EWD-47E-051
+  - LOCKOUT
+  - CIRCUIT
+  - AVAILABLE
+  - DG-RLY-94/DG1 DG-RLY-94/DG1
+  - DEPRESSED
+  - DG-RUS-OC1/S18L
+  - DG-RLY-30/1/DG1
+  - EMERGENCY STOP
+  - REF DWG DESCRIPTION DEPRESSED
+  - E537-15B CONN WIRING DIAG (E-CP-H13/P802
+  - DG-RLY-87/DG1
+  - CONN WIRING DIAG OG1 E-CP-OG/RP1)
+  - EWD-47E-001
+  - GENERATOR
+  - E543-3 CONN WIRING DIAG DG1 E-TB-D1012 AND E-TB-D1013) I DIFFERENTIAL
+  - SHUTDOWN TARGET
+  - L - -- - -- - -- - -- - -- - -- CONTINUED TO ZONE H/4-7
+  - Q -------
+  - IICIMS-11.Q -
+  - DIH,95-IAI IICMIIS-IA2
+  - ELEMENTARY
+  - FOR REU,Y ANO SWITCH DEVELOPMENTS SEE EWD-47E-054A
+  - UNLESS OTHERWISE NOTED. EMERG 2 EMERG 1
+  - ZONE A/6
+  - ZONE A/10
+  - OG-RMS-OG2/','RS MANUAL CONTACT HAS BEEN DEACTIVATED 3C 4C 2C
+  - BY REMOVING THE SWITCH HMIDLC.
+  - EWD-47E-058
+  - DG-0I0-OG2/CR22
+  - CONTROL POWER SUPPLY MAY BE EITHER CIRCUIT 2 (NORMAL) RUNNING
+  - TRANSFER SWITCH DG-RMS-DG2/FTS568
+  - REMOTE
+  - OG-RES-DG2/R7
+  - NORMAL
+  - DG-RLY-DG2/K59
+  - OO-RMS-002/S20
+  - OJ I..OCAI../REMOTE
+  - E-RMS-FRT'S7
+  - ARE REMOTE TRANSFER
+  - REMOTE C B 19C 19
+  - E-RMS-FRlS7 2C . 2 (1) NORMAL
+  - EMERG
+  - OG-RLY-86/DGZ DG-RLY-DG2/K21 DG-RLY-DG2/K19
+  - H(2)G
+  - NORMAL EWD-47E-060A (2)
+  - DEPRESSED DG-RMS-OGZ/S14
+  - LOC.'1. 3
+  - LOC,C 5
+  - OG-RLY-DC2/K9
+  - ENGINE STANDBY
+  - OG-RWS-OG2/S15
+  - DG-RLY-OG2/K15 ENGINE I..OCAI../REMOTE
+  - EW0-47E-OOJ
+  - DG-RLY-OG2/K15 EWD-47E-056
+  - LOOP STAAT EWD-47E-060
+  - EWD-47E-062
+  - I --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- -EW0-47E-064
+  - LOCA START
+  - ENGINE AIR START EW0-9E-098
+  - R2 M2
+  - EWD-47E-058 OC-RLY-OG2/K13
+  - OG-RLY-DG2/K19 DG-RLY-OG2/K21
+  - ENGINE RUNNING
+  - SIGNALAUXIL.IAA'Y
+  - OG-RLY-OG2/K59 OG-RLY-OG2/SSX1
+  - SPEED SENSING
+  - EW0-47E-058
+  - OG-OIO-OG2/CR2
+  - OG-OIO-OG2/CR4
+  - INTERLOCK
+  - AELO GRWNO
+  - EW0-47E-058
+  - ENGINE COOLANT
+  - AUXILIARY (1)
+  - E5J7-6A CONN WIRING OIAG E-CP-H1 3 P683
+  - OG-RLY-OG2/K6
+  - SAFETY STOP
+- 00 I ANO 002 (NOTE 2) E54J-2VB-1 El.fl.4ENTARY OIAG SET'-"
+  - OG-RLY-002/K.22 B
+  - OG-RLY-002/K59
+  - E54J-7
+  - EWD-47E-056
+  - EWD-47E-Q58
+  - AJEL OIL
+  - M.JTO/START (2)
+  - E H/ 6
+  - ZONE H/3
+  - December 2019 - -- - 7
+  - ELEMENTARY
+  - NOTES,
+  - DG- RLY- OG2/K1S
+  - GROUND (CG).
+  - OG--RLY- OG2/K148
+  - X DG-RLY- DG2/ K10 ' SPARE
+  - DG-DIO-DG2/ CR18 OG- RWS- DG2,/S5A
+  - X SPARE
+  - SPARE
+  - SPARE
+  - EWD-47E-054
+  - L . I
+  - MAINTAINED CONTACT
+  - SPARE
+  - DG-RMS-DG2/ S5
+  - SPARE ,,I H ,,
+  - DG-RLY-OG2/ K14A 0G-RLY-OG2/K14B 0G- RLY-0G2/K59F OG-RLY-OG2/K59X
+  - MOV-2
+  - SPARE
+  - SPARE
+  - ISOCHRONOUS TO
+  - SPARE
+  - SPARE
+  - UNIT - -
+  - SPARE V
+  - OG-E/S-OG2/ A7
+  - GOVERNOR POWER SUPPLY
+  - SPARE 24VOC I
+  - OG-RLY-OG2/SSX1 OG-RLY- DG2/SSX3 OG-RLY-OG2 KTB
+  - • .A A +
+  - SPAAE I
+  - SPARE
+  - I A ' 150RPM
+  - DG-SS-DC2/A12
+  - SPEED SWITCH
+  - DG- CT-OG2/ CT3
+  - REF DWG DESCRIPTION B
+- 4 ~:~c
+  - ELEMENTARY
+  - FOR GENERAL NOTES SEE EWD-47E-OOO
+  - CONTINUED FROM ZONE B/7-10
+  - THE INFORMATION CONTAINED ON THIS EWD SUPERSEDES THE
+  - DG-SS-282
+  - DG-RLY-DG2/K4
+  - DG-RLY-DG2/K26
+  - ENGINE FAILURE
+  - THIS CONDUCTOR IS SHOWN ON MULTIPLE EWD'S FOR CIRCUIT
+  - TO START AUXILIARY
+  - CONTINUITY. SEE APPROPRIATE CABLE SCHEDULE FOR ADDITIONAL EWD'S 2 '
+  - ENGINE FAILURE (59)
+  - TO START AUXILIARY DG-RLY-DG2/KJ
+  - DG-SS-281
+  - SHUTDOWN TRIP ENGINE
+  - OVERSPEED
+  - DG-RES-DG2/R5
+  - DG-RLY-DG2/K60
+  - DG-RLY-DG2/K3 DG-RLY-DG2/KJ
+  - OVERSPEED
+  - AND EWD-47E-063 (SHOWN ON EWD-47E-063 FOR CIRCUIT CONTINUITY)
+  - DG-RLY-DG2/K60A DG-RLY-DG2/K60A
+  - OG-SV-1B1 (L05)
+  - OVERSPEED
+  - DJ SHUTDOWN AUXILIARY
+  - TIMEDELAYRELAYSETPOINTISNOMINAL.FORTIMEDELAYRELAY
+  - SETTINGS, SEE E514-30
+  - DG-RLY-DG2/K60A DG-RLY-DG2/K60A
+  - DG-SV-1B2(L05A) OVERSPEED
+  - DG-RLY-30/1/DG2
+  - SHUTDOWN TARGET
+  - DG-DIO-DG2/CR6
+  - SW-1B
+  - OG-RES-DG2/R6
+  - DG-RLY-27DC/DG2 COOLANT HIGH
+  - DC POWER LOSS TEMPERATURE
+  - ALARM SHUTDOWN C2
+  - EWD-47E-041
+  - ENGINE SHUTOOWN
+  - E-POS-52S/DG2/8 E-CB-8/3 OG-RLY-51VX/OG2
+  - OVERCURRENT
+  - AUXILIARY DLO-PS-JB1 DG-RLY-.30/2/DG2 S27 S27T S29T S29
+  - ENGINE SHUTDOWN
+  - EWD-47E-007A EWD-46E-084
+  - LUBE OIL LOW
+  - NORMAL POWER
+  - PRESSURE SHUTDOWN
+  - INTERLOCK
+  - DG-RLY-DG2/K15A
+  - EWD-47E-064
+  - DG-RLY-30/1/DG2 EWD-47E-054A DG-RLY-DG2/K15A DG-RLY-62/DG2
+  - OVERCURRENT
+  - DJ 17 16 1 5
+  - SHUTDOWN TARGET
+  - EWD-47E-054A 1DC
+  - DG-RLY-62/DG2
+  - DG-RLY-51VX/OG2 DG-RLY-30/2/DG2
+  - DG-RLY-67/DG2
+  - SHUTDOWN TARGET
+  - EWD-47E-041
+  - DG-RLY-30/2/DG2
+  - DG-RLY-2759/DG2
+  - UNDER/OVER VOLTAGE
+  - SHUTDOWN TARGET
+  - EWD-47E-041
+  - EWD-47E-041
+  - FIELD FAILURE
+  - SHUTDOWN TARGET
+  - E-POS-52S/DG2/8 D
+  - S35 S35T
+  - EWD-47E-007A
+  - DG-RLY-64F/OG2
+  - FIELD GROUND
+  - DETECTION 1 2
+  - AUXILIARY EWD-47E-033A
+  - EWD-47E-054
+  - EWD-47E-063
+  - EWD-47E-DD7A DEPRESSED EWD-47E-007A
+  - DG-RLY-30/1/DGZ
+  - REF OWG DESCRIPTION
+  - DG-RMS-DG2/S18L
+  - EMERGENCY STOP
+  - E537-148 CONN WIRING DIAG E-CP-H13/P801
+  - E543-7 CONN WIRING DIAG DG2 E-CP-DG/RP2
+  - DG-RLY-87/DGZ
+  - EWD-47E-OOS
+  - E543-8 CONN WIRING E-TB-D1014, E-TB-D1015) -------,.,---0
+  - CONN WIRING DIAG DG2 E-CP-DG/EP2
+  - GENERATOR
+  - DIFFERENTIAL
+  - SHUTDOWN TARGET
+  - L ------------------ CONTINUED TO ZONE H/4-7
+  - AANN-9000 (C1)
+  - AANN-9001 (CA)
+  - i-------------i...------------•r--------------------
+  - AANN-9001 (CA)
+  - AANN-9001 (CA)
+  - AM3DA-9081 (CA)
+  - AANN-9001 (CA)
+  - AM7A-9101 (CA)
+  - STATION BLACKOUT
+  - TABLE OF CONTENTS
+  - STATION BLACKOUT
+  - LIST OF TABLES
+  - STATION BLACKOUT
+  - Q/A 1).
+  - Q/A 137).
+- 78 Closed
+- 90 N/A
+  - NUMARC
+- **2.5.2** BWRs should consider RRC pump Seal leakage is included in the seal leakage.
+  - LDCN-02-002, 02-025
+  - NUMARC
+  - NUMARC
+  - NUMARC
+  - LDCN-02-002, 02-025
+  - NUMARC
+
+### 09.0 Chapter Front Matter  
+`chapters/09.0_Chapter_Front_Matter.md` — source pp. 1–18
+
+- AUXILIARY SYSTEMS
+- TABLE OF CONTENTS
+- AUXILIARY SYSTEMS
+- **9.1.3.2.2** Residual Heat Removal/Fuel Pool Cooling Cleanup Assist Mode
+- **9.1.3.2.3** Fuel Pool Cooling System Operation Following a Seismic Event
+- AUXILIARY SYSTEMS
+- **9.1.4.4.2** Inspection and Testing Requirements of Refueling and Servicing
+- LDCN-08-035, 09-001
+- AUXILIARY SYSTEMS
+- **9.1.5.4.1** Columbia Generating Station Commitments in Response to
+- LDCN-08-035, 09-001, 09-027
+- AUXILIARY SYSTEMS
+- **9.2.3** PLANT MAKEUP WATER TREATMENT AND DEMINERALIZED
+- AUXILIARY SYSTEMS
+- AUXILIARY SYSTEMS
+- **9.4.1** MAIN CONTROL ROOM/CABLE SPREADING ROOM/CRITICAL
+- AUXILIARY SYSTEMS
+- **9.4.5** OFFGAS CHARCOAL ADSORBER VAULT REFRIGERATION
+- AUXILIARY SYSTEMS
+- AUXILIARY SYSTEMS
+- AUXILIARY SYSTEMS
+- **9.5.4** DIESEL GENERATOR FUEL OIL STORAGE AND TRANSFER
+- AUXILIARY SYSTEMS
+- **9.5.8** DIESEL GENERATOR COMBUSTION AIR INTAKE AND EXHAUST
+- AUXILIARY SYSTEMS
+- LIST OF TABLES
+- AUXILIARY SYSTEMS
+- AUXILIARY SYSTEMS
+- LIST OF FIGURES
+- AUXILIARY SYSTEMS
+- AUXILIARY SYSTEMS
+- AUXILIARY SYSTEMS
+
+### 9.1 FUEL STORAGE AND HANDLING  
+`chapters/9.1_FUEL_STORAGE_AND_HANDLING.md` — source pp. 19–110
+
+- AUXILIARY SYSTEMS
+- **9.1** FUEL STORAGE AND HANDLING
+  - **9.1.1** NEW FUEL STORAGE
+    - **9.1.1.1** Design Bases
+      - **9.1.1.1.1** Safety Design Bases
+      - **9.1.1.1.1.1** Safety Design Bases - Structural.
+- 10 CFR 20 limits under normal or abnormal conditions,
+      - **9.1.1.1.1.2** Safety Design Bases - Nuclear.
+      - **9.1.1.1.2** Power Generation Design Bases
+    - **9.1.1.2** Facilities Description
+    - **9.1.1.3** Safety Evaluation
+      - **9.1.1.3.1** Criticality Control
+      - **9.1.1.3.2** New Fuel Rack Structural Design
+      - **9.1.1.3.3** New Fuel Handling
+      - **9.1.1.3.4** Other New Fuel Storage Design Factors
+  - **9.1.2** SPENT FUEL STORAGE
+    - **9.1.2.1** Design Bases
+      - **9.1.2.1.1** Safety Design Bases
+      - **9.1.2.1.1.1** Safety Design Bases - Structural.
+- 10 CFR Part 100 in the event of significant release of radioactivity from the
+      - **9.1.2.1.1.2** Safety Design Bases - Nuclear.
+      - **9.1.2.1.2** Power Generation Design Bases
+    - **9.1.2.2** Facilities Description
+      - **9.1.2.2.1** Spent Fuel Storage Racks
+      - **9.1.2.2.2** Spent Fuel Storage Pool
+    - **9.1.2.3** Safety Evaluation
+      - **9.1.2.3.1** Criticality Control
+      - **9.1.2.3.2** Spent Fuel Storage Rack Structural Design
+      - **9.1.2.3.3** Spent Fuel and Cask Handling
+  - NF-500
+      - **9.1.2.3.4** Spent Fuel Rack Design Features
+      - **9.1.2.3.5** Spent Fuel Storage Facilities Design
+      - **9.1.2.3.6** Radiological Considerations
+      - **9.1.2.3.6.2** Radiological Consequences of Accidents. See Chapter 15.
+      - **9.1.2.3.7** Conclusions
+  - **9.1.3** SPENT FUEL POOL COOLING AND CLEANUP SYSTEM
+    - **9.1.3.1** Design Bases
+    - **9.1.3.2** System Description
+      - **9.1.3.2.1** System Operation
+      - **9.1.3.2.1.1** FPC System Cooling Function
+      - **9.1.3.2.1.2** FPC System Clean-Up Functions
+      - **9.1.3.2.2** Residual Heat Removal/Fuel Pool Cooling Cleanup Assist Mode Operation
+      - **9.1.3.2.3** Fuel Pool Cooling System Operation Following a Seismic Event or Major Plant
+    - **9.1.3.3** Safety Evaluation
+    - **9.1.3.4** Testing and Inspection Requirements
+  - **9.1.4** FUEL HANDLING SYSTEM
+    - **9.1.4.1** Design Bases
+    - **9.1.4.2** System Description
+      - **9.1.4.2.1** Spent Fuel Cask
+      - **9.1.4.2.2** Reactor Building Crane
+      - **9.1.4.2.3** Fuel Servicing Equipment
+      - **9.1.4.2.4** Servicing Aids
+      - **9.1.4.2.5** Reactor Vessel Servicing Equipment
+  - CISP.
+      - **9.1.4.2.6** In-Vessel Servicing Equipment
+      - **9.1.4.2.7** Refueling Equipment
+      - **9.1.4.2.8** Storage Equipment
+      - **9.1.4.2.9** Under Reactor Vessel Servicing Equipment
+      - **9.1.4.2.10** Description of Fuel Transfer
+      - **9.1.4.2.10.2.1** New Fuel Preparation.
+      - **9.1.4.2.10.2.1.3** Channeling New Fuel (Westinghouse Fuel Only). Westinghouse Fuel
+      - **9.1.4.2.10.2.3** Reactor Vessel Opening.
+    - **9.1.4.3** Fuel Handling Safety Evaluation
+    - **9.1.4.4** Testing and Inspection Requirements
+      - **9.1.4.4.1** Testing and Inspection of Cranes
+      - **9.1.4.4.2** Inspection and Testing Requirements of Refueling and Servicing Equipment
+    - **9.1.4.5** Instrumentation Requirements
+      - **9.1.4.5.1** Instrument Requirements - Cranes
+      - **9.1.4.5.2** Instrumentation Requirements - Refueling and Servicing Equipment
+      - **9.1.4.5.3** Fuel Support Grapple
+      - **9.1.4.5.4** Other
+      - **9.1.4.5.5** Radiation Monitoring
+  - **9.1.5** CONTROL OF HEAVY LOADS
+    - **9.1.5.1** Introduction/Licensing Background
+    - **9.1.5.2** Safety Basis
+    - **9.1.5.3** Scope of Overhead Heavy Load Handling Systems
+- 1 Vessel Cavity Shield Plug 21
+- 2 Dry/Separator Pool Plugs Top 22 HI-STORM Lid
+- 3 Dry/Separator Pool Plugs Bottom 23 MPC with contents
+- 4 Spent Fuel Gates 24 MPC without contents
+- 5 Fuel Pool Shield (Slot) Plugs 25 Sea Van Container & other loads
+- 7 Space Frame (w/head insulation) 27 RHR A&B Shield Blocks
+- 8 Drywell Head 28 RHR A&B Pumps
+- 10 Steam Dryer 30 RHR C Pumps
+- 11 Moisture Separator 31 RCIC Shield Blocks
+- 12 Reactor Vessel Service Platform 32 RCIC Pump & Turbine
+- 13 RHR HX Floor Plugs 33 LPCS Shield Blocks
+- 14 New Fuel Pit Floor Plugs 34 LPCS Pump/Motor
+- 15 FPC Skimmer Surge Tank Plugs 35 HPCS Shield Blocks
+- 16 Refueling Basket 36 HPCS Pump
+- 17 RPV Head Stud Tension/Carousel 37 RRC Motors
+- 18 Mating Device 38 Steam (Pipe) Tunnel Shield Blocks
+- 19 HI-TRAC Cask with or without
+- 20 HI-TRAC Top Lid
+    - **9.1.5.4** Control of Heavy Loads Program
+      - **9.1.5.4.1** Columbia Generating Station Commitments in Response to NUREG-0612
+      - **9.1.5.4.1.7** Hoist and Crane Design
+  - ANSI B30.16.
+      - **9.1.5.4.2** Reactor Pressure Vessel Head Lifting Procedures
+      - **9.1.5.4.3** Single-Failure-Proof Cranes for Spent Fuel Casks
+      - **9.1.5.4.4** Other Analyses
+    - **9.1.5.5** Safety Evaluation
+  - **9.1.6** REFERENCES
+  - LEOPARD.
+- 5 Ft Above Fuel Pool Water Level
+  - SS/CS
+- **4.0** X 106
+- 2 Number
+  - CS/SS
+  - N TE 4 NOTE 7
+  - DETAIL- .3
+  - ZONE (0/12-0)
+  - DUALITY CLASS II
+  - ORYER SEPARA.TOR
+  - CODE GROUP 0
+  - CODE GROUP C I
+  - ON THIS DIAGRAM)
+  - QUALITY CL.ASS I
+  - IS NOT MANDA,TORY. FURNISHED & INSTALLED BY CONTR. 21JA
+  - SHALLHAVEALL WELOSEXWINEOBYLIOUIO
+  - DEU.IL- 1
+  - FIIBRICATION ANO INSTALL,1,TION ONLY. CODE STAMP NOT REQUIRED
+  - DUALITY CL.ASS II
+  - SEISMIC CATEGORY I
+  - CODEGROUPC
+  - OUALITYCL.IISSI
+  - DWC, MS21-1 (J/9)
+  - ZONE (H/4) F'UEL POOL
+  - ORIGINAL CONSTRUCTION DESIGN
+  - REQUIREMENTS
+  - CURRENT DESIGN REOUIREMENTS ARE
+  - DOCUMENTED IN THE STATION DESIGN
+  - M526-1
+  - I I P
+
+### 9.2 WATER SYSTEMS  
+`chapters/9.2_WATER_SYSTEMS.md` — source pp. 111–176
+
+- **9.2** WATER SYSTEMS
+  - **9.2.1** PLANT SERVICE WATER SYSTEM
+    - **9.2.1.1** Design Bases
+    - **9.2.1.2** System Description
+  - LDCN-04-020, 04-052, 05-030
+    - **9.2.1.3** Safety Evaluation
+    - **9.2.1.4** Testing and Inspection Requirements
+    - **9.2.1.5** Instrumentation Requirements
+  - **9.2.2** REACTOR BUILDING CLOSED COOLING WATER SYSTEM
+    - **9.2.2.1** Design Bases
+    - **9.2.2.2** System Description
+    - **9.2.2.3** Safety Evaluation
+    - **9.2.2.4** Testing and Inspection Requirements
+    - **9.2.2.5** Instrumentation Requirements
+  - **9.2.3** PLANT MAKEUP WATER TREATMENT AND DEMINERALIZED WATER
+  - SYSTEMS
+    - **9.2.3.1** Design Basis
+    - **9.2.3.2** System Description
+      - **9.2.3.2.1** Plant Makeup Water Treatment System
+      - **9.2.3.2.2** Demineralized Water System
+    - **9.2.3.3** Safety Evaluation
+    - **9.2.3.4** Testing and Inspection Requirements
+    - **9.2.3.5** Instrumentation Requirements
+  - **9.2.4** POTABLE WATER AND SANITARY DRAIN SYSTEMS
+    - **9.2.4.1** Design Bases
+    - **9.2.4.2** System Description
+      - **9.2.4.2.1** Potable Water System
+      - **9.2.4.2.2** Sanitary Drain System
+    - **9.2.4.3** Safety Evaluation
+    - **9.2.4.4** Testing and Inspection Requirements
+    - **9.2.4.5** Instrumentation Requirements
+  - **9.2.5** ULTIMATE HEAT SINK
+    - **9.2.5.1** Design Bases
+  - LDCN-13-005, 13-019
+    - **9.2.5.2** System Description
+    - **9.2.5.3** Safety Evaluation
+    - **9.2.5.4** Testing and Inspection Requirements
+    - **9.2.5.5** Instrumentation Requirements
+  - **9.2.6** CONDENSATE SUPPLY SYSTEM
+    - **9.2.6.1** Design Bases
+    - **9.2.6.2** System Description
+    - **9.2.6.3** Safety Evaluation
+    - **9.2.6.4** Testing and Inspection Requirements
+    - **9.2.6.5** Instrumentation Requirements
+  - **9.2.7** STANDBY SERVICE WATER SYSTEM
+    - **9.2.7.1** Design Bases
+    - **9.2.7.2** System Description
+  - EQUIPMENT DESIGN PARAMETERS
+    - **9.2.7.3** Safety Evaluation
+    - **9.2.7.4** Testing and Inspection Requirements
+    - **9.2.7.5** Instrumentation Requirements
+  - **9.2.8** COMPRESSOR JACKET WATER SYSTEM
+    - **9.2.8.1** Design Bases
+    - **9.2.8.2** System Description
+    - **9.2.8.3** Safety Evaluation
+    - **9.2.8.4** Testing and Inspection Requirements
+    - **9.2.8.5** Instrumentation Requirements
+  - **9.2.9** REFERENCES
+  - TOTAL
+  - LDCN-22-009, LDCN-22-016
+  - TOTAL
+  - TOTAL
+  - TOTAL
+  - LOCA 720(12H) 960(16H)
+  - LOCA 1440(1D) 2880(2D) 4320(3D) 5760(4D) 7200(5D) 8640(6D)
+  - LOCA 720(12H) 960(16H)
+  - LOCA 1440(1D) 2880(2D) 4320(3D) 5760(4D) 7200(5D) 8640(6D)
+  - COOLERS
+  - PRIMARY CONTAINMENT
+  - RCC-V- 1338 WS-25-8JW
+  - PRIMARY CONTAINMENT
+  - SAMPLING IS DONE PER APPUUBLE PPM
+  - RECIRCULATION PUMP
+  - RRC-P-1 B
+  - B35-C001 B
+  - RCC-V-605(0)
+  - RCC-V-718 RCC-V-71C
+  - DRYWELL
+  - COOLERS
+  - LINE NO. INSTRUMENT NO,
+  - INLET FLOW OUTLET FLOW DRAWING ZONE
+  - M525 1 C/8 RCC FX 22A
+  - RCC FX 238
+  - RCC FX 24A H
+  - HC HO M525 1 C/S
+  - M525 1
+  - M525 2 J/6
+  - FLOOR DRAIN
+  - M525-1
+  - S-214
+- 4 RQIZ. rr.Jre.tz-FAcf serw<=EN
+- 7 OPEN END OF DRA.IN PIPE HAS BEEN ====a===ir'-
+  - SILICONE FOAM PLUG,
+  - LEGEND
+  - DENOTE A THROTTLED VALVE
+  - COND-V-1060(11)
+  - C0ND--1/-1051(0)
+  - I -----------
+  - CONDENSATE STORAGE TANKS
+  - RADWASTE BUILDING ,.
+  - RADWASTE/REACTDR BLDG. CORRIDOR
+  - CONDENSATE
+  - STORAGE TANK
+  - C0ND-TK-1A
+  - C0ND-TK-1 B
+  - T~ ~jc~c-1
+  - C0N0-1S
+  - RADWASTE BUILDING
+  - TURBINE GENERATOR BUILDING
+  - ,._•c~-"'·)-.. I--------------'
+- 1 TURBINE GENERATOR:
+  - M527-1
+  - NOTED OTHERWISE.
+  - UNLESS SPECIFICALLY NOTED OTHERWISE
+  - VALVES UNLESS SPECIFICALLY NOTED OTHERWISE.
+  - QUALITY CLASS II
+  - CODE GROUP D
+  - J/4' CJW(1)-1
+  - CAS-HX-6C
+  - CJW-P-1A
+  - CJW-V-202 CJW-PCV-752 CJW-V-751
+  - AIR DRYER CAS-DY-28
+  - J/4. CJW(56)-1
+  - HEAT EXCHANGER HEAT EXCHANGER
+  - CJW-HX-1A CJW-HX-18
+  - CJW-V-6J9A(D)
+  - AIR DRYER CAS-DY-2A
+  - FSAR FI G.
+
+### 9.3 PROCESS AUXILIARIES  
+`chapters/9.3_PROCESS_AUXILIARIES.md` — source pp. 177–233
+
+- **9.3** PROCESS AUXILIARIES
+  - **9.3.1** COMPRESSED AIR SYSTEMS
+    - **9.3.1.1** Design Bases
+      - **9.3.1.1.1** Control and Service Air Systems
+      - **9.3.1.1.2** Containment Instrument Air System
+    - **9.3.1.2** System Description
+      - **9.3.1.2.1** Control and Service Air System
+      - **9.3.1.2.2** Containment Instrument Air System
+    - **9.3.1.3** Safety Evaluation
+      - **9.3.1.3.1** Control and Service Air System
+      - **9.3.1.3.2** Containment Instrument Air System
+    - **9.3.1.4** Testing and Inspection Requirements
+    - **9.3.1.5** Instrumentation Requirements
+      - **9.3.1.5.1** Control and Service Air Systems
+      - **9.3.1.5.2** Containment Instrument Air System
+  - **9.3.2** PROCESS SAMPLING SYSTEM
+    - **9.3.2.1** Design Bases
+    - **9.3.2.2** System Description
+      - **9.3.2.2.1** Sample Locations
+      - **9.3.2.2.2** Liquid Sample Taps and Probes
+      - **9.3.2.2.3** Steam Samples
+      - **9.3.2.2.4** Sample Piping Design
+      - **9.3.2.2.5** Fume Hood Design and Grab Samples
+    - **9.3.2.3** Safety Evaluation
+    - **9.3.2.4** Tests and Inspections
+    - **9.3.2.5** Instrument Requirements
+  - **9.3.3** EQUIPMENT AND FLOOR DRAINAGE SYSTEMS
+    - **9.3.3.1** Design Bases
+    - **9.3.3.2** System Description
+      - **9.3.3.2.1** Radioactive Equipment Drainage System
+  - LDCN-05-007, 05-017
+      - **9.3.3.2.2** Radioactive Floor Drainage Subsystem
+  - FDR-SUMP-R1
+  - RHR A
+  - FDR-SUMP-R2
+  - RHR B
+  - FDR-SUMP-R3
+  - FDR-SUMP-R4
+  - RHR C
+  - LDCN-05-002, 05-007, 05-017
+  - ECCS.
+      - **9.3.3.2.3** Nonradioactive Water Drainage System
+    - **9.3.3.3** Safety Evaluation
+    - **9.3.3.4** Testing and Inspection Requirements
+    - **9.3.3.5** Instrumentation Requirements
+  - **9.3.4** CHEMICAL AND VOLUME CONTROL SYSTEM
+  - **9.3.5** STANDBY LIQUID CONTROL SYSTEM
+    - **9.3.5.1** Design Bases
+    - **9.3.5.2** System Description
+  - LDCN-11-001, 11-013
+    - **9.3.5.3** Safety Evaluation
+    - **9.3.5.4** Testing and Inspection Requirements
+    - **9.3.5.5** Instrumentation Requirements
+  - **9.3.6** REFERENCES
+  - HP-6A,B
+  - LDCN-99-062, 02-008
+  - PWR-FU-94A,B
+- 11 I 10 I
+- 7 I 6
+  - ,;,· """-_) r _J ,'I•,· , __
+  - -1
+  - CAS-V-514C
+  - CAS-Y-300 CAS-V-290
+  - CAS-V-100/81 EDR-SPV-44 CAS-V-100/75 RWCU-SPV-206A
+  - M510-2(K/10) H
+  - M510-2 (H/10)
+  - RWCU-SFV-21 4A
+  - EDR-SFV-51
+  - RWCU-SFV-232A
+  - EDR-SFV-52
+  - RWCI-SFV-234A
+  - EDR-SFV-S7
+  - TO BS-V-64
+  - TOBS-V-66
+  - M510-2 (D/4)
+  - M510-2(0/6)
+  - CPS-V-98/13
+  - FDR-SP.,,-105
+  - CF-SPV-619 I
+  - CAS-V-294(0)
+  - FDR-SPV-100
+  - FDR-SPV-111
+  - FDR-SP.,,-116
+  - M510-2 (0/13)
+  - MS10-2(D/4)
+  - FDR-SP.,,-118
+  - IABLLE'.
+  - M510-2(D/6)
+  - TOIR-1A tl F f 11;~•M
+  - CAS-V-99/81
+  - CAS-V-100/79 RWCU-SPV-2068
+  - T0MS-SPV-155A
+  - CAS-V-312
+  - CAS-V-281
+  - TO 1GHV-2A
+  - w
+  - CAS-V-100/78 RWCU-SPV-2078
+  - RWCU-SPV-2118
+  - M510-2(D/5)
+  - ½" r-~~ ~~:~=:=:~~: J
+  - CAS-V-100/76 R'/ICU-SPV-207A
+- 10 CAS 10 CAS 10 CAS
+  - IMCU-SPV-231A
+  - DETAIL 'V'
+  - CAS-V-617
+  - ISOLATION SUPPLIES
+  - CAS-V-9B/4 FPC-SPV-BA
+  - FPC-SPV-118
+  - MWR-SPV-509A
+  - MWR-SPV-509B
+  - MWR-SPV-525A
+  - MWR-SPV-5258
+  - MWR-SPV-576A
+  - MWR-SPV-620A TOOEH-V-75
+  - MWR-SPV-6200
+  - RWCU-SW-443 - DEACTIVATED
+  - M510-2A
+  - M510-2 (D/12)
+- 12 I 11 ID 9 l) I I
+  - I Rev. 8
+  - GENERAL NOTES
+  - CONTRACT
+  - P5R- FA-2
+  - PSR-QOC-2
+  - DIAGRAMS
+- 0 DENOTESSAt.lP LERACK SERVICENOZ ZLE CO ~
+  - NITOR
+  - SR-1SAMPLE RA.CK
+  - SR- 2 CONSTANT TEW. BATH
+  - POTABLE WATER
+  - PUMP PACKAGE
+  - PWC-PP-51
+  - FSAR FIG.
+  - M607-1
+  - IS IN CONTRACT21 5
+  - EL C,41 '- J J/4.
+  - LEGEND
+  - SUPPRESSION POOL
+  - ALL PIPENG & ASSOCIATED COMPONENTS ON
+  - INCLUOCDINCONTRACT21 5,UPSTREAM
+  - FUME HOOD
+  - SUMP PUMPS FDR- P-1 5A & 15B, FDR- P-1 13A &
+  - SAMPLERACK HOOKUP FOR
+  - SECT.158.1, TABLE 2NOTES
+  - COMPONENT5 ON THIS OWG. ARE INCLU DED
+  - IN COOTRA.CT 205 EXCEPT WHERE
+  - NOTED OTH ERWISE
+  - PORTIONS OF PIPING UPSTREAM OF THIS WERE
+  - LEGEND
+  - ALL VALVES SUFFIXED WITH A (V)
+  - ALL VALVES SUFFIXED WITH A (D)
+  - ALL VALVES SUFFIX ED WITH A (TH)
+  - TURBINE BLDG
+  - TURBINE BLDG
+  - TURBINE BLDG TURBINE BLDG
+  - RADIOACTIVE EQUIPMENT
+  - RADIOACTIVE FLOOR
+  - RADIOACTIVE EQUIPMENT RADIOACTIVE FLOOR
+  - DRAIN SUMP
+  - DRAIN SUMP
+  - DRAIN SUMP DRAIN SUMP
+  - FDR-SUMP-T4
+  - EDR-SUMP-T7 FDR-SUMP-T5
+  - EDR-SUMP-T6
+  - FSAR FIG.
+- 3 CDNTRACTSSOOPE
+  - CDNTRACT 215
+  - ASSOCIATEDEQ UIPIJENT
+- 6 F'ORTIDNS OF PI PINGUPSTREAMDfTHISWERE
+  - DRAIN SUMP
+  - DRAIN SUMP
+  - ASDBUILDING
+  - TURBIN E GENERATOR BUI LDING
+  - RRC PUMP ASP BUILDING FLOOR DRAIN
+  - MOBILE SOLIDIFICATION SYSTEM
+  - PAD SUMP DRAIN
+  - RWB CABLE CHASE DRAINAGE RISER DIAGRAM
+  - DRAIN SUMP
+  - FD-SUMP-S1
+  - SERVICE BUI LDING
+- 1 ALLITEMSMARKED"AREFURNISHED
+  - WITH ASSOCIATED EQUIPMENT
+  - ON TH IS D'IIG. SH ALL BE CLASSIFIED
+  - SEI SMIC CATEGOR Y
+  - DESIGNATIONSLC(56)UNLESSNOTED.
+  - C41-A001
+  - SLC-TK-1
+  - REACTOR
+  - VESSEL
+- 6 SLC-R0-1ISAElLANKINGPLATE(ANQRIFICE
+  - SLC(2)-1-S-1
+  - SLC-V-27 0
+  - DRAIN & TESTCONN.Y
+  - SEE NOTESEENOTE I
+  - SIJFFIXED WITH A (V) DENOTE
+  - SU FFIXED WITH A (D)
+  - J. ALL VALVES SIJFFIXED WITH A (TH)
+
+### 9.4 HEATING, VENTILATING, AND AIR CONDITIONING SYSTEMS  
+`chapters/9.4_HEATING_VENTILATING_AND_AIR_CONDITIONING_SYSTEMS.md` — source pp. 234–324
+
+- **9.4** HEATING, VENTILATING, AND AIR CONDITIONING SYSTEMS
+  - **9.4.1** MAIN CONTROL ROOM/CABLE SPREADING ROOM/CRITICAL
+  - SWITCHGEAR AREA
+    - **9.4.1.1** Design Bases
+    - **9.4.1.2** System Description
+      - **9.4.1.2.1** Main Control Room
+      - **9.4.1.2.2** Cable Spreading Room
+      - **9.4.1.2.3** Critical Switchgear Area
+    - **9.4.1.3** Safety Evaluation
+      - **9.4.1.3.1** Main Control Room
+      - **9.4.1.3.2** Cable Spreading Room
+      - **9.4.1.3.3** Critical Switchgear Area
+    - **9.4.1.4** Testing and Inspection Requirements
+    - **9.4.1.5** Instrumentation Requirements
+      - **9.4.1.5.1** Main Control Room
+      - **9.4.1.5.2** Cable Spreading Room
+      - **9.4.1.5.3** Critical Switchgear Area
+  - **9.4.2** REACTOR BUILDING
+    - **9.4.2.1** Design Bases
+    - **9.4.2.2** System Description
+      - **9.4.2.2.1** Supply Air System
+      - **9.4.2.2.2** Exhaust Air System
+      - **9.4.2.2.3** Sump Vent Exhaust Filter System
+      - **9.4.2.2.4** Miscellaneous Area Ventilation Systems
+    - **9.4.2.3** Safety Evaluation
+    - **9.4.2.4** Testing and Inspection Requirements
+    - **9.4.2.5** Instrumentation Requirements
+  - **9.4.3** RADWASTE BUILDING
+    - **9.4.3.1** Design Bases
+    - **9.4.3.2** System Description
+    - **9.4.3.3** Safety Evaluation
+    - **9.4.3.4** Testing and Inspection Requirements
+  - **9.4.4** RADWASTE BUILDING CHILLED WATER SYSTEM
+    - **9.4.4.1** Design Bases
+    - **9.4.4.2** System Description
+    - **9.4.4.3** Safety Evaluation
+    - **9.4.4.4** Testing and Inspection Requirements
+    - **9.4.4.5** Instrumentation Requirements
+  - **9.4.5** OFFGAS CHARCOAL ADSORBER VAULT REFRIGERATION SYSTEM
+  - **9.4.6** TURBINE GENERATOR BUILDING
+    - **9.4.6.1** Design Bases
+    - **9.4.6.2** System Description
+      - **9.4.6.2.1** Main Supply System
+      - **9.4.6.2.2** Main Exhaust System
+      - **9.4.6.2.3** Auxiliary Boiler Room Ventilation System
+      - **9.4.6.2.4** Transformer Vault Ventilation System
+      - **9.4.6.2.5** Sample Room Air Conditioning System
+    - **9.4.6.3** Safety Evaluation
+    - **9.4.6.4** Testing and Inspection Requirements
+    - **9.4.6.5** Instrumentation Requirements
+  - **9.4.7** EMERGENCY DIESEL GENERATOR BUILDING
+    - **9.4.7.1** Design Bases
+    - **9.4.7.2** System Description
+  - LDCN-09-020, 09-028
+    - **9.4.7.3** Safety Evaluation
+    - **9.4.7.4** Testing and Inspection Requirements
+    - **9.4.7.5** Instrumentation Requirements
+  - **9.4.8** DIESEL GENERATOR AREA CABLE COOLING SYSTEM
+    - **9.4.8.1** Design Bases
+    - **9.4.8.2** System Description
+    - **9.4.8.3** Safety Evaluation
+    - **9.4.8.4** Inspection and Testing Requirements
+    - **9.4.8.5** Instrumentation Requirements
+  - **9.4.9** REACTOR BUILDING EMERGENCY COOLING SYSTEMS
+    - **9.4.9.1** Design Bases
+    - **9.4.9.2** System Description
+    - **9.4.9.3** Safety Evaluation
+    - **9.4.9.4** Testing and Inspection Requirements
+    - **9.4.9.5** Instrumentation Requirements
+  - **9.4.10** STANDBY SERVICE WATER PUMP HOUSE
+    - **9.4.10.1** Design Bases
+    - **9.4.10.2** System Description
+    - **9.4.10.3** Safety Evaluation
+    - **9.4.10.4** Testing and Inspection Requirements
+    - **9.4.10.5** Instrumentation Requirements
+  - **9.4.11** PRIMARY CONTAINMENT
+    - **9.4.11.1** Design Bases
+    - **9.4.11.2** System Description
+    - **9.4.11.3** Safety Evaluation
+    - **9.4.11.4** Testing and Inspection Requirements
+    - **9.4.11.5** Instrumentation Requirements
+  - **9.4.12** MAKEUP WATER PUMP HOUSE
+    - **9.4.12.1** Design Bases
+    - **9.4.12.2** System Description
+    - **9.4.12.3** Safety Evaluation
+    - **9.4.12.4** Testing and Inspection Requirements
+    - **9.4.12.5** Instrumentation Requirements
+  - **9.4.13** SERVICE BUILDING
+    - **9.4.13.1** Design Bases
+    - **9.4.13.2** System Description
+    - **9.4.13.3** Safety Evaluation
+  - **9.4.14** WATER TREATMENT AREA AND MACHINE SHOP
+    - **9.4.14.1** Design Bases
+    - **9.4.14.2** System Description
+    - **9.4.14.3** Safety Evaluation
+  - **9.4.15** CIRCULATING WATER PUMP HOUSE
+    - **9.4.15.1** Design Bases
+    - **9.4.15.2** System Description
+    - **9.4.15.3** Safety Evaluation
+    - **9.4.15.4** Testing and Inspection Requirements
+    - **9.4.15.5** Instrumentation Requirements
+  - **9.4.16** PLANT HEATING STEAM SYSTEM
+    - **9.4.16.1** Design Basis
+    - **9.4.16.2** System Description
+    - **9.4.16.3** Safety Evaluation
+    - **9.4.16.4** Testing and Inspection Requirements
+    - **9.4.16.5** Instrumentation Requirements
+  - **9.4.17** REFERENCES
+  - **9.4.1** Calculation ME-02-17-02, Control Room Habitability during a LOCA with LOOP and
+  - WMA-AH-51B WMA-AH-52B WMA-AH-53B
+  - WMA-AH-53B)
+  - WMA-AH-53B)
+  - WMA-AH-53B)
+  - WMA-FU-54A, WMA-FU-54B
+  - CCH-CR-1A, CCH-CR-1B
+  - CCH-P-1A, CCH-P-1B
+  - CCH-CR-1A, CCH-CR-1B
+  - ROA-HV-1
+  - REA-FN-1A
+  - REA-FN-1B
+  - RRA-FC-2 RRA-FC-19
+  - RRA-FC-3 RRA-FC-20 RRA-FC-4 RRA-FC-5 RRA-FC-6
+  - RRA-FC-13
+  - RRA-FC-11 RRA-FC-12 RRA-FC-14
+  - RRA-FC-8
+  - RRA-FC-9
+  - RRA-FC-21
+  - RRA-AH-7 RRA-AH-8 RRA-EUH-1
+  - RRA-EUH-2
+  - RRA-EUH-3
+  - RRA-EUH-4
+  - RRA-EUH-5
+  - RRA-EUH-6
+  - RRA-EUH-7
+  - RRA-EUH-8
+  - REA-FU-2A
+  - REA-FU-2B
+  - REA-FU-15
+  - CRA-FC-1A
+  - CRA-FC-1B
+  - CRA-FC-2A
+  - CRA-FC-1C
+  - CRA-FC-2B
+  - CRA-FN-4A
+  - CRA-FN-4B
+  - CRA-FN-3A, CRA-FN-3B, CRA-FN-3C, CRA-FN-5A,
+  - CRA-FN-5B, CRA-FN-5C, CRA-FN-5D
+  - LDCN-08-036, 09-028
+  - WOA-HV-1
+  - WEA-FU-1A, WEA-FU-1B, WEA-FU-1C
+  - WEA-FU-2B WEA-FU-4
+  - WEA-FU-2C WEA-FU-5 WEA-FU-6
+  - WCH-CR-51A, WCH-CR-51B
+  - WRA-AH-7A, WRA-AH-8A, WRA-AH-7B,
+  - WRA-AH-8B
+  - WRE-CR-7A, WRE-CR-7B
+  - TOA-HV-1A TOA-HV-2A
+  - TOA-HV-1B TOA-HV-2B
+  - TEA-FN-1A, TEA-FN-1B,
+  - TEA-FN-1C, TEA-FN-1D
+  - TOA-AH-51
+  - TEA-FN-3B
+  - DMA-AH-21 DMA-AH-22
+  - DMA-AH-31 DMA-AH-32 DMA-AH-51
+  - DEA-FN-12 DEA-FN-13
+  - DEA-FN-21
+  - DEA-FN-22 DEA-FN-23
+  - DEA-FN-31 DEA-FN-52 DEA-FN-32 DEA-FN-33
+  - SWSI SWSI
+  - POA-FN-2A
+  - POA-FN-2B
+  - PRA-FC-1A
+  - PRA-FC-1B
+  - PMA-AH-81A PRA-FC-91A
+  - PMA-AH-81B PRA-FC-91B
+  - PEA-FN-81A
+  - PEA-FN-81B PEA-FN-82
+  - PEA-FN-51 PEA-FN-52 PEA-RVT-11
+  - PEA-RVT-12
+  - PEA-RVT-13
+  - PEA-RVT-14
+  - PEA-RVT-15
+  - PEA-RVT-16
+  - PMA-AC-51
+  - WRA-SUH-3 WRA-SUH-4 WRA-SUH-5
+  - WOA-HU-9
+  - WRA-SUH-1
+  - WMA-HU-6
+  - SRA-SUH-1
+  - WOA-HU-5
+  - TRA-SUH-2
+  - WOA-HU-4
+  - WHCO-CU-1
+  - SHHW-HX-51
+  - SHCO-CU-1
+  - ROA-HC-2
+  - L--J 15 14 13 12 11 1 0
+  - CONTR.215
+  - ABBREVIATIONS SEE DIIG. ~501 [J-s-t:7
+  - INTE RLOCK
+  - WA-FU-S ... B
+  - SEISMJCCATEGOOY
+  - OOALITYCL'ISS
+  - OOALITYCLASS I
+  - EQUIPMENT ROON
+  - CONTAT
+  - ZONE (B/11)
+  - ALL TICS FOR JNSTRU'-IENT ROOT VAL.YES WILL BE
+  - CLA5SIFIED ASFOLLOW5
+  - M548-1
+  - INSTRUMENT
+  - C-510
+  - EQUIPMENT ACCESS AREA
+  - CABLE
+  - WORK WITH VALVE AND WATER
+  - ZONE(A/9) (J/7)
+  - --------:7
+  - P541-1 (J/7)
+  - CONT, ON OWG.
+  - CONT.ON DWG.
+  - ORIGINAL CONSTRUCTION DESIGN
+  - REQUIREMENTS
+  - CURRENT DESIGN REOUIRDIENTS ARE
+  - DOCUMENTED IN THE STATION DESIGN
+  - FSAR FIG.
+  - M548-2
+  - NOTES
+  - r--
+  - ISOLATION SIGNAL CODES
+  - r
+  - MCC ROOM (DIV. 2)
+  - ACCESS AREA e
+  - PIPE SPACE
+  - CRO MODULES
+  - ELECTRONICS
+  - ROA- FD-20 T
+  - SIGNALF,A,Z
+  - LEGEND
+  - R0A-FD-17
+  - CRD MODULES
+  - ROA - FD-1 6
+  - I 3HRF.D
+  - VALVE ACCESS SHUTDOWN
+  - e
+  - NEUTRON MONITORING GENERAL AREA CRD REPAIR
+  - SHUTDOWN COOLING
+  - DRIVE MECHANISM EAST ROOM
+  - SUPPLY AREA
+  - -1;::
+  - I ,---, ,I
+  - GENERAL AREA
+  - -------t
+  - I ROA-AD-12
+  - JHRF.D
+  - FLEX DUCT FOR SMOKE REMOVAL
+  - M545-1
+  - NOTES
+  - CLOSE ON ISOLATION I
+  - ACCESS AREA.
+  - REA REA
+  - SEEN0TE 2
+  - REA-V-18
+  - FP-Y-REA/11
+  - REA-V-1
+  - N.D. REA-V-2
+  - FP-V-REA/2B
+  - FP- V-REA/2 1
+  - SUMP VENT EXHAUST FILTER SYSTEM
+  - E.D. R.
+  - MAIN STEAM TUNNEL
+  - f
+  - DWG MSOB-, IBN)
+  - ROA- P- 18
+  - I --------------------------------
+  - RAILROAD LOCK
+  - FSAR FIG . -----E.D1
+  - M545-3
+  - RAJWASE CONTROL
+  - VESTIBULE
+  - C-142 1/
+  - C-203
+  - C-139
+  - C-137
+  - i AREA
+  - C-'.C2
+  - M549-2
+  - WMA CC 52A2
+  - AIR HANDLING UNIT
+  - CABLE SPREADING
+  - WCH-V-6488
+  - AIR HANDLING UNIT
+  - SEE DWG. M548-2 (G/10)
+  - WMA CC 51 B2
+  - CONTROL ROOM
+  - WMA-CC-51 A2
+  - AIR HANDLING UNIT
+  - -7 WCH-V-639B
+  - CONTROL ROOM
+  - AJR HANDLING UNIT
+  - WCH-V-61BB(D)
+  - CDILDRAIN
+  - WCH-V-51BH(TH)
+  - DIRT LEG
+  - WMA-CC 51A2
+  - CONTROL ROOM
+  - AJR HANDLING UNIT
+  - CABLE SPREADING
+  - AIR HANDLING UNIT
+  - WCH-V-621 8(0)
+  - W0A-CC-4
+  - RADIO CHEMICAL LAB
+  - AND SAMPLING ROOM
+  - WCH-V-591
+  - HOT INSTRUMENT
+  - AIR HANDLING UNIT
+  - W0A-CC-9
+  - COUNTING ROOM
+  - AIR HANDLING UNIT
+  - WCH-V-577(0)
+  - WMA-CC-6
+  - RADWASTE CONTROL
+  - AIR HANDLING UNIT
+  - SEE DWG. M549-1 (C/8)
+  - WOA-TCV-53 (REF) WCH-V-53H(TH) HEALTH PHYSICS
+  - AIR HANDLING UNIT
+  - SEE DWG. M549-1 (B/10)
+  - SEE NOTE 3
+  - M550-2
+  - I I I I
+  - I I I I
+  - AND VALVE DESIGNATIONS.
+  - SEISMICCATEGORY II
+  - FURNISHED AND INSTALLED BY OWNER.
+  - FROM ,-- ZONE
+- 14 INSTALL THESE FILTERS ACCORDING TO ABNORt,IAL 163,B25CFt,1 I
+  - I (A/B)
+  - "1 t--~==---1 AND EXCITER ffi I IEASTAREA ffil ,
+  - I ,, I
+  - CORRIDOR
+  - ZONE(C/3)
+  - PUMPS AREA
+  - D 91,470CFM
+  - HEATINC ST'S.
+  - TOA-DPIC-28
+  - __ H: b1 ~--,~.,~@-" -~1->-----o I ~ I I
+  - I ANDRADWASTE I
+  - CONT ON DWG. 2,000 CFM
+  - SUCH AS 215, 206, 220, FOUND IN THE
+  - ORIGINAL CONSTRUCTION DESIGN
+  - REQUIREMENTS. OUTSIDE
+  - T.C. BLDG.
+  - FSAR FIG.
+  - M546-1
+  - I I I I I I I I I
+  - I 11 10 9 8 7 6 5 4 3 2
+  - NOTES
+  - TABLE NO. VALVE NUMBERS FOR CONTROL STATIONS
+  - TABLE N0.3-VACUUM BREAKER EPN NO'S.
+  - BY-PASS BLOW OOWN Y STRAINERS SHUT OFF VALVES
+  - HS STATION NO.
+  - TABLE NO. 2 - VALVE NUMBERS FOR TRAP STATIONS
+  - M514-2
+
+### 9.5 OTHER AUXILIARY SYSTEMS  
+`chapters/9.5_OTHER_AUXILIARY_SYSTEMS.md` — source pp. 325–370
+
+- **9.5** OTHER AUXILIARY SYSTEMS
+  - **9.5.1** FIRE PROTECTION SYSTEM
+  - **9.5.2** COMMUNICATIONS SYSTEMS
+    - **9.5.2.1** Design Basis
+    - **9.5.2.2** System Description
+      - **9.5.2.2.1** Public Telephone Access
+      - **9.5.2.2.2** Private Branch Exchange
+      - **9.5.2.2.3** Sound-Powered Telephone System
+      - **9.5.2.2.4** Public Address and Building-Wide Alarm Systems
+      - **9.5.2.2.5** Radio Communications System
+      - **9.5.2.2.6** Telephone Link for Connection to the BPA Dittmer Control Center
+    - **9.5.2.3** Inspection and Testing Requirements
+    - **9.5.2.4** Capability During Postulated Accident and Anticipated Transients
+      - **9.5.2.4.1** Protective Measures
+      - **9.5.2.4.2** Severing of Lines or Trunks
+      - **9.5.2.4.3** High Noise
+      - **9.5.2.4.4** Post-Fire Safe Shutdown
+  - **9.5.3** PLANT LIGHTING SYSTEM
+    - **9.5.3.1** Design Bases
+    - **9.5.3.2** System Description
+      - **9.5.3.2.1** Normal Alternating Current (ac) Lighting Systems
+      - **9.5.3.2.2** Normal-Emergency ac Lighting Systems
+      - **9.5.3.2.3** Emergency Direct Current (dc) Lighting Systems
+      - **9.5.3.2.4** Battery-Pack Emergency Lighting Systems
+    - **9.5.3.3** Safety Evaluation
+  - **9.5.4** DIESEL GENERATOR FUEL OIL STORAGE AND TRANSFER SYSTEM
+    - **9.5.4.1** Design Bases
+    - **9.5.4.2** System Description
+    - **9.5.4.3** Safety Evaluation
+  - LDCN-09-038, 10-031
+    - **9.5.4.4** Testing and Inspection Requirements
+    - **9.5.4.5** Instrumentation Requirements
+  - **9.5.5** DIESEL GENERATOR COOLING WATER SYSTEM
+    - **9.5.5.1** Design Bases
+    - **9.5.5.2** System Description
+    - **9.5.5.3** Safety Evaluation
+    - **9.5.5.4** Testing and Inspection Requirements
+  - **9.5.6** STARTING AIR SYSTEM
+    - **9.5.6.1** Design Bases
+    - **9.5.6.2** System Description
+    - **9.5.6.3** Safety Evaluation
+    - **9.5.6.4** Testing and Inspection Requirements
+  - **9.5.7** DIESEL GENERATOR LUBRICATION SYSTEM
+    - **9.5.7.1** Design Bases
+    - **9.5.7.2** System Description
+    - **9.5.7.3** Safety Evaluation
+    - **9.5.7.4** Testing and Inspection Requirements
+  - **9.5.8** DIESEL GENERATOR COMBUSTION AIR INTAKE AND EXHAUST SYSTEM
+    - **9.5.8.1** Design Bases
+    - **9.5.8.2** System Description
+    - **9.5.8.3** Safety Evaluation
+    - **9.5.8.4** Inspection and Testing Requirements
+  - **9.5.9** PLANT DECONTAMINATION FACILITY
+    - **9.5.9.1** Design Bases
+    - **9.5.9.2** System Description
+    - **9.5.9.3** Safety Evaluation
+    - **9.5.9.4** Testing and Inspection Requirements
+  - **9.5.10** REFERENCES
+  - REDACTED
+  - REDACTED
+  - RADWASTE BUILDING
+  - EBU EBU
+  - YES EBU EBU
+  - SM-8 YES EBU
+  - RPS 1A
+  - RPS 1B
+  - EBU EBU
+  - EBU, ERB
+  - EBU, ERB,
+  - TURBINE BUILDING
+  - EBU, ERB,
+  - DIESEL GEN. BUILDING
+  - EBU EBU
+  - HPCS DG, SM-4
+  - SSW PUMPHOUSE
+  - REACTOR BUILDING
+  - TECHNICAL SUPPORT
+  - CENTER
+- 95 Temp in (°F)
+- 1 FOR GENERAL NOTES AND LEGEND SEE DRAWING M512-1
+  - IFICALLY NOTED OTHERWISE
+  - DO V726 DO V737
+  - DETAIL-1
+  - J I ' I 7
+  - N0TE22 N0TE2
+  - OO-V-4A
+  - PLUG & NOZZLE FDR
+  - STICK MEASU REMENT
+  - I .. I I PLUG & NOZZLE
+  - I I I
+  - DIESEL OIL DAY TANK
+  - I (DO-TK-3C)
+  - §DO-P-2 ------------------------------~C:,O~&~":":LC=FOR jj
+  - ra:i_ i ! C
+  - i---•
+  - N0TE22 N0TE2
+  - SYS FAULT
+
+### 10.0 Chapter Front Matter  
+`chapters/10.0_Chapter_Front_Matter.md` — source pp. 1–6
+
+- STEAM AND POWER CONVERSION SYSTEM
+- TABLE OF CONTENTS
+- **10.4** OTHER FEATURES OF STEAM AND POWER CONVERSION SYSTEM 10.4-1
+    - STEAM AND POWER CONVERSION SYSTEM
+    - LDCN-06-042, 06-046
+    - STEAM AND POWER CONVERSION SYSTEM
+    - STEAM AND POWER CONVERSION SYSTEM
+    - LIST OF TABLES
+    - STEAM AND POWER CONVERSION SYSTEM
+    - LIST OF FIGURES
+    - STEAM AND POWER CONVERSION SYSTEM
+
+### 10.1 SUMMARY DESCRIPTION  
+`chapters/10.1_SUMMARY_DESCRIPTION.md` — source pp. 7–11
+
+- STEAM AND POWER CONVERSION SYSTEM
+- SUMMARY DESCRIPTION 10.1
+- BB 296
+- BB 281R
+- TC6F/47
+- **544.5** Enthalpy (Btu/lb)
+
+### 10.2 TURBINE GENERATOR  
+`chapters/10.2_TURBINE_GENERATOR.md` — source pp. 12–28
+
+- **10.2** TURBINE GENERATOR
+  - **10.2.1** DESIGN BASIS
+  - **10.2.2** SYSTEM DESCRIPTION
+  - **10.2.3** TURBINE DISK INTEGRITY
+  - **10.2.4** SAFETY EVALUATION
+  - CO2 CYLINDER CONNECT I ON ,
+  - HYDROGEN CYLINDER CDNNEC110N
+  - <vA•j2C DEUIL_L m. : .. '.·.• CG~·>SO
+  - CO2 RELIEF VALVE
+  - OPENS AT 100 PSIG
+  - COHNECT10N PROVIDED FOR
+  - SATISFACT R1
+  - APPROX
+  - BY PURCHASER
+- 5 INCH IPS SOCKET \.!ELD
+  - CARBON DIOXIDE GAS SUPPLY
+  - CONTRACT. I
+  - ORADELL, N.J.-HE .. MPSTEAD, N.Y.-LOS ANGELES, CAL. .
+  - REVIEWED AS CHECKED BELOW
+  - SIIUT UFF VALVE
+- 0 TO 100 PSIG nc;n
+  - PROI/IOED FOR SCHEDULE
+- 40 STEEL PI PE
+  - SUBJECT TO ALL CONTRACTUAL PROVISIONS
+  - SHUT-OFF --
+  - MANUAL PRESSURE
+  - HYDROGEN GAS SUPPLY --
+  - PANEL
+- **9.75** ____LL\ .
+- 4 HOLES SEE 47
+  - SCANNED
+  - HYORUGEN PRESSURE CONTROL
+  - WELD CONNECTION PROVIDED FOR SCHEDULE
+  - IS 14 13 12 II I 0
+  - NJ TE 5 ,
+  - HS-V-166C
+  - AR E CL,',,SS I F I EO A5 FQL OW'5 ,
+  - AN D ABBREVIATIONS
+  - NOTE4 NOTE2
+  - DEH-SV-TRIP/A CNE)
+- 1 ALL PIPING, ¥ AL\/ES,AN □ ASSOCIATEDE W I M NTONTHIS
+  - DEH-SV-TRIP/8 CNEJ
+  - HI GH PRE 5SURE
+  - SU'PLY
+  - DEH-SY-TRIP/C CNEJ
+  - DEH-Y-TRIP/13
+  - DEH-SV-TRIP/0 CNEJ
+  - I------------PT6
+  - REFERENC E DRAWINGS
+  - CVI 1095-00, 18.1 - QUADVOTER TRIP SYSTEM OUTLINE
+  - DEH-IR-TRIP
+  - QUADVOTER MANIFOLD DETAIL
+  - SEE M959 (ZONE E/4)
+  - SYMBOL LIST
+  - REFERENCE DWG, LIST
+  - ELECTRICALLY OPERATED VALVES (20)
+  - J SYSTEM
+  - ALARM RELAYS LOCATED IN ARC
+  - E'20-3
+  - TURNING GEAR SOLENOID VALVES
+  - E520-3 -Tt.ellt«l GEAR-OPD6 AT INCREASE: or "ENGACE AIR" PRESS. TO 20 PSIG C :-:c~~~~-M•5~· EHL/IX - LEVEL HI
+  - EHL/2X-LEVELLO-LO
+  - ELECTRO-HYORALI.IC PUMPS
+  - E'20-3
+  - EHL/.JX - LEVEL LO
+  - ES20-J
+  - EHTH/X - TEMPERATUIE HI
+  - EMERGENCY OIL PIMP
+  - E'20-3
+  - OIL VAPOR EXTRACTOR.GENERATOR
+  - E'20-4
+  - EXHMJST HOOD SPRAY VALVES
+  - AUTO STOP RESET & VAC TRIP LATCH
+  - E520-4
+  - ANTIIOIITORINC PROTECTION
+  - TURBINE TRIP CIRCUIT
+  - SW-10 -DIFF. PRESS. SW. CLOSES ON UM AIR SIDE SEAL OIL PUIF F'RESSI.R
+  - REVERSE CURRENT VALVES
+  - TURBINEAIARMS
+  - E520-4
+  - STEAMINLETVALVETESTINDICATION
+  - STU.UBYPASSVALVESINDICATIOII
+  - E'20-4
+  - STU.UPIPEDRAINVALVES
+  - REHEATERCONTROI.VALVES
+  - SW-9 -DIFF. PRESS. SW. CLOSES WHEN AIR SIDE SEAL OIL PUWI' IS OFF
+  - ES20-6
+  - VOLTAGERECULATORBASEACI.AJSTER
+  - E520-6
+  - VCI.TAGEREQJLATORVOLTACEADJUSTER
+  - VCI.TAGEREGULATORAI.ARMS
+  - VQ.TACE RECUL.ATOR SUPPLY BKR
+  - SW-I7 -DIFF, PRESS. SW, Q.OSES WHEN COOUNG WATER FILTER CLOGGED
+  - FID.D GROUND PROTECTION
+  - SW-I8 -PRESS. SW. Q.OSES WIEN MAKE-1.P WATER FLOW IS ON
+  - E520-2A
+  - LIMIT SW DEVELOPMENTS
+  - SW-24
+  - SW-25
+  - MISCELLANEOUS
+  - E520-7
+  - ANTI MOTORING LOCKOUT CIRCUIT
+  - EWD-,1E-017 STATOR COIL WATER PUWI' SCW-P-1 41-A
+  - ENERCI
+  - TRIP TRICON 1/0 CARD POINTS
+  - MONITORING IRICON 1/0 CARD POINT-9
+  - MC -AUX.REI.AYCABINET
+  - CONTROL TRICON 12 1/0 CARD POINT-II
+  - RCVI MS-TCV-115A
+  - MS-TCV-1158 LIMIT SWITCHES (33)
+  - RCVJ MS-TCV-115C D
+  - MS-V-15'8
+  - SOUIH
+  - SOUIH JIL MS-V-155C
+  - JRL MS-V-1156C SOUIH
+  - E520-1
+  - I 5 I 4 I 3 I I I I I
+- 12 I 11
+  - MS-RLY-HX/1A1
+  - MS-RLY-HX/1A2 E526-3 (F/15)
+  - TOBPA
+  - LEV. SW.
+  - HD-LS-23A
+  - LOW EH FLUID LEVEL
+  - SLOT 3, POINT 18
+  - ANTI-MOTORING
+  - TURBINE ALARMS
+  - DEH-CAB-03 DEH-CAB-OJ OEH-CAB-05
+  - LOW EH ELUIP LEVEL
+  - I EHPF1 -1
+  - H IN GEN. AU)(. PANEL
+  - MSRBHILEVEL B
+  - LIWTH-1
+  - EHPR-X
+  - RUNNING
+  - RUNNING
+  - I (C2) I
+  - LO-LO LEVEL LO LEVEL 0 HI LEVEL
+  - TURBINE ALARMS
+  - EHP-LX
+  - EI-L-1X
+  - SPARE
+  - QSV-Y(E) C ,., (C6A)
+  - ANNUNCIATOR
+  - C0335
+  - OPC VALVE 1 SOLENOID
+  - ZEROTURB.
+  - ZEROTURB.
+  - CHASSIS2
+  - SPEED
+  - SPEED
+  - POWERED FROM E-IR-J
+  - TURBINE ALARMS
+  - FSAR FIG. (C5) BS--QSV-10,0,
+  - I CHASSIS1
+  - SLOTJ.POINT 25
+  - E520-5
+
+### 10.3 MAIN STEAM SUPPLY SYSTEM  
+`chapters/10.3_MAIN_STEAM_SUPPLY_SYSTEM.md` — source pp. 29–36
+
+- **10.3** MAIN STEAM SUPPLY SYSTEM
+  - **10.3.1** DESIGN BASES
+  - **10.3.2** SYSTEM DESCRIPTION
+  - LDCN-05-009, 06-000
+  - **10.3.3** SAFETY EVALUATION
+  - **10.3.4** INSPECTION AND TESTING REQUIREMENTS
+  - **10.3.5** WATER CHEMISTRY
+  - **10.3.6** STEAM AND FEEDWATER SYSTEM MATERIALS
+    - **10.3.6.1** Fracture Toughness
+    - **10.3.6.2** Materials Selection and Fabrication
+
+### 10.4 Other Features Of Steam And Power Conversion System  
+`chapters/10.4_Other_Features_Of_Steam_And_Power_Conversion_System.md` — source pp. 37–88
+
+- **10.4** OTHER FEATURES OF STEAM AND POWER CONVERSION SYSTEM
+  - **10.4.1** MAIN CONDENSER
+    - **10.4.1.1** Design Bases
+    - **10.4.1.2** System Description
+    - **10.4.1.3** Safety Evaluation
+    - **10.4.1.4** Tests and Inspections
+    - **10.4.1.5** Instrumentation
+  - **10.4.2** MAIN CONDENSER EVACUATION SYSTEM
+    - **10.4.2.1** Design Bases
+    - **10.4.2.2** System Description
+    - **10.4.2.3** Safety Evaluation
+    - **10.4.2.4** Tests and Inspections
+    - **10.4.2.5** Instrumentation
+  - **10.4.3** TURBINE GLAND SEALING SYSTEM
+    - **10.4.3.1** Design Bases
+    - **10.4.3.2** System Description
+    - **10.4.3.3** Safety Evaluation
+    - **10.4.3.4** Tests and Inspection
+    - **10.4.3.5** Instrumentation
+  - **10.4.4** TURBINE BYPASS SYSTEM
+    - **10.4.4.1** Design Bases
+    - **10.4.4.2** System Description
+    - **10.4.4.3** Safety Evaluation
+    - **10.4.4.4** Tests and Inspections
+    - **10.4.4.5** Instrumentation
+  - **10.4.5** CIRCULATING WATER SYSTEM
+    - **10.4.5.1** Design Bases
+    - **10.4.5.2** System Description
+    - **10.4.5.3** Safety Evaluation
+    - **10.4.5.4** Tests and Inspections
+    - **10.4.5.5** Instrumentation
+  - **10.4.6** CONDENSATE FILTER DEMINERALIZER SYSTEM
+    - **10.4.6.1** Design Bases
+    - **10.4.6.2** System Description
+    - **10.4.6.3** Safety Evaluation
+    - **10.4.6.4** Tests and Inspections
+    - **10.4.6.5** Instrumentation
+    - **10.4.6.6** Demineralizer Resins
+    - **10.4.6.7** Water Chemistry Analyses
+  - **10.4.7** CONDENSATE AND FEEDWATER SYSTEMS
+    - **10.4.7.1** Design Bases
+    - **10.4.7.2** System Description
+    - **10.4.7.3** Safety Evaluation
+    - **10.4.7.4** Tests and Inspections
+    - **10.4.7.5** Instrumentation
+  - **10.4.8** STEAM GENERATOR BLOWDOWN SYSTEMS
+  - **10.4.9** AUXILIARY FEEDWATER SYSTEM
+  - **10.4.10** HYDROGEN WATER CHEMISTRY SYSTEM
+    - **10.4.10.1** Design Bases
+    - **10.4.10.2** System Description
+      - **10.4.10.2.1** Hydrogen Storage and Supply Facility
+      - **10.4.10.2.2** Hydrogen and Air Injection
+    - **10.4.10.3** Safety Evaluation
+    - **10.4.10.4** Tests and Inspections
+    - **10.4.10.5** Instrumentation
+  - LDCN-05-037, 07-018
+  - t
+  - t FROM HSR FROM MSR
+  - FROM MSR t
+- 1 VAL VE CNORMALL Y CLDSEDJ
+  - TO MSR
+  - TO MSR
+  - SAFETY HEAD
+  - SWING CHECK
+  - PNEUMATICALLY OPERATED VALVE
+  - CONDENSER
+  - TEST GAUGE CONNECTION
+  - PURCHASERS PIPE CONNECTION
+  - I ----- PURCHASERS PIPING
+  - PRESSURE REDUCING VALVE
+  - CONTROL PILOT
+  - t
+  - LJ t
+  - t
+  - t
+  - t
+  - t
+  - t
+  - I I I I I
+  - I I I I I I I I I I I I I I I I
+  - I I I I I I I
+  - I I I I I I I
+  - I I I I I I I
+  - HOTOR OPERATED VALVE
+  - I I I I I I I
+  - I I I I I I I
+  - -------------------- l. ___________________________l ,_ ------------r:::i __________________________________________ r '
+  - SOLENOID OPERATED VALVE
+  - PRESSURE REGULATOR
+  - TRANSMITTER
+  - TO LP CYL t
+  - TO LP CYL t
+  - DIFFERENTIAL PRESSURE REGULATOR
+  - DRAIN POT I
+  - BY-PASS VALVE
+  - ATHDS
+  - A BLIND FLANGE HAS BEEN INSTALLED IN PLACE
+  - OF TH E BONNET.
+  - M0-V-87
+  - MD-R0-3 L(TYP 3)
+  - MD-R0-4 (TYP J)
+  - MD-R0-5 MD-V- 78
+  - MD-R0-6 MD-V-75
+  - MD-V- 79
+  - MD-V-76
+  - FLUSH
+  - CL-TK-3
+  - CL-TK-6
+  - CATCH TANK FOR
+  - INSIDE
+  - CJRC WATER SAMPI ING SYSTEM
+  - WATER BASIN A
+  - TO CIRC. WATER
+  - INSI DE BLDG . .30 OUTSID E
+  - LC CL-V-97
+  - TP-10
+  - CL-SKID-2
+  - LC CL-V-9 6
+  - PUMP DISCH,
+  - CL- EJ-6 CL-V-93
+  - CL-V-90 (D)
+  - ANTIFOAM SU PP LY TO BIOOISPERSANT SUPPLY
+  - CI RC WATER BASIN TO CIRC WATER BASIN
+  - I I I
+  - I I I I
+  - : : ~------------{)---{:o:}--i 1 I I ' I
+  - TO CND WATER BOX VENTS
+  - I I I
+  - CW-V-35(TH)
+  - M507-2
+- 1 ALL WORK ON THIS DRAWING SHALL BE QUALITY CLASS G UNLESS
+  - OTHERWISE NOTED. H
+- 2 FOR A LIST OF REFERENCE OWGS REFER TO OWG C912
+- 3 ALL PIPING, VALVES, TANKS, PUMPS, INSTRUl.1ENTS, ETC ON THIS OWG
+  - ARE PART OF THE CHEWCAL FEED SYSTEM (CF)
+- 7 DELETED
+  - CW BAY A
+  - SEE TYP FLOOR PENETRATION OET
+  - ON DWG C91J
+  - F-V-86J CF-V-8 62
+  - t~ 1
+  - FLOOR PENETRATION LOCATION
+  - NO BAY GRID LOCATION
+  - PUMP HOUSE
+- **4.8** X.55
+  - I I CF
+  - TSW-P-1B TSW-P-1A
+  - CW BAY C SEE TYP FLOOR PENETRATION DET CW BAY B
+  - CW BAY A CF-V-808B
+  - SEE 1,,1507-1 (A, B/13-15) ON DWG C91J SEE M507-1 (A,B/13-15) SEE M507-1 (A,B/13-15)
+  - SEE TYP FLOOR PENETRATION DET
+  - CF-QOC-10
+  - SEE TYP FLOOR PENETRATION OET
+  - TO TMU (CONT ON M5D7-I
+  - CW BAY A
+  - ZONE D/11)
+  - SEE M507-1 (A,B/13 15)
+  - M507-3
+  - AN O ASSOCIATED COMPONENTS IN THE HYDROGEN WATER CHEMI STRY SYSTH-A
+  - i f-:11\".fJE, ..
+  - _ __L_ :2-F:-:R-F~ - --- --:- ~R~Fl E-CP-P73/P500 :
+  - DEMAND DEMAND SU PPLY SUPPLY
+- 1 SETPOINT SETPOINT FLOWRATE FLOWRATE
+  - HSSF-G P-P2 HSS F-GAB-LOGAL
+  - I I I I
+  - I I I I
+  - I I I
+  - I I I I
+  - I I I I
+  - I I I I
+  - I I I I
+  - I I I I
+  - I I I I
+  - TO HWC-IR- P73/ 7
+  - LOW POI HT
+  - HWC-TK-1 DRAIH
+  - HWC-V-11 0A (TH)
+  - N112B) 0G-V- 20J(REF)
+  - CONT ON OWG
+  - OG-J/5
+  - FSAR FIG.
+  - M986-1
+  - HWC-IR-P73/P200
+  - NOTES,
+  - HYDROGEN WATER CHEMISTRY SYSTEM (HWC) AND THE HYDROGEN
+  - SUPPLIED AND DESIGNED BY CHART MANUFACTURING. SEE
+  - I 5. SEE DWG M501 FOR FLOW DIAGRAM LEGENDS. SYMBOLS AND
+  - VNO,C3
+  - ABBREVIATIONS.
+  - INNER SHELL
+  - I (PV-50-4)
+  - I I I I I I H I I II I
+  - HSSF-TK-2
+  - HSSF - RD-PSE502
+  - HSSF -F -FIL300
+  - HSSF-V-FV500
+  - HSSF -V-BV50-4
+  - HSSF-V-PV301
+  - U'V-301)
+  - HSSF-V-IV500
+  - HSSF-V-BV.312 HSSF -V-BVJ 1 -4
+  - HSSF -RV- PSV305
+  - HSSF-RV-PSV.306
+  - HSSF-V-CV.302
+  - AMBIENT VENT
+  - HSSF-V-IV502
+  - VAPORIZORS
+  - HSSF-V-BV.31J HSSF-V-BV.315
+  - HS5F-RV-PSV505 I
+  - VENT HSSF-V-PV505 HSSF-RD-PSE500
+  - HSSF-RD-PSE501 I
+  - HSSF-RV-PSV504
+  - I VENT
+  - HSSF-VZ-PBC500
+  - HSSF-V-PV501
+  - I I I I I I I I
+  - HSSF-PCV-500
+  - HSSF-V-BVSOJ
+  - FSAR FI G.
+  - M986-3
+  - RADIOACTIVE WASTE MANAGEMENT
+  - TABLE OF CONTENTS
+
+### 11.0 Chapter Front Matter  
+`chapters/11.0_Chapter_Front_Matter.md` — source pp. 1–9
+
+- RADIOACTIVE WASTE MANAGEMENT
+- RADIOACTIVE WASTE MANAGEMENT
+- **11.4.2.4** Radwaste Disposal System For Fuel Pool, Floor Drain, and Waste
+- **11.5** PROCESS AND EFFLUENT RADIOLOGICAL MONITORING
+- RADIOACTIVE WASTE MANAGEMENT
+  - **11.5.2.1.3** Deleted
+    - **11.5.2.2.1.5** Reactor Building Elevated Release Duct Radiation Monitoring
+    - **11.5.2.2.1.6** Turbine-Generator Building Ventilation Release Duct Radiation
+    - **11.5.2.2.1.7** Radwaste Building Ventilation Release Ducts Radiation
+    - **11.5.2.2.2.2** Reactor Building Closed Cooling Water Radiation Monitoring
+    - **11.5.2.2.2.4** Circulating Water and Plant Service Water Radiation Monitoring
+    - **11.5.2.2.3.2** Loss-of-Coolant Accident Tracking Radiation Monitoring Systems
+- RADIOACTIVE WASTE MANAGEMENT
+- RADIOACTIVE WASTE MANAGEMENT
+- LIST OF TABLES
+- RADIOACTIVE WASTE MANAGEMENT
+- LDCN-02-000, 02-005
+- RADIOACTIVE WASTE MANAGEMENT
+- RADIOACTIVE WASTE MANAGEMENT
+- LIST OF FIGURES
+- RADIOACTIVE WASTE MANAGEMENT
+- LIST OF FIGURES
+
+### 11.1 Source Terms  
+`chapters/11.1_Source_Terms.md` — source pp. 10–31
+
+- RADIOACTIVE WASTE MANAGEMENT
+- **11.1** SOURCE TERMS
+  - **11.1.1** FISSION PRODUCTS
+    - **11.1.1.1** Noble Radiogas Fission Products
+- **0.056** Ci/sec (t = 30 minutes) and with radiogas leakage at Dresden-2 varying from 0.001 to
+- **0.169** Ci/sec (t = 30 minutes), the average value of m was determined. The value for m is 0.4
+    - **11.1.1.2** Radiohalogen Fission Products
+  - R K Y
+    - **11.1.1.3** Other Fission Products
+    - **11.1.1.4** Nomenclature
+  - **11.1.2** ACTIVATION PRODUCTS
+    - **11.1.2.1** Coolant Activation Products
+    - **11.1.2.2** Noncoolant Activation Products
+    - **11.1.2.3** Steam and Power Conversion System N-16 Inventory
+  - **11.1.3** TRITIUM
+  - **11.1.4** FUEL FISSION PRODUCT INVENTORY AND FUEL EXPERIENCE
+    - **11.1.4.1** Fuel Fission Product Inventory
+    - **11.1.4.2** Fuel Experience
+  - **11.1.5** RADIOACTIVITY LEAKAGE AND EFFLUENT SOURCES
+  - **11.1.6** REFERENCES
+
+### 11.2 Liquid Waste Management System  
+`chapters/11.2_Liquid_Waste_Management_System.md` — source pp. 32–80
+
+- **11.2** LIQUID WASTE MANAGEMENT SYSTEM
+  - **11.2.1** DESIGN BASIS
+- 10 CFR 50. The design incorporates the objectives of maximum recycle and minimum release
+  - **11.2.2** SYSTEM DESCRIPTION
+    - **11.2.2.1** Process Description
+    - **11.2.2.2** Subsystems Description
+      - **11.2.2.2.1** Equipment Drain Subsystem
+      - **11.2.2.2.2** Floor Drain Subsystem
+      - **11.2.2.2.3** Chemical Waste Subsystem
+      - **11.2.2.2.4** Shared Equipment
+      - **11.2.2.2.5** Surge Capacities
+      - **11.2.2.2.6** Design Features
+  - **11.2.3** RADIOACTIVE RELEASES
+    - **11.2.3.1** Release Point and Dilution
+    - **11.2.3.2** Calculation of Releases of Radioactive Materials
+    - **11.2.3.3** Exposure of Persons at or Beyond the Site Boundary
+    - **11.2.3.4** Cost-Benefit Analysis
+  - LEGEND
+- 37 Radwaste System Process Flow Diagram Data (Continued)
+  - I I I
+  - I I I
+  - EQUIPMENT DRAIN SUBSYSTEM
+  - FLOOR DRAIN SUBSYSTEM
+  - CHEMICAL WASTE SUBSYSTEM
+  - CORROSION AND ACTIVATION PRODUCTS
+  - FISSION PRODUCTS
+  - PIIMI IIU.
+  - IOUIP. •••
+  - GLASSES TO BE IN SI-HELOED AREA.
+  - NOTED OTHERWISE.
+  - IN THE MWR AND PVR SYSTEMS SHOWN ON THIS
+  - DWG. ARE CLASSIFIED AS FOLLOWS UNLESS
+  - VESSELS, TANKS, PUMPS, HEAT EXCHANGERS,
+  - COMPONENTS NOT IN THE MWR AND PVR
+  - LIN ES WITH INTERMITTENT FLOWS, ARE TO BE
+  - KEPT WET AT ALL TIMES BY A LOOP SEAL,
+  - SEISMIC CATEGORY II
+  - PROVIDED BY THE APPLICABLE NOTES ON THIS
+  - PLUGS INSTALLED FLUSI-I WITI-I TANK BOTTOMS TO
+  - ELIMINATE DEAD LEG CRUD TRAPS
+  - LATER PRE-OPERATIONAL TESTING AND ARE NOT
+  - PRESENTLY OPERATIONAL.
+  - I ' ' ' ' L.-------------
+  - A THROTTLED VALVE.
+  - DWG. M532 (E/7) I
+  - M533-1
+
+### 11.3 Gaseous Waste Management Systems  
+`chapters/11.3_Gaseous_Waste_Management_Systems.md` — source pp. 81–112
+
+- **11.3** GASEOUS WASTE MANAGEMENT SYSTEMS
+  - **11.3.1** DESIGN BASES
+  - **11.3.2** SYSTEM DESCRIPTION
+    - **11.3.2.1** Main Condenser Steam Jet Air Ejector RECHAR System
+- 3 KD = dynamic adsorption coefficient for the given gas, cm
+- 3 V = flow rate of the carrier gas, cm
+    - **11.3.2.2** Other Radioactive Gas Sources
+    - **11.3.2.3** Cost-Benefit Analysis
+    - **11.3.2.4** Design Features of the Offgas System
+      - **11.3.2.4.1** Maintainability
+      - **11.3.2.4.2** Pressure Boundaries
+      - **11.3.2.4.3** Building Seismic Design
+      - **11.3.2.4.4** Construction of Process Systems
+      - **11.3.2.4.5** Instrumentation and Control
+      - **11.3.2.4.6** Detonation Resistance
+      - **11.3.2.4.7** Operator Exposure Criteria and Controls
+      - **11.3.2.4.8** Equipment Malfunction
+    - **11.3.2.5** Offgas System Operating Procedure
+      - **11.3.2.5.1** Prestartup Preparations
+      - **11.3.2.5.2** Startup
+      - **11.3.2.5.3** Normal Operation
+    - **11.3.2.6** Offgas System Performance Tests
+      - **11.3.2.6.1** Recombiner
+      - **11.3.2.6.2** Prefilter
+      - **11.3.2.6.3** Desiccant Gas Dryer
+      - **11.3.2.6.4** Charcoal Performance
+      - **11.3.2.6.5** Post Filter
+  - **11.3.3** RADIOACTIVE RELEASES
+    - **11.3.3.1** Release Points
+    - **11.3.3.2** Dilution Factors
+    - **11.3.3.3** Estimated Releases
+  - **11.3.4** REFERENCES
+  - LDCN-07-041, 09-009
+  - I I I
+- **2.3** E-6 1.8 E-11 1 E-7
+
+### 11.4 SOLID WASTE MANAGEMENT SYSTEM  
+`chapters/11.4_SOLID_WASTE_MANAGEMENT_SYSTEM.md` — source pp. 113–134
+
+- **11.4** SOLID WASTE MANAGEMENT SYSTEM
+  - **11.4.1** DESIGN BASIS
+- 10 CFR Part 20. Water separated in processing is returned to the liquid waste management
+  - **11.4.2** SYSTEM DESCRIPTION
+    - **11.4.2.1** General
+    - **11.4.2.2** Radwaste Disposal System For Reactor Water Cleanup Resin
+    - **11.4.2.3** Radwaste Disposal System For Condensate Demineralizer Resin
+    - **11.4.2.4** Radwaste Disposal System For Fuel Pool, Floor Drain, and Waste Collector
+    - **11.4.2.5** Radwaste Disposal System For Spent Resin
+    - **11.4.2.6** Resin Container Handling and Storage
+    - **11.4.2.7** Miscellaneous Dry Solid Waste System
+    - **11.4.2.8** Expected Volumes
+    - **11.4.2.9** Packaging
+    - **11.4.2.10** Storage Facilities
+    - **11.4.2.11** Shipment
+    - **11.4.2.12** Process Monitoring
+  - **11.4.3** PROCESS CONTROL PROGRAM
+    - **11.4.3.1** Objective
+  - ETSB 11-3.
+    - **11.4.3.2** Process Control Program
+    - **11.4.3.3** Process Control Systems
+- 10 CFR Part 61 criteria. The process control program is described and controlled by
+    - **11.4.3.4** Waste Characterization
+    - **11.4.3.5** Processing Methods (Wet Wastes)
+    - **11.4.3.6** Control Instrumentation and Sampling Program
+    - **11.4.3.7** Maintenance and Calibration
+    - **11.4.3.8** Waste Processing System Capacity
+    - **11.4.3.9** Waste Storage Capacity
+    - **11.4.3.10** Compliance With ALARA Principles
+    - **11.4.3.11** Unanticipated Wastes
+    - **11.4.3.12** Waste Classification
+- 10 CFR 61 to establish the waste classification. This analysis may in many instances use
+    - **11.4.3.13** Waste Packaging and Shipping
+  - DWGM532(C/10)
+  - G11-A027
+  - G11-D094 G
+  - PWR-FU- 48
+  - CLOSED
+- 1 ALLVAL\IESSUFFIXEDWITH A (V) DEOOTEAJ/ +"\IENTVAf_\lE
+- 2 ALLVAL\IESSUFFIXEDWITHA(D)DEfl{JlEAJ/4"0R-IINVAL\IE B
+
+### 11.5 Process And Effluent Radiological Monitoring And Sampling  
+`chapters/11.5_Process_And_Effluent_Radiological_Monitoring_And_Sampli.md` — source pp. 135–178
+
+- **11.5** PROCESS AND EFFLUENT RADIOLOGICAL MONITORING AND SAMPLING
+  - SYSTEMS
+  - **11.5.1** DESIGN BASIS
+    - **11.5.1.1** Design Objectives
+      - **11.5.1.1.1** Systems Required for Safety
+      - **11.5.1.1.2** Systems Required for Plant Operation
+    - **11.5.1.2** Design Criteria
+      - **11.5.1.2.1** Systems Required for Safety
+      - **11.5.1.2.2** Systems Required for Plant Operation
+  - **11.5.2** SYSTEM DESCRIPTION
+    - **11.5.2.1** Systems Required for Safety
+      - **11.5.2.1.1** Main Steam Line Radiation Monitoring System
+      - **11.5.2.1.2** Reactor Building Exhaust Plenum Radiation Monitoring System
+      - **11.5.2.1.3** Deleted
+    - **11.5.2.2** Systems Required for Plant Operation
+      - **11.5.2.2.1** Gaseous Process and Effluent Radiation Monitoring System
+  - RB STACK RAD HIGH.
+      - **11.5.2.2.1.7** Radwaste Building Ventilation Release Ducts Radiation Monitoring System.
+      - **11.5.2.2.2** Liquid Process and Effluent Radiation Monitoring System
+      - **11.5.2.2.2.1** Standby Service Water Radiation Monitoring System. See Section 11.5.2.1.4.
+      - **11.5.2.2.3** Primary Containment Radiation Monitoring System
+    - **11.5.2.3** Sampling
+      - **11.5.2.3.1** Process Sampling
+      - **11.5.2.3.2** Effluent Sampling
+- 10 CFR Part 50.36a in annual reports to the NRC. The frequency of the periodic sampling
+      - **11.5.2.3.3** Analytical Procedures
+      - **11.5.2.3.4** Inservice Inspection, Calibration, and Maintenance
+  - **11.5.3** EFFLUENT MONITORING AND SAMPLING
+  - **11.5.4** PROCESS MONITORING AND SAMPLING
+  - B. SYSTEMS REQUIRED FOR PLANT OPERATION
+  - MS-RE-3A, 3B, 3C,
+  - REA-RE-9A, 9B,
+  - OG-RE-601B
+  - OG-RE-2
+  - N/A N/A N/A N/A N/A
+  - N/A N/A N/A
+  - N/A N/A
+  - PRM-RE-11 PRM-RE-12 PRM-RE-13
+  - OG-RE-11 AR-RE-21
+  - N/A N/A
+  - N/A N/A
+  - LDCN-06-051, 07-001
+  - N/A N/A
+  - CMS-RE-12-1A CMS-RE-12-3A CMS-RE-12-1B CMS-RE-12-3B
+  - SW-RE-4, 5
+  - CBD-RE-8 TSW-RE-5 FDR-RE-6
+  - LDCN-06-015, 06-041
+
+### 11.6 POSTACCIDENT SAMPLING SYSTEM  
+`chapters/11.6_POSTACCIDENT_SAMPLING_SYSTEM.md` — source pp. 179–181
+
+- **11.6** POSTACCIDENT SAMPLING SYSTEM
+  - **11.6.1** DESIGN BASIS
+  - **11.6.2** SYSTEM DESCRIPTION
+
+### 12.0 Chapter Front Matter  
+`chapters/12.0_Chapter_Front_Matter.md` — source pp. 1–7
+
+- RADIATION PROTECTION
+- TABLE OF CONTENTS
+- **12.1** ENSURING THAT OCCUPATIONAL RADIATION EXPOSURES
+    - AND RADIATION EXPOSURES TO MEMBERS OF THE PUBLIC
+    - **12.2.2.2** Model for Computing the Airborne Radionuclide Concentration in
+    - RADIATION PROTECTION
+      - **12.2.2.3.4** Effect of Removing Reactor Pressure Vessel Head and Associated
+      - **12.3.1.3.4** Design Features That Reduce Occupational Doses During
+  - **12.3.4** IN-PLANT AREA RADIATION AND AIRBORNE RADIOACTIVITY
+    - RADIATION PROTECTION
+  - **12.4.2** PERSONNEL DOSE ASSESSMENT BASED ON BWR
+    - **12.5.3.6** Radioactive Material Control Including Special Nuclear
+    - RADIATION PROTECTION
+    - RADIATION PROTECTION
+    - RADIATION PROTECTION
+    - LIST OF FIGURES
+    - RADIATION PROTECTION
+
+### 12.1 Ensuring That Occupational Radiation Exposures And  
+`chapters/12.1_Ensuring_That_Occupational_Radiation_Exposures_And.md` — source pp. 8–18
+
+- RADIATION PROTECTION
+- **12.1** ENSURING THAT OCCUPATIONAL RADIATION EXPOSURES AND
+  - RADIATION EXPOSURES TO MEMBERS OF THE PUBLIC ARE AS LOW AS
+  - IS REASONABLY ACHIEVABLE (ALARA)
+  - **12.1.1** POLICY CONSIDERATIONS
+- 10 CFR Part 20 and are approved, maintained, and adhered to for all operations involving
+  - ALARA.
+  - **12.1.2** DESIGN CONSIDERATIONS
+  - **12.1.3** OPERATIONAL CONSIDERATIONS
+    - **12.1.3.1** Procedures and Methods of Operation
+    - **12.1.3.2** Design Changes for ALARA Exposures
+    - **12.1.3.3** Operational Information
+
+### 12.2 RADIATION SOURCES  
+`chapters/12.2_RADIATION_SOURCES.md` — source pp. 19–51
+
+- **12.2** RADIATION SOURCES
+  - **12.2.1** CONTAINED SOURCES
+    - **12.2.1.1** General
+    - **12.2.1.2** Reactor and Turbine Building
+      - **12.2.1.2.1** Reactor Core Radiation Sources
+      - **12.2.1.2.2** Process System Radiation Sources
+    - **12.2.1.3** Radwaste Building
+    - **12.2.1.4** Byproduct, Source and Special Nuclear Materials
+  - **12.2.2** AIRBORNE RADIOACTIVE MATERIAL SOURCES
+    - **12.2.2.1** General
+    - **12.2.2.2** Model for Computing the Airborne Radionuclide Concentration in a Plant
+    - **12.2.2.3** Sources of Airborne Radioactivity
+      - **12.2.2.3.1** Effect of Leakage from Process Equipment in Radioactive Systems
+      - **12.2.2.3.2** Effect of Sumps, Drains, Tank, and Filter Demineralizer Vents
+      - **12.2.2.3.3** Effect of Relief Valve Exhaust
+      - **12.2.2.3.4** Effect of Removing Reactor Pressure Vessel Head and Associated Internals
+      - **12.2.2.3.5** Effect of Sampling
+      - **12.2.2.3.6** Effect of Spent Fuel Movement
+      - **12.2.2.3.7** Effects of Solid Radwaste Handling Areas
+      - **12.2.2.3.8** Effects of Liquid Radwaste Handling Areas
+  - **12.2.3** REFERENCES
+- **1.5** At core center: Pmax Pave Z (axial)
+- **1.4** Pave R (radial)
+- 2 Days After Shutdown
+  - FWH 5A
+  - FWH 4A
+
+### 12.3 RADIATION PROTECTION DESIGN FEATURES  
+`chapters/12.3_RADIATION_PROTECTION_DESIGN_FEATURES.md` — source pp. 52–82
+
+- **12.3** RADIATION PROTECTION DESIGN FEATURES
+  - **12.3.1** FACILITY DESIGN FEATURES
+    - **12.3.1.1** Radiation Zone Designations
+    - **12.3.1.2** Traffic Patterns
+    - **12.3.1.3** Radiation Protection Design Features
+      - **12.3.1.3.1** Facility Design Features
+      - **12.3.1.3.2** Design Features That Reduce Crud Buildup
+  - LDCN-05-002, 05-007
+      - **12.3.1.3.3** Field Routing of Piping
+      - **12.3.1.3.4** Design Features That Reduce Occupational Doses During Decommissioning
+    - **12.3.1.4** Radioactive Material Safety
+      - **12.3.1.4.1** Materials Safety Program
+      - **12.3.1.4.2** Facilities and Equipment
+      - **12.3.1.4.3** Personnel and Procedures
+      - **12.3.1.4.4** Required Materials
+  - **12.3.2** SHIELDING
+    - **12.3.2.1** General
+    - **12.3.2.2** Methods of Shielding Calculations
+    - **12.3.2.3** Shielding Description
+      - **12.3.2.3.1** General
+      - **12.3.2.3.2** Reactor Building
+      - **12.3.2.3.3** Turbine Building
+      - **12.3.2.3.4** Radwaste Building
+  - **12.3.3** VENTILATION
+  - **12.3.4** IN-PLANT AREA RADIATION AND AIRBORNE RADIOACTIVITY
+  - MONITORING INSTRUMENTATION
+    - **12.3.4.1** Criteria for Necessity and Location
+    - **12.3.4.2** Description and Location
+- 10 CFR 50.68(b) requires radiation monitors in storage and associated handling
+    - **12.3.4.3** Specification for Area Radiation Monitors
+    - **12.3.4.4** Specification for Airborne Radiation Monitors
+    - **12.3.4.5** Annunciators and Alarms
+    - **12.3.4.6** Power Sources, Indicating and Recording Devices
+  - **12.3.5** REFERENCES
+- 1 Reactor building fuel pool area
+- 2 Reactor building fuel pool area
+- 3 Reactor building new fuel area
+- 4 Reactor building control rod hyd equipment area E 522
+- 5 Reactor building control rod hyd equipment area W 522
+- 6 Reactor building equipment access area S
+- 7 Reactor building neutron monitor system drive 501
+- 8 Reactor building SGTS filters area
+- 9 Reactor building northwest RHR pump room
+- 10 Reactor building southwest RHR pump room
+- 11 Reactor building northeast RHR pump room
+- 12 Reactor building RCIC pump room
+- 13 Reactor building HPCS pump room
+- 14 Turbine building turbine front standard
+- 15 Turbine building entrance
+- 16 Turbine building reactor feed pump area 1A
+- 17 Turbine building reactor feed pump area 1B
+- 18 Turbine building condensate pump area
+- 19 Main control room
+- 20 Radwaste building valve room E
+- 21 Radwaste building valve room W
+- 22 Radwaste building sample room
+- 23 Reactor building CRD pump room 10
+- 24 Reactor building equipment access area (W)
+- 25 Radwaste building hot machine shop
+- 26 Radwaste building contaminated tool room
+- 27 Radwaste building waste surge tank area
+- 28 Radwaste building tank corridor area north
+- 29 Radwaste building tank corridor area south
+- 30 Radwaste building radwaste control room
+- 32 Reactor building NE entrance
+- 33 Reactor building NW entrance
+- 34 Reactor building eastside
+  - ARM-RE-1
+  - ARM-RE-2
+  - ARM-RE-3
+  - ARM-RE-3A
+  - ARM-RE-4
+  - ARM-RE-5
+  - ARM-RE-6
+  - ARM-RE-7
+  - ARM-RE-8
+  - ARM-RE-9
+  - ARM-RE-10
+  - ARM-RE-11
+  - ARM-RE-12
+  - ARM-RE-13
+  - ARM-RE-23
+  - ARM-RE-24
+  - ARM-RE-32
+  - ARM-RE-33
+  - ARM-RE-34
+  - AREA RADIATION UONITOR
+  - CHANNEL WITH AUX UNIT
+  - I CONVERTER
+  - O.J-1000 I
+  - I N004 (HPOF3J
+  - I I I
+  - TABLE I
+  - CONTROL POWER
+  - I L- INSTRUUENT BUS
+  - AUXILIARY
+  - UNIT I ALARM
+  - L0C.11.L
+- 10 INDICATOR
+  - II TRIP UNITS
+  - NUMBER
+  - IC603A PWR I 2 3 4
+  - INDICATOR
+  - TRIP UNIT
+  - SEE INSTRUIIENT OAT A SHEET 021-3050- .
+  - I I I
+  - I 1 I
+  - I I ' I I
+- 15 I& 17 18 19 20
+  - SEE NOTE 6
+  - I Figure I Rev. 6
+
+### 12.4 DOSE ASSESSMENT  
+`chapters/12.4_DOSE_ASSESSMENT.md` — source pp. 83–98
+
+- **12.4** DOSE ASSESSMENT
+  - **12.4.1** DESIGN CRITERIA
+  - **12.4.2** PERSONNEL DOSE ASSESSMENT BASED ON BWR OPERATING DATA
+    - **12.4.2.1** General
+    - **12.4.2.2** Personnel Dose from Operating BWR Data
+    - **12.4.2.3** Occupancy Factors, Dose Rates, and Estimated Personnel Exposures
+  - **12.4.3** INHALATION EXPOSURES
+  - **12.4.4** SITE BOUNDARY DOSE
+  - **12.4.5** REFERENCES
+
+### 12.5 RADIATION PROTECTION PROGRAM  
+`chapters/12.5_RADIATION_PROTECTION_PROGRAM.md` — source pp. 99–118
+
+- **12.5** RADIATION PROTECTION PROGRAM
+  - **12.5.1** ORGANIZATION
+  - **12.5.2** EQUIPMENT, INSTRUMENTATION, AND FACILITIES
+    - **12.5.2.1** Criteria for Selection
+    - **12.5.2.2** Facilities
+    - **12.5.2.3** Equipment
+- 10 CFR 20. Allowance is made for use of respiratory protective equipment, as
+    - **12.5.2.4** Instrumentation
+  - **12.5.3** PROCEDURES
+    - **12.5.3.1** Personnel Control Procedures
+    - **12.5.3.2** As Low As Is Reasonably Achievable Procedures
+    - **12.5.3.3** Radiological Survey Procedures
+    - **12.5.3.4** Procedures for Radioactive Contamination Control
+- 10 CFR 20.1101(b), 20.1501, NRC Circular 81-07, and industry-accepted
+- 10 CFR 20.1501. When physical surveys are performed, they will be
+    - **12.5.3.5** Procedures for Control of Airborne Radioactivity
+    - **12.5.3.6** Radioactive Material Control Including Special Nuclear Materials (SNM)
+- 10 CFR 20.1801 and 1802,
+    - **12.5.3.7** Personnel Dosimetry Procedures
+- 10 CFR 20.1201. An individual is allowed to exceed these 10 CFR 20 exposure limits only in
+    - **12.5.3.8** Radiation Protection Surveillance Program
+- 10 CFR 19.12 and the guidance of Regulatory Guides 1.8, 8.8, 8.10, 8.27, and
+- 1 Gamma 0-100 R
+
+### 13.0 Chapter Front Matter  
+`chapters/13.0_Chapter_Front_Matter.md` — source pp. 1–37
+
+- CONDUCT OF OPERATIONS
+- TABLE OF CONTENTS
+- LDCN-18-001, 18-032
+- CONDUCT OF OPERATIONS
+- CONDUCT OF OPERATIONS
+- CONDUCT OF OPERATIONS
+- LIST OF TABLES
+- CONDUCT OF OPERATIONS
+- LIST OF FIGURES
+- **13.1.1.2** Organizational Arrangement
+- **13.1.1.3** Qualifications
+- **13.1.2** OPERATING ORGANIZATION
+- **13.1.2.1** Plant Organization
+- **13.1.2.2** Plant Personnel Responsibilities and Authorities
+  - **13.1.2.2.1** Plant Management
+- LDCN-23-004, 23-039
+  - **13.1.2.2.2** Operations Supervision
+- OQAPD.
+- LDCN-23-004, 23-028
+  - **13.1.2.2.3** Operating Shift Crew Supervision
+  - **13.1.2.2.4** Shift Technical Advisor
+  - **13.1.2.2.5** Licensed Operators
+  - **13.1.2.2.6** Nonlicensed Operators
+  - **13.1.2.2.7** Engineering Management
+  - **13.1.2.2.7.5** Deleted
+  - **13.1.2.2.7.6** Deleted
+  - **13.1.2.2.7.7** Deleted
+  - **13.1.2.2.8** Nuclear Engineering Supervision
+- LDCN-18-001, 18-032
+  - **13.1.2.2.9** Radiological Services Supervision
+  - **13.1.2.2.10** Chemistry Supervision
+  - **13.1.2.2.11** Maintenance Supervision
+  - **13.1.2.2.12** Planning, Scheduling and Outage Supervision
+  - **13.1.2.2.13** Quality Supervision
+- OQAPD.
+- **13.1.2.3** Operating Shift Crews
+  - **13.1.2.3.1** Shift Crew Composition
+  - **13.1.2.3.2** Shift Responsibility for Radiation Protection
+  - **13.1.2.3.3** Shift Maintenance Support
+  - **13.1.2.3.4** Shift Fire Brigade
+  - **13.1.2.3.5** Shift Chemistry Support
+- **13.1.3** QUALIFICATIONS OF NUCLEAR PLANT PERSONNEL
+- **13.1.3.1** Plant Management
+- **13.1.3.2** Operations Department
+  - **13.1.3.2.1** Operations Director
+  - **13.1.3.2.2** Shift Manager
+  - **13.1.3.2.3** Control Room Supervisor
+  - **13.1.3.2.4** Shift Technical Advisor
+  - **13.1.3.2.5** Shift Support Supervisor
+  - **13.1.3.2.6** Reactor Operator
+  - **13.1.3.2.7** Equipment Operator
+- **13.1.3.3** Engineering
+  - **13.1.3.3.1** Engineer in Charge
+  - **13.1.3.3.2** Engineering Managers
+  - **13.1.3.3.3** Engineering Supervisors
+  - **13.1.3.3.4** Fire Protection Engineer
+- **13.1.3.4** Maintenance
+  - **13.1.3.4.1** Maintenance Director
+  - **13.1.3.4.2** Maintenance Supervisors
+- **13.1.3.5** Chemistry and Radiological Services
+  - **13.1.3.5.1** Chemistry/Radiological Services Director
+  - **13.1.3.5.2** Deleted
+  - **13.1.3.5.3** Radiation Protection Manager
+- LDCN-23-004, 23-028
+  - **13.1.3.5.4** Radiological Services Supervisors
+  - **13.1.3.5.5** Chemistry Supervisors
+  - **1.3.1.3.6** Deleted
+- **13.1.3.7** Quality
+- SM SRO 1 1
+- RO RO 2 1
+- 10 CFR 55.53 requirements. Energy Northwest may take credit for more than the minimum
+- 10 CFR 55.53(e) and (f) requirements of active performance of operator or senior operator
+
+### 13.2 TRAINING  
+`chapters/13.2_TRAINING.md` — source pp. 38–44
+
+- **13.2** TRAINING
+  - **13.2.1** PLANT STAFF TRAINING PROGRAM
+  - **13.2.2** INITIAL AND CONTINUING TRAINING
+    - **13.2.2.1** Licensed Operators
+      - **13.2.2.1.1** Initial Training
+      - **13.2.2.1.2** Continuing Training
+    - **13.2.2.2** Nonlicensed Operator Training
+      - **13.2.2.2.1** Initial Training
+      - **13.2.2.2.2** Continuing Training Program
+    - **13.2.2.3** Shift Technical Advisor Training
+      - **13.2.2.3.1** Initial Training
+      - **13.2.2.3.2** Continuing Training
+    - **13.2.2.4** Other Plant Personnel (Maintenance, Health Physics, Chemistry)
+      - **13.2.2.4.1** Initial Training
+      - **13.2.2.4.2** Continuing Training
+    - **13.2.2.5** Fire Brigade
+      - **13.2.2.5.1** Initial and Continuing Training
+      - **13.2.2.5.2** Offsite Fire Department
+  - **13.2.3** TRAINING PROGRAM EFFECTIVENESS
+  - **13.2.4** PLANT TRAINING RECORDS
+  - **13.2.5** OTHER TRAINING DOCUMENTS
+
+### 13.3 EMERGENCY PLANNING  
+`chapters/13.3_EMERGENCY_PLANNING.md` — source pp. 45–45
+
+- **13.3** EMERGENCY PLANNING
+
+### 13.4 REVIEW AND AUDIT  
+`chapters/13.4_REVIEW_AND_AUDIT.md` — source pp. 46–47
+
+- **13.4** REVIEW AND AUDIT
+  - **13.4.1** ONSITE REVIEW
+  - **13.4.2** INDEPENDENT REVIEW
+  - **13.4.3** AUDIT PROGRAM
+
+### 13.5 PLANT PROCEDURES  
+`chapters/13.5_PLANT_PROCEDURES.md` — source pp. 48–52
+
+- **13.5** PLANT PROCEDURES
+  - **13.5.1** ADMINISTRATIVE PROCEDURES
+    - **13.5.1.1** Conformance With Regulatory Guide 1.33, Revision 2
+    - **13.5.1.2** Preparation of Procedures
+    - **13.5.1.3** Procedures
+  - **13.5.2** OPERATING AND MAINTENANCE PROCEDURES
+    - **13.5.2.1** Control Room Operating Procedures
+    - **13.5.2.2** Other Procedures
+
+### 13.6 INDUSTRIAL SECURITY  
+`chapters/13.6_INDUSTRIAL_SECURITY.md` — source pp. 53–57
+
+- **13.6** INDUSTRIAL SECURITY
+  - INITIAL TEST PROGRAM
+  - TABLE OF CONTENTS
+- **14.1** SPECIFIC INFORMATION INCLUDED IN PRELIMINARY
+- **14.2** SYSTEM LINEUP, PREOPERATIONAL, AND INITIAL STARTUP
+  - **14.2.2.3** Test and Startup Program Organization and the System Lineup and
+  - **14.2.2.4** Plant Operations Organization and the Power Ascension Test
+  - **14.2.2.6** Plant Organization Functions and Responsibilities During All
+  - INITIAL TEST PROGRAM
+      - **14.2.2.9.1.4** General Electric Lead Engineer - Startup Test, Design, and
+  - **14.2.2.10** Qualifications of Personnel Supporting the Test and Startup
+    - **14.2.4.1.5** Equipment Maintenance and Modifications During Preoperational
+  - INITIAL TEST PROGRAM
+    - **14.2.6.1.3** Types of Documents and Records Requiring Test Record File
+- **14.2.7** CONFORMANCE OF TEST PROGRAMS WITH REGULATORY
+  - **14.2.7.3** Conformance With or Exceptions to Regulatory Guides Other
+- **14.2.8** UTILIZATION OF REACTOR OPERATING AND TESTING
+- **14.2.9** TRIAL USE OF PLANT OPERATING AND EMERGENCY
+  - INITIAL TEST PROGRAM
+    - **14.2.12.1.12** Fuel Handling and Vessel Servicing Equipment Preoperational
+
+### 14.0 Chapter Front Matter  
+`chapters/14.0_Chapter_Front_Matter.md` — source pp. 1–10
+
+- INITIAL TEST PROGRAM
+- **14.2.12.1.30** Radwaste Building Heating, Ventilating, and Air Conditioning
+- **14.2.12.1.32** Primary Containment Atmospheric Control System
+- **14.2.12.1.35** Primary Containment Atmospheric Monitoring System
+- **14.2.12.1.47** Reactor Building Emergency Cooling System Preoperational
+- **14.2.12.1.48** Control, Cable, and Critical Switchgear Rooms Heating,
+- **14.2.12.1.49** Standby Service Water Pump House Heating and Ventilating
+- **14.2.12.1.52** Secondary Containment Integrated Leak Rate Preoperational
+- **14.2.12.1.53** Diesel Generator Building Heating and Ventilating System
+- INITIAL TEST PROGRAM
+- **14.2.12.3.6** Test Number 6 - Source Range Monitor Performance and
+- INITIAL TEST PROGRAM
+- **14.2.12.3.10** Test Number 10 - Intermediate Range Monitor System
+- INITIAL TEST PROGRAM
+  - **14.2.12.3.16.2** Test Number 16B - Water Level Reference Leg Temperature
+- INITIAL TEST PROGRAM
+- INITIAL TEST PROGRAM
+- **14.2.12.3.28** Test Number 28 - Shutdown From Outside the Main Control
+- INITIAL TEST PROGRAM
+- INITIAL TEST PROGRAM
+- INITIAL TEST PROGRAM
+- LIST OF TABLES
+- INITIAL TEST PROGRAM
+- LIST OF FIGURES
+
+### 14.1 Specific Information Included In Preliminary Safety  
+`chapters/14.1_Specific_Information_Included_In_Preliminary_Safety.md` — source pp. 11–11
+
+- INITIAL TEST PROGRAM
+- **14.1** SPECIFIC INFORMATION INCLUDED IN PRELIMINARY SAFETY
+  - ANALYSIS REPORTS
+
+### 14.2 System Lineup, Preoperational, And Initial Startup Test  
+`chapters/14.2_System_Lineup_Preoperational_And_Initial_Startup_Test.md` — source pp. 12–156
+
+- **14.2** SYSTEM LINEUP, PREOPERATIONAL, AND INITIAL STARTUP TEST
+  - PROGRAM
+  - **14.2.1** SUMMARY OF TEST PROGRAM AND OBJECTIVES
+    - **14.2.1.1** Initial Test Program Objectives
+    - **14.2.1.2** Initial Test Program Summaries
+    - **14.2.1.3** Description of System Lineup Tests
+    - **14.2.1.4** Description of Preoperational Tests
+    - **14.2.1.5** Description of Startup Tests
+  - **14.2.2** ORGANIZATION AND STAFFING
+    - **14.2.2.1** General
+    - **14.2.2.2** Definitions
+    - **14.2.2.3** Test and Startup Program Organization and the System Lineup and
+      - **14.2.2.3.1** General
+      - **14.2.2.3.2** Responsibilities of CGS Test and Startup Division
+      - **14.2.2.3.3** CGS Test and Startup Department Position Responsibilities
+      - **14.2.2.3.3.1** CGS Test and Startup Manager.
+      - **14.2.2.3.3.2** CGS Test Group Manager.
+    - **14.2.2.4** Plant Operations Organization and the Power Ascension Test Program
+    - **14.2.2.5** Test Working Group
+      - **14.2.2.5.1** System Lineup and Preoperational Test Program
+      - **14.2.2.5.2** Membership and Responsibility of the Test Working Group
+    - **14.2.2.6** Plant Organization Functions and Responsibilities During All Testing and Plant
+    - **14.2.2.7** Energy Northwest Support of the Test and Startup Program
+      - **14.2.2.7.1** Plant Organization
+      - **14.2.2.7.2** CGS Program
+      - **14.2.2.7.3** Plant Quality Assurance
+    - **14.2.2.8** Architect-Engineer Support of the Test and Startup Program
+    - **14.2.2.9** General Electric Support of the Test and Startup Program
+      - **14.2.2.9.1** Staff Responsibilities
+    - **14.2.2.10** Qualifications of Personnel Supporting the Test and Startup Program
+      - **14.2.2.10.1** Test and Startup Program Department Personnel Qualifications
+      - **14.2.2.10.2** Plant Organization Personnel Qualifications
+  - **14.2.3** TEST PROCEDURES
+    - **14.2.3.1** Development of Test Procedures
+      - **14.2.3.1.1** Incorporation of Plant Procedures
+      - **14.2.3.1.2** Format of Test Procedures
+      - **14.2.3.1.2.2** Power Ascension Test Phase. All PATP procedures will be formatted according to the PPM.
+    - **14.2.3.2** Review of Test Procedures
+    - **14.2.3.3** Approval of Test Procedures
+  - **14.2.4** CONDUCT OF TEST PROGRAM
+    - **14.2.4.1** Administrative Procedures for Preoperational Testing
+      - **14.2.4.1.1** Test Performance Authorization
+      - **14.2.4.1.2** Preoperational Test Prerequisites
+      - **14.2.4.1.3** Conduct of Preoperational Testing
+      - **14.2.4.1.4** Deficiency Reporting
+      - **14.2.4.1.5** Equipment Maintenance and Modifications During Preoperational Testing
+      - **14.2.4.1.6** Preoperational Test Summary
+      - **14.2.4.1.7** Evaluation of Preoperational Test Data
+      - **14.2.4.1.8** Preoperational Test Records
+    - **14.2.4.2** Administrative Procedures for Power Ascension Testing
+      - **14.2.4.2.1** Plant Operation During Power Ascension Testing
+      - **14.2.4.2.2** Power Ascension Test Scheduling and Sequencing
+      - **14.2.4.2.3** Power Ascension Test Performance
+    - **14.2.4.3** Control of Test Prerequisites
+    - **14.2.4.4** Modification of Test Procedures During Testing
+      - **14.2.4.4.1** System Lineup and Preoperational Test Phase
+      - **14.2.4.4.2** Power Ascension Test Phase
+  - **14.2.5** REVIEW, EVALUATION, AND APPROVAL OF TEST RESULTS
+    - **14.2.5.1** Control of Test Results Review
+    - **14.2.5.2** Design Organization Participation in Problem Resolution
+    - **14.2.5.3** Results Analysis Prerequisites to Continuation of Startup Testing
+  - **14.2.6** TEST RECORDS
+    - **14.2.6.1** System Lineup and Preoperational Test Phase
+      - **14.2.6.1.1** General
+      - **14.2.6.1.2** Test Record Responsibilities
+      - **14.2.6.1.3** Types of Documents and Records Requiring Test Record File Retention
+    - **14.2.6.2** Power Ascension Test Phase
+  - **14.2.7** CONFORMANCE OF TEST PROGRAMS WITH REGULATORY GUIDES
+    - **14.2.7.1** Conformance with Regulatory Guide 1.68
+    - **14.2.7.2** Exceptions to Regulatory Guide 1.68
+    - **14.2.7.3** Conformance With or Exceptions to Regulatory Guides Other Than 1.68
+  - **14.2.8** UTILIZATION OF REACTOR OPERATING AND TESTING EXPERIENCES IN
+  - THE DEVELOPMENT OF THE TEST PROGRAM
+  - **14.2.9** TRIAL USE OF PLANT OPERATING AND EMERGENCY PROCEDURES
+  - **14.2.10** INITIAL FUEL LOADING AND INITIAL CRITICALITY
+    - **14.2.10.1** Fuel Loading and Shutdown Power Level Tests
+      - **14.2.10.1.1** Loss of Power Demonstration-Standby Core Cooling Required
+      - **14.2.10.1.2** Cold Functional Testing
+      - **14.2.10.1.3** Routine Surveillance Testing
+      - **14.2.10.1.4** Master Startup Checklist
+      - **14.2.10.1.5** Initial Fuel Loading
+      - **14.2.10.1.6** Zero Power Level Tests
+    - **14.2.10.2** Initial Heatup to Rated Temperature and Pressure
+    - **14.2.10.3** Power Testing From 25% to 100% of Rated Output
+  - **14.2.11** TEST PROGRAM SCHEDULE
+  - **14.2.12** INDIVIDUAL TEST DESCRIPTIONS
+    - **14.2.12.1** Preoperational Test Procedures
+      - **14.2.12.1.1** Reactor Feedwater System Preoperational Test
+      - **14.2.12.1.2** Condensate System Preoperational Test
+      - **14.2.12.1.3** Fire Protection System Preoperational Test
+      - **14.2.12.1.4** Reactor Water Cleanup System Preoperational Test
+      - **14.2.12.1.5** Standby Liquid Control System Preoperational Test
+      - **14.2.12.1.6** Nuclear Boiler System Preoperational Test
+      - **14.2.12.1.7** Residual Heat Removal System Preoperational Test
+      - **14.2.12.1.8** Reactor Core Isolation Cooling System Preoperational Test
+      - **14.2.12.1.9** Reactor Recirculation System and Control Preoperational Test
+      - **14.2.12.1.10** Reactor Manual Control System Preoperational Test
+      - **14.2.12.1.11** Control Rod Drive Hydraulic System Preoperational Test
+      - **14.2.12.1.12** Fuel Handling and Vessel Servicing Equipment Preoperational Test
+      - **14.2.12.1.13** Low-Pressure Core Spray System Preoperational Test
+      - **14.2.12.1.14** High-Pressure Core Spray System Preoperational Test
+      - **14.2.12.1.15** Fuel Pool Cooling and Cleanup System Preoperational Test
+      - **14.2.12.1.16** Leak Detection System Preoperational Test
+      - **14.2.12.1.17** Liquid and Solid Radwaste System Preoperational Test
+      - **14.2.12.1.18** Reactor Protection System Preoperational Test
+      - **14.2.12.1.19** Neutron Monitoring System Preoperational Test
+      - **14.2.12.1.20** Traversing In-Core Probe System Preoperational Test
+      - **14.2.12.1.21** Rod Worth Minimizer System Preoperational Test
+      - **14.2.12.1.22** Process Radiation Monitoring System Preoperational Test
+      - **14.2.12.1.23** Area Radiation Monitoring System Preoperational Test
+      - **14.2.12.1.24** Process Computer Interface System Preoperational Test
+      - **14.2.12.1.25** Rod Sequence Control System Preoperational Test
+      - **14.2.12.1.26** Remote Shutdown Preoperational Test
+      - **14.2.12.1.27** Offgas System Preoperational Test
+      - **14.2.12.1.28** Environs Radiation Monitoring Preoperational Test
+      - **14.2.12.1.29** Main Steam System Preoperational Test
+      - **14.2.12.1.30** Radwaste Building Heating, Ventilating, and Air Conditioning System
+      - **14.2.12.1.31** Closed Cooling Water System Preoperational Test
+      - **14.2.12.1.32** Primary Containment Atmospheric Control System Preoperational Test
+      - **14.2.12.1.33** Primary Containment Cooling System Preoperational Test
+      - **14.2.12.1.34** Primary Containment Instrument Air Preoperational Test
+      - **14.2.12.1.35** Primary Containment Atmospheric Monitoring System Preoperational Test
+      - **14.2.12.1.36** Standby Gas Treatment System Preoperational Test
+      - **14.2.12.1.37** Loss of Power and Safety Testing Preoperational Test
+      - **14.2.12.1.38** Instrument Power Preoperational Test
+      - **14.2.12.1.39** Emergency Lighting System Preoperational Test
+      - **14.2.12.1.40** Standby Alternating Current Power System Preoperational Test
+      - **14.2.12.1.44** Plant Service Water System Preoperational Test
+      - **14.2.12.1.45** Standby Service Water System Preoperational Test
+- 2 Instrument power,
+      - **14.2.12.1.46** Plant Communications System Preoperational Test
+      - **14.2.12.1.47** Reactor Building Emergency Cooling System Preoperational Test
+      - **14.2.12.1.48** Control, Cable, and Critical Switchgear Rooms Heating, Ventilating, and
+      - **14.2.12.1.49** Standby Service Water Pump House Heating and Ventilating System
+      - **14.2.12.1.50** Reactor Building Crane Preoperational Test
+      - **14.2.12.1.51** Primary Containment Integrated Leak Rate Preoperational Test
+      - **14.2.12.1.52** Secondary Containment Integrated Leak Rate Preoperational Test
+      - **14.2.12.1.53** Diesel Generator Building Heating and Ventilating System Preoperational
+      - **14.2.12.1.54** Seismic Monitoring System Preoperational Test
+    - **14.2.12.2** General Discussion of Startup Tests
+    - **14.2.12.3** Startup Test Procedures
+      - **14.2.12.3.1** Test Number 1 - Chemical and Radiochemical
+      - **14.2.12.3.1.4** Criteria.
+      - **14.2.12.3.2** Test Number 2 - Radiation Measurements
+      - **14.2.12.3.2.4** Criteria.
+      - **14.2.12.3.3** Test Number 3 - Fuel Loading
+      - **14.2.12.3.3.4** Criteria.
+      - **14.2.12.3.4** Test Number 4 - Full Core Shutdown Margin
+      - **14.2.12.3.4.4** Criteria.
+      - **14.2.12.3.5** Test Number 5 - Control Rod Drive System
+      - **14.2.12.3.5.4** Criteria.
+      - **14.2.12.3.6** Test Number 6 - Source Range Monitor Performance and Control Rod
+      - **14.2.12.3.6.4** Criteria.
+      - **14.2.12.3.7** Test Number 7
+      - **14.2.12.3.8** Test Number 8
+      - **14.2.12.3.9** Test Number 9
+      - **14.2.12.3.10** Test Number 10 - Intermediate Range Monitor System Performance
+      - **14.2.12.3.10.4** Criteria.
+      - **14.2.12.3.11** Test Number 11 - Local Power Range Monitor Calibration
+      - **14.2.12.3.11.1** Purpose. The purpose of this test is to calibrate the LPRM system.
+      - **14.2.12.3.11.4** Criteria.
+      - **14.2.12.3.12** Test Number 12 - Average Power Range Monitor Calibration
+      - **14.2.12.3.12.1** Purpose. The purpose of this test is to calibrate the APRM system.
+      - **14.2.12.3.12.4** Criteria.
+      - **14.2.12.3.13** Test Number 13 - Process Computer
+      - **14.2.12.3.13.4** Criteria.
+      - **14.2.12.3.14** Test Number 14 - Reactor Core Isolation Cooling System
+      - **14.2.12.3.14.4** Criteria.
+      - **14.2.12.3.15** Test Number 15
+      - **14.2.12.3.16** Test Numbers 16A and 16B
+      - **14.2.12.3.16.1** Test Number 16A - Selected Process Temperatures.
+      - **14.2.12.3.16.1.4** Criteria.
+      - **14.2.12.3.16.2** Test Number 16B - Water Level Reference Leg Temperature Measurement.
+      - **14.2.12.3.16.2.4** Criteria.
+      - **14.2.12.3.17** Test Number 17 - System Expansion
+      - **14.2.12.3.17.4** Criteria.
+      - **14.2.12.3.18** Test Number 18 - Core Power Distribution
+      - **14.2.12.3.18.4** Criteria.
+      - **14.2.12.3.19** Test Number 19 - Core Performance
+      - **14.2.12.3.19.4** Criteria.
+      - **14.2.12.3.20** Test Number 20 - Steam Production
+      - **14.2.12.3.20.4** Criteria.
+      - **14.2.12.3.21** Test Number 21 - Core Power-Void Mode
+      - **14.2.12.3.21.4** Criteria.
+      - **14.2.12.3.22** Test Number 22 - Pressure Regulator
+      - **14.2.12.3.22.4** Criteria.
+      - **14.2.12.3.23** Test Number 23 - Feedwater System
+      - **14.2.12.3.23.1.4** Criteria.
+      - **14.2.12.3.23.2.4** Criteria.
+      - **14.2.12.3.23.3.4** Criteria.
+      - **14.2.12.3.23.4.4** Criteria.
+      - **14.2.12.3.24** Test Number 24 - Turbine Valve Surveillance
+      - **14.2.12.3.24.4** Criteria.
+      - **14.2.12.3.25** Test Number 25 - Main Steam Isolation Valves
+      - **14.2.12.3.25.1.4** Criteria.
+      - **14.2.12.3.25.2.4** Criteria.
+      - **14.2.12.3.26** Test Number 26 - Relief Valves
+      - **14.2.12.3.26.4** Criteria.
+      - **14.2.12.3.27** Test Number 27 - Turbine Trip and Generator Load Rejection
+      - **14.2.12.3.27.4** Criteria.
+      - **14.2.12.3.28** Test Number 28 - Shutdown From Outside the Main Control Room
+      - **14.2.12.3.28.4** Criteria.
+      - **14.2.12.3.29** Test Number 29 - Recirculation Flow Control
+      - **14.2.12.3.29.1.4** Criteria.
+      - **14.2.12.3.29.2.4** Criteria.
+      - **14.2.12.3.30** Test Number 30 - Recirculation System
+      - **14.2.12.3.30.1.4** Criteria.
+      - **14.2.12.3.30.2.4** Criteria.
+      - **14.2.12.3.30.3.4** Criteria.
+      - **14.2.12.3.30.4.4** Criteria.
+      - **14.2.12.3.30.5.4** Criteria.
+      - **14.2.12.3.31** Test Number 31 - Loss of Turbine-Generator and Offsite Power
+      - **14.2.12.3.31.4** Criteria.
+      - **14.2.12.3.32** Not Applicable
+      - **14.2.12.3.33** Test Number 33 - Piping Vibration
+      - **14.2.12.3.33.4** Criteria.
+      - **14.2.12.3.34** Test Number 34 - Reactor Pressure Vessel Internals Vibration
+      - **14.2.12.3.34.4** Criteria.
+      - **14.2.12.3.35** Test Number 35 - Recirculation System Flow Calibration
+      - **14.2.12.3.35.4** Criteria.
+      - **14.2.12.3.36** Test Number 70 - Reactor Water Cleanup System
+      - **14.2.12.3.36.4** Criteria.
+      - **14.2.12.3.37** Test Number 71 - Residual Heat Removal System
+      - **14.2.12.3.37.4** Criteria.
+      - **14.2.12.3.38** Test Number 72 - Drywell Atmosphere Cooling System
+      - **14.2.12.3.38.4** Criteria.
+      - **14.2.12.3.39** Test Number 73 - Cooling Water Systems
+      - **14.2.12.3.39.4** Criteria.
+      - **14.2.12.3.40** Test Number 74 - Offgas System
+      - **14.2.12.3.40.4** Criteria.
+      - **14.2.12.1.1** Reactor Feedwater System
+      - **14.2.12.1.2** Condensate System
+      - **14.2.12.1.3** Fire Protection System
+      - **14.2.12.1.4** Reactor Water Cleanup System
+      - **14.2.12.1.5** Standby Liquid Control System
+      - **14.2.12.1.6** Nuclear Boiler System
+      - **14.2.12.1.7** Residual Heat Removal System
+      - **14.2.12.1.8** Reactor Core Isolation Cooling
+      - **14.2.12.1.9** Reactor Recirculation System and Control
+      - **14.2.12.1.10** Reactor Manual Control System
+      - **14.2.12.1.11** Control Rod Drive Hydraulic System
+      - **14.2.12.1.12** Fuel Handling and Vessel Servicing Equipment
+      - **14.2.12.1.13** Low Pressure Core Spray System
+      - **14.2.12.1.14** High Pressure Core Spray
+      - **14.2.12.1.15** Fuel Pool Cooling and Cleanup System
+      - **14.2.12.1.16** Leak Detection System
+      - **14.2.12.1.17** Liquid and Solid Radwaste System
+      - **14.2.12.1.18** Reactor Protection System
+      - **14.2.12.1.19** Neutron Monitoring System
+      - **14.2.12.1.20** Traversing In-Core Probe System
+      - **14.2.12.1.21** Rod Worth Minimizer System
+      - **14.2.12.1.22** Process Radiation Monitoring System
+      - **14.2.12.1.23** Area Radiation Monitoring System
+      - **14.2.12.1.24** Process Computer Interface System
+      - **14.2.12.1.25** Rod Sequence Control System
+      - **14.2.12.1.26** Remote Shutdown
+      - **14.2.12.1.27** Offgas System
+      - **14.2.12.1.28** Environs Radiation Monitoring System
+      - **14.2.12.1.29** Main Steam System
+      - **14.2.12.1.30** Radwaste Building Heating, Ventilation, and Air Conditioning
+      - **14.2.12.1.31** Closed Cooling Water System
+      - **14.2.12.1.32** Primary Containment Atmospheric Control System
+      - **14.2.12.1.33** Primary Containment Cooling System
+      - **14.2.12.1.34** Primary Containment Instrument Air System
+      - **14.2.12.1.35** Primary Containment Atmospheric Monitoring System
+      - **14.2.12.1.36** Standby Gas Treatment System
+      - **14.2.12.1.37** Loss of Power and Safety Testing
+      - **14.2.12.1.38** Instrument Power System
+      - **14.2.12.1.39** Emergency Lighting
+      - **14.2.12.1.40** Standby Alternating Current Power System
+      - **14.2.12.1.44** Plant Service Water System
+      - **14.2.12.1.45** Standby Service Water System
+      - **14.2.12.1.46** Plant Communication System
+      - **14.2.12.1.47** Reactor Building Emergency Cooling System
+      - **14.2.12.1.48** Control Cable and Critical Switchgear Rooms Heating, Ventilation,
+      - **14.2.12.1.49** Standby Service Water Pump House Heating and Ventilating System
+      - **14.2.12.1.50** Reactor Building Crane
+      - **14.2.12.1.51** Primary Containment Integrated Leak Rate Test
+      - **14.2.12.1.52** Secondary Containment Integrated Leak Rate Test
+      - **14.2.12.1.53** Diesel Generator Building Heating and Ventilating System
+  - X X X X X 6
+  - X X X
+  - X X X X
+  - X X X
+- 55 X X X X
+  - X X X
+- 3 X X
+  - X 2 X X X
+- 1 X X
+  - X X X
+  - X X X X 4
+  - X X X X X
+  - X X X X
+  - X X X X X X
+  - X,M, X,M,
+- 6 BP BP
+  - X,NO, BP,M X,BP,
+  - X X SP
+  - BP,M BP,M X,M
+  - X,BP X,NO X,BP X,NO
+  - X,BP X,BP
+  - X X X
+  - LEGEND
+- 1 Before main generator synchronization and recirc pumps operating on
+- 2 Between 50% and 75% control rod lines, at or below the analytical lower
+- 3 From 50% to 75% control rod lines and core flow between 80% and
+- 4 Natural circulation and within 5% of the intersection with 100% rod line
+- 5 Mid-power range within 5% of 100% control rod line and 0 to +5% core flow
+- 6 Within 0 to –5% of rated thermal power, and within 5% of rated core flow
+- 1 PREPARE PREOP TEST PROCEDURES
+- 2 REVIEW
+  - FUEL LOAD 4 TEST ACTIVITY
+  - BOTTOM OF PAGE IS IN MONTHS
+  - CONDENSATE
+  - PLANT SERVICE WATER
+  - STANDBY SERVICE WATER
+  - FEEDWATER
+  - PRIMARY CONTAINMENT ATMOSPHERIC CONTROL
+  - I 1 2 3 4
+  - PRIMARY CONTAINMENT COOLING
+  - PRIMARY CONTAINMENT INSTRUMENT AIR
+  - I 1 2 3 4
+  - PRIMARY CONTAINMENT ATMOSPHERIC MONITORING
+  - LOSS OF POWER AND SAFETY TEST
+  - INSTRUMENT POWER
+  - EMERGENCY LIGHTING
+  - STANDBY AC POWER
+  - HIGH PRESSURE CORE
+  - LOW PRESSURE CORE SPRAY
+  - STANDBY GAS TREATMENT
+  - FUEL HANDLING & VESSEL SERVICING EQUIPMENT
+  - FUEL POOL COOLING
+  - SECONDARY CONTAINMENT ILRT
+  - PRIMARY CONTAINMENT ILRT
+  - NUCLEAR BOILER
+  - REACTOR WATER CLEANUP
+  - CONTROL ROD DRIVE MANUAL CONTROL
+  - CONTROL ROD DRIVE HYDRAULIC
+  - ROD WORTH MINIMIZER
+  - ROD SEQUENCE CONTROL
+  - TRAVERSING INCORE PROBE
+  - REACTOR RECIRCULATION
+  - REACTOR CORE ISOLATION COOLING
+  - PROCESS COMPUTER
+  - STANDBY LIQUID CONTROL
+  - LEAK DETECTION
+  - NEUTRON MONITORING
+  - CLOSED COOLING WATER
+  - REACTOR PROTECTION
+  - PROCESS RADIATION MONITORING
+  - ENVIRONS MONITORING
+  - REACTOR BUILDING CRANE
+  - REACTOR BUILDING EMERGENCY COOLING
+  - CONTROL, CABLE, & CRITICAL SWCHGR ROOMS HVAC
+  - STANDBY SERVICE WATER PUMPHOUSE H&V
+  - DIESEL GENERATOR BUILDING H&V V
+  - SECURITY
+  - OFFGAS
+  - MAIN STEAM
+  - PLANT COMMUNICATION
+  - REMOTE SHUTDOWN
+  - LIQUID AND SOLID RADWASTE
+  - RADWASTE BUILDING HVAC
+  - FIRE PROTECTION
+  - I 960690.83 14.2-4
+
+### 15.0 GENERAL  
+`chapters/15.0_GENERAL.md` — source pp. 28–59
+
+- ACCIDENT ANALYSES
+- **15.0** GENERAL
+  - **15.0.1** ANALYTICAL OBJECTIVE
+  - **15.0.2** ANALYTICAL CATEGORIES
+    - **15.0.2.1** Single Loop Operation (SLO)
+  - **15.0.3** EVENT EVALUATION
+    - **15.0.3.1** Identification of Causes and Frequency Classification
+      - **15.0.3.1.1** Unacceptable Results for Incidents of Moderate Frequency [Anticipated
+- 10 CFR 20,
+      - **15.0.3.1.2** Unacceptable Results for Infrequent Incidents [Abnormal (Unexpected)
+      - **15.0.3.1.3** Unacceptable Results for Limiting Faults [Design-Basis (Postulated)
+    - **15.0.3.2** Sequence of Events and Systems Operation
+      - **15.0.3.2.1** Single Failures or Operator Errors
+      - **15.0.3.2.1.2** Initiating Event Analysis.
+      - **15.0.3.2.1.3** Single Active Component Failure or Single Operator Error Analysis.
+    - **15.0.3.3** Core and System Performance
+      - **15.0.3.3.1** Mathematical Model
+  - LDCN-10-004, 15-011
+      - **15.0.3.3.2** Input Parameters and Initial Conditions for Analyzed Events
+      - **15.0.3.3.3** Consideration of Uncertainties
+      - **15.0.3.3.3.1** Core Flow Uncertainty Analysis
+  - C A I
+      - **15.0.3.3.4** Results
+    - **15.0.3.4** Barrier Performance
+    - **15.0.3.5** Radiological Consequences
+  - **15.0.4** REFERENCES
+  - DECREASE IN REACTOR COOLANT TEMPERATURE
+  - INCREASE IN REACTOR PRESSURE
+  - DECREASE IN REACTOR COOLANT SYSTEM FLOW RATE
+  - INCREASE IN REACTOR COOLANT INVENTORY
+  - **15.2.2** Generator load rejection - uprated 129 1184 (a)
+- **4.542** Level 4 - (L4) (ft)
+- **59.5** Level 4 – (L4), in.
+  - **15.3.3** Seizure of one recirculation pump
+  - **15.3.4** Recirculation pump shaft break
+  - **15.4.9** Rod drop accident
+  - **15.6.2** Instrument line break
+  - **15.6.4** Steam system pipe break outside containment
+  - **15.6.5** Loss-of-coolant accident within RCPB
+  - **15.6.6** Feedwater line break
+  - **15.7.1** Main condenser gas treatment system failure
+  - **15.7.3** Liquid radwaste tank failure
+  - **15.7.4** Fuel handling accident
+- **15.8** Anticipated transients without scram
+- **4.95** E-5
+- **3.69** E-5
+- **1.95** E-5
+- **7.81** E-6
+
+### 15.1 DECREASE IN REACTOR COOLANT TEMPERATURE  
+`chapters/15.1_DECREASE_IN_REACTOR_COOLANT_TEMPERATURE.md` — source pp. 60–95
+
+- **15.1** DECREASE IN REACTOR COOLANT TEMPERATURE
+  - **15.1.1** LOSS OF FEEDWATER HEATING
+    - **15.1.1.1** Identification of Causes and Frequency Classification
+      - **15.1.1.1.1** Identification of Causes
+      - **15.1.1.1.2** Frequency Classification
+    - **15.1.1.2** Sequence of Events and Systems Operation
+      - **15.1.1.2.1** The Effect of Single Failures and Operator Errors
+    - **15.1.1.3** Core and System Performance
+      - **15.1.1.3.1** Mathematical Model
+      - **15.1.1.3.2** Input Parameters and Initial Conditions
+      - **15.1.1.3.3** Results
+      - **15.1.1.3.4** Considerations of Uncertainties
+    - **15.1.1.4** Barrier Performance
+    - **15.1.1.5** Radiological Consequences
+  - **15.1.2** FEEDWATER CONTROLLER FAILURE - MAXIMUM DEMAND
+    - **15.1.2.1** Identification of Causes and Frequency Classification
+      - **15.1.2.1.1** Identification of Causes
+      - **15.1.2.1.2** Frequency Classification
+    - **15.1.2.2** Sequence of Events and Systems Operation
+      - **15.1.2.2.1** Sequence of Events and Systems Operation – Single Loop Operation
+      - **15.1.2.2.2** The Effect of Single Failures and Operator Errors
+    - **15.1.2.3** Core and System Performance
+      - **15.1.2.3.1** Mathematical Model
+      - **15.1.2.3.2** Input Parameters and Initial Conditions
+      - **15.1.2.3.3** Results
+      - **15.1.2.3.4** Consideration of Uncertainties
+    - **15.1.2.4** Barrier Performance
+    - **15.1.2.5** Radiological Consequences
+  - **15.1.3** PRESSURE REGULATOR FAILURE - OPEN
+    - **15.1.3.1** Identification of Causes and Frequency Classification
+      - **15.1.3.1.1** Identification of Causes
+      - **15.1.3.1.2** Frequency Classification
+    - **15.1.3.2** Sequence of Events and Systems Operation
+      - **15.1.3.2.1** Sequence of Events
+      - **15.1.3.2.2** Systems Operation
+      - **15.1.3.2.3** The Effect of Single Failures and Operator Errors
+    - **15.1.3.3** Core and System Performance
+      - **15.1.3.3.1** Mathematical Model
+      - **15.1.3.3.2** Input Parameters and Initial Conditions
+      - **15.1.3.3.3** Results
+      - **15.1.3.3.4** Consideration of Uncertainties
+    - **15.1.3.4** Barrier Performance
+    - **15.1.3.5** Radiological Consequences
+  - **15.1.4** INADVERTENT SAFETY/RELIEF VALVE OPENING
+    - **15.1.4.1** Identification of Causes and Frequency Classification
+      - **15.1.4.1.1** Identification of Causes
+      - **15.1.4.1.2** Frequency Classification
+    - **15.1.4.2** Sequence of Events and Systems Operation
+      - **15.1.4.2.1** Sequence of Events
+      - **15.1.4.2.2** Systems Operation
+      - **15.1.4.2.3** The Effect of Single Failures and Operator Errors
+    - **15.1.4.3** Core and System Performance
+      - **15.1.4.3.1** Mathematical Model
+      - **15.1.4.3.2** Input Parameters and Initial Conditions
+      - **15.1.4.3.3** Results
+    - **15.1.4.4** Barrier Performance
+    - **15.1.4.5** Radiological Consequences
+  - **15.1.5** SPECTRUM OF STEAM PIPING FAILURES INSIDE AND OUTSIDE OF
+  - CONTAINMENT IN A PRESSURIZED WATER REACTOR
+  - **15.1.6** INADVERTENT RESIDUAL HEAT REMOVAL SHUTDOWN COOLING
+  - OPERATION
+    - **15.1.6.1** Identification of Causes and Frequency Classification
+      - **15.1.6.1.1** Identification of Causes
+      - **15.1.6.1.2** Frequency Classification
+    - **15.1.6.2** Sequence of Events and Systems Operation
+      - **15.1.6.2.1** Sequence of Events
+      - **15.1.6.2.2** System Operation
+      - **15.1.6.2.3** Effect of Single Failures and Operator Action
+    - **15.1.6.3** Core and System Performance
+    - **15.1.6.4** Barrier Performance
+    - **15.1.6.5** Radiological Consequences
+  - **15.1.7** REFERENCES
+- **10.06** L8 vessel level setpoint trips main turbine and feedwater pumps. Turbine
+- **10.16** Turbine control (governor) or stop (throttle) valves fully closed.
+- **10.08** Reactor scram trip actuated from main turbine control (governor) valve fast
+- **10.16** Turbine bypass valves start to open.
+- **10.27** Recirculation pump motor circuit breakers open causing decrease in core
+- **8.39** L8 vessel level setpoint trips main turbine and feedwater pumps.
+- **8.39** Recirculation pump trip (RPT) actuated by stop valve position switches.
+- **8.40** Reactor scram trip actuated from main turbine stop valve position switches.
+- **8.49** Turbine stop valves closed and main turbine bypass valves start to open.
+- **8.58** Recirculation pump motor circuit breakers open causing decrease in core
+- **3.31** Vessel water level (L8) trip initiates turbine and feedwater trips.
+- **3.32** Main turbine stop valves reach 90% open position initiating a reactor
+- **3.50** Both recirculation pumps trip.
+- **6.15** Feedwater recirculation valves trip.
+- **6.95** Group 3 relief valves actuated.
+- **7.40** Group 4 relief valves actuated.
+- **57.98** Main steam line isolation valves closed on turbine inlet pressure (795
+
+### 15.2 INCREASE IN REACTOR PRESSURE  
+`chapters/15.2_INCREASE_IN_REACTOR_PRESSURE.md` — source pp. 96–162
+
+- **15.2** INCREASE IN REACTOR PRESSURE
+  - **15.2.1** PRESSURE REGULATOR FAILURE - CLOSED
+    - **15.2.1.1** Identification of Causes and Frequency Classification
+      - **15.2.1.1.1** Identification of Causes
+      - **15.2.1.1.2** Frequency Classification
+    - **15.2.1.2** Sequence of Events and Systems Operation
+      - **15.2.1.2.1** Sequence of Events
+  - LDCN-06-057, 07-011
+      - **15.2.1.2.2** Systems Operation
+      - **15.2.1.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.1.3** Core and System Performance
+      - **15.2.1.3.1** Mathematical Model
+      - **15.2.1.3.2** Input Parameters and Initial Conditions
+      - **15.2.1.3.3** Results
+      - **15.2.1.3.4** Consideration of Uncertainties
+    - **15.2.1.4** Barrier Performance
+    - **15.2.1.5** Radiological Consequences
+  - **15.2.2** GENERATOR LOAD REJECTION
+    - **15.2.2.1** Identification of Causes and Frequency Classification
+      - **15.2.2.1.1** Identification of Causes
+      - **15.2.2.1.2** Frequency Classification
+      - **15.2.2.1.2.1** Generator Load Rejection. This event is categorized as an incident of moderate frequency.
+    - **15.2.2.2** Sequence of Events and System Operation
+      - **15.2.2.2.1** Sequence of Events
+      - **15.2.2.2.2** System Operation
+      - **15.2.2.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.2.3** Core and System Performance
+      - **15.2.2.3.1** Mathematical Model
+      - **15.2.2.3.2** Input Parameters and Initial Conditions
+      - **15.2.2.3.3** Results
+      - **15.2.2.3.4** Consideration of Uncertainties
+    - **15.2.2.4** Barrier Performance
+      - **15.2.2.4.1** Generator Load Rejection
+      - **15.2.2.4.2** Generator Load Rejection with Failure of Bypass
+    - **15.2.2.5** Radiological Consequences
+  - **15.2.3** TURBINE TRIP
+    - **15.2.3.1** Identification of Causes and Frequency Classification
+      - **15.2.3.1.1** Identification of Causes
+      - **15.2.3.1.2** Frequency Classification
+      - **15.2.3.1.2.1** Turbine Trip. This event is categorized as an incident of moderate frequency.
+    - **15.2.3.2** Sequence of Events and Systems Operation
+      - **15.2.3.2.1** Sequence of Events
+      - **15.2.3.2.2** Systems Operation
+      - **15.2.3.2.3** The Effect of Single Failures and Operator Errors
+      - **15.2.3.2.3.1** Turbine Trips at Power Levels Greater Than 29.5% Nuclear Boiler Rated.
+    - **15.2.3.3** Core and System Performance
+      - **15.2.3.3.1** Mathematical Model
+      - **15.2.3.3.2** Input Parameters and Initial Conditions
+      - **15.2.3.3.3** Results
+      - **15.2.3.3.4** Considerations of Uncertainties
+    - **15.2.3.4** Barrier Performance
+      - **15.2.3.4.1** Turbine Trip
+      - **15.2.3.4.2** Turbine Trip with Failure of Bypass
+    - **15.2.3.5** Radiological Consequences
+  - **15.2.4** MAIN STEAM LINE ISOLATION VALVE CLOSURES
+    - **15.2.4.1** Identification of Causes and Frequency Classification
+      - **15.2.4.1.1** Identification of Causes
+      - **15.2.4.1.2** Frequency Classification
+    - **15.2.4.2** Sequence of Events and Systems Operation
+      - **15.2.4.2.1** Sequence of Events
+      - **15.2.4.2.2** Systems Operation
+      - **15.2.4.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.4.3** Core and System Performance
+      - **15.2.4.3.1** Mathematical Model
+      - **15.2.4.3.2** Input Parameters and Initial Conditions
+      - **15.2.4.3.3** Results
+      - **15.2.4.3.4** Considerations of Uncertainties
+    - **15.2.4.4** Barrier Performance
+      - **15.2.4.4.1** Closure of All Main Steam Line Isolation Valves
+      - **15.2.4.4.2** Closure of One Main Steam Line Isolation Valve
+    - **15.2.4.5** Radiological Consequences
+  - **15.2.5** LOSS-OF-CONDENSER VACUUM
+    - **15.2.5.1** Identification of Causes and Frequency Classification
+      - **15.2.5.1.1** Identification of Causes
+      - **15.2.5.1.2** Frequency Classification
+    - **15.2.5.2** Sequence of Events and Systems Operation
+      - **15.2.5.2.1** Sequence of Events
+      - **15.2.5.2.2** Systems Operation
+      - **15.2.5.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.5.3** Core and System Performance
+      - **15.2.5.3.1** Mathematical Model
+      - **15.2.5.3.2** Input Parameters and Initial Conditions
+      - **15.2.5.3.3** Results
+      - **15.2.5.3.4** Consideration of Uncertainties
+    - **15.2.5.4** Barrier Performance
+    - **15.2.5.5** Radiological Consequences
+  - **15.2.6** LOSS OF ALTERNATING CURRENT POWER
+    - **15.2.6.1** Identification of Causes and Frequency Classification
+      - **15.2.6.1.1** Identification of Causes
+      - **15.2.6.1.2** Frequency Classification
+    - **15.2.6.2** Sequence of Events and Systems Operation
+      - **15.2.6.2.1** Sequence of Events
+      - **15.2.6.2.1.2** Loss of All Grid Connections. Table 15.2-10 lists the sequence of events for Figure 15.2-8.
+      - **15.2.6.2.2** Systems Operation
+      - **15.2.6.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.6.3** Core and System Performance
+      - **15.2.6.3.1** Mathematical Model
+      - **15.2.6.3.2** Input Parameters and Initial Conditions
+      - **15.2.6.3.3** Results
+      - **15.2.6.3.4** Consideration of Uncertainties
+    - **15.2.6.4** Barrier Performance
+      - **15.2.6.4.1** Loss of Auxiliary Power Transformers
+      - **15.2.6.4.2** Loss of All Grid Connections
+    - **15.2.6.5** Radiological Consequences
+  - **15.2.7** LOSS-OF-FEEDWATER FLOW
+    - **15.2.7.1** Identification of Causes and Frequency Classification
+      - **15.2.7.1.1** Identification of Causes
+      - **15.2.7.1.2** Frequency Classification
+    - **15.2.7.2** Sequence of Events and Systems Operation
+      - **15.2.7.2.1** Sequence of Events
+      - **15.2.7.2.2** Systems Operation
+      - **15.2.7.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.7.3** Core and System Performance
+      - **15.2.7.3.1** Mathematical Model
+      - **15.2.7.3.2** Input Parameters and Initial Conditions
+      - **15.2.7.3.3** Results
+      - **15.2.7.3.4** Consideration of Uncertainties
+    - **15.2.7.4** Barrier Performance
+    - **15.2.7.5** Radiological Consequences
+  - **15.2.8** FEEDWATER LINE BREAK
+  - **15.2.9** FAILURE OF RESIDUAL HEAT REMOVAL SHUTDOWN COOLING
+    - **15.2.9.1** Identification of Causes and Frequency Classification
+      - **15.2.9.1.1** Identification of Causes
+      - **15.2.9.1.2** Frequency Classification
+    - **15.2.9.2** Sequence of Events and Systems Operation
+      - **15.2.9.2.1** Sequence of Events
+      - **15.2.9.2.2** Systems Operation
+      - **15.2.9.2.3** The Effect of Single Failures and Operator Errors
+    - **15.2.9.3** Core and System Performance
+    - **15.2.9.4** Results
+      - **15.2.9.4.1** Full Power to Approximately 100 psig
+      - **15.2.9.4.2** Approximately 100 psig to Cold Shutdown
+      - **15.2.9.4.3** Temperature Response – 3462 MWt
+      - **15.2.9.4.4** Temperature Response – 3702 MWt
+    - **15.2.9.5** Barrier Performance
+    - **15.2.9.6** Radiological Consequences
+  - **15.2.10** REFERENCES
+- **1.0** Scram signal initiated at high neutron flux.
+- **2.0** Recirculation pump motor circuit breakers open causing decrease in
+- **2.56** Group 3 relief valves actuated.
+- **2.67** Group 4 relief valves actuated.
+- **2.77** Group 5 relief valves actuated.
+- **2.84** Turbine control valves close.
+- **0.07** Turbine control valves closed.
+- **0.11** Turbine bypass valves start to open.
+- **0.19** Recirculation pump motor circuit breakers open causing decrease in
+- **1.70** Group 1 relief valves actuated.
+- **1.86** Group 2 relief valves actuated.
+- **2.01** Group 3 relief valves actuated.
+- **2.27** Group 4 relief valves actuated.
+- **0.03** Time of scram trip.
+- **0.15** Turbine control valves fully closed.
+- **0.20** Time of RPT trip.
+- **0.28** Start of control blade motion.
+- **2.83** Group 3 MSRVs actuated (safety function).
+- **3.17** Group 4 MSRVs actuated (safety function).
+- **0.01** Main turbine stop valves reach 90% open position and initiate reactor
+- **0.01** Main turbine stop valves reach 90% open position and initiate an RPT.
+- **0.10** Turbine stop valves closed.
+- **0.10** Turbine bypass valves start to open to regulate pressure.
+- **0.20** Recirculation pump motor circuit breakers open causing decrease in
+- **1.63** Group 1 relief valves actuated.
+- **1.78** Group 2 relief valves actuated.
+- **1.94** Group 3 relief valves actuated.
+- **2.14** Group 4 relief valves actuated.
+- **2.50** Group 5 relief valves actuated.
+- **4.67** Feedwater turbines trip on L8 high water level.
+- **31.0** Turbine bypass starts to close.
+- **39.7** Turbine bypass reopens on pressure increase at turbine inlet.
+- **45.3** Main steam line isolationb, HPCS system initiation, and RCIC system
+- **0.01** Main turbine stop valves reach 90% open position and initiate reactor
+- **0.10** Turbine stop valves closed.
+- **0.20** Recirculation pump motor circuit breakers open causing decrease in
+- **2.83** Group 3 relief valves actuated.
+- **3.18** Group 4 relief valves actuated.
+- **0.45** MSIVs reach 85% opening initiating a position valve scram.
+- **2.0** Loss of feedwater begins as turbine loses steam supply.
+- **2.53** Both recirculation pumps trip due to high pressure.
+- **3.0** All MSIVs closed.
+- **3.08** Groups 3 relief valves actuated.
+- **3.16** Groups 4 relief valves actuated.
+- **3.24** Groups 5 relief valves actuated.
+- **18.23** Groups 3 relief valves begin to cycle.
+- **0.00** Low condenser vacuum main turbine trip and feedwater turbine trips initiated.
+- **0.00** Main turbine trip initiates turbine bypass operation.
+- **0.01** Main turbine stop valves reach 90% open position and initiate reactor scram.
+- **0.19** Both recirculation pumps trip.
+- **2.15** Group 3 relief valves actuated.
+- **2.28** Group 4 relief valves actuated.
+- **2.42** Group 5 relief valves actuated.
+- **2.91** Feedwater recirculation valve is tripped.
+- **5.00** Low condenser vacuum initiates turbine bypass valve closure and MSIV closure.
+- **7.90** Group 3 relief valves reactuated.
+- **8.35** Group 4 relief valves reactuated.
+- **24.01** Group 5 relief valves reactuated.
+- **0.00** Loss of auxiliary power transformers occurs.
+- **0.00** Recirculation system pump motors are tripped.
+- **2.00** Reactor scram due to loss of power to the scram solenoid.
+- **2.00** Main steam line isolation valves begin to close due to loss of power to
+- **4.00** Feedwater pumps are tripped due to MSIV closure.
+- **5.98** Group 3 relief valves actuated.
+- **6.15** Group 4 relief valves actuated.
+- **6.34** Group 5 relief valves actuated.
+- **0.00** Loss of grid causes turbine-generator to detect a loss of electrical load.
+- **0.00** Turbine-generator PLU devices trip to initiate TCV fast closure and
+- **0.00** Recirculation pumps trip.
+- **0.00** Fast control valve closure initiates reactor scram.
+- **2.00** Main steam line isolation is initiated due to loss of power to the solenoids.
+- **2.12** Group 3 relief valves actuated.
+- **2.25** Group 4 relief valves actuated.
+- **2.37** Group 5 relief valves actuated.
+- **4.00** Feedwater pump tripped due to MSIV closure.
+- **3.91** Recirculation runback initiated with narrow range sensed level less
+- **7.38** Vessel water level (L3) trip initiates scram trip.
+- **32.32** Vessel water level (L2) trip initiates main steam line isolationa,
+- **32.51** Recirculation pump motor circuit breakers open causing decrease in
+  - HPCS ON
+  - HPCS OFF
+- 11 VESSEL I RISE lPSIJ
+  - I 150.
+- 8 TUReINE STEAM FL.OM t7.J
+  - I 40.
+  - L--- S
+  - TIME (SEC)
+  - TIME (SEC)
+  - AVG SURF
+  - TIME (SEC )
+  - TIME (SEC)
+  - J 1 II
+- 1 I I
+- 0 I- 0
+  - TIME (SEC)
+  - TIME (SEC )
+  - TIME (SEC)
+  - I 10. ' - - 1.H ~ ----, -------~ -----'---~------.
+  - I 30. , / 30.
+  - NOTES
+  - ACTIVITY A
+  - ACTIVITY B
+
+### 15.3 DECREASE IN REACTOR COOLANT SYSTEM FLOW RATE  
+`chapters/15.3_DECREASE_IN_REACTOR_COOLANT_SYSTEM_FLOW_RATE.md` — source pp. 163–206
+
+- **15.3** DECREASE IN REACTOR COOLANT SYSTEM FLOW RATE
+  - **15.3.1** RECIRCULATION PUMP TRIP
+    - **15.3.1.1** Identification of Causes and Frequency Classification
+      - **15.3.1.1.1** Identification of Causes
+      - **15.3.1.1.2** Frequency Classification
+    - **15.3.1.2** Sequence of Events and Systems Operation
+      - **15.3.1.2.1** Sequence of Events
+      - **15.3.1.2.2** Systems Operation
+      - **15.3.1.2.3** The Effect of Single Failures and Operator Errors
+      - **15.3.1.2.3.1** Trip of One Recirculation Pump. None
+    - **15.3.1.3** Core and System Performance
+      - **15.3.1.3.1** Mathematical Model
+      - **15.3.1.3.2** Input Parameters and Initial Conditions
+      - **15.3.1.3.3** Results
+      - **15.3.1.3.4** Consideration of Uncertainties
+    - **15.3.1.4** Barrier Performance
+      - **15.3.1.4.1** Trip of One Recirculation Pump
+      - **15.3.1.4.2** Trip of Two Recirculation Pumps
+    - **15.3.1.5** Radiological Consequences
+  - **15.3.2** RECIRCULATION FLOW CONTROL FAILURE - DECREASING FLOW
+    - **15.3.2.1** Identification of Causes and Frequency Classification
+      - **15.3.2.1.1** Identification of Causes
+      - **15.3.2.1.2** Frequency Classification
+    - **15.3.2.2** Sequence of Events and Systems Operation
+      - **15.3.2.2.1** Sequence of Events
+      - **15.3.2.2.2** Systems Operation
+      - **15.3.2.2.3** The Effect of Single Failures and Operator Errors
+    - **15.3.2.3** Core and System Performance
+      - **15.3.2.3.1** Mathematical Model
+      - **15.3.2.3.2** Input Parameters and Initial Conditions
+      - **15.3.2.3.3** Results
+      - **15.3.2.3.4** Consideration of Uncertainties
+    - **15.3.2.4** Barrier Performance
+      - **15.3.2.4.1** Speed Decrease of One Recirculation Pump
+      - **15.3.2.4.2** Speed Decrease of Two Recirculation Pumps
+    - **15.3.2.5** Radiological Consequences
+  - **15.3.3** RECIRCULATION PUMP SEIZURE
+    - **15.3.3.1** Identification of Causes and Frequency Classification
+    - **15.3.3.2** Sequence of Events and Systems Operation
+      - **15.3.3.2.1** Sequence of Events
+      - **15.3.3.2.2** Systems Operation
+      - **15.3.3.2.3** The Effect of Single Failures and Operator Errors
+    - **15.3.3.3** Core and System Performance
+      - **15.3.3.3.1** Mathematical Model
+      - **15.3.3.3.2** Input Parameters and Initial Conditions
+      - **15.3.3.3.3** Results
+    - **15.3.3.4** Barrier Performance
+    - **15.3.3.5** Radiological Consequences
+  - **15.3.4** RECIRCULATION PUMP SHAFT BREAK
+    - **15.3.4.1** Identification of Causes and Frequency Classification
+      - **15.3.4.1.1** Identification of Causes
+      - **15.3.4.1.2** Frequency Classification
+    - **15.3.4.2** Sequence of Events and Systems Operation
+      - **15.3.4.2.1** Sequence of Events
+      - **15.3.4.2.2** Systems Operation
+      - **15.3.4.2.3** The Effect of Single Failures and Operator Errors
+    - **15.3.4.3** Core and System Performance
+      - **15.3.4.3.1** Qualitative Results
+    - **15.3.4.4** Barrier Performance
+    - **15.3.4.5** Radiological Consequences
+  - **15.3.5** REFERENCES
+- **5.66** Vessel water level (L8) trip initiates turbine trip.
+- **5.66** Feedwater pumps are tripped off.
+- **5.67** Main turbine stop (throttle) valves reach 90% open position and initiate
+- **5.76** Turbine bypass valves open.
+- **4.40** Vessel water high level (L8) trip initiates a turbine trip.
+- **4.40** Feedwater pumps are tripped off.
+- **4.41** Main turbine stop (throttle) valves reach 90% open position and
+- **4.59** Active recirculation loop trips due to previous turbine trip.
+- **0.0** Recirculation pump motor trip off complete
+  - > .. E
+
+### 15.4 REACTIVITY AND POWER DISTRIBUTION ANOMALIES  
+`chapters/15.4_REACTIVITY_AND_POWER_DISTRIBUTION_ANOMALIES.md` — source pp. 207–244
+
+- **15.4** REACTIVITY AND POWER DISTRIBUTION ANOMALIES
+  - **15.4.1** ROD WITHDRAWAL ERROR - LOW POWER
+    - **15.4.1.1** Control Rod Removal Error During Refueling
+      - **15.4.1.1.1** Identification of Causes and Frequency Classification
+      - **15.4.1.1.2** Sequence of Events and Systems Operation
+      - **15.4.1.1.3** Core and System Performances
+      - **15.4.1.1.4** Barrier Performance
+      - **15.4.1.1.5** Radiological Consequences
+    - **15.4.1.2** Continuous Rod Withdrawal During Reactor Startup
+      - **15.4.1.2.1** Identification of Causes and Frequency Classification
+      - **15.4.1.2.2** Sequence of Events and Systems Operation
+      - **15.4.1.2.3** Core and System Performance
+      - **15.4.1.2.4** Barrier Performance
+      - **15.4.1.2.5** Radiological Consequences
+  - **15.4.2** ROD WITHDRAWAL ERROR - AT POWER
+    - **15.4.2.1** Identification of Causes and Frequency Classifications
+      - **15.4.2.1.1** Identification of Causes
+      - **15.4.2.1.2** Frequency Classification
+    - **15.4.2.2** Sequence of Events and Systems Operation
+      - **15.4.2.2.1** Sequence of Events
+      - **15.4.2.2.2** Systems Operation
+      - **15.4.2.2.3** Effect of Single Failure and Operator Errors
+    - **15.4.2.3** Core and System Performance
+      - **15.4.2.3.1** Mathematical Model
+      - **15.4.2.3.2** Input Parameters and Initial Conditions
+      - **15.4.2.3.3** Results
+      - **15.4.2.3.4** Considerations of Uncertainties
+    - **15.4.2.4** Barrier Performance
+    - **15.4.2.5** Radiological Consequences
+  - **15.4.3** CONTROL ROD MALOPERATION (SYSTEM MALFUNCTION OR
+  - OPERATOR ERROR)
+  - **15.4.4** STARTUP OF IDLE RECIRCULATION PUMP
+    - **15.4.4.1** Identification of Causes and Frequency Classification
+      - **15.4.4.1.1** Identification of Causes
+      - **15.4.4.1.2** Frequency Classification
+    - **15.4.4.2** Sequence of Events and Systems Operation
+      - **15.4.4.2.1** Sequence of Events
+      - **15.4.4.2.2** Systems Operation
+      - **15.4.4.2.3** The Effect of Single Failures and Operator Errors
+    - **15.4.4.3** Core and System Performance
+      - **15.4.4.3.1** Mathematical Model
+      - **15.4.4.3.2** Input Parameters and Initial Conditions
+      - **15.4.4.3.3** Results
+      - **15.4.4.3.4** Consideration of Uncertainties
+    - **15.4.4.4** Barrier Performance
+    - **15.4.4.5** Radiological Consequences
+  - **15.4.5** RECIRCULATION FLOW CONTROL FAILURE WITH INCREASING FLOW
+    - **15.4.5.1** Identification of Causes and Frequency Classification
+      - **15.4.5.1.1** Identification of Causes
+      - **15.4.5.1.2** Frequency Classification
+    - **15.4.5.2** Sequence of Events and Systems Operation
+      - **15.4.5.2.1** The Effect of Single Failures and Operator Errors
+    - **15.4.5.3** Core and System Performance
+      - **15.4.5.3.1** Mathematical Model
+      - **15.4.5.3.2** Input Parameters and Initial Conditions
+      - **15.4.5.3.3** Results
+      - **15.4.5.3.4** Considerations of Uncertainties
+    - **15.4.5.4** Barrier Performance
+    - **15.4.5.5** Radiological Consequences
+  - **15.4.6** CHEMICAL AND VOLUME CONTROL SYSTEM MALFUNCTIONS
+  - **15.4.7** MISPLACED BUNDLE ACCIDENT
+    - **15.4.7.1** Identification of Causes and Frequency Classification
+      - **15.4.7.1.1** Identification of Causes
+      - **15.4.7.1.2** Frequency of Occurrence
+    - **15.4.7.2** Sequence of Events and Systems Operation
+      - **15.4.7.2.1** Effect of Single Failure and Operator Errors
+    - **15.4.7.3** Core and System Performance
+      - **15.4.7.3.1** Mathematical Model
+      - **15.4.7.3.2** Input Parameters and Initial Conditions
+      - **15.4.7.3.3** Results
+      - **15.4.7.3.4** Considerations of Uncertainties
+    - **15.4.7.4** Barrier Performance
+    - **15.4.7.5** Radiological Consequences
+  - **15.4.8** SPECTRUM OF ROD EJECTION ASSEMBLIES
+  - **15.4.9** CONTROL ROD DROP ACCIDENT
+    - **15.4.9.1** Identification of Causes and Frequency Classification
+      - **15.4.9.1.1** Identification of Causes
+      - **15.4.9.1.2** Frequency Classification
+    - **15.4.9.2** Sequence of Events and Systems Operation
+      - **15.4.9.2.1** Effect of Single Failures and Operator Errors
+    - **15.4.9.3** Core and System Performance
+      - **15.4.9.3.1** Mathematical Model
+      - **15.4.9.3.2** Input Parameters and Initial Conditions
+      - **15.4.9.3.3** Results
+    - **15.4.9.4** Barrier Performance
+    - **15.4.9.5** Radiological Consequences
+      - **15.4.9.5.1** Fission Product Release from Fuel
+      - **15.4.9.5.2** Fission Product Transport to the Environment
+      - **15.4.9.5.3** Results
+  - **15.4.10** REFERENCES
+  - LDCN-21-015, 21-036
+- **0.00** Plant operating with one recirculation loop only.
+- **5.00** Start idle recirculation loop pump motor.
+- **29.6** Peak value of core inlet subcooling.
+- **29.6** Peak thermal power. Estimated APRM thermal power approximately
+- **45.7** Pump motor at full speed.
+- **1.0** B. Turbine building leak rate (%/day)
+  - Y90 3.50E-05 6.38E-05 1.52E-04 4.90E-04 7.02E-04 1.28E-03
+  - Y91 4.56E-04 4.66E-04 4.95E-04 5.82E-04 6.22E-04 6.87E-04
+  - Y92 6.39E-04 4.76E-03 1.26E-02 1.28E-02 7.81E-03 1.10E-03
+  - Y93 5.94E-04 5.74E-04 5.18E-04 3.42E-04 2.59E-04 1.13E-04
+  - Y90 2.33E-10 1.02E-08 7.78E-08 8.86E-07 1.88E-06 6.88E-06
+  - Y91 3.07E-09 9.60E-08 3.97E-07 1.75E-06 2.76E-06 6.06E-06
+  - Y92 3.78E-09 5.63E-07 6.33E-06 4.33E-05 6.04E-05 7.81E-05
+  - Y93 4.00E-09 1.22E-07 4.63E-07 1.52E-06 2.02E-06 2.90E-06
+
+### 15.5 INCREASE IN REACTOR COOLANT INVENTORY  
+`chapters/15.5_INCREASE_IN_REACTOR_COOLANT_INVENTORY.md` — source pp. 245–249
+
+- **15.5** INCREASE IN REACTOR COOLANT INVENTORY
+  - **15.5.1** INADVERTENT HIGH-PRESSURE CORE SPRAY STARTUP
+    - **15.5.1.1** Identification of Causes and Frequency Classification
+      - **15.5.1.1.1** Identification of Causes
+      - **15.5.1.1.2** Frequency Classification
+    - **15.5.1.2** Sequence of Events and Systems Operation
+      - **15.5.1.2.1** The Effect of Single Failures and Operator Errors
+    - **15.5.1.3** Core and System Performance
+      - **15.5.1.3.1** Mathematical Model
+      - **15.5.1.3.2** Input Parameter and Initial Conditions
+      - **15.5.1.3.3** Results
+    - **15.5.1.4** Barrier Performance
+    - **15.5.1.5** Radiological Consequences
+  - **15.5.2** CHEMICAL VOLUME CONTROL SYSTEM MALFUNCTION
+  - **15.5.3** BOILING WATER REACTOR TRANSIENTS WHICH INCREASE REACTOR
+  - COOLANT INVENTORY
+  - **15.5.4** REFERENCES
+- **11.0** Btu/lbm
+
+### 15.6 DECREASE IN REACTOR COOLANT INVENTORY  
+`chapters/15.6_DECREASE_IN_REACTOR_COOLANT_INVENTORY.md` — source pp. 250–286
+
+- **15.6** DECREASE IN REACTOR COOLANT INVENTORY
+  - **15.6.1** INADVERTENT SAFETY/RELIEF VALVE OPENING
+  - **15.6.2** INSTRUMENT LINE PIPE BREAK
+    - **15.6.2.1** Identification of Causes and Frequency Classification
+      - **15.6.2.1.1** Identification of Causes
+      - **15.6.2.1.2** Frequency Classification
+    - **15.6.2.2** Sequence of Events and Systems Operation
+      - **15.6.2.2.1** The Effect of Single Failures and Operator Errors
+    - **15.6.2.3** Core and System Performance
+      - **15.6.2.3.1** Qualitative Summary - Results
+    - **15.6.2.4** Barrier Performance
+      - **15.6.2.4.1** General
+    - **15.6.2.5** Radiological Consequences
+      - **15.6.2.5.1** Results
+  - **15.6.3** STEAM GENERATOR TUBE FAILURE
+  - **15.6.4** STEAM SYSTEM PIPING BREAK OUTSIDE CONTAINMENT
+    - **15.6.4.1** Identification of Causes and Frequency Classification
+      - **15.6.4.1.1** Identification of Causes
+      - **15.6.4.1.2** Frequency Classification
+    - **15.6.4.2** Sequence of Events and Systems Operation
+      - **15.6.4.2.1** Sequence of Events
+      - **15.6.4.2.2** Systems Operation
+      - **15.6.4.2.3** The Effect of Single Failures and Operator Errors
+    - **15.6.4.3** Core and System Performance
+      - **15.6.4.3.1** Input Parameters and Initial Conditions
+      - **15.6.4.3.2** Results
+      - **15.6.4.3.3** Considerations of Uncertainties
+    - **15.6.4.4** Barrier Performance
+    - **15.6.4.5** Radiological Consequences
+      - **15.6.4.5.1** Results
+  - **15.6.5** LOSS-OF-COOLANT ACCIDENTS (RESULTING FROM SPECTRUM OF
+  - POSTULATED PIPING BREAKS WITHIN THE REACTOR COOLANT
+  - PRESSURE BOUNDARY) - INSIDE CONTAINMENT
+    - **15.6.5.1** Identification of Causes and Frequency Classification
+      - **15.6.5.1.1** Identification of Causes
+      - **15.6.5.1.2** Frequency Classification
+    - **15.6.5.2** Sequence of Events and Systems Operation
+    - **15.6.5.3** Core and System Performance
+    - **15.6.5.4** Radiological Consequences
+      - **15.6.5.4.1** Design Basis Analysis
+  - **15.6.6** FEEDWATER LINE BREAK - OUTSIDE CONTAINMENT
+    - **15.6.6.1** Identification of Causes and Frequency Classification
+      - **15.6.6.1.1** Identification of Causes
+      - **15.6.6.1.2** Frequency Classification
+    - **15.6.6.2** Sequence of Events and Systems Operation
+      - **15.6.6.2.1** Sequence of Events
+      - **15.6.6.2.2** Systems Operation
+  - HPCS.
+      - **15.6.6.2.3** The Effect of Single Failures and Operator Errors
+    - **15.6.6.3** Core and System Performance
+      - **15.6.6.3.1** Qualitative Summary
+      - **15.6.6.3.2** Qualitative Results
+      - **15.6.6.3.3** Consideration of Uncertainties
+    - **15.6.6.4** Barrier Performance
+    - **15.6.6.5** Radiological Consequences
+      - **15.6.6.5.1** Fission Product Release
+      - **15.6.6.5.2** Fission Product Transport to the Environment
+      - **15.6.6.5.3** Results
+  - **15.6.7** REFERENCES
+- 10 Safety/relief valves open on high vessel pressure. The valves open and
+- **8.19** E-4 sec/m3
+
+### 15.7 Radioactive Release From Subsystems And Components  
+`chapters/15.7_Radioactive_Release_From_Subsystems_And_Components.md` — source pp. 287–300
+
+- **15.7** RADIOACTIVE RELEASE FROM SUBSYSTEMS AND COMPONENTS
+  - **15.7.1** RADIOACTIVE GAS WASTE SYSTEM LEAK OR FAILURE
+  - **15.7.2** LIQUID RADIOACTIVE SYSTEM FAILURE
+  - **15.7.3** POSTULATED RADIOACTIVE RELEASES DUE TO LIQUID RADWASTE
+  - TANK FAILURE
+    - **15.7.3.1** Identification of Causes and Frequency Classification
+      - **15.7.3.1.1** Identification of Causes
+      - **15.7.3.1.2** Frequency Classification
+    - **15.7.3.2** Sequence of Events and Systems Operation
+      - **15.7.3.2.1** Sequence of Events
+      - **15.7.3.2.2** Systems Operation
+      - **15.7.3.2.3** The Effects of Single Failures and Operator Errors
+    - **15.7.3.3** Core and System Performance
+    - **15.7.3.4** Barrier Performance
+    - **15.7.3.5** Radiological Consequences
+  - **15.7.4** FUEL HANDLING ACCIDENT
+    - **15.7.4.1** Identification of Causes and Frequency Classification
+      - **15.7.4.1.1** Identification of Causes
+      - **15.7.4.1.2** Frequency Classification
+    - **15.7.4.2** Sequence of Events and Systems Operation
+      - **15.7.4.2.1** The Effects of Single Failures and Operator Errors
+    - **15.7.4.3** Core and System Performance
+      - **15.7.4.3.1** Mathematical Model
+      - **15.7.4.3.2** Input Parameters and Initial Conditions
+      - **15.7.4.3.3** Results
+    - **15.7.4.4** Barrier Performance
+    - **15.7.4.5** Radiological Consequences
+      - **15.7.4.5.1** Design Basis Analysis
+  - **15.7.5** SPENT FUEL CASK DROP ACCIDENT
+  - **15.7.6** REFERENCES
+  - ER-OL.
+
+### 15.8 ANTICIPATED TRANSIENTS WITHOUT SCRAM  
+`chapters/15.8_ANTICIPATED_TRANSIENTS_WITHOUT_SCRAM.md` — source pp. 301–356
+
+- **15.8** ANTICIPATED TRANSIENTS WITHOUT SCRAM
+  - **15.8.0** CAPABILITIES OF PRESENT DESIGN TO ACCOMMODATE
+  - ANTICIPATED TRANSIENTS WITHOUT SCRAM
+  - LDCN-05-009, 07-011
+  - **15.8.1** INADVERTENT CONTROL ROD WITHDRAWAL
+  - **15.8.2** LOSS OF FEEDWATER
+    - **15.8.2.1** Identification of Causes and Frequency Classification
+      - **15.8.2.1.1** Identification of Causes
+      - **15.8.2.1.2** Frequency Classification
+    - **15.8.2.2** Sequence of Events and System Operation
+      - **15.8.2.2.1** Sequence of Events
+      - **15.8.2.2.2** System Operation
+      - **15.8.2.2.3** The Effect of Single Failure and Operator Errors
+    - **15.8.2.3** Core and System Performance
+      - **15.8.2.3.1** Mathematical Model
+      - **15.8.2.3.2** Input Parameters and Initial Conditions
+      - **15.8.2.3.3** Results
+      - **15.8.2.3.4** Consideration of Uncertainties
+    - **15.8.2.4** Barrier Performance
+    - **15.8.2.5** Radiological Consequences
+  - **15.8.3** LOSS OF ALTERNATE CURRENT POWER
+  - **15.8.4** LOSS OF ELECTRICAL LOAD
+  - **15.8.5** LOSS OF CONDENSER VACUUM
+  - **15.8.6** TURBINE TRIP
+  - **15.8.7** CLOSURE OF MAIN STEAM LINE ISOLATION VALVES
+    - **15.8.7.1** Identification of Causes and Frequency Classification
+      - **15.8.7.1.1** Identification of Causes
+      - **15.8.7.1.2** Frequency Classification
+    - **15.8.7.2** Sequence of Events and System Operation
+      - **15.8.7.2.1** Sequence of Events
+      - **15.8.7.2.2** System Operation
+      - **15.8.7.2.3** The Effect of Single Failures and Operator Errors
+    - **15.8.7.3** Core and System Performance
+      - **15.8.7.3.1** Mathematical Model
+      - **15.8.7.3.2** Input Parameters and Initial Conditions
+      - **15.8.7.3.3** Results
+      - **15.8.7.3.4** Consideration of Uncertainties
+    - **15.8.7.4** Barrier Performance
+    - **15.8.7.5** Radiological Consequences
+  - **15.8.8** INADVERTENT OPENING OF RELIEF VALVE
+    - **15.8.8.1** Identification of Causes and Frequency Classification
+      - **15.8.8.1.1** Identification of Causes
+      - **15.8.8.1.2** Frequency Classification
+    - **15.8.8.2** Sequence of Events and System Operation
+      - **15.8.8.2.1** Sequence of Events
+      - **15.8.8.2.2** The Effect of Single Failures and Operator Errors
+    - **15.8.8.3** Core and System Performance
+      - **15.8.8.3.1** Mathematical Model
+      - **15.8.8.3.2** Input Parameters and Initial Conditions
+      - **15.8.8.3.3** Results
+      - **15.8.8.3.4** Consideration of Uncertainties
+    - **15.8.8.4** Barrier Performance
+    - **15.8.8.5** Radiological Consequences
+  - **15.8.9** PRESSURE REGULATOR FAILURE - OPEN (PREGO)
+    - **15.8.9.1** Identification of Causes and Frequency Classification
+      - **15.8.9.1.1** Identification of Causes
+      - **15.8.9.1.2** Frequency Classification
+    - **15.8.9.2** Sequence of Events and System Operation
+      - **15.8.9.2.1** Sequence of Events
+      - **15.8.9.2.3** The Effect of Single Failures and Operator Errors
+    - **15.8.9.3** Core and System Performance
+      - **15.8.9.3.1** Mathematical Model
+      - **15.8.9.3.2** Input Parameters and Initial Conditions
+      - **15.8.9.3.3** Results
+      - **15.8.9.3.4** Consideration of Uncertainties
+    - **15.8.9.4** Barrier Performance
+    - **15.8.9.5** Radiological Consequences
+  - **15.8.10** SINGLE REACTOR RECIRCULATION SYSTEM PUMP OPERATION
+  - **15.8.11** REFERENCES
+  - NEDO-10349.
+  - COLR).
+- 18 SRV (4 OOS)
+  - DELETED
+  - C. . .
+  - I I I I '
+  - I I I I I I I I L
+  - I I I I I
+  - I I I
+  - I I I I
+  - co' ti) c.. -
+  - I I I I I I I I I I I I I I
+  - I I I I I I I I I I I I I
+  - "C -
+  - ti) c.. - C)
+  - I I I
+  - I ---,---
+  - I I I I I I I
+  - co rn a. -
+  - G) 1200
+  - "C -
+  - rn a. -
+  - C, G) 150 12
+  - G) ... 125
+  - G) ...
+  - G) 100
+  - TECHNICAL SPECIFICATIONS
+  - TECHNICAL SPECIFICATION BASES
+  - LICENSEE CONTROLLED SPECIFICATIONS
+  - QUALITY ASSURANCE
+  - TABLE OF CONTENTS
+  - **17.1.2.3** Exceptions to the Burns & Roe, Inc. Quality Assurance Topical
+    - **17.1.2.3.7** Chapter VII - Control of Purchased Material, Equipment,
+    - **17.1.2.3.8** Chapter VIII - Identification and Control of Material Parts
+  - QUALITY ASSURANCE
+- **17.1.3** GENERAL ELECTRIC COMPANY QUALITY ASSURANCE
+- **17.1.4** BECHTEL POWER CORPORATION QUALITY ASSURANCE
+  - QUALITY ASSURANCE
+  - LIST OF TABLES
+  - QUALITY ASSURANCE
+  - LIST OF FIGURES
+
+### 17.1 Quality Assurance During Design And Construction  
+`chapters/17.1_Quality_Assurance_During_Design_And_Construction.md` — source pp. 357–408
+
+- QUALITY ASSURANCE
+- **17.1** QUALITY ASSURANCE DURING DESIGN AND CONSTRUCTION
+  - **17.1.1** ENERGY NORTHWEST QUALITY ASSURANCE PROGRAM
+    - **17.1.1.1** Organization
+    - **17.1.1.2** Quality Assurance Program
+- 10 CFR 50, Appendix B, appears in the table below followed by description of the scope
+- 10 CFR 50, Appendix B Criteria System QAR
+  - QAR-1
+  - QAR-2
+  - QAR-3
+  - QAR-4
+  - QAR-6
+  - QAR-7
+  - QAR-8
+  - QAR-9
+  - QAR-10
+  - QAR-11
+  - QAR-12
+  - QAR-13
+  - QAR-14
+  - QAR-16
+  - QAR-17
+  - QAR-18
+    - **17.1.1.3** Design Control
+    - **17.1.1.4** Procurement Document Control
+    - **17.1.1.5** Instructions, Procedures, and Drawings
+    - **17.1.1.6** Document Control
+    - **17.1.1.7** Control of Purchased Material, Equipment, and Services
+    - **17.1.1.8** Identification and Control of Materials, Parts, and Components
+    - **17.1.1.9** Control of Special Processes
+    - **17.1.1.10** Inspection
+    - **17.1.1.11** Test Control
+    - **17.1.1.12** Control of Measuring and Test Equipment
+    - **17.1.1.13** Handling, Storage, and Shipping
+    - **17.1.1.14** Inspection, Test, and Operating Status
+    - **17.1.1.15** Nonconforming Materials, Parts, or Components
+    - **17.1.1.16** Corrective Action
+    - **17.1.1.17** Quality Assurance Records
+    - **17.1.1.18** Audits
+  - **17.1.2** THE BURNS AND ROE, INC. QUALITY ASSURANCE PROGRAM
+    - **17.1.2.1** Introduction
+    - **17.1.2.2** The Burns & Roe, Inc. Quality Assurance Topical Report
+    - **17.1.2.3** Exceptions to the Burns & Roe, Inc. Quality Assurance Topical Report
+      - **17.1.2.3.1** Chapter I - Organization
+      - **17.1.2.3.2** Chapter II - Quality Assurance Program
+  - FSAR.
+      - **17.1.2.3.3** Chapter III - Design Control
+      - **17.1.2.3.4** Chapter IV - Procurement Document Control
+      - **17.1.2.3.5** Chapter V - Instructions, Procedures, and Drawings
+      - **17.1.2.3.6** Chapter VI - Document Control
+      - **17.1.2.3.7** Chapter VII - Control of Purchased Material, Equipment, and Services
+      - **17.1.2.3.8** Chapter VIII - Identification and Control of Material Parts and Components
+      - **17.1.2.3.9** Chapter IX - Control of Special Processes
+      - **17.1.2.3.10** Chapter X - Inspection
+      - **17.1.2.3.11** Chapter XI - Test Control
+  - FSAR.
+      - **17.1.2.3.12** Chapter XII - Control of Measuring and Test Equipment
+      - **17.1.2.3.13** Chapter XIII - Handling, Storage, and Shipping
+      - **17.1.2.3.14** Chapter XIV - Inspection, Test, and Operating Status
+      - **17.1.2.3.15** Chapter XV - Nonconforming Materials, Parts, or Components
+      - **17.1.2.3.16** Chapter XVI - Corrective Action
+      - **17.1.2.3.17** Chapter XVII - Quality Assurance Records
+      - **17.1.2.3.18** Chapter XVIII - Audits
+  - **17.1.3** GENERAL ELECTRIC COMPANY QUALITY ASSURANCE PROGRAM
+  - **17.1.4** BECHTEL POWER CORPORATION QUALITY ASSURANCE PROGRAM
+    - **17.1.4.1** Quality Assurance Topical Report
+    - **17.1.4.2** Scope of Responsibility
+    - **17.1.4.3** Project-Unique Modification to BQ-TOP-1, Revision 3A
+  - ATTACHMENT 1
+  - ATTACHMENT 2
+  - QUALITY ASSURANCE
+  - MANAGER OF QUALITY
+  - PSQD.
+  - ATTACHMENT 3
+  - DIVISION CONSTRUCTION
+  - ATTACHMENT 4
+  - PROJECT QUALITY PROGRAM DOCUMENTS
+  - ATTACHMENT 5
+  - DIVISION PROJECT
+  - OPERATIONS & SERVICES
+  - MANAGER
+  - SFPD HOME OFFICE
+  - PLANT PROJECT
+  - MANAGER OF PROJECTS
+  - PROJECT MANAGER
+  - PROJECT
+  - PROJECT
+  - MANAGER OF
+  - COST AND SCHEDULE
+  - CONSTRUCTION ENGINEERING
+  - QUALITY
+  - MANAGER
+  - MANAGER
+  - MANAGER
+  - QUALITY CONTROL
+  - CONSTRUCTION
+  - ENGINEER
+  - PROJECT
+  - QUALITY ASSURANCE/QUALITY CONTROL ORGANIZATION
+  - MANAGER QUALITY
+  - QA MANAGER
+  - ASSURANCE
+  - ENGINEER
+  - PROJECT QUALITY
+  - LEGEND AND NOTE
+  - ATTACHMENT 7
+  - SECTION
+  - SECTION
+- 3 TO 10 CFR 50, APPENDIX B
+  - ASSURANCE MANUAL NUCLEAR QUALITY
+  - SECTION
+  - MATERIALS, PARTS AND COMPONENTS
+  - CONTROL OF PURCHASED MATERIAL, HANDLING, STORAGE AND SHIPPING NONCONFORMING MATERIAL, PARTS
+  - IDENTIFICATION AND CONTROL OF
+  - PROCUREMENT DOCUMENT CONTROL CONTROL OF SPECIAL PROCESSES
+  - QUALITY ASSURANCE PROGRAM INSTRUCTIONS, PROCEDURES,
+  - CONTROL OF MEASURING AND QUALITY ASSURANCE RECORDS
+  - EQUIPMENT, AND SERVICES
+  - INSPECTION, TEST, AND
+  - SUBJECT
+  - POWER DIVISION SAN FRANCISCO
+  - CORRECTIVE ACTION
+  - OPERATING STATUS
+  - DOCUMENT CONTROL
+  - TEST EQUIPMENT
+  - DESIGN CONTROL
+  - OR COMPONENTS
+  - ORGANIZATION AND DRAWINGS TEST CONTROL
+  - INSPECTION
+  - AUDITS
+  - APP. B
+  - XVIII
+  - CRIT.
+  - VIII XIII XVII
+  - III VII XII XIV XVI
+  - II IV VI IX XI XV
+  - I V X
+  - X X X X X
+  - ASME B&P
+  - X X X X X
+  - X X X X X
+  - ANSI N45.2
+  - X X X X X
+- 10 CFR 50 Appendix B
+  - X X X X X X X
+
+### 17.2 Quality Assurance During The Operations Phase  
+`chapters/17.2_Quality_Assurance_During_The_Operations_Phase.md` — source pp. 409–1141
+
+- **17.2** QUALITY ASSURANCE DURING THE OPERATIONS PHASE
+  - SUPPLEMENT
+  - AGING MANAGEMENT PROGRAMS AND ACTIVITIES
+  - CREDITED FOR COLUMBIA LICENSE RENEWAL
+  - TABLE OF CONTENTS
+  - LDCN-21-041. 23-022
+  - SUPPLEMENT
+  - AGING MANAGEMENT PROGRAMS AND ACTIVITIES
+  - CREDITED FOR COLUMBIA LICENSE RENEWAL
+  - SUPPLEMENT
+  - AGING MANAGEMENT PROGRAMS AND ACTIVITIES
+  - CREDITED FOR COLUMBIA LICENSE RENEWAL
+  - SUPPLEMENT
+  - AGING MANAGEMENT PROGRAMS AND ACTIVITIES
+  - CREDITED FOR COLUMBIA LICENSE RENEWAL
+  - LIST OF TABLES
+  - APPENDIX A
+  - SUPPLEMENT AGING MANAGEMENT PROGRAMS
+  - AND ACTIVITIES CREDITED FOR COLUMBIA LICENSE RENEWAL
+  - A.0 FINAL SAFETY ANALYSIS REPORT SUPPLEMENT
+  - A.1 INTRODUCTION
+  - A.2 AGING MANAGEMENT PROGRAMS AND ACTIVITIES
+  - A.1-1
+  - A.2-1
+  - A.2.1 AGING MANAGEMENT PROGRAMS
+  - A.2.1.1 ABOVEGROUND STEEL TANKS INSPECTION
+  - A.2.1.2 COMPRESSED AIR MONITORING PROGRAM
+  - LDCN-19-039, 23-022, 21-042
+  - A.2-2
+  - A.2.1.3 APPENDIX J PROGRAM
+  - A.2.1.4 BOLTING INTEGRITY PROGRAM
+  - A.2.1.5 BURIED PIPING AND TANKS INSPECTION PROGRAM
+  - LDCN-21-040, 19-039, 22-039, 21-042
+  - A.2-3
+  - A.2.1.6 BWR FEEDWATER NOZZLE PROGRAM
+  - A.2.1.7 BWR PENETRATIONS PROGRAM
+  - LDCN-22-029, 22-039, 21-042
+  - A.2-4
+  - A.2.1.8 BWR STRESS CORROSION CRACKING PROGRAM
+  - A.2.1.9 BWR VESSEL ID ATTACHMENT WELDS PROGRAM
+  - A.2.1.10 BWR VESSEL INTERNALS PROGRAM
+  - A.2-5
+  - A.2.1.11 BWR WATER CHEMISTRY PROGRAM
+  - A.2.1.12 CHEMISTRY PROGRAM EFFECTIVENESS INSPECTION
+  - A.2-6
+  - A.2.1.13 CLOSED COOLING WATER CHEMISTRY PROGRAM
+  - A.2.1.14 INTERNAL SURFACES OF MISCELLANEOUS PIPING AND DUCTING
+  - PROGRAM
+  - LDCN-21-041, 21-042
+  - A.2-7
+  - A.2.1.15 CONTROL ROD DRIVE RETURN LINE NOZZLE PROGRAM
+  - A.2.1.16 DIESEL STARTING AIR INSPECTION
+  - LDCN-19-039, 22-029, 21-041, 23-022, 21-042 A.2-8
+  - A.2.1.17 DIESEL SYSTEMS INSPECTION PROGRAM
+  - A.2.1.18 DIESEL-DRIVEN FIRE PUMPS INSPECTION PROGRAM
+  - A.2.1.19 ELECTRICAL CABLES AND CONNECTIONS NOT SUBJECT TO
+- 10 CFR 50.49 EQ REQUIREMENTS PROGRAM
+  - A.2.1.20 ELECTRICAL CABLES AND CONNECTIONS NOT SUBJECT TO
+- 10 CFR 50.49 EQ REQUIREMENTS USED IN INSTRUMENTATION
+  - CIRCUITS PROGRAM
+  - LDCN-21-041, 21-042
+  - A.2-9
+  - A.2.1.21 ELECTRICAL CABLE CONNECTIONS NOT SUBJECT TO 10 CFR 50.49 EQ
+  - REQUIREMENTS INSPECTION
+  - A.2.1.22 EQ PROGRAM
+  - A.2-10
+  - A.2.1.23 EXTERNAL SURFACES MONITORING PROGRAM
+  - A.2.1.24 FATIGUE MONITORING PROGRAM
+  - A.2.1.25 FIRE PROTECTION PROGRAM
+  - A.2-11
+  - A.2.1.26 FIRE WATER PROGRAM
+  - A.2.1.27 FLEXIBLE CONNECTION INSPECTION PROGRAM
+  - A.2.1.28 FLOW-ACCELERATED CORROSION (FAC) PROGRAM
+  - LDCN-21-041, 21-042
+  - A.2-12
+  - A.2.1.29 FUEL OIL CHEMISTRY PROGRAM
+  - A.2.1.30 HEAT EXCHANGERS INSPECTION
+  - A.2-13
+  - A.2.1.31 HIGH-VOLTAGE PORCELAIN INSULATORS AGING MANAGEMENT
+  - PROGRAM
+  - A.2.1.32 INACCESSIBLE POWER CABLES NOT SUBJECT TO 10 CFR 50.49 EQ
+  - REQUIREMENTS PROGRAM
+  - A.2-14
+  - A.2.1.33 INSERVICE INSPECTION (ISI) PROGRAM
+- 10 CFR 50.55a. The Inservice Inspection (ISI) Program – IWE includes visual examination of
+  - LDCN-22-022, 21-042
+  - A.2-15
+  - A.2.1.36 LUBRICATING OIL ANALYSIS PROGRAM
+  - LDCN-22-022, 21-042
+  - A.2-16
+  - A.2.1.37 LUBRICATING OIL INSPECTION
+  - A.2.1.38 MASONRY WALL INSPECTION
+  - A.2.1.39 MATERIAL HANDLING SYSTEM INSPECTION PROGRAM
+  - A.2.1.40 METAL-ENCLOSED BUS PROGRAM
+  - LDCN-22-020, 21-042
+  - A.2-17
+  - A.2.1.41 MONITORING AND COLLECTION SYSTEMS INSPECTION PROGRAM
+  - A.2.1.42 OPEN-CYCLE COOLING WATER PROGRAM
+  - LDCN-22-020, 21-041, 22-037, 21-042
+  - A.2-18
+  - A.2.1.43 POTABLE WATER MONITORING PROGRAM
+  - A.2.1.45 REACTOR HEAD CLOSURE STUDS PROGRAM
+  - A.2.1.46 REACTOR VESSEL SURVEILLANCE PROGRAM
+  - LDCN-21-041, 21-042
+  - A.2-19
+  - A.2.1.47 SELECTIVE LEACHING INSPECTION
+  - A.2.1.48 SERVICE AIR SYSTEM INSPECTION PROGRAM
+  - LDCN-21-041, 23-040
+  - A.2-20
+  - A.2.1.49 SMALL BORE CLASS 1 PIPING PROGRAM
+  - A.2.1.50 STRUCTURES MONITORING PROGRAM
+  - A.2.1.51 SUPPLEMENTAL PIPING/TANK INSPECTION
+  - LDCN-21-041, 22-023, 21-042
+  - A.2-21
+  - A.2.1.52 THERMAL AGING AND NEUTRON EMBRITTLEMENT OF CAST
+  - AUSTENITIC STAINLESS STEEL (CASS)
+  - A.2.1.53 WATER CONTROL STRUCTURES INSPECTION
+  - A.2.1.54 BORON CARBIDE MONITORING PROGRAM
+  - LDCN-21-041, 21-042
+  - A.2-22
+  - A.2.1.55 SERVICE LEVEL 1 PROTECTIVE COATINGS PROGRAM
+  - A.2.2 EVALUATION OF TIME-LIMITED AGING ANALYSES
+  - A.2.2.1 REACTOR VESSEL NEUTRON EMBRITTLEMENT
+  - A.2-23
+  - A.2-24
+  - A.2-25
+  - A.2-26
+  - A.2-27
+  - A.2.2.2 METAL FATIGUE
+  - A.2-28
+  - A.2-29
+  - A.2-30
+  - A.2-31
+  - A.2.2.3 NON-CLASS 1 COMPONENT FATIGUE ANALYSES
+  - A.2-32
+  - A.2.2.4 EFFECTS OF REACTOR COOLANT ENVIRONMENT ON FATIGUE LIFE OF
+  - COMPONENTS AND PIPING
+  - A.2-33
+  - A.2.2.5 ENVIRONMENTAL QUALIFICATION OF ELECTRICAL EQUIPMENT
+  - A.2.2.6 FATIGUE OF PRIMARY CONTAINMENT, ATTACHED PIPING, AND
+  - COMPONENTS
+  - A.2-34
+  - A.2-35
+  - A.2-36
+  - A.2.2.7 OTHER PLANT-SPECIFIC TIME-LIMITED AGING ANALYSES
+  - A.2-37
+  - A.2-38
+  - A.2-39
+  - A.3 REFERENCES
+  - LDCN-21-041, 22-039
+  - A.3-1
+  - RAI B.2.1-3
+  - RAI B.2.5-2
+  - A.1.2.1 A.1.2.2
+  - A.1.2.3 A.1.2.4 A.1.2.5
+  - LDCN-22-011, 21-040, 19-039, 23-022
+  - A.4-1
+  - LDCN-22-011, 21-040, 22-039
+  - A.4-2
+  - A.1.2.6 A.1.2.7 A.1.2.8
+  - LDCN-22-011, 21-040, 22-039
+  - A.4-3
+  - A.1.2.13
+  - A.1.2.10 A.1.2.11 A.1.2.12
+  - A.2.1.14
+  - A.1.2.9
+  - LDCN-22-011, 21-041, 21-042
+  - A.4-4
+  - LDCN-21-041 LDCN-21-041
+  - A.1.2.15 A.1.2.16
+  - A.2.1.14 A.2.1.14 A.1.2.19
+  - LDCN-22-011, 21-041, 23-022
+  - A.4-5
+  - A.1.2.21
+  - A.1.2.20
+  - A.1.2.22 A.1.2.23
+  - A.1.3.5
+  - A.4-6
+  - RAI B.2.26-1 RAI B.2.26-6
+  - A.1.2.25 A.1.2.26
+  - A.1.2.24
+  - A.1.3.2 A.1.3.4
+  - A.4-7
+  - A.2.1.14 A.1.2.28 A.1.2.29 A.1.2.30
+  - A.4-8
+  - LDCN-22-011, 21-041
+  - RAI B.2.32-4
+  - A.1.2.33 A.1.2.34 A.1.2.35
+  - A.1.2.31 A.1.2.32
+  - A.4-9
+  - A.1.2.39 A.1.2.40
+  - A.2.1.14
+  - A.1.2.36 A.1.2.37 A.1.2.38
+  - A.4-10
+  - LDCN-22-011, 21-041
+  - A.2.1.14 A.1.2.44 A.1.2.45 A.1.2.46 A.1.2.47
+  - A.1.2.42
+  - LDCN-22-011, 21-041, 22-037, 23-030
+  - A.4-11
+  - LDCN-21-041 LDCN-22-023
+  - A.2.1.14 A.1.2.49
+  - LDCN-22-011, 21-041, 22-023
+  - A.4-12
+  - RAI B.2.50-1, RAI B.2.50-2,
+  - LDCN-21-041 RAI B.2.50-2 RAI B.2.50-3
+  - A.2.1.14
+  - A.1.2.50
+  - A.4-13
+  - LDCN-22-011, 21-041
+  - RAI B.2.50-2 RAI B.2.50-6
+  - A.1.2.53
+  - A.1.2.52
+  - LDCN-22-011, 21-042
+  - A.4-14
+  - RAI B.2.54-1
+  - A.1.3.1.4
+  - A.1.2.54
+  - LRA LRA LRA
+  - LDCN-22-011, 21-042
+  - A.4-15
+  - RAI B.2.49-2
+  - RAI XI.S8-1
+  - A.1.2.33 A.1.2.50
+  - A.1.2.55 A.1.2.33 A.1.2.34
+  - LDCN-22-011, 21-038, 21-042
+  - A.4-16
+  - RAI 4.2-1 RAI 4.2-6 RAI 4.2-6
+  - A.1.3.1.2 A.1.2.50 A.1.2.28 A.1.2.33
+  - LDCN-22-011, 21-042
+  - A.4-17
+  - RESPONSE TO REGULATORY ISSUES
+  - RESULTING FROM TMI-2
+  - TABLE OF CONTENTS
+  - I.C.1 GUIDANCE FOR THE EVALUATION AND DEVELOPMENT
+  - I.C.6 GUIDANCE ON PROCEDURES FOR VERIFYING CORRECT
+  - I.C.8 PILOT MONITORING OF SELECTED EMERGENCY PROCEDURES
+  - II.F.2 INSTRUMENTATION FOR DETECTION OF INADEQUATE
+  - RESPONSE TO REGULATORY ISSUES
+  - RESULTING FROM TMI-2
+  - LIST OF TABLES
+  - RESPONSE TO REGULATORY ISSUES
+  - RESULTING FROM TMI-2
+  - LIST OF FIGURES
+  - B.1-1
+  - B.1-2
+  - B.1-3
+  - I.C.1 GUIDANCE FOR THE EVALUATION AND DEVELOPMENT OF PROCEDURES
+  - FOR TRANSIENTS AND ACCIDENTS
+  - B.1-5
+  - B.1-6
+  - B.1-7
+  - I.C.2 SHIFT AND RELIEF TURNOVER PROCEDURES
+  - B.1-8
+  - B.1-9
+  - I.C.4 CONTROL ROOM ACCESS
+  - B.1-10
+  - I.C.6 GUIDANCE ON PROCEDURES FOR VERIFYING CORRECT PERFORMANCE
+  - OF OPERATING ACTIVITIES
+  - B.1-11
+  - B.1-12
+  - B.1-13
+  - I.C.7 NSSS VENDOR REVIEW OF PROCEDURES
+  - I.C.8 PILOT MONITORING OF SELECTED EMERGENCY PROCEDURES FOR
+  - NEAR-TERM OPERATING LICENSE APPLICANTS
+  - LDCN-00-089, 01-000
+  - B.1-14
+  - I.D.1 CONTROL ROOM DESIGN REVIEWS
+  - B.1-15
+  - B.1-16
+  - B.1-17
+  - I.D.1).
+  - I.G.1 PREOPERATIONAL AND LOW-POWER TESTING
+  - B.1-18
+  - B.1-19
+  - B.1-20
+  - B.1-21
+  - II.B.1 REACTOR COOLANT SYSTEM VENTS
+  - B.2-1
+  - B.2-2
+  - B.2-3
+  - FSAR.
+  - B.2-4
+  - B.2-5
+  - B.2-6
+  - B.2-7
+  - B.2-8
+  - II.B.3 POSTACCIDENT SAMPLING CAPABILITY
+  - B.2-9
+  - B.2-10
+  - B.2-11
+  - B.2-12
+  - B.2-13
+  - B.2-14
+  - B.2-15
+  - B.2-16
+  - B.2-17
+  - B.2-19
+  - B.2-21
+  - B.2-22
+  - B.2-23
+  - II.F.2 INSTRUMENTATION FOR DETECTION OF INADEQUATE CORE COOLING
+  - B.2-24
+  - B.2-25
+  - B.2-26
+  - B.2-27
+  - B.2-28
+  - B.2-29
+  - B.2-30
+  - RCIC HPCS LPCS
+  - RHR/LPCI
+  - B.2-31
+  - B.2-32
+  - B.2-33
+  - B.2-34
+  - B.2-35
+  - B.2-36
+  - B.2-37
+  - B.2-38
+  - B.2-39
+  - B.2-40
+  - BWR/2
+  - BWR/3
+  - BWR/4
+  - BWR/5
+  - BWR/6
+  - B.2-41
+  - NUREG-0737
+  - B.2-42
+  - B.2-43
+  - B.2-44
+  - B.2-45
+  - B.2-46
+- **78.3** No uncovery
+- **78.3** No uncovery
+  - B.2-47
+  - B.2-48
+  - B.2-49
+  - B.2-50
+  - NUREG-0737
+  - B.2-51
+  - B.2-53
+  - B.3-1
+  - B.3-2
+  - LDCN-00-018, 01-00A
+  - B.3-3
+  - B.3-4
+  - B.3-5
+  - FIRE PROTECTION EVALUATION
+  - TABLE OF CONTENTS
+  - LDCN-06-001, 09-022
+  - FIRE PROTECTION EVALUATION
+  - F.3 COMPLIANCE WITH FIRE PROTECTION REGULATORY
+  - FIRE PROTECTION EVALUATION
+  - FIRE PROTECTION EVALUATION
+  - F.5 ESSENTIAL FIRE PROTECTION SYSTEM OPERABILITY/TESTING
+  - F.7.1 REGULATORY DOCUMENTS/OTHER FSAR FIRE PROTECTION
+  - LDCN-04-037, 08-003, 08-029, 09-022
+  - FIRE PROTECTION EVALUATION
+  - LIST OF TABLES
+  - FIRE PROTECTION EVALUATION
+  - LIST OF FIGURES
+  - FIRE PROTECTION EVALUATION
+  - FIRE PROTECTION EVALUATION
+  - F.1 INTRODUCTION
+  - F.1-1
+  - F.1.1 FIRE PROTECTION PROGRAM
+  - F.1-2
+  - F.1.2 BACKGROUND
+- 10 CFR 50, Appendix R added new expectations for the fire protection of safe shutdown
+- 10 CFR 50.48 requirements for plants licensed to operate prior to January 1, 1979. Columbia
+  - F.1-3
+  - F.1-4
+  - F.2 FIRE PROTECTION SYSTEMS
+  - F.2-1
+  - F.2.1 APPLICABLE INDUSTRY STANDARDS
+  - F.2-2
+  - LDCN-17-002, 15-063
+  - F.2-3
+  - F.2.2 FIRE RESISTIVE CONSTRUCTION
+  - F.2-4
+  - F.2-5
+  - F.2-6
+  - F.2-7
+  - F.2-8
+  - F.2-9
+  - F.2.3 FIRE DETECTION AND ALARM SYSTEMS
+  - F.2-10
+  - F.2.4 FIRE SUPPRESSION SYSTEMS
+  - LDCN-17-002, 15-055, 15-063
+  - F.2-11
+  - F.2-12
+  - F.2-13
+  - LDCN-17-026, 19-011
+  - F.2-14
+  - F.2-15
+  - F.2-16
+  - F.2-17
+  - F.2.5 MANUAL FIRE FIGHTING EQUIPMENT
+  - F.2-18
+  - F.2.6 OPERATOR ACTION EQUIPMENT
+  - F.2-19
+  - F.2.7 INSPECTION AND TESTING
+  - F.2-20
+  - POSITION
+  - CODE SECTION
+  - NFPA 13-1975
+  - F.2-21 LDCN-21-022
+  - CODE SECTION
+  - POSITION
+  - F.2-22 LDCN-05-029
+  - CODE SECTION
+  - POSITION
+  - F.2-23
+  - CODE SECTION
+  - POSITION
+  - NFPA 14-1974
+- 14 Combined Systems
+- 14 Combined Systems
+- 15 Approved Devices
+- 15 Approved Devices
+  - F.2-24
+  - CODE SECTION
+  - POSITION
+- 21 Design Basis
+- 21 Design Basis
+  - CHAPTER 3 - NUMBER AND LOCATION OF CHAPTER 3 - NUMBER AND LOCATION OF
+  - STANDPIPES
+  - STANDPIPES
+- 32 Number of Standpipes
+- 32 Number of Standpipes
+  - CHAPTER 4 - HOSE OUTLETS
+  - CHAPTER 4 - HOSE OUTLETS
+- 41 Location of Hose
+- 41 Location of Hose
+  - F.2-25 LDCN-09-022
+  - CODE SECTION
+  - POSITION
+- 44 Hose Valves
+- 44 Hose Valves
+  - CHAPTER 5 - WATER SUPPLIES
+  - CHAPTER 5 - WATER SUPPLIES
+- 56 Fire Department Connections
+- 56 Fire Department Connections
+  - F.2-26 LDCN-07-009
+  - CODE SECTION
+  - POSITION
+  - NFPA 15-1973
+  - CHAPTER 2 - SYSTEM COMPONENTS CHAPTER 2 - SYSTEM COMPONENTS
+  - F.2-27
+  - CODE SECTION
+  - POSITION
+  - CHAPTER 4 - SYSTEM DESIGN AND
+  - CHAPTER 4 - SYSTEM DESIGN AND
+  - INSTALLATION
+  - INSTALLATION
+  - F.2-28
+  - CODE SECTION
+  - POSITION
+  - F.2-29
+  - CODE SECTION
+  - POSITION
+  - CHAPTER 8 - AUTOMATIC DETECTION CHAPTER 8 - AUTOMATIC FIRE DETECTORS
+  - EQUIPMENT
+  - F.2-30
+  - POSITION
+  - CODE SECTION
+  - NFPA 20-1974
+  - CHAPTER 2 - GENERAL
+- **2.9** Discharge Pipe and Fittings
+  - CHAPTER 6 - ELECTRIC DRIVE FOR PUMPS CHAPTER 6 - ELECTRIC DRIVE FOR PUMPS
+  - F.2-31 LDCN-16-049
+  - POSITION
+  - CODE SECTION
+  - CHAPTER 7 - ELECTRIC DRIVE CONTROLLERS CHAPTER 7 - ELECTRIC DRIVE CONTROLLERS
+  - CHAPTER 8 - DIESEL ENGINE DRIVE CHAPTER 8 - DIESEL ENGINE DRIVE
+  - F.2-32 LDCN-13-037
+  - CODE SECTION
+  - POSITION
+  - CHAPTER 9 - ENGINE DRIVE CONTROLLERS CHAPTER 9 - ENGINE DRIVE CONTROLLERS
+  - F.2-33
+  - POSITION
+  - CODE SECTION
+  - NFPA 24-1973
+  - CHAPTER 3 - VALVES
+  - CHAPTER 3 - VALVES
+- 36 Identifying and Securing
+- 36 Identifying and Securing
+  - CHAPTER 5 - HOSE HOUSES AND EQUIPMENT CHAPTER 5 - HOSE HOUSES AND EQUIPMENT
+- 56 Equipment - General
+- 56 Equipment - General
+  - NFPA 24-2002.
+  - F.2-34 LDCN-21-022
+  - CODE SECTION
+  - POSITION
+- 58 Nozzles
+- 58 Nozzles
+- 59 Domestic Service Use Prohibited 59 Domestic Service Use Prohibited
+  - CHAPTER 8 - UNDERGROUND PIPE AND CHAPTER 8 - UNDERGROUND PIPE AND
+  - FITTINGS
+  - FITTINGS
+- 81 Selection of Pipe
+- 81 Selection of Pipe
+- 83 Coating and Lining
+- 83 Coating and Lining
+  - C104-71.
+  - F.2-35 LDCN-07-009
+  - CODE SECTION
+  - POSITION
+  - C602-67.
+  - CHAPTER 9 - RULES FOR LAYING PIPE CHAPTER 9 - RULES FOR LAYING PIPE
+- 91 Depth of Cover
+- 91 Depth of Cover
+- 93 Protection Against Damage
+- 93 Protection Against Damage
+  - F.2-36
+  - CODE SECTION
+  - POSITION
+- 96 Anchoring Fire Mains
+- 96 Anchoring Fire Mains
+  - TABLE 9605
+  - AREA OF BEARING FACE OF
+  - CONCRETE THRUST BLOCKS
+  - F.2-37
+  - CODE SECTION
+  - POSITION
+  - NFPA 30-1973
+  - F.2-38
+  - CODE SECTION
+  - POSITION
+  - NFPA 72D-1975
+  - CHAPTER 1 - GENERAL
+  - CHAPTER 1 - GENERAL
+  - ARTICLE 120 - SYSTEM FACILITIES
+  - ARTICLE 120 - SYSTEM FACILITIES
+  - F.2-39
+  - POSITION
+  - CODE SECTION
+  - ARTICLE 200 - GENERAL
+  - ARTICLE 200 - GENERAL
+  - ARTICLE 210 - WIRING
+  - ARTICLE 210 - WIRING
+  - F.2-40 LDCN-15-055
+  - CODE SECTION
+  - POSITION
+  - ARTICLE 220 - POWER SUPPLY SOURCES ARTICLE 220 - POWER SUPPLY SOURCES
+  - F.2-41
+  - POSITION
+  - CODE SECTION
+  - CHAPTER 3 - TYPES OF SIGNALING SERVICES CHAPTER 3 - TYPES OF SIGNALING SERVICES
+  - ARTICLE 340 - SPRINKLER SYSTEM
+  - ARTICLE 340 - SPRINKLER SYSTEM
+  - WATERFLOW ALARM AND SUPERVISORY WATERFLOW ALARM AND SUPERVISORY
+  - SIGNAL SERVICE
+  - SIGNAL SERVICE
+  - F.2-42 LDCN-21-022
+  - CODE SECTION
+  - POSITION
+  - ARTICLE 350 - AUTOMATIC SMOKE ALARM ARTICLE 350 - AUTOMATIC SMOKE ALARM
+  - SERVICE
+  - SERVICE
+  - F.2-43
+  - POSITION
+  - CODE SECTION
+  - NFPA 72E-1974
+  - CHAPTER 4 - SMOKE DETECTORS
+  - CHAPTER 4 - SMOKE DETECTORS
+  - F.2-44 LDCN-19-033
+  - CODE SECTION
+  - POSITION
+  - NFPA 80-1974
+  - F.2-45
+  - CODE SECTION
+  - POSITION
+  - F.2-46
+  - F.3 COMPLIANCE WITH FIRE PROTECTION REGULATORY DOCUMENTS
+- 10 CFR 50 Appendix R, “Fire Protection Program for Nuclear Power Facilities Operating
+- 10 CFR 50 Appendix R and describes how the CGS fire protection program implements
+  - F.3-1
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - A. OVERALL REQUIREMENTS FOR A. OVERALL REQUIREMENTS FOR NUCLEAR
+  - NUCLEAR PLANT FIRE PROTECTION PLANT FIRE PROTECTION PROGRAM
+  - PROGRAM
+  - F.3-3 LDCN-14-011
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-4
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-5
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-6
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-7 LDCN-98-078
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - B. ADMINISTRATIVE PROCEDURES, B. ADMINISTRATIVE PROCEDURES,
+  - CONTROLS, AND FIRE BRIGADE
+  - CONTROLS, AND FIRE BRIGADE
+  - F.3-8
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-9
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-10 LDCN-11-006
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-11
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-12
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - C. QUALITY ASSURANCE PROGRAM C. QUALITY ASSURANCE PROGRAM
+  - F.3-13
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-14
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - D. GENERAL GUIDELINES FOR PLANT D. GENERAL GUIDELINES FOR PLANT
+  - PROTECTION
+  - PROTECTION
+  - F.3-15 LDCN-11-006
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-16 LDCN-16-012
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-17
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-18
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-19
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-20
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-21
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-22
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-23 LDCN-21-022
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-24
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-25
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-26
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-27
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-28
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-29
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-30
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-31
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-32
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-33 LDCN-18-021
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-34 LDCN-13-017
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - E. FIRE DETECTION AND SUPPRESSION E. FIRE DETECTION AND SUPPRESSION
+  - F.3-35
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-36 LDCN-16-049
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-37
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-38
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-39
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-40 LDCN-14-036
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-41 LDCN-21-022
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-42
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - NEDO 10466-A.
+  - F.3-43
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F. GUIDELINES FOR SPECIFIC PLANT AREAS F. GUIDELINES FOR SPECIFIC PLANT AREAS
+  - F.3-44
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-45
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-46
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-47
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-48
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-49 LDCN-11-006
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-50 LDCN-11-006
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-51
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-52
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-53
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-54
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-55
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - G. SPECIAL PROTECTION GUIDELINES G. SPECIAL PROTECTION GUIDELINES
+  - F.3-56 LDCN-11-006
+  - BTP 9.5-1 APPENDIX A
+  - CGS FIRE PROTECTION PROGRAM
+  - F.3-57
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - I. INTRODUCTION AND SCOPE
+  - I. INTRODUCTION AND SCOPE
+  - F.3-58
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-59
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - II. GENERAL REQUIREMENTS
+  - II. GENERAL REQUIREMENTS
+  - F.3-60
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-61
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - III. SPECIFIC REQUIREMENTS
+  - III. SPECIFIC REQUIREMENTS
+  - F.3-62
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-63
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-64
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-65
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-66
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-67
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-68
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-69
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-70
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-71
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-72
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-73
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-74
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-75
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-76
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-77
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-78
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-79
+  - CGS FIRE PROTECTION PROGRAM
+- 10 CFR 50 APPENDIX R SECTION
+  - F.3-80
+  - F.4 FIRE HAZARDS ANALYSIS
+  - F.4.1 PLANT FIRE AREA ARRANGEMENT
+  - F.4-1
+  - F.4.2 DESIGN BASIS FIRE
+  - F.4-2
+  - F.4-3
+  - F.4.3 POST-FIRE SAFE SHUTDOWN
+  - F.4-4
+  - F.4-5
+  - F.4-6
+  - F.4-7
+  - F.4-8
+  - F.4-9
+  - F.4-10
+  - F.4.4 FIRE AREA ANALYSES
+  - F.4-11
+  - F.4-12
+  - F.4-13
+  - ADS/SRV SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - MS-SPV-3DA R-2 MS-SPV-3DB R-2 MS-SPV-3DA R-2
+  - MS-SPV-4AA R-2 MS-SPV-4AB R-2 MS-SPV-4AB R-2
+  - MS-SPV-4BA R-2 MS-SPV-4BB R-2 MS-SPV-4BB R-2
+  - MS-SPV-4CA R-2 MS-SPV-4CB R-2 MS-SPV-4CB R-2
+  - MS-SPV-5BA R-2 MS-SPV-5BB R-2 MS-SPV-5BA R-2
+  - MS-SPV-5CA R-2 MS-SPV-5CB R-2 MS-SPV-5CA R-2
+  - HI-LO PRESSURE INTERFACE
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - MS-V-2 R-2 MS-V-1 R-2 N/A N/A
+  - RCIC-V-45 R-6 N/A N/A N/A N/A
+  - RHR-V-8 R-1 RHR-V-9 R-2 RHR-V-9 R-2
+  - RHR-V-53A R-1 RHR-V-53B R-1 RHR-V-53B R-1
+  - RHR-V-123A R-2 RHR-V-123B R-2 RHR-V-123B R-2
+  - RWCU-FCV-33 R-1 N/A N/A N/A N/A
+  - RWCU-V-34 R-1 N/A N/A N/A N/A
+  - RWCU-V-35 R-1 N/A N/A N/A N/A
+  - HVAC SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - DEA-FN-11 DG-2 DEA-FN-21 DG-3 DEA-FN-21 DG-3
+  - DEA-FN-12 DG-2 DEA-FN-22 DG-3 DEA-FN-22 DG-3
+  - DMA-FN-11 DG-2 DMA-FN-21 DG-3 DMA-FN-21 DG-3
+  - DMA-FN-12 DG-2 DMA-FN-22 DG-3 DMA-FN-22 DG-3
+  - PRA-FN-1A SW-1 PRA-FN-1B SW-2 PRA-FN-1B SW-2
+  - RRA-FN-2 R-5 RRA-FN-3 R-4 RRA-FN-3 R-4
+  - RRA-FN-11 R-1 N/A N/A N/A N/A
+  - RRA-FN-13 R-1 N/A N/A N/A N/A
+  - WMA-AD-51A1 RC-11 WMA-AD-51B1 RC-12 N/A N/A
+  - N/A N/A WMA-AD-52/1 RC-12 N/A N/A
+  - N/A N/A WMA-AD-52/2 RC-12 N/A N/A
+  - WMA-EHC-7A RC-5
+  - WMA-EHC-8 RC-6 WMA-EHC-8 RC-6
+  - WMA-EHC-7B RC-5
+  - WMA-FN-51A RC-11 WMA-FN-51B RC-12 N/A N/A
+  - F.4-15 LDCN-13-037
+  - HVAC SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - WMA-FN-52A RC-11 WMA-FN-52B RC-12 WMA-FN-52B RC-12
+  - WMA-FN-53A RC-11 WMA-FN-53B RC-12 WMA-FN-53B RC-12
+  - CCH-CR-1A RC-13 CCH-CR-1B RC-13 N/A N/A
+  - CCH-P-1A RC-13 CCH-P-1B RC-13 N/A N/A
+  - MECHANICAL EQUIPMENT
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - RHR-RO-5A R-5 RHR-RO-5B R-4 RHR-RO-5B R-4
+  - N/A N/A RHR-V-19 R-4 RHR-V-19 R-4
+  - RHR-V-31A R-5 RHR-V-31B R-4 RHR-V-31B R-4
+  - RHR-V-41A R-2 RHR-V-41B R-2 RHR-V-41B R-2
+  - RHR-V-50A R-2 RHR-V-50B R-2 RHR-V-50B R-2
+  - RHR-V-84A R-5 RHR-V-84B R-4 RHR-V-84B R-4
+  - N/A N/A RHR-V-89 R-4 RHR-V-89 R-4
+  - RHR-V-731 R-5 RHR-V-732 R-4 N/A N/A
+  - SW-V-1A SW-1 SW-V-1B SW-2 SW-V-1B SW-2
+  - SW-V-224A RC-11 SW-V-224B RC-12 N/A N/A
+  - SW-V-225A RC-11 SW-V-225B RC-12 N/A N/A
+  - SW-V-227A RC-11 SW-V-227B RC-12 N/A N/A
+  - SW-V-822A RC-11 SW-V-822B RC-12 N/A N/A
+  - SW-V-823A RC-11 SW-V-823B RC-12 N/A N/A
+  - MSIV SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - MS-V-28A TG-1 MS-V-22A R-2 MS-V-22A R-2
+  - MS-V-28B TG-1 MS-V-22B R-2 MS-V-22B R-2
+  - MS-V-28C TG-1 MS-V-22C R-2 MS-V-22C R-2
+  - MS-V-28D TG-1 MS-V-22D R-2 MS-V-22D R-2
+  - PFSS INSTRUMENTATION
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - CMS-LR-3 RC-10 CMS-LR-4 RC-10 CMS-LI-2R RC-9
+  - CMS-TR-5 RC-10 CMS-TR-6 RC-10 CMS-TI-43R RC-9
+  - MS-LI-10 RC-9
+  - MS-LR/PR-623A RC-10 MS-LR/PR-623B RC-10
+  - MS-PI-2 RC-9
+  - F.4-16 LDCN-17-032
+  - PFSS INSTRUMENTATION
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA EPN FIRE AREA EPN FIRE AREA
+  - N/A N/A N/A N/A RHR-FT-1 M-21
+  - RHR-FI-603A RC-10 RHR-FI-603B RC-10 RHR-FI-5 RC-9
+  - SW-FI-9A RC-10 SW-FI-9B RC-10 SW-PI-32BR RC-9
+  - N/A N/A MS-SPV-126D M-27 N/A N/A
+  - POWER DISTRIBUTION
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - DG-GEN-DG1 DG-2 DG-GEN-DG2 DG-3 DG-GEN-DG2 DG-3
+  - DO-P-1A DG-4 DO-P-1B DG-5 DO-P-1B DG-5
+  - DO-P-4A1 DG-2 DO-P-4B1 DG-3 DO-P-4B1 DG-3
+  - DO-P-4A2 DG-2 DO-P-4B2 DG-3 DO-P-4B2 DG-3
+  - DO-TK-1A DG-4 DO-TK-1B DG-5 DO-TK-1B DG-5
+  - DO-TK-3A DG-8 DO-TK-3B DG-9 DO-TK-3B DG-9
+  - DSA-AR-1A DG-2 DSA-AR-1B DG-3 DSA-AR-1B DG-3
+  - E-SM-DG1/7 DG-2 E-SM-DG2/8 DG-3 E-SM-DG2/8 DG-3
+  - E-SM-7 RC-14 E-SM-8 RC-8 E-SM-8 RC-8
+  - E-SL-71 RC-14 N/A N/A N/A N/A
+  - E-SL-73 RC-14 E-SL-83 RC-8 E-SL-83 RC-8
+  - RHR SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - RHR-FCV-64A R-5 RHR-FCV-64B R-4 RHR-FCV-64B R-4
+  - RHR-P-2A R-5 RHR-P-2B R-4 RHR-P-2B R-4
+  - RHR-V-3A R-5 RHR-V-3B R-4 RHR-V-3B R-4
+  - RHR-V-4A R-5 RHR-V-4B R-4 RHR-V-4B R-4
+  - RHR-V-6A R-5 RHR-V-6B R-4 RHR-V-6B R-4
+  - RHR-V-16A R-1 RHR-V-16B R-1 RHR-V-16B R-1
+  - RHR-V-17A R-1 RHR-V-17B R-1 N/A N/A
+  - N/A N/A RHR-V-23 R-4 N/A N/A
+  - F.4-17 LDCN-12-033, 13-047
+  - RHR SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - RHR-V-24A R-1 RHR-V-24B R-4 RHR-V-24B R-4
+  - RHR-V-27A R-1 RHR-V-27B R-4 RHR-V-27B R-4
+  - N/A N/A RHR-V-40 R-4 N/A N/A
+  - RHR-V-42A R-1 RHR-V-42B R-21 RHR-V-42B R-21
+  - RHR-V-48A R-5 RHR-V-48B R-4 RHR-V-48B R-4
+  - N/A N/A RHR-V-49 R-4 RHR-V-49 R-4
+  - RHR-V-68A R-5 RHR-V-68B R-4 RHR-V-68B R-4
+  - RHR-V-73A R-5 RHR-V-73B R-4 N/A N/A
+  - RHR-V-74A R-5 RHR-V-74B R-4 N/A N/A
+  - N/A N/A RHR-V-115 R-4 RHR-V-115 R-4
+  - N/A N/A RHR-V-116 R-4 RHR-V-116 R-4
+  - N/A N/A RHR-V-182 R-4 RHR-V-182 R-4
+  - SW SYSTEM
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - SW-P-1A SW-1 SW-P-1B SW-2 SW-P-1B SW-2
+  - SW-TCV-11A RC-11 SW-TCV-11B RC-12 N/A N/A
+  - SW-V-2A SW-1 SW-V-2B SW-2 SW-V-2B SW-2
+  - SW-V-12A SW-1 SW-V-12B SW-2 SW-V-12B SW-2
+  - SW-V-75A R-5 SW-V-75B R-1 N/A N/A
+  - N/A N/A SW-V-187A R-1 SW-V-187A R-1
+  - N/A N/A SW-V-188A R-1 SW-V-188A R-1
+  - SW-V-187B R-1 SW-V-187B R-1 SW-V-187B R-1
+  - SW-V-188B R-1 SW-V-188B R-1 SW-V-188B R-1
+  - AUXILIARY POWER DISTRIBUTION EQUIPMENT
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - E-B1-1 RC-5 E-B1-2 RC-6 E-B1-2 RC-6
+  - E-C1-1A RC-4 E-C1-2A RC-7 E-C1-2A RC-7
+  - E-C1-1B RC-4 E-C1-2B RC-7 E-C1-2B RC-7
+  - E-PNL-C1/1 RC-4 E-PNL-C1/2 RC-7 E-PNL-C1/2 RC-7
+  - E-IN-3A RC-4 E-IN-2A RC-7 N/A N/A
+  - E-IN-3B RC-4 E-IN-2B RC-7 N/A N/A
+  - F.4-18 LDCN-12-028
+  - AUXILIARY POWER DISTRIBUTION EQUIPMENT
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA FIRE AREA FIRE AREA
+  - E-DISC-MC7F/3A1 RC-11 E-DISC-8F4B1 RC-12 N/A N/A
+  - E-DP-S1/1 RC-4 E-DP-S1/2 RC-7 E-DP-S1/2 RC-7
+  - E-DP-S1/1A RC-10 E-DP-S1/2A RC-10 N/A N/A
+  - E-DP-S1/1F RC-14 E-DP-S1/2D RC-9 E-DP-S1/2D RC-9
+  - E-DP-S1/1E DG-2 E-DP-S1/2E DG-3 E-DP-S1/2E DG-3
+  - E-ELP-7FD RC-10 E-ELP-8FD RC-10 N/A N/A
+  - E-ELP-7FDA RC-10 E-ELP-8FDA RC-10 N/A N/A
+  - E-MC-S1/1D RC-4 E-MC-S1/2D RC-7 E-MC-S1/2D RC-7
+  - E-MC-7A RC-4 E-MC-8A RC-7 E-MC-8A RC-7
+  - E-MC-7AA DG-2 E-MC-8AA DG-3 E-MC-8AA DG-3
+  - E-MC-7B R-1 E-MC-8B R-18 E-MC-8B R-18
+  - E-MC-7BA R-1 E-MC-8BA R-18 E-MC-8BA R-18
+  - E-MC-7BB R-1 E-MC-8BB R-4 E-MC-8BB R-4
+  - E-MC-7F RC-11 E-MC-8F RC-12 E-MC-8F RC-12
+  - E-PP-7A RC-4 E-PP-8A RC-7 E-PP-8A RC-7
+  - E-PP-7AA RC-10 E-PP-8AA RC-10 N/A N/A
+  - E-PP-7AAA DG-2 E-PP-8AAA DG-3 E-PP-8AAA DG-3
+  - E-PP-7AB SW-1 E-PP-8AB SW-2 E-PP-8AB SW-2
+  - E-PP-7AE R-1 E-PP-8AF RC-9 E-PP-8AF RC-9
+  - E-PP-7AG SW-1 E-PP-8AG SW-2 E-PP-8AG SW-2
+  - E-PP-7FA RC-11 E-PP-8FA RC-12 N/A N/A
+  - E-PNL-IN/3 RC-4 E-PNL-IN/2 RC-7 N/A N/A
+  - E-TR-7A RC-4 E-TR-8A RC-7 E-TR-8A RC-7
+  - E-TR-7AAA DG-2 E-TR-8AAA DG-3 E-TR-8AAA DG-3
+  - E-TR-7AF SW-1 E-TR-8AF SW-2 E-TR-8AF SW-2
+  - E-TR-7/71 RC-14 N/A N/A E-TR-8/83 RC-8
+  - E-TR-7/73 RC-14 E-TR-8/83 RC-8 E-TR-8/83 RC-8
+  - E-TR-7AF/1 SW-1 E-TR-8AF/1 SW-2 E-TR-8AF/1 SW-2
+  - E-TR-7AAA/1 DG-2 E-TR-8AAA/1 DG-3 E-TR-8AAA/1 DG-3
+  - E-SM-7/75/2 RC-14 E-TR-8A/2 RC-9 E-TR-8A/2 RC-9
+  - E-TR-7FD RC-10 E-TR-8FD RC-10 E-B1-1 RC-5
+  - E-TR-7A/1 RC-4 RHR-DISC-V/9 RC-7 E-DP-S1/1 RC-4
+  - N/A N/A N/A N/A E-DP-S1/1F RC-14
+  - F.4-19
+  - AUXILIARY EQUIPMENT
+  - DIVISION 1 PFSS
+  - DIVISION 2 PFSS REMOTE SHUTDOWN
+  - EPN FIRE AREA EPN FIRE AREA EPN FIRE AREA
+  - DELETED DELETED DELETED DELETED N/A N/A
+  - E-IR-21 SW-1 N/A N/A E-CP-ARS RC-14
+  - E-IR-P004 R-1 E-IR-22 SW-2 E-IR-22 SW-2
+  - E-IR-P018 R-1 E-IR-P021 M-21 N/A N/A
+  - RCC-V-130 R-1 E-IR-P027 M-27 N/A N/A
+  - E-IR-66 R-1 N/A N/A N/A N/A
+  - E-CNTR- RC-5 E-CNTR-WMA/EHC/8 RC-6 E-CNTR-WMA/EHC/8 RC-6
+  - WMA/EHC/7A
+  - E-CNTR- RC-5 RWCU-V-32 R-1 RWCU-V-32 R-1
+  - WMA/EHC/7B
+  - WMA-FD-57 RC-11 SW-42-7BB6A R-1 SW-42-7BB6A R-1
+  - WMA-RMS-FN/53B RC-10 SW-42-7BA7A R-1 SW-42-7BA7A R-1
+  - SW-42-8BB6A R-4 SW-42-8BB6A R-4 SW-42-8BB6A R-4
+  - SW-42-8BA10C R-18 SW-42-8BA10C R-18 SW-42-8BA10C R-18
+  - F.4-20 LDCN-16-008
+  - F.4-21
+  - F.4-22
+- 1 DG-1
+- 1 DG-2
+- 2 DG-3
+- 1 DG-4
+- 2 DG-5
+- 1 DG-8
+- 2 DG-9
+- 1 R-1
+  - U R-2
+- 2 R-4
+- 2 R-6
+- 1 R-7
+- 1 R-8
+- 2 R-18
+- 2 R-21
+- 2 M-9
+- 2 M-21
+- 2 M-27
+- 1 RC-2
+  - F.4-23
+- 1 RC-3
+- 1 RC-4
+- 1 RC-5
+- 2 RC-6
+- 2 RC-7
+- 2 RC-8
+- 2 RC-9
+  - U RC-10
+- 1 RC-11
+- 2 RC-12
+- 1 RC-14
+- 2 RC-19
+- 1 RC-20
+- 1 SW-1
+- 2 SW-2
+- 2 TG-1
+  - F.4-24
+  - LEGEND
+- 1 This code indicates that this fire area contains Division 1 post-fire safe shutdown
+- 2 This code indicates that this fire area contains Division 2 post-fire safe shutdown
+  - F.4-25
+  - F.4.4.4 REDACTED
+  - F.4-27
+  - F.4-28
+  - F.4-29
+  - F.4-30
+  - F.4-31
+  - F.4-32
+  - F.4-33
+  - F.4-34
+  - F.4-35
+  - F.4-36
+  - F.4-37
+  - F.4-38
+  - F.4-39
+  - F.4-40
+  - F.4-41
+  - F.4-42
+  - F.4-43
+  - F.4-44
+  - F.4-45
+  - F.4-46
+  - F.4-47
+  - F.4-48
+  - F.4-49
+  - F.4-50
+  - F.4-51
+  - F.4-52
+  - F.4-53
+  - F.4-54
+  - F.4-55
+  - F.4-56
+  - F.4-57
+  - F.4-58
+  - F.4-59
+  - F.4-60
+  - F.4-61
+  - F.4-62
+  - F.4-63
+  - LDCN-13-017, 14-016
+  - F.4-64
+  - F.4-65
+  - F.4-66
+  - F.4-67
+  - F.4-68
+  - F.4-69
+  - F.4-70
+  - F.4-71
+  - F.4-72
+  - F.4-73
+  - F.4-74
+  - F.4-75
+  - F.4-76
+  - F.4-77
+  - F.4-78
+  - F.4-79
+  - F.4-80
+  - F.4-81
+  - F.4-82
+  - F.4-83
+  - F.4-84
+  - F.4-85
+  - F.4-86
+  - F.4-87
+  - F.4-88
+  - F.4-89
+  - F.4-90
+  - F.4-91
+  - F.4-92
+  - F.4-93
+  - F.4-94
+  - F.4-95
+  - F.4-96
+  - F.4-97
+  - F.4-98
+  - F.4-99
+  - F.4-100
+  - F.4-101
+  - F.4-102
+  - F.4-103
+  - F.4-104
+  - F.4-105
+  - F.4-106
+  - F.4-107
+  - F.4-108
+  - F.4-109
+  - F.4-110
+  - F.4-111
+  - F.4-112
+  - F.4-113
+  - F.4-114
+  - F.4-115
+  - F.4-116
+  - F.4-117
+  - F.4-118
+  - F.4-119
+  - LDCN-06-001, 09-008
+  - F.4-120
+  - F.4-121
+  - F.4-122
+  - LDCN-18-009, 17-002
+  - F.4-123
+  - F.4-124
+  - F.4-125
+  - LDCN-18-009, 17-002
+  - F.4-126
+  - F.4-127
+  - F.4-128
+  - F.4-129
+  - F.4-130
+  - F.4-131
+  - F.4-132
+  - F.4-133
+  - F.4-134
+  - F.4-135
+  - F.4-136
+  - F.4-137
+  - F.4-138
+  - F.4-139
+  - F.4-140
+  - F.4-141
+  - F.4-142
+  - F.4-143
+  - F.4-144
+  - F.4-145
+  - F.4-146
+  - F.4-147
+  - F.4-148
+  - F.4-149
+  - F.4-150
+  - LDCN-18-009, 17-002
+  - F.4-151
+  - F.4-152
+  - F.4-153
+  - F.4-154
+  - F.4-155
+  - F.4-156
+  - F.4-157
+  - F.4-158
+  - F.4-159
+  - F.4-160
+  - F.4-161
+  - F.4-162
+  - F.4-163
+  - F.4-164
+  - F.4-165
+  - F.4-166
+  - F.4-167
+  - F.4-168
+  - F.4-169
+  - F.4-170
+  - F.4-172
+  - F.4-173
+  - F.4-174
+  - F.4-175
+  - F.4-176
+  - F.4-177
+  - F.4-178
+  - F.4-179
+  - F.4-180
+  - F.4-181
+  - F.4-182
+  - F.4-183
+  - F.4-184
+  - F.4-185
+  - F.4-186
+  - F.4-187
+  - F.4-188
+  - F.4-189
+  - F.4-190
+  - F.4-191
+  - F.5 ESSENTIAL FIRE PROTECTION SYSTEM OPERABILITY/TESTING PROGRAM
+  - F.5-1
+  - F.6 FIRE PROTECTION ARRANGEMENT DRAWINGS
+  - F.6-1
+  - F.6-2
+  - F.7 FIRE PROTECTION PROGRAM REFERENCES
+  - F.7.1 REGULATORY DOCUMENTS/OTHER FSAR FIRE PROTECTION
+  - COMMITMENTS
+  - F.7-1
+  - F.7.2 INDUSTRY GUIDANCE
+  - IN 82-28, IN 83-41, IN 83-69, IN 84-09, IN 84-16, IN 84-34, IN 84-57,
+  - IN 84-92, IN 85-09, IN 85-85, IN 86-17, IN 86-35, IN 87-14, IN 87-50,
+  - IN 88-64, IN 89-52, IN 89-63, IN 90-23, IN 91-17, IN 91-47, IN 91-77,
+  - IN 91-79, IN 92-18, IN 92-28, IN 92-46, IN 92-52, IN 92-55, IN 92-82,
+  - IN 93-40, IN 93-41, IN 94-12, IN 94-22, IN 94-26, IN 94-28, IN 94-31,
+  - IN 97-59, IN 97-70, IN 97-72, IN 97-73, IN 97-82, IN 98-31, IN 99-05,
+  - IN 99-07, IN 99-17
+  - SECY-93-143, SECY-93-232, SECY-94-090, SECY-94-127, SECY-95-034,
+  - SECY-96-134, SECY-96-146, SECY-97-127, SECY-98-058, SECY-98-230,
+  - SECY-99-140, SECY-99-152, SECY-99-182, SECY-99-204
+  - F.7-2
+  - F.7-3
+  - F.7.3 CALCULATIONS/TECHNICAL MEMOS
+  - ME-02-02-41, ME-02-02-43
+- 24 V DC
+- 10 CFR 50 Appendix R Fire
+  - F.7-4
+  - F.7.4 APPLICABLE NRC SAFETY EVALUATION REPORTS
+  - LDCN-16-049, 15-024
+  - F.7-5
+  - F.7.5 OTHER MISCELLANEOUS
+  - F.7-6
+  - F.7-7
+  - F.7.6 FIRE PROTECTION ENGINEERING EVALUATIONS
+  - F.7-8
+  - F.7.7 FIRE PROTECTION REFERENCE DRAWINGS
+  - F.7-9
+  - F.7-10
+  - F.7.8 FIRE PROTECTION PROGRAM IMPLEMENTING PROCEDURES
+  - F.7-11
+  - LICENSING REVIEW GROUP ISSUES
+  - TABLE OF CONTENTS
+  - I.2 CONTAINMENT SYSTEMS BRANCH
+  - I.3 CORE PERFORMANCE BRANCH
+  - I.4 INSTRUMENTATION AND CONTROL SYSTEMS BRANCH
+  - LICENSING REVIEW GROUP ISSUES
+  - I.5 MATERIALS ENGINEERING BRANCH
+  - MTEB-1 PRESERVICE AND INSERVICE INSPECTION OF
+  - I.6 MECHANICAL ENGINEERING BRANCH
+  - MEB-1 ASYMMETRICAL LOCA AND SSE AND ANNULUS
+  - PRESSURIZATION LOADS ON REACTOR VESSEL
+  - MEB-3 DYNAMIC RESPONSE COMBINATION USING THE SRSS
+  - MEB-5 STRESS CORROSION CRACKING OF STAINLESS STEEL
+  - MEB-9 REVIEW OF IN SITU TEST PROGRAM OF THE
+  - I.7 POWER SYSTEMS BRANCH
+  - LICENSING REVIEW GROUP ISSUES
+  - I.8 REACTOR SYSTEMS BRANCH
+  - RSB-7 SHUTDOWN UNINTENTIONALLY OF THE REACTOR CORE
+  - RSB-9 CATEGORIZATION OF VALVES WHICH ISOLATE RHR
+  - RSB-13 LEAKAGE RATE TESTING OF VALVES USED TO ISOLATE
+  - RSB-17 OPERATOR ACTION, ANALYSIS OF CRACK IN THE
+  - RSB-18 LOCA ANALYSIS - DIVERSION OF LOW PRESSURE
+  - RSB-20 USE OF NONRELIABLE EQUIPMENT IN ANTICIPATED
+  - RSB-21 USE OF NON-SAFETY GRADE EQUIPMENT IN SHAFT
+  - LICENSING REVIEW GROUP ISSUES
+  - LICENSING REVIEW GROUP ISSUES
+  - LIST OF TABLES
+  - LICENSING REVIEW GROUP ISSUES
+  - LIST OF FIGURES
+  - I.1 INTRODUCTION
+  - I.1-1
+  - I.1-2
+  - I.2 CONTAINMENT SYSTEMS BRANCH
+  - I.2-1
+  - DELETED
+  - DELETED
+  - I.2-2
+  - I.3 CORE PERFORMANCE BRANCH
+  - I.3-1
+  - I.3-2
+  - I.3-3
+  - I.3-4
+  - I.3-5
+  - I.4 INSTRUMENTATION AND CONTROL SYSTEMS BRANCH
+  - I.4-1
+  - I.4-2
+  - I.4-3
+  - I.4-4
+  - I.4-5
+  - I.5 MATERIALS ENGINEERING BRANCH
+  - MTEB-3 (5.1.4) (5.3.2) (5.3.3)
+  - I.5-1
+  - T-1727).
+  - I.5-2
+  - I.5-3
+  - I.6 MECHANICAL ENGINEERING BRANCH
+  - PRESSURIZATION LOADS ON REACTOR VESSEL INTERNALS
+  - AND SUPPORTS
+  - I.6-1
+  - LOAD DEFINITION LEGEND
+  - I.6-3
+  - I.6-4
+  - TECHNIQUE
+  - I.6-5
+  - ATTACHMENT 1
+  - I.6-7
+  - I.6-8
+  - COMPONENTS - DESIGN MODIFICATION
+  - I.6-9
+  - I.6-10
+  - I.6-11
+  - ATTACHMENT 1
+  - I.6-13
+  - I.6-14
+  - ATTACHMENT 2
+  - I.6-15
+  - SAFETY/RELIEF VALVE
+  - I.6-17
+  - I.6-18
+  - I.6-19
+  - I.6-20
+  - I.6-21
+  - I.7 POWER SYSTEMS BRANCH
+  - I.7-1
+  - I.7-2
+  - I.7-3
+  - I.7-4
+  - I.7-5
+  - I.8 REACTOR SYSTEMS BRANCH
+  - I.8-1
+  - I.8-2
+  - ISOLATION COOLING SYSTEM
+  - I.8-3
+  - REACTOR COOLANT SYSTEM
+  - I.8-4
+  - I.8-5
+  - ISOLATE REACTOR COOLANT SYSTEM
+  - DELETED
+  - I.8-6
+  - I.8-7
+  - I.8-8
+  - I.8-9
+  - I.8-10
+  - I.8-11
+  - INJECTION SYSTEM
+  - I.8-12
+  - I.8-13
+  - OPERATIONAL TRANSIENTS
+  - ACCIDENT
+  - I.8-14
+  - I.8-15
+  - I.8-16
+  - I.8-17
+  - I.8-18
+- **1.2** SRV's Actuated Vessel Pressure
+- **1.6** Time (Sec) x 103
+  - I.8-1
+- **1.6** Time (Sec) x 103
+  - I.8-2
+- **1.6** Time (Sec) x 103
+  - I.8-3
+  - I I 1 0.4 0.8
+- **1.6** Time (Sec) x 103
+  - I I 970187.18 I.8-4
+  - SHIELDING EVALUATION REPORT
+  - SHIELDING EVALUATION REPORT
+  - TABLE OF CONTENTS
+  - J.2.3 SHIELDING EVALUATION ITEM DELETED FROM
+  - J.4.2 VITAL AREAS AND ACCESS ROUTES OUTSIDE THE
+  - J.4.3 VITAL AREAS AND ACCESS ROUTES INSIDE THE
+  - SHIELDING EVALUATION REPORT
+  - J.5.3 SOURCE TERM DEVELOPMENT FOR SECONDARY
+  - J.5.4 SOURCE TERM DEVELOPMENT FOR C1E/SRM EQUIPMENT
+  - J.6.3 RADIATION RESULTS IN THE VITAL AREAS AND ACCESS
+  - ATTACHMENTS
+  - J.B SOURCE TERM DEVELOPMENT AND PARAMETRIC STUDIES
+  - J.B.1 RADIOACTIVE SOURCE TERMS IN SECONDARY CONTAINMENT .. J.B-1
+  - SHIELDING EVALUATION REPORT
+  - J.C PROCEDURE FOR THE CALCULATION OF SECONDARY
+  - J.C.4 PROCEDURES FOR THE CALCULATION OF SECONDARY
+  - J.D.1 DESCRIPTION OF THE STANDBY GAS TREATMENT SYSTEM
+  - J.D.2 CALCULATION OF TIME-DEPENDENT FILTER ACTIVITY
+  - SHIELDING EVALUATION REPORT
+  - J.D.3 CALCULATION OF RADIATION DOSE FROM THE STANDBY GAS
+  - SHIELDING EVALUATION REPORT
+  - J.H VITAL AREAS AND ACCESS ROUTES ANALYZED FOR
+  - J.H.1 SOURCE OF RADIOACTIVITY TO THE REACTOR BUILDING
+  - SHIELDING EVALUATION REPORT
+  - LIST OF TABLES
+  - SHIELDING EVALUATION REPORT
+  - SHIELDING EVALUATION REPORT
+  - LIST OF FIGURES
+  - SHIELDING EVALUATION REPORT
+  - SHIELDING EVALUATION REPORT
+  - SHIELDING EVALUATION REPORT
+  - SHIELDING EVALUATION REPORT
+  - SUMMARY
+  - ABSTRACT
+  - J.1 INTRODUCTION
+  - J.1-1
+  - J.2 REQUIREMENTS
+  - J.2.1 SHIELDING EVALUATION REGULATORY REQUIREMENTS
+  - J.2-1
+  - J.2-2
+  - J.2-3
+  - J.2.2 SHIELDING EVALUATION TASK DESCRIPTION
+  - J.2-4
+  - J.2.3 SHIELDING EVALUATION ITEM DELETED FROM SHIELDING ANALYSIS
+  - CONSIDERATION
+  - J.2-5
+  - J.3 ANALYTICAL METHODOLOGY
+  - J.3.1 ACCIDENT SCENARIO
+  - J.3.2 CONTAMINATED SYSTEMS
+  - LOCA,
+  - J.3-1
+  - J.3-2
+  - J.3.3 SOURCE TERM ASSUMPTIONS
+  - J.3-3
+  - J.3.4 TIME PERIOD CONSIDERED FOR STUDY
+  - J.3-4
+  - J.3-5
+  - J.3-6
+  - J.3-7
+  - J.3-8
+  - NUREG-0737.
+  - J.3-9
+  - J.3-10
+  - J.3-11
+  - J.4 ACCESS AND OCCUPANCY OF VITAL AREAS
+  - J.4.1 DOSE RATES OUTSIDE THE REACTOR BUILDING
+  - J.4-1
+  - J.4.2 VITAL AREAS AND ACCESS ROUTES OUTSIDE THE REACTOR BUILDING
+  - J.4.3 VITAL AREAS AND ACCESS ROUTES INSIDE THE REACTOR BUILDING
+  - J.4-2
+  - J.5 METHODS
+  - J.5.1 THE USE OF COMPUTER CODES
+  - J.5-1
+  - J.5.2 SOURCE TERM DEVELOPMENT FOR PRIMARY CONTAINMENT
+  - J.5.3 SOURCE TERM DEVELOPMENT FOR SECONDARY CONTAINMENT
+  - J.5-2
+  - J.5-3
+  - J.5-4
+  - J.5-5
+  - J.5-6
+  - J.5-7
+  - J.5-8
+  - J.5.4 SOURCE TERM DEVELOPMENT FOR C1E/SRM EQUIPMENT OUTSIDE THE
+  - REACTOR BUILDING
+  - J.5.5 METHODOLOGY OF BETA DOSE ANALYSIS
+  - J.5-9
+  - J.5-11
+  - J.5-1
+  - J.6 RESULTS
+  - J.6.1 PRIMARY CONTAINMENT RADIATION RESULTS
+  - J.6-1
+  - J.6.2 SECONDARY CONTAINMENT RADIATION RESULTS
+  - J.6-2
+  - J.6.3 RADIATION RESULTS IN THE VITAL AREAS AND ACCESS ROUTES
+  - J.6-3
+  - J.6-4
+  - J.6-5
+  - J.6-6
+  - J.6-7
+  - J.7 REFERENCES
+  - J.7-1
+  - J.7-2
+  - J.7-3
+  - J.7-4
+  - J.7-5
+  - UNISOLATED LEAKING BUILDING PATH REPORT
+  - J.A-1
+  - J.A-3
+  - SOURCE TERM DEVELOPMENT AND PARAMETRIC STUDIES
+  - FOR SECONDARY CONTAINMENT
+  - J.B.1 RADIOACTIVE SOURCE TERMS IN SECONDARY CONTAINMENT
+  - J.B-1
+  - J.B.2 AIRBORNE DOSE IN SECONDARY CONTAINMENT
+  - J.B-2
+  - J.B-3
+  - J.B-4
+  - J.B-5
+  - J.B-6
+  - J.B-7
+  - V V S
+- 1 C (t) = Bexp -(Q / V + λ )t + V V S (t)e xp -Q / V t
+  - J.B-8
+  - J.B-9
+  - J.B-10
+- 2 N 1N
+  - J.B-11
+  - V 0.338
+  - J.B.3 PARAMETRIC STUDIES FOR DIRECT PIPING DOSE
+  - J.B-12
+  - J.B-13
+  - J.B-14
+  - J.B-15
+- **2.75** Gamma Energy (MeV)
+  - J.B-17
+  - J.B-18
+  - J.B-1
+  - T ----------------
+  - J.B-3
+  - Deleted
+  - Deleted
+  - J.B-13
+- **2.0** Pipe Diameter Correction Factor
+  - J.B-14
+- **3.0** Radial Distance Correction Factor
+- **1.0** FR 9.0 8.0 7.0 6.0 0.5 0.4
+  - J.B-15
+- **1.8** Pipe Diameter Correction Factor (FD)
+  - J.B-17
+  - PROCEDURE FOR THE CALCULATION OF SECONDARY
+  - CONTAINMENT RADIATION ZONE GAMMA DOSES
+  - J.C.1 INTRODUCTION
+  - J.C-1
+  - J.C.2 DEFINITION OF TERMS
+  - J.C-2
+  - J.C-3
+  - J.C.3 ASSUMPTIONS, APPROXIMATIONS, AND LIMITATIONS
+  - J.C-4
+  - J.C-5
+  - J.C-6
+  - J.C-7
+  - J.C.4 PROCEDURES FOR THE CALCULATION OF SECONDARY CONTAINMENT
+  - RADIATION ZONE DOSES
+  - J.C-8
+  - J.C-9
+  - J.C-10
+  - J.C-11
+  - J.C-12
+  - J.C-13
+  - _J_L
+  - I ...
+  - J.C-1
+  - t
+  - t
+  - t
+  - t
+  - t
+  - t
+  - J.C-2
+  - V0.338
+  - J.C-3
+  - J.C-4
+  - J.C-5
+- **2.2** Pipe Diameter Correction Factor (F D)
+  - J.C-10
+  - J.C-11
+  - J.C-12
+  - J.C-13
+  - CALCULATION OF THE RADIATION
+  - J.D.1 DESCRIPTION OF THE STANDBY GAS TREATMENT SYSTEM FILTERS
+  - J.D-1
+  - J.D.2 CALCULATION OF TIME-DEPENDENT FILTER ACTIVITY
+  - CONCENTRATION
+  - J.D-2
+  - J.D-3
+  - H 1 1
+  - J.D-4
+  - J.D-5
+  - J.D-6
+  - J.D.3 CALCULATION OF RADIATION DOSE FROM THE STANDBY GAS
+  - TREATMENT SYSTEM FILTER
+  - J.D-7
+  - J.D-8
+  - SGT-EHO-1B1
+  - FPC-LIS-1A
+  - J.D-9
+  - J.D-2
+  - J.D-3
+  - BETA DOSE CALCULATION METHOD
+  - J.E-1
+  - J.E-2
+  - J.E-3
+  - J.E-4
+  - J.E-5
+  - PRIMARY CONTAINMENT ANALYSES
+  - J.F.1 STATEMENT OF PROBLEM
+  - J.F.2 BASIC APPROACH
+  - J.F-1
+  - J.F.3 DRYWELL
+  - J.F-2
+  - J.F-3
+  - J.F-4
+  - J.F-5
+  - J.F.4 WETWELL
+  - J.F-6
+  - J.F-7
+  - QAD-CG.
+  - J.F.5 QAD-CG MODEL
+  - J.F-8
+  - J.F.6 CODES
+  - J.F.6.1 FSPROD
+  - J.F-9
+  - J.F.6.2 ORIGEN2
+  - J.F.6.3 QAD-BR
+  - J.F.6.4 QAD-CG
+  - J.F.6.5 KAP-V
+  - J.F.6.6 ANISN
+  - J.F-10
+  - J.F-11
+  - J.F-12
+  - J.F-13
+  - J.F-14
+  - J.F-15
+  - J.F-16
+  - J.F-17
+  - J.F-18
+  - J.F-2
+  - J.F-3
+  - BETA DOSE CONTRIBUTION IN PRIMARY CONTAINMENT
+  - J.G-1
+  - J.G-2
+  - J.G-3
+  - J.G-5
+  - VITAL AREAS AND ACCESS ROUTES ANALYZED FOR
+  - POST-LOSS-OF-COOLANT-ACCIDENT OPERATIONS
+  - J.H.1 SOURCE OF RADIOACTIVITY TO THE REACTOR BUILDING ELEVATED
+  - J.H-1
+  - J.H.2 POSTACCIDENT DESIGN DOSE (PADD)
+  - J.H-2
+  - S ) V
+  - J.H-3
+  - J.H-4
+  - J.H-5
+- 2 V 2
+- 2 Q 2 = or
+  - J.H-6
+  - J.H-7
+  - J.H-9
+

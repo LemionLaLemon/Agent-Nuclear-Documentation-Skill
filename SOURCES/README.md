@@ -10,6 +10,7 @@ can be checked against the page it came from.
 | [`R304P/`](R304P/) | 1 PDF | 26 MB | Westinghouse PWR Systems Technology Manual (USNRC HRTD), `ML20057E160.pdf`, 1,127 pp. |
 | [`CGS_FSAR/`](CGS_FSAR/chapters/) | 16 PDFs | 462 MB | Columbia Generating Station FSAR Amendment 67, split into chapter parts that together hold all 5,262 pages (largest 92 MB) |
 | [`INSAG-7/`](INSAG-7/) | 1 PDF | 7.2 MB | IAEA INSAG-7, *The Chernobyl Accident: Updating of INSAG-1*, `Pub913e_web.pdf`, 148 pp. |
+| [`Vogtle_UFSAR/`](Vogtle_UFSAR/README.md) | 31 PDFs | 1,060 MB | Vogtle Units 1 & 2 UFSAR Rev 20, split at chapter boundaries (9,340 pp.; largest file 87 MB) |
 
 ## Single-file sources (checksums)
 
@@ -41,10 +42,11 @@ ce0b68ee2eead6d8383b23dc31ce001cbbe13c94d234152699f5ccf1a4856070  R304P/ML20057E
 
 ## Note for the GitHub repository
 
-Every file is now **under 100 MB** (largest: `CGS_FSAR/chapters/03_chapter-660-1910.pdf`, 92 MB),
-so all sources fit GitHub's per-file limit without Git LFS. The whole repository is about 1.3 GB,
-which is above GitHub's *recommended* 1 GB but well under the 5 GB soft limit. The 404 MB compiled
-monolith was **not** kept: the 16 chapter parts already cover all 5,262 of its pages, and it can be
-rebuilt from them with the command above.
+Every file is **under 100 MB** (largest: `CGS_FSAR/chapters/03_chapter-660-1910.pdf`, 92 MB and
+`Vogtle_UFSAR/reference-drawings_part4of5.pdf`, 87 MB), so all sources fit GitHub's per-file limit
+without Git LFS. The whole repository is about 2.3 GB, above GitHub's *recommended* 1 GB but well
+under the 5 GB soft limit. Two compiled monoliths were **not** kept, because their page content is
+fully covered by the split parts: CGS Amendment 67 (404 MB; rebuilt from the 16 chapter parts) and
+the merged Vogtle UFSAR (992 MB; rebuilt from the 31 chapter parts).
 
 _Organised 2026-10-25. Verify a file with_ `sha256sum SOURCES/<path>`.

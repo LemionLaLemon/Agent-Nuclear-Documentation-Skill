@@ -229,8 +229,13 @@ prefer INSAG-7's Annex II (Soviet working group) for numbers.
 Say so, then name the document that would. The highest-value additions (already listed in
 `MASTER_TABLE_OF_CONTENTS.md` §7) are: NUREG-0800 (Standard Review Plan), 10 CFR 50,
 NUREG-1150 / NUREG-1465 (severe accidents and source term), INSAG-1 (for the revision history),
-IAEA INSAG-3 / SF-1 (safety principles), the IAEA 1996 Chernobyl consequences report, a plant PWR
-FSAR, a BWR/6 or ABWR design control document, and NUREG-0654 for emergency planning.
+IAEA INSAG-3 / SF-1 (safety principles), the IAEA 1996 Chernobyl consequences report, a BWR/6 or
+ABWR design control document, and NUREG-0654 for emergency planning.
+
+For a plant-specific 4-loop Westinghouse PWR, `SOURCES/Vogtle_UFSAR/` already holds the Vogtle
+Units 1 & 2 UFSAR Rev 20 (31 PDFs, 9,340 pages, split by chapter). It is a source PDF set, not
+Markdown: open it only when a question needs plant-specific PWR numbers that R304P does not give.
+See [`SOURCES/Vogtle_UFSAR/README.md`](SOURCES/Vogtle_UFSAR/README.md) for the chapter map.
 
 ---
 

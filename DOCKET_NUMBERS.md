@@ -19,6 +19,8 @@ The first digit group also tells you the licensing framework: **050** = 10 CFR 5
 | `R304B/` | — GE BWR training manual; covers BWR/3 and BWR/5 generally, not one licensed facility | — | — | — |
 | `R304P/` | — Westinghouse PWR training manual; generic 4-loop reference plant | — | — | — |
 | `INSAG-7/` | — Chernobyl Unit 4 (USSR); IAEA accident report, no NRC docket | — | — | — |
+| `SOURCES/Vogtle_UFSAR/` | Vogtle Unit 1 (4-loop Westinghouse PWR) | `05000424` | 50-424 | NPF-68 |
+| `SOURCES/Vogtle_UFSAR/` | Vogtle Unit 2 (4-loop Westinghouse PWR) | `05000425` | 50-425 | NPF-81 |
 
 ## 2. All operating power reactor units (95)
 

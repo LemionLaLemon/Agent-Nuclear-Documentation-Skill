@@ -19,7 +19,8 @@ Nuclear_Docs/
 │   ├── R304B/                    ← 57 GE chapter PDFs
 │   ├── R304P/                    ← ML20057E160.pdf (1,127 pp.)
 │   ├── CGS_FSAR/                 ← 16 chapter parts (all 5,262 pages, no file >100 MB)
-│   └── INSAG-7/                  ← Pub913e_web.pdf (148 pp.)
+│   ├── INSAG-7/                  ← Pub913e_web.pdf (148 pp.)
+│   └── Vogtle_UFSAR/             ← Vogtle 1 & 2 UFSAR Rev 20, 31 parts (9,340 pp.)
 ├── R304B/                        ← GE BWR Systems Technology Manual (BWR/3, BWR/5)
 │   ├── TABLE_OF_CONTENTS.md
 │   ├── FIGURE_INDEX.md
@@ -485,7 +486,7 @@ The corpus covers BWR/3, BWR/5, a Westinghouse PWR and Chernobyl in depth, but s
 | 8 | **IAEA INSAG-3 / SF-1 Fundamental Safety Principles**, **GSR Part 4** | The safety-case and defence-in-depth frameworks used in the Chernobyl analysis, in their current form. |
 | 9 | **Chernobyl: “The Accident and its Consequences” (IAEA 1996) or OECD/NEA “Chernobyl Ten Years On”** | Consequences, doses, sarcophagus, and the post-accident regulatory response. INSAG-7 deliberately stops at causes. |
 | 10 | **A GE BWR/6 or ABWR design control document (ESBWR/ABWR DCD)** | Extends BWR coverage forward from BWR/5; shows what changed after the 1980s (passive safety, digital I&C). |
-| 11 | **A Westinghouse 4-loop plant FSAR (e.g. Watts Bar)** | R304P is generic; a plant FSAR would give the PWR counterpart to what CGS provides for BWR — real design bases, setpoints and accident analyses. |
+| 11 | **[Vogtle Units 1 & 2 UFSAR, Rev 20](SOURCES/Vogtle_UFSAR/README.md)** — *already in this repo* | R304P is generic; this is the plant-specific counterpart CGS provides for BWR — a 4-loop Westinghouse PWR (Model D, 3,411 MWt) with real design bases, setpoints and accident analyses. Source-only: not yet split into Markdown chapters. |
 | 12 | **NUREG-0654 / FEMA REP-1 (emergency planning)** and **EPRI SAMG guidance** | Emergency preparedness and severe accident management, absent from all four documents. |
 | 13 | **TMI-2 (NUREG-0600 / “TMI-2 Accident”)** | The other canonical accident; pairs with Chernobyl and explains many PWR design changes present in R304P. |
 | 14 | **NRC inspection reports / ADAMS documents for Columbia** | Ground truth on plant changes since Amendment 67. |
